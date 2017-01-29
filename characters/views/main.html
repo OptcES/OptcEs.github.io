@@ -1,0 +1,52 @@
+<div id="leftContainer">
+    <ng-include src="'views/sidebar.html'" ng-controller="SidebarCtrl"></ng-include>
+</div>
+
+</div>
+
+<div id="rightContainer">
+
+    <div id="queryContainer">
+        <input type="text" id="picker" placeholder="tipo de filtro"
+            ng-model="query" ng-model-options="{ updateOn: 'change blur' }" auto-focus>
+        <span id="clear-input-button" ng-click="query = ''">Borrar</span>
+        <span popover-trigger="mouseenter" popover-placement="bottom"
+            uib-popover-template="'operators.html'" popover-append-to-body="'true'"><i>Operadores</i></span>
+    </div>
+
+    <div id="tableContainer">
+        <character-table></character-table>
+    </div>
+
+    <script id="operators.html" type="text/ng-template">
+        <div>
+            Expresiones admitidas:
+            <ul>
+                <li><tt style="font-weight: bold;color: blue;">type:X</tt> [muestra todos los personajes cuyo tipo sea X (STR, DEX, QCK, ...).]</li>
+                <li><tt style="font-weight: bold;color: blue;">class:X</tt> [muestra todos los personajes cuya clase sea X (fighter, slasher, ...).]</li>
+				<ul><li>Para los personajes cuya clase sea Free Spirit introducir free_spirit o solo free</li></ul>
+            </ul>
+            Filtros matemáticos admitidos:
+            <ul>
+                <li><tt style="font-weight: bold;color: blue;">hp&gt;X</tt> [muestra todos los personajes cuyo HP máximo sea MAYOR(&gt;) que X.]</li>
+                <li><tt style="font-weight: bold;color: blue;">atk&gt;X</tt> [muestra todos los personajes cuyo ATK máximo sea MAYOR(&gt;) que X.]</li>
+                <li><tt style="font-weight: bold;color: blue;">cost&gt;X</tt> [muestra todos los personajes cuyo Coste sea MAYOR(&gt;) que X.]</li>
+                <li><tt style="font-weight: bold;color: blue;">stars&gt;X</tt> [muestra todos los personajes con MAS(&gt;) de X estrellas.]</li>
+                <li><tt style="font-weight: bold;color: blue;">id&gt;X</tt> [muestra todos los personajes cuyo ID sea MAYOR(&gt;) que X.]</li>
+                <li><tt style="font-weight: bold;color: blue;">slots&gt;X</tt> [muestra todos los personajes con MAS(&gt;) de X slots.]</li>
+                <li><tt style="font-weight: bold;color: blue;">combo&gt;X</tt> [muestra todos los personajes con MAS(&gt;) de X combos.]</li>
+                <li><tt style="font-weight: bold;color: blue;">exp&gt;X</tt> [muestra todos los personajes que requieren MAS(&gt;) de X puntos de experiencia.]</li>
+                <li><tt style="font-weight: bold;color: blue;">minCD&gt;X</tt> [muestra todos los personajes cuyo mínimo CD sea MAYOR(&gt;) que X.]</li>
+                <li><tt style="font-weight: bold;color: blue;">maxCD&gt;X</tt> [muestra todos los personajes cuyo máximo CD sea MAYOR(&gt;) que X.]</li>
+            </ul>
+            Otros filtros matemáticos admitidos:
+			    <tt style="font-weight: bold;color: blue;">&lt;</tt> (Menor que), <tt style="font-weight: bold;color: blue;">&gt;=</tt> (Mayor o Igual a), <tt style="font-weight: bold;color: blue;">&lt;=</tt> (Menor o Igual a) y <tt style="font-weight: bold;color: blue;">=</tt> (Igual a). 
+            <br><br>
+            Ejemplo de filtrado:
+            <tt style="font-weight: bold;color: blue;">type:str class:fighter atk>1300 cost>20</tt>
+        </div>
+    </script>
+
+    <div id="footer"></div>
+
+</div>

@@ -1,0 +1,81 @@
+<div class="popover-data" ng-controller="PopoverCtrl">
+
+    <table class="table table-striped">
+        <tbody>
+            <tr></tr>
+            <tr class="header">
+                <td ng-if="data.team[slot].unit.class.length > 2">Clase</td>
+                <td ng-if="data.team[slot].unit.class.length < 3">Clase 1</td>
+                <td ng-if="data.team[slot].unit.class.length < 3">Clase 2</td>
+                <td>Tipo</td>
+                <td>Rareza</td>
+                <td colspan="{{data.team[slot].unit.class.length < 3 ? 1 : 2}}">Coste</td>
+            </tr>
+            <tr>
+                <td ng-if="data.team[slot].unit.class.length > 2">{{data.team[slot].unit.class}}</td>
+                <td ng-if="data.team[slot].unit.class.length < 3">{{data.team[slot].unit.class[0]}}</td>
+                <td ng-if="data.team[slot].unit.class.length < 3">{{data.team[slot].unit.class[1]}}</td>
+                <td>{{data.team[slot].unit.type}}</td>
+                <td>
+                    <i class="fa fa-star" ng-repeat="i in [ ] | range:data.team[slot].unit.stars"></i>
+                </td>
+                <td colspan="{{data.team[slot].unit.class.length < 3 ? 1 : 2}}">{{data.team[slot].unit.cost}}</td>
+            </tr>
+            <tr class="header">
+                <td>HP</td>
+                <td>ATK</td>
+                <td>RCV</td>
+                <td>Combos</td>
+                <td>Slots</td>
+            </tr>
+            <tr>
+                <td>
+                    {{numbers.team[slot].hp | number}}
+                    {{data.team[slot].candies.hp > 0 ? ' (+' + (data.team[slot].candies.hp * 5) + ')' : ''}}
+                </td>
+                <td>
+                    {{numbers.team[slot].atk | number}}
+                    {{data.team[slot].candies.atk > 0 ? ' (+' + (data.team[slot].candies.atk* 2) + ')' : ''}}
+                </td>
+                <td>
+                    {{numbers.team[slot].rcv | number}}
+                    {{data.team[slot].candies.rcv > 0 ? ' (+' + data.team[slot].candies.rcv + ')' : ''}}
+                </td>
+                <td>{{data.team[slot].unit.combo}}</td>
+                <td>{{data.team[slot].unit.slots}}</td>
+            </tr>
+            <tr class="header" ng-if="slot < 2">
+                <td colspan="5">Habilidad de Capitán</td>
+            </tr>
+            <tr ng-if="slot < 2">
+                <td colspan="5">
+                    <div ng-bind-html="details.captain | decorate"></div>
+                    <span class="notes" ng-if="details.captainNotes" ng-bind-html="details.captainNotes | notes | decorate"></span>
+                </td>
+            </tr>
+            <tr class="header" ng-if="slot > 1">
+                <td colspan="5">Habilidad Sailor</td>
+            </tr>
+            <tr ng-if="slot > 1">
+                <td colspan="5">
+                    <div ng-bind-html="details.sailor | decorate"></div>
+                    <span class="notes" ng-if="details.sailorNotes" ng-bind-html="details.sailorNotes | notes | decorate"></span>
+                </td>
+            </tr>
+            <tr class="header">
+                <td colspan="5">Especial</td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div ng-bind-html="details.special | decorate"></div>
+                    <div class="cooldown" ng-if="details.special && cooldown">
+                        {{cooldown.length ? cooldown[0] : cooldown}} turnos
+                        {{cooldown.length ? ' (máximo: ' + cooldown[1] + ' turnos)' : ''}}
+                    </div>
+                    <span class="notes" ng-if="details.specialNotes" ng-bind-html="details.specialNotes | notes | decorate"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,76 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">Selecciona un personaje
+                    <p class="pull-right">
+                        <span class="help" popover-trigger="mouseenter" popover-placement="bottom"
+                            uib-popover-template="'operators.html'">Operadores</span>
+                    </p>
+                </div>
+                <div class="modal-body">
+
+                    <input type="text" id="picker" placeholder="Escribe para filtrar"
+                        ng-model="query" ng-model-options="{ debounce: 500 }" auto-focus class="modal-filter">
+
+                    <div id="pickerUnits" class="modal-div">
+                        <div class="slot medium" ng-repeat="unit in units" ng-click="pickUnit(unit.number)"
+                            decorate-slot="static" uid="unit.number + 1" flag="true">
+                        </div> 
+                    </div>
+
+                    <div id="recent">
+                        <span>Recientemente seleccionado/os</span>
+                        <div id="recentUnits">
+                            <div class="slot small" ng-repeat="unit in recents" ng-click="pickUnit(unit)"
+                                decorate-slot uid="unit + 1" flag="true">
+                            </div> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">Cancelar</button> 
+                </div>
+            </div>
+        </div>
+
+        <script id="operators.html" type="text/ng-template">
+            <div>
+                Expresiones admitidas:
+                <br>
+                <ul>
+                    <li><tt style="font-weight: bold;color: blue;">type:X</tt> [muestra todos los personajes cuyo tipo sea X (STR, DEX, QCK, ...).]</li>
+                    <li><tt style="font-weight: bold;color: blue;">class:X</tt> [muestra todos los personajes cuya clase sea X (fighter, slasher, ...).]</li>
+                </ul>
+                <br>
+                Filtros matemáticos admitidos:
+                <ul>
+                    <li><tt style="font-weight: bold;color: blue;">hp&gt;X</tt> [muestra todos los personajes cuyo HP máximo sea MAYOR(&gt;) que X.]</li>
+                    <li><tt style="font-weight: bold;color: blue;">atk&gt;X</tt> [muestra todos los personajes cuyo ATK máximo sea MAYOR(&gt;) que X.]</li>
+                    <li><tt style="font-weight: bold;color: blue;">cost&gt;X</tt> [muestra todos los personajes cuyo Coste sea MAYOR(&gt;) que X.]</li>
+                    <li><tt style="font-weight: bold;color: blue;">stars&gt;X</tt> [muestra todos los personajes con MAS(&gt;) de X estrellas.]</li>
+                    <li><tt style="font-weight: bold;color: blue;">id&gt;X</tt> [muestra todos los personajes cuyo ID sea MAYOR(&gt;) que X.]</li>
+                    <li><tt style="font-weight: bold;color: blue;">slots&gt;X</tt> [muestra todos los personajes con MAS(&gt;) de X slots.]</li>
+                </ul>
+				<br>
+                Otros filtros matemáticos admitidos:
+				<ul>
+                    <li><tt style="font-weight: bold;color: blue;">&lt;</tt> [MENOR QUE]</li>
+                    <li><tt style="font-weight: bold;color: blue;">&gt;=</tt> [MAYOR O IGUAL A]</li>
+                    <li><tt style="font-weight: bold;color: blue;">&lt;=</tt> [MENOR O IGUAL A]</li>
+                    <li><tt style="font-weight: bold;color: blue;">=</tt> [IGUAL A]</li>
+				</ul>
+                <br><br>
+                Ejemplo de filtrado:
+                <br>
+                <tt style="font-weight: bold;color: blue;">type:str class:fighter atk>1300 cost>20</tt>
+            </div>
+        </script>
+
+    </div>
+
+</div>

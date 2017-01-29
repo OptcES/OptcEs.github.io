@@ -1,0 +1,43 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">Contactar</div>
+
+                <div class="modal-body">
+
+                    <b>Necesito completar algún dato para un personaje en concreto.</b>
+                    <br><br>
+
+                    Si por casualidad, tienes datos de algunos de los nuevos personajes:
+                    <ol>
+                        <li><b>NO</b> están sus datos a nivel 1.</li>
+                        <li><b>NO</b> están sus datos a nivel MAX.</li>
+                    </ol>
+
+                    Por favor, indícanoslo enviando un mensaje a este correo <a href="mailto:Sonrics123@gmail.com">aquí</a>, se agradece la ayuda.
+                    <br><br>
+
+                    <div id="pickerUnits" class="modal-div">
+                        <a ng-repeat="unit in units" class="slot medium" target="_blank" ng-if="!unit.incomplete"
+                            decorate-slot uid="unit.number - 2" href="../characters/#/view/{{unit.number-2}}">
+                        </a>
+						<a ng-repeat="unit in units" class="slot medium" target="_blank" ng-if="!unit.incomplete"
+                            decorate-slot uid="unit.number-1" href="../characters/#/view/{{unit.number-1}}">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">Cerrar</button> 
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

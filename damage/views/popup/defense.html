@@ -1,0 +1,46 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">Valores conocidos de defensa</div>
+                <div class="modal-body">
+
+                    <input type="text" id="picker" placeholder="Escribe para filtrar" ng-model="query" auto-focus class="modal-filter padded-picker">
+
+                    <div class="modal-div">
+
+                        <table id="defense-table" floating-header>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Enemigo</th>
+                                    <th>Localización</th>
+                                    <th>Dificultad</th>
+                                    <th>Defensa </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="defense in list" ng-click="pickDefense(defense)">
+                                    <td class="slot small" decorate-slot="notitle" uid="defense[3]"></td>
+                                    <td>{{defense[0]}}</td>
+                                    <td>{{defense[1]}}</td>
+                                    <td>{{defense[2]}}</td>
+                                    <td>{{defense[4] | number}}</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">Cancelar</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

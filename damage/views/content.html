@@ -1,0 +1,64 @@
+<div id="main">
+
+    <div class="row">
+        <units></units>
+        <cruncher></cruncher>
+    </div>
+
+    <turn-counter ng-show="tdata.turnCounter.enabled"></turn-counter>
+    <hp-bar></hp-bar>
+
+    <div id="other">
+        <button type="button" class="btn btn-settings menu-link" uib-tooltip="Ajustes" tooltip-append-to-body="true"
+                ng-click="options.sidebarVisible = !options.sidebarVisible">
+            <i class="fa fa-gear fa-spin"></i>
+        </button><!--
+     --><button type="button" class="btn btn-info" id="reset" ui-sref=".saveSlot" uib-tooltip="Guardar" tooltip-append-to-body="true">
+            <i class="fa fa-download"></i>
+        </button><!--
+     --><button type="button" class="btn btn-primary" id="reset" ui-sref=".loadSlot" uib-tooltip="Cargar" tooltip-append-to-body="true">
+            <i class="fa fa-upload"></i>
+        </button><!--
+     --><button type="button" class="btn btn-danger" id="reset" ui-sref=".reset" uib-tooltip="Restablecer" tooltip-append-to-body="true">
+            <i class="fa fa-refresh"></i>
+        </button><!--
+     --><button type="button" class="btn btn-orchid" id="quickPick" ui-sref=".quickpick" uib-tooltip="Elección Rápida" tooltip-append-to-body="true">
+            <i class="fa fa-bolt"></i>
+        </button><!--
+     --><button type="button" class="btn btn-success" ng-click="generateURL()"
+                title="Transferir Equipo" ng-controller="ExportCtrl" uib-tooltip="Exportar URL" tooltip-append-to-body="true">
+            <i class="fa fa-link"></i>
+        </button><!--
+     --><button type="button" class="btn btn-warning" ui-sref=".image" title="Generar imagen"
+                uib-tooltip="Exportar Imagen" tooltip-append-to-body="true">
+            <i class="fa fa-picture-o"></i>
+        </button>
+    </div>
+
+    <url-container></url-container>
+
+    <div id="transient" class="alert alert-danger" ng-if="options.transientMode" ng-click="options.transientMode = false">
+        <i class="fa fa-lock"></i>
+        Modo transitorio activo. Click para desactivar.
+        <span popover-placement="top" popover-trigger="mouseenter"
+            popover-title="Transient Mode" uib-popover-template="'transient.html'"
+            popover-append-to-body="'true'">
+            (?)
+        </span>
+    </div>
+
+</div>
+
+<sidebar ng-class="{ open: options.sidebarVisible }"></sidebar>
+
+<remove-zone></remove-zone>
+
+<div class="popup" ui-view="popup" ng-class="{ visible: isPopupVisible }"></div>
+
+<script type="text/ng-template" id="transient.html">
+    <div id="transient-explanation">
+        Modo transitorio se activa automáticamente cada vez que una transferencia de datos se realiza correctamente.
+        <br/>
+        Cuando el modo transitorio está activado, la calculadora no salva los datos en su disco duro, lo que significa que puede descartar los cambios realizados por la última transferencia actualizando la página.
+    </div>
+</script>

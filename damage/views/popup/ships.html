@@ -1,0 +1,42 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">Barcos (Pika no sabe de barcos, no preguntadle)</div>
+                <div class="modal-body">
+
+                    <input type="text" id="picker" placeholder="Escribe para filtrar" ng-model="query" auto-focus class="modal-filter">
+
+                    <div class="modal-div">
+
+                        <table id="ship-table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Barco</th>
+                                    <th>Efecto a nivel MAX</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="ship in list track by $index" ng-click="pickShip(ship.name)">
+                                    <td class="ship-icon"><div class="slot small" style="{{getThumbnail(ship)}}"></div></td>
+                                    <td class="ship-name">{{ship.name}}</td>
+                                    <td>{{ship.description}}</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ui-sref="^">Cancelar</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

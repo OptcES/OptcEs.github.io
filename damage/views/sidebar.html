@@ -1,0 +1,63 @@
+﻿<nav id="menu" class="panel" role="navigation">
+
+    <ul>
+
+        <li ui-sref=".effects">
+            <div id="profileContainer" ng-class="{ profiled: data.effect }">
+                <i class="fa fa-map-o"></i>
+                <a>{{data.effect || 'Efecto de Mapa no Activado'}}</a>
+            </div>
+        </li>
+
+        <li>
+            <div id="ship" status="{{data.ship[1]}}" ship-manager>
+                <i class="fa fa-level-up comodity" ui-sref="main.ship"></i>
+                <i class="fa fa-ship"></i>
+                <span>{{ships[data.ship[0]].name}} (lv. {{data.ship[1]}})</span>
+                <div id="ship-background"></div>
+            </div>
+        </li>
+
+        <li>
+            <div id="defenseContainer" title="Middle-click or CTRL-click for details" defense-on-click>
+                <i class="fa fa-level-up comodity" ui-sref="main.defense"></i>
+                <i class="fa fa-shield"></i>
+                Defensa del Enemigo: <input type="number" id="defense" to-int ng-model="data.defense"></input>
+            </div>
+        </li>
+
+        <li ui-sref=".candy">
+            <div id="candyContainer">
+                <i class="fa fa-sliders"></i>
+                <a>Algodones</a>
+            </div>
+        </li>
+
+        <li>
+            <div id="sliderToggle" status="{{options.slidersEnabled ? 0 : 1}}"
+                ng-click="options.slidersEnabled = !options.slidersEnabled">
+                <i class="fa fa-circle-o-notch"></i>
+            </div>
+        </li>
+
+        <li ng-show="showGatherButton">
+            <div id="gather" ui-sref=".gather">
+                <i class="fa fa-paper-plane-o"></i>
+                Contactar
+            </div>
+        </li>
+
+        <li>
+            <div id="specialDivider">Especiales:</div>
+        </li>
+
+        <special slot="0"></special>
+        <special slot="1"></special>
+        <special slot="2"></special>
+        <special slot="3"></special>
+        <special slot="4"></special>
+        <special slot="5"></special>
+
+    </ul>
+
+</nav>

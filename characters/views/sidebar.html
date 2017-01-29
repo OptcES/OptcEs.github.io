@@ -1,0 +1,117 @@
+<div id="clear-button" class="filter-header" ng-click="clearFilters()">Limpiar Filtros</div>
+
+<div class="filter-container">
+    <span class="filter-header">Tipo</span>
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ 'STR', 'QCK', 'DEX', 'PSY', 'INT' ]"
+        class="filter {{n < 3 ? 'width-4' : 'width-6'}} type {{type}}" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,type)">{{type}}</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Clases</span>
+    <span ng-repeat="(n,class) in [ 'Fighter', 'Shooter', 'Slasher', 'Striker', 'Free Spirit', 'Cerebral', 'Powerhouse', 'Driven' ]"
+        class="filter width-6 class" ng-click="onClassClick($event,class)"
+        ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Rareza</span>
+    <span ng-repeat="(n,stars) in [ 1, 2, 3, 4, 5, 6 ]" class="filter stars width-4 stars-{{stars}}"
+        ng-click="onStarsClick($event,stars)" ng-class="{ active: filters.stars.indexOf(stars) > -1 }"></span>
+</div>
+
+<div class="filter-container expandable" id="cost-container"
+        ng-class="{ expanded: filters.costEnabled }">
+    <span class="filter-header" ng-click="filters.costEnabled = !filters.costEnabled">
+        Coste
+        <i class="pull-right fa fa-{{costExpanded ? 'chevron-up' : 'chevron-down'}}"></i>
+    </span>
+    <input type="text" id="cost-slider" name="cost-slider" value="" cost-slider></input>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Tipos de Drop</span>
+    <span ng-repeat="type in [ 'Farmeable', 'No-farmeable' ]" class="filter width-6 drop" ng-model="filters.drop"
+        ng-class="{ active: filters.drop == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
+    <span ng-repeat="type in [ 'Unidades Global', 'Unidades Japonesa' ]" class="filter width-6 drop" ng-model="filters.server"
+        ng-class="{ active: filters.server == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
+    <span ng-repeat="type in [ 'Solo RR', 'No en RR' ]" class="filter width-6 drop" ng-model="filters.rr"
+        ng-class="{ active: filters.rr == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
+	<span ng-repeat="type in [ 'Sockets Farmeable', 'Sockets No Farmeable' ]" class="filter width-6 drop" ng-model="filters.socket"
+        ng-class="{ active: filters.socket == type }" ng-click="onFilterClick($event,type)">&nbsp;&nbsp;&nbsp;{{type}}&nbsp;&nbsp;&nbsp;</span>
+</div>
+
+<div class="filter-container conditional" ng-show="filters.drop == 'Farmeable'">
+    <span class="filter-header">Drops Farmeables</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Quincenal }"
+        ng-model="filters.farmable.Quincenal" ng-click="onDropFilterClick($event,true)">Quincenal</span><!--
+ --><span class="filter width-6 exc" ng-class="{ active: filters.farmable.Quincenal === false }"
+        ng-model="filters.farmable.Quincenal" ng-click="onDropFilterClick($event,false)">Ocultar Quincenal</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.raid }"
+        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,true)">Raid Bosses</span><!--
+ --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.raid === false }"
+        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,false)">Ocultar Raids</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Coliseo }"
+        ng-model="filters.farmable.Coliseo" ng-click="onDropFilterClick($event,true)">Coliseo</span><!--
+ --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.Coliseo === false }"
+        ng-model="filters.farmable.Coliseo" ng-click="onDropFilterClick($event,false)">Ocultar Coliseo</span>
+</div>
+
+<div class="filter-container conditional" ng-show="filters.drop == 'No-farmeable'">
+    <span class="filter-header">Drops No farmeables</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.lrr }"
+        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,true)">Exclusivos</span><!--
+ --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.lrr === false }"
+        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,false)">Ocultar Exclusivos</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.promo }"
+        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,true)">Promociones</span><!--
+ --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.promo === false }"
+        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,false)">Ocultar Promociones</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.special }"
+        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,true)">Especiales</span><!--
+ --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.special === false }"
+        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,false)">Ocultar Especiales</span>
+	<span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.shop }"
+        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,true)">Unidades Tienda Ray</span><!--
+ --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.shop === false }"
+        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,false)">Ocultar Unidades Tienda Ray</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Filtros de Exclusión</span>
+    <span class="filter width-6 exc" ng-model="filters.noBase" ng-class="{ active: filters.noBase }"
+        ng-click="filters.noBase = !filters.noBase">Ocultar Formas Base</span><!--
+ --><span class="filter width-6 exc" ng-model="filters.noFodder" ng-class="{ active: filters.noFodder }"
+        ng-click="filters.noFodder = !filters.noFodder">Ocultar Mobs</span>
+    <span class="filter width-12 exc" ng-model="filters.noEvos" ng-class="{ active: filters.noEvos }"
+        ng-click="filters.noEvos = !filters.noEvos">Ocultar Boosters y Evolvers</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Habilidad de Capitán</span>
+    <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target == 'captain'"
+        ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-captain-options
+        ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Especial</span>
+    <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target.indexOf('special') == 0"
+        ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-orb-options add-special-options
+        ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
+</div>
+
+<div class="filter-container">
+    <span class="filter-header">Filtrar Sailor</span>
+    <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target.indexOf('sailor') == 0"
+        ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-orb-options add-special-options
+        ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
+</div>
+
+<div class="filter-container" ng-if="showLogFilters">
+    <span class="filter-header">Filtrar Character Log</span>
+    <span class="filter width-12 custom" ng-model="filters.noLog" ng-class="{ active: filters.noLog }"
+        ng-click="filters.noLog = !filters.noLog">Ocultar Unidades Obtenidas</span>
+    <span class="filter width-12 custom" ng-model="filters.noMissing" ng-class="{ active: filters.noMissing }"
+        ng-click="filters.noMissing = !filters.noMissing">Ocultar Unidades No Obtenidas</span>
+</div>

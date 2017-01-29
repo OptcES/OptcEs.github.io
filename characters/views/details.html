@@ -1,0 +1,487 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div class="modal-dialog">
+            <div class="modal-content animated rollIn">
+
+                <div class="modal-header">
+                    <div class="fa fa-arrow-left btn btn-default back-button" ng-if="withButton" ng-click="onBackClick()"></div>    
+                    {{unit.name}}
+                </div>
+
+                <div class="modal-body" ng-class="{ preview: unit.preview }">
+
+                    <div ng-if="!unit.incomplete" class="slot huge" decorate-slot big="true" uid="unit.number + 1"></div>
+
+                    <div ng-if="unit.preview" class="alert alert-warning">
+                        <b>AVISO:</b> Actualmente la información del personaje aún no está confirmada, puede que no sea exacta.
+                    </div>
+
+                    <div ng-if="unit.incomplete && !unit.preview" class="alert alert-danger">
+                        La información completa de este personaje todavía no está disponible y pronto será añadida.
+                    </div>
+
+                    <h3 class="page-header">
+                        Detalles
+                        <i ng-if="compare" ng-click="clearComparison()" class="fa fa-times pull-right" id="compare-clear" title="clear"></i>
+                        <input compare type="text" id="compare" class="pull-right" placeholder="Comparar con..."></input>
+                        <label class="pull-right">
+                            <input type="checkbox" ng-model="characterLog[id]" ng-change="checkLog()"></input>
+                            En el "Character Log"
+                        </label>
+                    </h3>
+
+                    <div class="panel panel-default stats-pane">
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <th ng-if="!hybrid">Clase</th>
+                                    <th ng-if="hybrid">Clase 1</th>
+                                    <th ng-if="hybrid">Clase 2</th>
+                                    <th>Tipo</th>
+                                    <th>Estrellas</th>
+                                    <th>Coste</th>
+                                </tr>
+                                <tr>
+                                    <td ng-if="!hybrid">{{unit.class}}</td>
+                                    <td ng-if="hybrid">{{unit.class[0]}}</td>
+                                    <td ng-if="hybrid">{{unit.class[1]}}</td>
+                                    <td>{{unit.type}}</td>
+                                    <td ng-if="!compare">{{unit.stars}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.stars - compare.stars}}</td>
+                                    <td ng-if="!compare">{{unit.cost}}</td>
+                                    <td ng-if="compare" comparison="negative">{{unit.cost - compare.cost}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Combo</th>
+                                    <th>Slots</th>
+                                    <th>Max Nivel</th>
+                                    <th colspan="{{hybrid ? 2 : 1}}">EXP para Max</th>
+                                </tr>
+                                <tr>
+                                    <td ng-if="!compare">{{unit.combo}}</td>
+                                    <td ng-if="compare" comparison="negative">{{unit.combo - compare.combo}}</td>
+                                    <td ng-if="!compare">{{unit.preview ? '' : unit.slots}}</td>
+                                    <td ng-if="compare" comparison="positive">{{unit.slots - compare.slots}}</td>
+                                    <td>{{unit.maxLevel}}</td>
+                                    <td ng-if="!compare" colspan="{{hybrid ? 2 : 1}}">{{unit.maxEXP | number}}</td>
+                                    <td ng-if="compare" colspan="{{hybrid ? 2 : 1}}" comparison="negative">{{unit.maxEXP - compare.maxEXP | number}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 class="page-header" ng-hide="hidden.stats">Stats</h3>
+
+                    <uib-tabset ng-hide="hidden.stats">
+                        <uib-tab heading="Stats">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Nivel</th>
+                                        <th>HP</th>
+                                        <th>ATK</th>
+                                        <th>RCV</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td ng-if="!compare">{{unit.minHP | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minHP - compare.minHP | number}}</td>
+                                        <td ng-if="!compare">{{unit.minATK | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minATK - compare.minATK | number}}</td>
+                                        <td ng-if="!compare">{{unit.minRCV | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.minRCV - compare.minRCV | number}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{unit.maxLevel}}</td>
+                                        <td ng-if="!compare">{{unit.maxHP | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxHP - compare.maxHP | number}}</td>
+                                        <td ng-if="!compare">{{unit.maxATK | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxATK - compare.maxATK | number}}</td>
+                                        <td ng-if="!compare">{{unit.maxRCV | number}}</td>
+                                        <td ng-if="compare" comparison="positive">{{unit.maxRCV - compare.maxRCV | number}}</td>
+                                    </tr>
+                                    <tr ng-if="!compare && !incomplete">
+                                        <td>
+                                            <input type="number" placeholder="Nivel"
+                                                ng-model="customLevel.level" min="1" max="unit.maxLevel">
+                                        </td>
+                                        <td><span ng-show="customLevel.enabled">{{customLevel.hp | number:0}}</span></td>
+                                        <td><span ng-show="customLevel.enabled">{{customLevel.atk | number:0}}</span></td>
+                                        <td><span ng-show="customLevel.enabled">{{customLevel.rcv | number:0}}<span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </uib-tab>
+                        <uib-tab heading="Chart" ng-if="!unit.incomplete">
+                            <canvas id="radar-chart" class="chart chart-radar" chart-data="radar.data"
+                                chart-labels="radar.labels" chart-options="radar.options"></canvas>
+                        </uib-tab>
+                    </uib-tabset>
+
+                    <!-- Abilities (non-comparison) -->
+
+                    <h3 class="page-header" ng-hide="hidden.abilities">Habilidades</h3>
+
+                    <div class="panel panel-default" ng-hide="hidden.abilities">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Habilidad de Capitán</td>
+                                    <td>
+                                        <!-- same captain ability -->
+                                        <div ng-if="!isCaptainHybrid" ng-bind-html="details.captain | decorate"></div>
+                                        <!-- different captain abilities -->
+                                        <div ng-if="isCaptainHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="details.captain.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="details.captain.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.captainNotes" ng-bind-html="details.captainNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>Habilidad Sailor</td>
+                                    <td>
+                                        <!-- same sailor ability -->
+                                        <div ng-if="!isSailorHybrid" ng-bind-html="details.sailor | decorate"></div>
+                                        <!-- different sailor abilities -->
+                                        <div ng-if="isSailorHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="details.sailor.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="details.sailor.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.sailorNotes" ng-bind-html="details.sailorNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Especial</td>
+                                    <td>
+                                        <strong class="specialName" ng-if="details.specialName">{{details.specialName}}</strong>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isSpecialHybrid && !isSpecialStaged" ng-bind-html="details.special | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isSpecialHybrid && isSpecialStaged">
+                                            <div ng-repeat="stage in details.special track by $index">
+                                                <strong>Carga {{$index + 1}}</strong>
+                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turnos):
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isSpecialHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="details.special.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="details.special.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="details.specialNotes" ng-bind-html="details.specialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="cooldown && !isSpecialStaged">
+                                    <td>Cooldown</td>
+                                    <td>
+                                        {{cooldown.length ? cooldown[0] : cooldown}} turnos
+                                        {{cooldown.length ? ' \u2192 ' + cooldown[1] + ' turnos' : ''}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Abilities (compared unit) -->
+
+                    <h3 class="page-header" ng-if="compare" ng-hide="hidden.abilities">Habilidades (comparar personaje)</h3>
+
+                    <div class="panel panel-default" ng-if="compare" ng-hide="hidden.abilities">
+                        <table class="table table-striped-column abilities">
+                            <tbody>
+                                <tr>
+                                    <td>Habilidad de Capitán</td>
+                                    <td>
+                                        <!-- same captain ability -->
+                                        <div ng-if="!isCompareCaptainHybrid" ng-bind-html="compareDetails.captain | decorate"></div>
+                                        <!-- different captain abilities -->
+                                        <div ng-if="isCompareCaptainHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="compareDetails.captain.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="compareDetails.captain.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.captainNotes" ng-bind-html="compareDetails.captainNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>Habilidad Sailor</td>
+                                    <td>
+                                        <!-- same sailor ability -->
+                                        <div ng-if="!isCompareSailorHybrid" ng-bind-html="compareDetails.sailor | decorate"></div>
+                                        <!-- different sailor abilities -->
+                                        <div ng-if="isCompareSailorHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="compareDetails.sailor.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="compareDetails.sailor.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.sailorNotes" ng-bind-html="compareDetails.sailorNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Especial</td>
+                                    <td>
+                                        <strong class="specialName" ng-if="compareDetails.specialName">{{compareDetails.specialName}}</strong>
+                                        <!-- same special, no stages -->
+                                        <div ng-if="!isCompareSpecialHybrid && !isCompareSpecialStaged" ng-bind-html="compareDetails.special | decorate"></div>
+                                        <!-- same special, with stages -->
+                                        <div ng-if="!isCompareSpecialHybrid && isCompareSpecialStaged">
+                                            <div ng-repeat="stage in compareDetails.special track by $index">
+                                                <strong>Carga {{$index + 1}}</strong>
+                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turnos):
+                                                <span ng-bind-html="stage.description | decorate"></span>
+                                            </div>
+                                        </div>
+                                        <!-- different specials -->
+                                        <div ng-if="isCompareSpecialHybrid">
+                                            <span class="badge badge-japan">Japón</span>
+                                            <div ng-bind-html="compareDetails.special.japan | decorate"></div>
+                                            <span class="badge badge-global">Global</span>
+                                            <div ng-bind-html="compareDetails.special.global | decorate"></div>
+                                        </div>
+                                        <span class="notes" ng-if="compareDetails.specialNotes" ng-bind-html="compareDetails.specialNotes | notes | decorate"></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="compareCooldown && !isCompareSpecialStaged">
+                                    <td>Cooldown</td>
+                                    <td>
+                                        {{compareCooldown.length ? compareCooldown[0] : compareCooldown}} turnos
+                                        {{compareCooldown.length ? ' \u2192 ' + compareCooldown[1] + ' turnos' : ''}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Evolutions -->
+
+                    <h3 class="page-header" ng-if="evolution.evolution" ng-hide="hidden.evolution">Evoluciones</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolution.evolution && !evolution.evolution.length" ng-hide="hidden.evolution">
+                        <tbody>
+                            <tr>
+                                <td><evolution unit="unit" evolvers="evolution.evolvers"
+                                    evolution="evolution.evolution" size="medium"></evolution></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolution.evolution && evolution.evolution.length" ng-hide="hidden.evolution">
+                        <tbody>
+                            <tr ng-repeat="evolverSet in evolution.evolvers">
+                                <td> 
+                                    <evolution unit="unit" evolvers="evolverSet" evolution="evolution.evolution[$index]"
+                                        size="medium"></evolution> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Evolves from -->
+
+                    <h3 class="page-header" ng-if="evolvesFrom.length > 0" ng-hide="hidden.evolutionFrom">Evoluciona de</h3>
+
+                    <table class="table table-striped table-centered table-bordered table-textless"
+                            ng-if="evolvesFrom.length > 0" ng-hide="hidden.evolutionFrom">
+                        <tbody>
+                            <tr ng-repeat="data in evolvesFrom">
+                                <td>
+                                    <evolution unit="unit" base="data.from" evolvers="data.via" evolution="data.to" size="medium"></evolution>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Used by -->
+
+                    <h3 class="page-header" ng-if="sizeOf(usedBy) > 0" ng-hide="hidden.required">Evoluciones que requieren este personaje</h3>
+
+                    <table ng-if="sizeOf(usedBy) > 0" class="table table-striped table-centered table-bordered table-textless" ng-hide="hidden.required">
+                        <tbody>
+                            <tr ng-if="collapsed.used && sizeOf(usedBy) > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.used = false">Click para mostrar</button></td>
+                            </tr>
+                            <tr ng-repeat="(base,evolutions) in usedBy" ng-if="!collapsed.used || sizeOf(usedBy) < 4">
+                                <td>
+                                    <div ng-repeat="id in evolutions track by $index">
+                                        <evolution unit="unit" base="base" evolvers="getEvos(base,id,unit.number + 1)"
+                                            evolution="id" size="medium"></evolution>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                   <!-- Same specials -->
+
+                    <h3 class="page-header" ng-if="sizeOf(sameSpecials) > 0" ng-hide="hidden.sameSpecial">Personajes con el Mismo Especial</h3>
+
+                    <table ng-if="sizeOf(sameSpecials) > 0" class="table table-striped table-centered table-bordered table-textless" ng-hide="hidden.sameSpecial">
+                        <tbody>
+                            <tr>
+                                <td><unit uid="id" ng-repeat="id in sameSpecials"></unit></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tandems -->
+
+                    <h3 class="page-header" ng-if="tandems.length > 0">Tandems</h3>
+
+                    <table class="table table-striped table-centered table-bordered" ng-if="tandems.length > 0">
+                        <tbody>
+                            <tr ng-repeat="tandem in tandems">
+                                <td>
+                                    <div><strong>{{tandem.name}}</strong></div>
+                                    <a class="slot medium clickable" decorate-slot uid="uid" clickable="true"
+                                        ui-sref="main.search.view({ id: uid, previous: getPrevious() })"
+                                        ng-repeat="uid in tandem.units track by $index"></a>
+                                    <div>{{tandem.desc}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Drops -->
+
+                    <h3 class="page-header" ng-if="drops.length > 0">Localizaciones del Drop</h3>
+
+                    <span ng-show="!collapsed.drops" class="drop-warning">
+                        <strong>Nota:</strong>
+                        Si un drop aparece en casi todas las pantallas de una isla de historia es similar a un boss secreto. El drop en estas pantallas tiene una 5% de probabilidad de aparecer. 
+                    </span>
+
+                    <table ng-if="collapsed.drops && drops.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.drops && drops.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.drops = false">Click para mostrar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table ng-if="drops.length > 0" class="table table-striped drop-table">
+                        <thead ng-show="!collapsed.drops || drops.length < 4">
+                            <tr>
+                                <th>Localización</th>
+                                <th>Capítulo/Dificultad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="!collapsed.drops || drops.length < 4" ng-repeat="drop in drops">
+                                <td>
+                                    <div class="slot small" decorate-slot uid="drop.thumb"></div>
+                                    {{drop.name}}
+                                    <span ng-repeat="bonus in drop.bonuses" class="bonus {{bonus.slice(0,2)}} {{bonus.slice(3)}}"></span>
+                                </td>
+                                <td>{{drop.data.join(', ')}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Manuals -->
+
+                    <h3 class="page-header" ng-if="manuals.length > 0">Localizaciones de los Manuales</h3>
+
+                    <table ng-if="collapsed.manuals && manuals.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.manuals && manuals.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.manuals = false">Click para mostrar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table ng-if="manuals.length > 0" class="table table-striped drop-table">
+                        <thead ng-show="!collapsed.manuals || manuals.length < 4">
+                            <tr>
+                                <th>Localización</th>
+                                <th>Dificultad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="!collapsed.manuals || manuals.length < 4" ng-repeat="drop in manuals">
+                                <td>
+                                    <div class="slot small" decorate-slot uid="drop.thumb"></div>
+                                    {{drop.name}}
+                                </td>
+                                <td>{{drop.data.join(', ')}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Family -->
+
+                    <h3 class="page-header" ng-if="families.length > 0">Familia: {{family}}</h3>
+
+                    <table ng-if="collapsed.families && families.length > 3" class="table table-striped table-centered table-bordered table-textless">
+                        <tbody>
+                            <tr ng-if="collapsed.families && families.length > 3">
+                                <td><button class="btn btn-info collapse-button"
+                                        ng-click="collapsed.families = false">Click para mostrar las versiones farmeables</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table ng-if="families.length > 0" class="table table-striped drop-table">
+                        <thead ng-show="!collapsed.families || families.length < 4">
+                            <tr>
+                                <th>Variante</th>
+                                <th>Localización de Farmeo</th>
+                                <th>Capítulo/Dificultad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-if="!collapsed.families || families.length < 4" ng-repeat="data in families">
+                                <td>
+                                    <div class="slot small" decorate-slot uid="data.uid"></div>
+                                    <a ui-sref="main.search.view({ id: data.uid, previous: getPrevious() })">{{data.name}}</a>
+                                </td>
+                                <td>{{data.location.name}}</td>
+                                <td>{{data.location.data.join(', ')}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tags -->
+
+                    <h3 class="page-header">Etiquetas</h3>
+                    
+                    <add-tags></add-tags>
+
+                    <!-- Links -->
+
+                    <br/>
+                    <h3 class="page-header">Enlaces</h3>
+                    
+                    <add-links></add-links>
+
+                    <!-- Data gathering -->
+
+                    <div ng-if="!unit.incomplete && unit.growth.atk === 0" class="alert alert-success"><i class="fa fa-star"></i> ¿Tienes este personaje? Por favor, eche un vistazo <a href="../damage/#/gather">aquí</a>.</div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,29 @@
+<div class="backdrop" ui-sref="^"></div>
+
+<div class="inner-container" go-back>
+
+    <div class="custom-modal">
+        <div id="picker" class="modal-dialog">
+            <div class="modal-content animated fadeInDown">
+                <div class="modal-header">Algodones
+                </div>
+                <div class="modal-body" id="candySliders">
+
+                    <div class="slot big nohover" decorate-slot uid="data.team[slot].unit.number + 1"></div>
+
+                    <candy-slider data="data.team[slot].candies" slot="slot" numbers="numbers" type="hp"></candy-slider>
+                    <candy-slider data="data.team[slot].candies" slot="slot" numbers="numbers" type="atk"></candy-slider>
+                    <candy-slider data="data.team[slot].candies" slot="slot" numbers="numbers" type="rcv"></candy-slider>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-default" ng-click="resetCandies()">Reiniciar</button> 
+                    <button class="btn btn-default" ui-sref="^">Cerrar</button> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

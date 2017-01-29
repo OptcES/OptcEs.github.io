@@ -1,0 +1,37 @@
+<div ng-repeat="turn in numbers[type].damage" dropzone="details" class="turnContainer" current-type="{{tdata.typeOverride[type][$index]}}">
+
+    <script type="text/ng-template" id="tooltip-template.html">
+        <table class="details-popover-table">
+            <tr ng-repeat="row in numbers[type].damage[$index].multipliers">
+                <td>{{row[0] | number:2}}x</td>
+                <td>{{row[1]}}</td>
+            </tr>
+            <tr ng-show="getApproxTimingBonus(numbers[type].hitModifiers[$index])">
+                <td>~{{getApproxTimingBonus(numbers[type].hitModifiers[$index])}}x</td>
+                <td>timing bonus</td>
+            </tr>
+            <tr class="details-subtotal">
+                <td>Subtotal:</td>
+                <td>{{getSubtotal(type,$index) | number}} HP</td>
+            </tr>
+        </table>
+    </script>
+
+    <div draggable="details"
+        tooltip-placement="right" uib-tooltip-template="'tooltip-template.html'">
+
+        <div class="onTurn">
+            #{{$index+1}} ({{numbers[type].hitModifiers[$index]}} / {{ numbers[type].chainMultipliers[$index] | number:2 }}x)
+        </div>
+
+        <div class="damageDealer" title="{{turn.unit.unit.name}}">
+            {{turn.unit.unit.name}}
+        </div>
+
+        <div class="unitDamage">{{ turn.damage | number }}</div>
+
+    </div>
+
+    <hr ng-if="!$last" />
+
+</div>

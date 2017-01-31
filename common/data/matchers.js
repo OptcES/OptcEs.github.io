@@ -272,7 +272,8 @@ window.matchers = [
     {
         name: 'Aleatorizadores de orbes',
         target: 'special',
-        matcher: /aleatoriza.+(orbes|todos los demás)/i
+        matcher: /aleatoriza.+(orbes|todos los demás)/i,
+	include: [ 1443, 1444 ]
     },
 
     {
@@ -338,7 +339,7 @@ window.matchers = [
         name: 'Reductores de HP en %',
         target: 'special',
         matcher: /Reduce la HP actual de los enemigos/i,
-		include: [ 1226 ]
+		include: [ 1226, 1439, 1440 ]
     },
 
     {

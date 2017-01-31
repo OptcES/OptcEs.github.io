@@ -6586,14 +6586,14 @@ window.details = {
 	},
 	1273: { 
 		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.5x y su HP 1.2x",
-		captainNotes:"#{boostAcumulado : Striker : Powerhouse}",
+		captainNotes:"#{boostAcumulado : Fighter : Powerhouse}",
 		specialName:"Champion of the Wild Roar",
 		special: "Hace una cantidad de daño como daño [STR] a todos los enemigos. Aumenta el ATK de los personajes Fighter 1.5x durante 5 turnos",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1274: { 
 		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.6x y su HP 1.2x",
-		captainNotes:"#{boostAcumulado : Striker : Powerhouse}",
+		captainNotes:"#{boostAcumulado : Fighter : Powerhouse}",
 		specialName:"Champion of the Wild Roar",
 		special: "Hace una cantidad de daño como daño [STR] a todos los enemigos. Aumenta el ATK de los personajes Fighter 1.5x durante 5 turnos",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
@@ -6853,7 +6853,7 @@ window.details = {
 				"cooldown": [24,18]
 			}
 		],
-		specialNotes:"#{nocuracion}",
+		specialNotes:"#{nocuracion} <br> #{stages}",
 		sailor:"Reduce la duración de la Ceguera 5 turnos"
 	},
 	1316: { 
@@ -6873,7 +6873,7 @@ window.details = {
 				"cooldown": [24,18]
 			}
 		],
-		specialNotes:"#{nocuracion}",
+		specialNotes:"#{nocuracion} <br> #{stages}",
 		sailor:"Reduce la duración de la Ceguera 5 turnos"
 	},
 	1317: { 
@@ -7316,22 +7316,22 @@ window.details = {
 				"cooldown": [31,16]
 			}
 		],
-		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno"
+		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno <br> #{stages}"
 	},
 	1374: { 
 		captain:"Aumenta el ATK de los personajes [INT] 2.25x y su HP 1.5x, y hace una cantidad de daño [INT] a todos los enemigos equivalente al daño recibido 5x en el turno anterior al final de cada turno",
 		specialName:"Poison Dragon",
 		special: [
 			{
-				"description": "Envenena a todos los enemigos y los retrasa 1 turno.",
+				"description": "Envenena a todos los enemigos. Retrasa a todos los enemigos 1 turno.",
 				"cooldown": [25,10]
 			},
 			{
-				"description": "Intoxica a todos los enemigos y los retrasa 1 turno",
+				"description": "Intoxica a todos los enemigos. Retrasa a todos los enemigos 1 turno",
 				"cooldown": [31,16]
 			}
 		],
-		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno"
+		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno <br> #{stages}"
 	},
 	1375: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x, reduce la HP actual del equipo un 50% y dobla el daño recibido",
@@ -7702,6 +7702,98 @@ window.details = {
 		captain:"Aumenta el ATK de todos los personajes 2.5x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.5x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
 		specialName:"General Cannon",
 		special: "Hace su ATK 100x como daño sin tipo a todos los enemigos. Imposibilita la utilización por parte del enemigo de los siguientes bufos: potenciación de ataque, berserker, daño al final del turno y cura al final del turno. Aumenta el ATK de todos los personajes 1.5x."
+	},
+	1433: { 
+		captain:"Reduce la carga de los especiales de los personajes Powerhouse 1 turno al principio de la batalla. Reduce un 10% de la HP actual del equipo al final de cada turno. Aumenta el ATK de los personajes Powerhouse 3x y su HP 2x si el equipo está formado por 6 personajes Powerhouse",
+		specialName:"Water Bullets",
+		special: [
+			{
+				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
+				"cooldown": [12,null]
+			},
+			{
+				"description": "Hace su ATK 120x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
+				"cooldown": [22,null]
+			}
+		]
+	},
+	1434: { 
+		captain:"Reduce la carga de los especiales de los personajes Powerhouse 1 turno al principio de la batalla. Reduce un 10% de la HP actual del equipo al final de cada turno. Aumenta el ATK de los personajes Powerhouse 3x y su HP 2x si el equipo está formado por 6 personajes Powerhouse",
+		specialName:"Water Bullets",
+		special: [
+			{
+				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
+				"cooldown": [12,null]
+			},
+			{
+				"description": "Hace su ATK 120x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
+				"cooldown": [22,null]
+			}
+		]
+	},
+	1435: { 
+		captain:"Aumenta el ATK de los personajes Slasher 2x y la HP de los personajes Powerhouse 1.2x",
+		specialName:"Staggering Slash",
+		special: "Durante 1 turno hace que los Perfect sean más difíciles de acertar. Cambia los orbes [STR], [DEX], [QCK], [PSY] e [INT] a favorables para los personajes Powerhouse. Retrasa a todos los enemigos 1 turno. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo",
+		specialNotes:"#{perfectDificil}",
+		sailor:"Aumenta el ATK de todos los personajes 150 puntos si el equipo está formado por 6 personajes Powerhouse"
+	},
+	1436: { 
+		captain:"Aumenta el ATK de los personajes Slasher 2.5x y la HP de los personajes Powerhouse 1.5x",
+		specialName:"Staggering Slash",
+		special: "Durante 1 turno hace que los Perfect sean más difíciles de acertar. Cambia los orbes [STR], [DEX], [QCK], [PSY] e [INT] a favorables para los personajes Powerhouse. Retrasa a todos los enemigos 1 turno. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo",
+		specialNotes:"#{perfectDificil}",
+		sailor:"Aumenta el ATK de todos los personajes 150 puntos si el equipo está formado por 6 personajes Powerhouse"
+	},
+	1437: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse y Striker 1.3x",
+		captainNotes:"#{boostAcumulado : Powerhouse : Striker}",
+		specialName:"Squid Spear",
+		special: "Reduce la HP actual del equipo un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno para los personajes Powerhouse y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos que sufren delay",
+		sailor:"Hace que los orbes [STR], [DEX], [QCK], [PSY] e [INT] cuenten como favorables para esta unidad si el equipo está formado por 6 personajes Powerhouse"
+	},
+	1438: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse y Striker 1.6x",
+		captainNotes:"#{boostAcumulado : Powerhouse : Striker}",
+		specialName:"Squid Spear",
+		special: "Reduce la HP actual del equipo un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno para los personajes Powerhouse y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos que sufren delay",
+		sailor:"Hace que los orbes [STR], [DEX], [QCK], [PSY] e [INT] cuenten como favorables para esta unidad si el equipo está formado por 6 personajes Powerhouse"
+	},
+	1439: { 
+		captain:"Reduce la carga de todos los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Powerhouse y Fighter 1.2x",
+		specialName:"Fire Daruma Cutter",
+		special: "Reduce la duración del Silencio y la Parálisis 2 turnos. Reduce la HP actual de un solo enemigo un 10%. Aumenta el ATK de los personajes Powerhouse 1.75x durante 1 turno",
+		sailor:"Esta unidad resiste totalmente al Silencio"
+	},
+	1440: { 
+		captain:"Reduce la carga de todos los especiales 4 turnos al principio de la batalla. Aumenta el ATK de los personajes Powerhouse y Fighter 1.5x",
+		specialName:"Fire Daruma Cutter",
+		special: "Reduce la duración del Silencio y la Parálisis 2 turnos. Reduce la HP actual de un solo enemigo un 10%. Aumenta el ATK de los personajes Powerhouse 1.75x durante 1 turno",
+		sailor:"Esta unidad resiste totalmente al Silencio"
+	},
+	1441: { 
+		captain:"Aumenta el ATK de los personajes [INT] 1.5x y reduce el daño recibido un 10%",
+		specialName:"Flail Hidden From God",
+		special: "Durante 1 turno hace que los Perfect sean más fáciles de acertar. Fija los orbes 1 turno. Fija el multiplicador de cadena en 2.5x durante 1 turno",
+		sailor:"Tu equipo es inmune a la Ceguera si tu capitán es Powerhouse"
+	},
+	1442: { 
+		captain:"Aumenta el ATK de los personajes [INT] 2.25x y reduce el daño recibido un 20%",
+		specialName:"Flail Hidden From God",
+		special: "Durante 1 turno hace que los Perfect sean más fáciles de acertar. Fija los orbes 1 turno. Fija el multiplicador de cadena en 2.5x durante 1 turno",
+		sailor:"Tu equipo es inmune a la Ceguera si tu capitán es Powerhouse"
+	},
+	1443: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x tras hacer Good>Great>Perfect",
+		specialName:"Papara Hammer",
+		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACÍO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+		sailor:"Aumenta el ATK de todos los personajes 150 puntos y la HP de todos los personajes 50 puntos si el equipo está formado por 6 personajes Powerhouse"
+	},
+	1444: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 3.25x tras hacer Good>Great>Perfect",
+		specialName:"Papara Hammer",
+		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACÍO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+		sailor:"Aumenta el ATK de todos los personajes 150 puntos y la HP de todos los personajes 50 puntos si el equipo está formado por 6 personajes Powerhouse"
 	},
 	1445: { 
 		captain:"",

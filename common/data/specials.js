@@ -1009,7 +1009,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[906].stage = (window.specials[906].stage + 1) % 3;
             p.scope.notify({
-                text: 'Carga #' + (window.specials[905].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
+                text: 'Carga #' + (window.specials[906].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '906warning'
             });
         }

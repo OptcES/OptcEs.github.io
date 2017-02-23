@@ -4077,4 +4077,103 @@ window.captains = {
             return (p.unit.type == "QCK" || p.unit.type == "PSY") && p.percHP <= 70.0 ? 1.5 : 1;
         }
     },
+    1446: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; },
+        rcv: function(p) { return p.unit.class.has("Shooter") ? 1.2 : 1; }
+    },
+    1447: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? 2.5 : 1; },
+    },
+    1449: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+    },
+    1450: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+    },
+    1451: {
+        atk: function(p) { return p.unit.type != "DEX" ? 1 : (p.orb == 2.0 ? 2.25 : 1.5); }
+    },
+    1452: {
+        atk: function(p) { return p.unit.type != "DEX" ? 1 : (p.orb == 2.0 ? 2.5 : 2); }
+    },
+    1455: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 2.5, [ "Powerhouse" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has("Powerhouse")) return 1;
+            return p.modifiers.slice(0, p.chainPosition).count("Perfect") == p.chainPosition ? 2.75 : 1;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1456: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 2.75, [ "Powerhouse" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has("Powerhouse")) return 1;
+            return p.modifiers.slice(0, p.chainPosition).count("Perfect") == p.chainPosition ? 2.75 : 1;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1457: {
+        atk: function(p) { return p.unit.type == "INT" || p.unit.type == "QCK" ? 1.75 : 1; },
+    },
+    1458: {
+        atk: function(p) { return p.unit.type == "INT" || p.unit.type == "QCK" ? 2 : 1; },
+    },
+    1459: {
+        hitAtk: function(p) {
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Good", "Great", "Perfect"]) ? 1.75 : 1;
+        },
+        hitModifiers: ["Good", "Good", "Great", "Perfect", "Perfect", "Perfect"]
+    },
+    1460: {
+        hitAtk: function(p) {
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Good", "Great", "Perfect"]) ? 2 : 1;
+        },
+        hitModifiers: ["Good", "Good", "Great", "Perfect", "Perfect", "Perfect"]
+    },
+    1461: {
+        damageSorter: function(d) { return CrunchUtils.typeSort(d, 2.6, "QCK"); }, 
+        hitAtk: function(p) {
+            if (!(p.unit.type == "QCK")) return 1;
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect"]) ? 2.6 : 2;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1462: {
+        chainModifier: function(p) { return 2; }
+    },
+    1463: {
+        chainModifier: function(p) { return 2.5; }
+    },
+    1465: {
+        atk: function(p) { return 1.25; },
+        rcv: function(p) { return 1.25; }
+    },
+    1466: {
+        atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "QCK" ? 2 : 1; },
+    },
+    1467: {
+        atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "QCK" ? 2.25 : 1; },
+        rcv: function(p) { return p.unit.type == "PSY" || p.unit.type == "QCK" ? 1.3 : 1; },
+    },
+    1468: {
+        atk: function(p) { return p.unit.type == "STR" ? 1.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+    },
+    1469: {
+        atk: function(p) { return p.unit.type == "STR" ? 2 : 1; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.25 : 1; },
+    },
+    1470: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 3 : p.unit.class.has("Powerhouse") || p.unit.class.has("Slasher") ? 1.5 : 1; }  
+    },
+    1471: {
+        atk: function(p) {
+            return p.unit.class.has("Slasher") ? 1 + 1 * ((100 - p.percHP) / 100) : 1;
+        }
+    },
+    1472: {//CHANGE THIS IF THIS ISN'T SABO
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2.75 : 1; },
+        hp: function(p) { return 1.2; },
+        rcv: function(p) { return 1.2; }
+    },
 };

@@ -7656,7 +7656,7 @@ window.details = {
 	},
 	1424: { 
 		captain:"Aumenta el ATK de los personajes Striker proporcionalmente a la HP del equipo",
-		captainNotes:"",
+		captainNotes:"#{captainProportional : mayor : 1 + 1.25 * (HP restante) / (HP total) : 2.25 : 1}",
 		specialName:"General Commander's Fight",
 		special: "Hace 500 puntos de daño fijo a todos los enemigos. Reduce la carga de los especiales de los personajes Striker 1 turno"
 	},
@@ -7705,29 +7705,31 @@ window.details = {
 	},
 	1433: { 
 		captain:"Reduce la carga de los especiales de los personajes Powerhouse 1 turno al principio de la batalla. Reduce un 10% de la HP actual del equipo al final de cada turno. Aumenta el ATK de los personajes Powerhouse 3x y su HP 2x si el equipo está formado por 6 personajes Powerhouse",
+		captainNotes:"Si el equipo está compuesto por 5 personajes Tough, Hody no aumenta el ATK y solo aumenta la HP 1.73x aproximadamente. Cuantos menos Powerhouse haya, menor es el aumento",
 		specialName:"Water Bullets",
 		special: [
 			{
-				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
-				"cooldown": [12,null]
+				"description": "Hace su ATK 10x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
+				"cooldown": [12,7]
 			},
 			{
-				"description": "Hace su ATK 120x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
-				"cooldown": [22,null]
+				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
+				"cooldown": [22,17]
 			}
 		]
 	},
 	1434: { 
 		captain:"Reduce la carga de los especiales de los personajes Powerhouse 1 turno al principio de la batalla. Reduce un 10% de la HP actual del equipo al final de cada turno. Aumenta el ATK de los personajes Powerhouse 3x y su HP 2x si el equipo está formado por 6 personajes Powerhouse",
+		captainNotes:"Si el equipo está compuesto por 5 personajes Tough, Hody no aumenta el ATK y solo aumenta la HP 1.73x aproximadamente. Cuantos menos Powerhouse haya, menor es el aumento",
 		specialName:"Water Bullets",
 		special: [
 			{
-				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
-				"cooldown": [12,null]
+				"description": "Hace su ATK 10x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 1 turno y reduce el daño recibido un 60% durante 1 turno.",
+				"cooldown": [12,7]
 			},
 			{
-				"description": "Hace su ATK 120x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
-				"cooldown": [22,null]
+				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
+				"cooldown": [22,17]
 			}
 		]
 	},
@@ -7739,7 +7741,7 @@ window.details = {
 		sailor:"Aumenta el ATK de todos los personajes 150 puntos si el equipo está formado por 6 personajes Powerhouse"
 	},
 	1436: { 
-		captain:"Aumenta el ATK de los personajes Slasher 2.5x y la HP de los personajes Powerhouse 1.5x",
+		captain:"Aumenta el ATK de los personajes Slasher 2.5x y la HP de los personajes Powerhouse 1.25x",
 		specialName:"Staggering Slash",
 		special: "Durante 1 turno hace que los Perfect sean más difíciles de acertar. Cambia los orbes [STR], [DEX], [QCK], [PSY] e [INT] a favorables para los personajes Powerhouse. Retrasa a todos los enemigos 1 turno. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo",
 		specialNotes:"#{perfectDificil}",
@@ -7786,19 +7788,204 @@ window.details = {
 	1443: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x tras hacer Good>Great>Perfect",
 		specialName:"Papara Hammer",
-		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACÍO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		sailor:"Aumenta el ATK de todos los personajes 150 puntos y la HP de todos los personajes 50 puntos si el equipo está formado por 6 personajes Powerhouse"
+		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACIO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+		sailor:"Aumenta su propio ATK 150 puntos y su propia HP 50 puntos si el equipo está formado por 6 personajes Powerhouse"
 	},
 	1444: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 3.25x tras hacer Good>Great>Perfect",
 		specialName:"Papara Hammer",
-		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACÍO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		sailor:"Aumenta el ATK de todos los personajes 150 puntos y la HP de todos los personajes 50 puntos si el equipo está formado por 6 personajes Powerhouse"
+		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACIO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+		sailor:"Aumenta su propio ATK 150 puntos y su propia HP 50 puntos si el equipo está formado por 6 personajes Powerhouse"
 	},
 	1445: { 
+		captain:"Aumenta el ATK de los personajes [QCK] y [PSY] proporcionalmente a la HP del equipo. Aumenta el RCV de los personajes [QCK] y [PSY] 1.5x si la HP del equipo se encuentra por debajo de 50%",
+		captainNotes:"#{captainProportional : mayor : 2.25 + 0.5 * (HP restante) / (HP total) : 2.75 : 2.25}",
+		specialName:"Perfume Femur",
+		special: "Aumenta el ATK y el RCV de los personajes [QCK] y [PSY] 1.75x durante 1 turno. Retrasa a todos los enemigos 1 turno. Cambia el orbe del capitán a [RCV]. Si la HP del equipo se encuentra por encima del 50% cambia los orbes de la columna izquierda a favorables"
+	},
+	1446: { 
+		captain:"Aumenta el ATK de los personajes Shooter 2x y su RCV 1.25x",
+		specialName:"Green Star: Platanus Shuriken",
+		special: "Hace daño aleatorio [PSY] a todos los enemigos. Retrasa a todos los enemigos 3 turnos"
+	},
+	1447: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x y reduce el daño recibido un 10%",
+		specialName:"Grill Shot",
+		special: [
+			{
+				"description": "Hace 5.000 puntos de daño fijo a todos los enemigos y aumenta su propio ATK 1.2x durante 1 turno.",
+				"cooldown": [15,10]
+			},
+			{
+				"description": "Hace 50.000 puntos de daño fijo a todos los enemigos y aumenta su propio ATK 1.5x durante 1 turno",
+				"cooldown": [20,15]
+			}
+		]
+	},
+	1448: { 
+		captain:"Aumenta el ATK de los personajes Fighter 2.5x",
+		specialName:"Weight Gain: Heavy Gong",
+		special: "Hace daño [PSY] variable a todos los enemigos. Cambia los orbes [NEGATIVO] a favorables para personajes Fighter",
+		specialNotes:""
+	},
+	1449: { 
+		captain:"Aumenta el ATK de los personajes Cerebral 1.5x. Recupera una cantidad de HP equivalente a su RCV 0.3x al final del turno por cada Great que hagas",
+		specialName:"Clairvoyance",
+		special: "Reduce la defensa de todos los enemigos en un 50% durante 1 turno. Si la HP del equipo se encuentra por debajo del 50% cambia todos los orbes a [RCV] y [TND]"
+	},
+	1450: { 
+		captain:"Aumenta el ATK de los personajes Cerebral 1.75x. Recupera una cantidad de HP equivalente a su RCV 0.5x al final del turno por cada Great que hagas",
+		specialName:"Clairvoyance",
+		special: "Reduce la defensa de todos los enemigos en un 50% durante 1 turno. Si la HP del equipo se encuentra por debajo del 50% cambia todos los orbes a [RCV] y [TND]"
+	},
+	1451: { 
+		captain:"Aumenta el ATK de los personajes [DEX] 1.5x, aumentando el ATK 2.25x si tienen orbe favorable. Aumenta ligeramente la probabilidad de obtener orbes [DEX]",
+		specialName:"Diable Jambe: Love Shot",
+		special: "Hace su ATK 15x como daño [DEX] a un solo enemigo y aumenta la probabilidad de obtener orbes [DEX] durante 1 turno"
+	},
+	1452: { 
+		captain:"Aumenta el ATK de los personajes [DEX] 2.5x, aumentando el ATK 2x si tienen orbe favorable. Aumenta ligeramente la probabilidad de obtener orbes [DEX]",
+		specialName:"Diable Jambe: Love Shot",
+		special: "Hace su ATK 15x como daño [DEX] a un solo enemigo y aumenta la probabilidad de obtener orbes [DEX] durante 1 turno"
+	},
+	1453: { 
 		captain:"",
+		specialName:"Doki Doki Heart",
+		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 99% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
+		specialNotes:""
+	},
+	1454: { 
+		captain:"Aumenta el ATK de los personajes [STR], [DEX] y [QCK] 1.75x y su RCV 1.5x",
+		specialName:"Doki Doki Heart",
+		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 99% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
+		specialNotes:""
+	},
+	1455: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x hasta que se de un golpe que no sea Perfect. Recupera 120 puntos de HP al final de cada turno",
+		specialName:"Legend told to the Grandchild",
+		special: [
+			{
+				"description": "reduce la HP actual de un solo enemigo un 20%. Reduce el daño recibido un 50% durante 1 turno.",
+				"cooldown": [20,10]
+			},
+			{
+				"description": "reduce la HP actual de un solo enemigo un 25%. Reduce el daño recibido un 70% durante 1 turno",
+				"cooldown": [30,15]
+			}
+		]
+	},
+	1456: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x hasta que se de un golpe que no sea Perfect. Recupera 120 puntos de HP al final de cada turno",
+		specialName:"Legend told to the Grandchild",
+		special: [
+			{
+				"description": "reduce la HP actual de un solo enemigo un 20%. Reduce el daño recibido un 50% durante 1 turno.",
+				"cooldown": [20,10]
+			},
+			{
+				"description": "reduce la HP actual de un solo enemigo un 25%. Reduce el daño recibido un 70% durante 1 turno",
+				"cooldown": [30,15]
+			}
+		]
+	},
+	1457: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes [QCK] e [INT] 1.75x",
+		specialName:"Pussyfoot Maneuver",
+		special: "Reduce la duración de los Encadenamientos y el Despair 2 turnos. Cambia su propio orbe a [INT] y aleatoriza los orbes que no sean favorables para personajes Cerebral y Slasher"
+	},
+	1458: { 
+		captain:"Reduce la carga de todos los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes [QCK] e [INT] 2x",
+		specialName:"Pussyfoot Maneuver",
+		special: "Reduce la duración de los Encadenamientos y el Despair 2 turnos. Cambia su propio orbe a [INT] y aleatoriza los orbes que no sean favorables para personajes Cerebral y Slasher"
+	},
+	1459: { 
+		captain:"Aumenta el ATK de todos los personajes 1.75x tras hacer Good > Good > Great > Perfect",
+		specialName:"Crescendo Stone",
+		special: "Se encadena a sí misma durante 2 turnos y hace que los orbes [BOMBA] cuenten como favorables durante 1 turno. Aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos con defensa reducida"
+	},
+	1460: { 
+		captain:"Aumenta el ATK de todos los personajes 2.14x tras hacer Good > Good > Great > Perfect",
+		specialName:"Crescendo Stone",
+		special: "Se encadena a sí misma durante 2 turnos y hace que los orbes [BOMBA] cuenten como favorables durante 1 turno. Aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos con defensa reducida"
+	},
+	1461: { 
+		captain:"Aumenta el ATK de los personajes [QCK] 2x al principio de la cadena y 2.6x tras hacer 3 Perfects",
+		specialName:"Demoltion: Ice Crush",
+		special: "Hace su ATK 11x como daño [QCK] a un solo enemigo. Aumenta el ATK de los personajes [QCK] 1.5x durante 1 turno"
+	},
+	1462: { 
+		captain:"Aumenta el multiplicador de cadena 2x",
+		specialName:"Gum-Gum Gigant Axe - Sweets",
+		special: "Reduce la HP actual del equipo un 50%. Reduce la HP de todos los enemigos un 20%. Hace que los orbes [STR] y [PSY] cuenten como favorables para personajes Fighter durante 1 turno",
+		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad"
+	},
+	1463: { 
+		captain:"Aumenta el multiplicador de cadena 2.5x",
+		specialName:"Gum-Gum Gigant Axe - Sweets",
+		special: "Reduce la HP actual del equipo un 50%. Reduce la HP de todos los enemigos un 20%. Hace que los orbes [STR] y [PSY] cuenten como favorables para personajes Fighter durante 1 turno",
+		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad"
+	},
+	1464: { 
+		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima de % HP",
+		captainNotes:"#{zombie}",
+		specialName:"Devoted Healing - 'Instant Recovery'",
+		special: "Recupera una cantidad de HP equivalente a su RCV 6x. Reduce la duración de la Parálisis 2 turnos",
+		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 100 puntos"
+	},
+	1465: { 
+		captain:"Aumenta el ATK y el RCV de todos los personajes 1.25x y sobrevives a cualquier golpe si la HP del equipo se encuentra por encima de % HP",
+		captainNotes:"#{zombie}",
+		specialName:"Devoted Healing - 'Instant Recovery'",
+		special: "Recupera una cantidad de HP equivalente a su RCV 6x. Reduce la duración de la Parálisis 2 turnos",
+		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 100 puntos"
+	},
+	1466: { 
+		captain:"Aumenta el ATK de los personajes [QCK] y [PSY] 2x",
+		specialName:"Cavendish Special",
+		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [STR] y el del capitán aliado a [PSY]"
+	},
+	1467: { 
+		captain:"Aumenta el ATK de los personajes [QCK] y [PSY] 2.25x y su RCV 1.3x",
+		specialName:"Cavendish Special",
+		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [STR] y el del capitán aliado a [PSY]"
+	},
+	1468: { 
+		captain:"Aumenta el ATK de los personajes [STR] 1.75x y la HP de los personajes Powerhouse 1.2x",
 		captainNotes:"",
-		specialName:"Boa Hancock Special",
-		special: ""
+		specialName:"Sentomaru Special",
+		special: "Retrasa a todos los enemigos 1 turno. Cambia su propio orbe a favorable"
+	},
+	1469: { 
+		captain:"Aumenta el ATK de los personajes [STR] 2x y la HP de los personajes Powerhouse 1.25x",
+		captainNotes:"",
+		specialName:"Sentomaru Special",
+		special: "Retrasa a todos los enemigos 1 turno. Cambia su propio orbe a favorable"
+	},
+	1470: { 
+		captain:"Aumenta el ATK de los personajes Slasher y Powerhouse 1.5x pero SU PROPIO ATK es de 3x",
+		captainNotes:"",
+		specialName:"Lip Service Doughty Special",
+		special: "Hace su ATK 8x como daño [STR] a un solo enemigo. Cambia el orbe del capitán a [RCV]"
+	},
+	1471: { 
+		captain:"Aumenta el ATK de los personajes Slasher y Driven proporcionalmente a la HP del equipo",
+		captainNotes:"#{captainProportional : menor : 1 + 1 * (1 - (HP restante) / (HP total)) : 1 : 2}",
+		specialName:"Albion Special",
+		special: "Reduce la HP actual del equipo en un 90% y hace una cantidad de daño sin tipo equivalente a la HP perdida 1x a todos los enemigos"
+	},
+	1472: { 
+		captain:"Aumenta la HP y el RCV de todos los personajes 1.2x, además aumenta el ATK de los personajes Free Spirit 2.75x",
+		captainNotes:"",
+		specialName:"Burning Dragon Claw Fist",
+		special: [
+			{
+				"description": "aumenta el ATK de los personajes Free Spirit 1.5x. Si en ese turno 5 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente.",
+				"cooldown": [null,null]
+			},
+			{
+				"description": "aumenta el ATK de los personajes Free Spirit 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente",
+				"cooldown": [20,14]
+			}
+		]
 	}
 };

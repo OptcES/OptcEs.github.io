@@ -324,4 +324,18 @@ window.ships = [
             return [ 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
         }
     },
+	
+    { // 27
+        name: 'Going Luffy SENPAI!',
+        thumb: null,
+        description: 'Aumenta el ATK de los personajes Striker 1.5x y su HP 1.2x. Especial: Reduce cualquier daño recibido a partir de los 10.000 puntos de daño (carga: 17 turnos).',
+        atk: function(p) {
+            return !p.unit.class.has('Striker') ? 1 :
+                [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.5 ][p.boatLevel - 1];
+        },
+        hp: function(p) {
+            return !p.unit.class.has('Striker') ? 1 :
+                [ 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
+        }
+    },
 ];

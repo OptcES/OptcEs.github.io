@@ -4964,14 +4964,14 @@ window.details = {
 		special: "Reduce la carga de los especiales de los personajes Slasher y Striker en 1 turno. Cambia los orbes desfavorables de los personajes Slasher y Striker a [RCV]"
 	},
 	1034: { 
-		captain:"Aumenta el ATK de los personajes Striker dependiendo del número de personajes Striker que haya en el equipo. Si Bartolomeo no ataca, se reduce el daño recibido en un 30% cada turno",
+		captain:"Aumenta el ATK de los personajes Striker dependiendo del número de personajes Striker que haya en el equipo. Si Bartolomeo no ataca, en dicho turno se reduce el daño recibido en un 30%",
 		captainNotes:"Aumento de ATK: 1 Striker - 1.25x. 2 Strikers - 1.5x. 3 Strikers - 1.75x. 4 Strikers - 2x. 5 Stikers - 2.5x. 6 Strikers - 2.75x",
 		specialName:"Bari Bari No Pistol",
 		special: "Sobrevives a cualquier golpe sin importar la HP del equipo durante 1 turno y hace daño variable sin tipo a un solo enemigo",
 		specialNotes:"#{specialProportional : menor : 150 * ( 1 - (HP restante) / (HP total) )} <br> #{zombie}"
 	},
 	1035: { 
-		captain:"Aumenta el ATK de los personajes Striker dependiendo del número de personajes Striker que haya en el equipo. Si Bartolomeo no ataca, se reduce el daño recibido en un 30% cada turno",
+		captain:"Aumenta el ATK de los personajes Striker dependiendo del número de personajes Striker que haya en el equipo. Si Bartolomeo no ataca, en dicho turno se reduce el daño recibido en un 30%",
 		captainNotes:"Aumento de ATK: 1 Striker - 1.25x. 2 Strikers - 1.5x. 3 Strikers - 1.75x. 4 Strikers - 2x. 5 Stikers - 2.5x. 6 Strikers - 2.75x",
 		specialName:"Bari Bari No Pistol",
 		special: "Sobrevives a cualquier golpe sin importar la HP del equipo durante 1 turno y hace daño variable sin tipo a un solo enemigo",
@@ -7686,12 +7686,12 @@ window.details = {
 	1429: { 
 		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 1.5x",
 		specialName:"Boy's Unknown Taste of Hard Work",
-		special: "Reduce los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos."
+		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos."
 	},
 	1430: { 
 		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 2x",
 		specialName:"Boy's Unknown Taste of Hard Work",
-		special: "Reduce los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos"
+		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos"
 	},
 	1431: { 
 		captain:"Aumenta el ATK de todos los personajes 2x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.2x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
@@ -7952,28 +7952,28 @@ window.details = {
 	1468: { 
 		captain:"Aumenta el ATK de los personajes [STR] 1.75x y la HP de los personajes Powerhouse 1.2x",
 		captainNotes:"",
-		specialName:"Sentomaru Special",
+		specialName:"Warning of the New World",
 		special: "Retrasa a todos los enemigos 1 turno. Cambia su propio orbe a favorable"
 	},
 	1469: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2x y la HP de los personajes Powerhouse 1.25x",
 		captainNotes:"",
-		specialName:"Sentomaru Special",
+		specialName:"Warning of the New World",
 		special: "Retrasa a todos los enemigos 1 turno. Cambia su propio orbe a favorable"
 	},
 	1470: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Powerhouse 1.5x pero SU PROPIO ATK es de 3x",
 		captainNotes:"",
-		specialName:"Lip Service Doughty Special",
+		specialName:"Meat Grinder Blade",
 		special: "Hace su ATK 8x como daño [STR] a un solo enemigo. Cambia el orbe del capitán a [RCV]"
 	},
 	1471: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Driven proporcionalmente a la HP del equipo",
 		captainNotes:"#{captainProportional : menor : 1 + 1 * (1 - (HP restante) / (HP total)) : 1 : 2}",
-		specialName:"Albion Special",
+		specialName:"Deep Claw Stab",
 		special: "Reduce la HP actual del equipo en un 90% y hace una cantidad de daño sin tipo equivalente a la HP perdida 1x a todos los enemigos"
 	},
-	1472: { 
+	1492: { 
 		captain:"Aumenta la HP y el RCV de todos los personajes 1.2x, además aumenta el ATK de los personajes Free Spirit 2.75x",
 		captainNotes:"",
 		specialName:"Burning Dragon Claw Fist",

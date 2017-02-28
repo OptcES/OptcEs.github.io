@@ -572,7 +572,7 @@ directives.levelSlider = function($timeout) {
 };
 
 directives.unitOrb = function($rootScope) {
-    var ORBS = [ 0.5, 1, 2, 'g' ];
+    var ORBS = [ 0.5, 1, 2, 'g', 'str' ];//add rainbow if needed
     return {
         restrict: 'E',
         replace: true,
@@ -584,7 +584,9 @@ directives.unitOrb = function($rootScope) {
                 if (unit.orb == 1) return 'none';
                 if (unit.orb == 2) return scope.data.team[scope.slot].unit.type;
                 if (unit.orb == 'g') return 'G';
-                return Utils.getOppositeType(scope.data.team[scope.slot].unit.type) + ' opposite';
+				if (unit.orb == 'str') return 'S';
+                if (unit.orb == 'rainbow') return 'R';
+				return Utils.getOppositeType(scope.data.team[scope.slot].unit.type) + ' opposite';
             };
             var onShortPress = function(e) {
                 var unit = scope.data.team[scope.slot], tunit = scope.tdata.team[scope.slot];

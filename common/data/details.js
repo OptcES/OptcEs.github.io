@@ -7988,7 +7988,7 @@ window.details = {
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1473: { 
@@ -8004,7 +8004,7 @@ window.details = {
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1474: { 

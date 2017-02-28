@@ -135,7 +135,7 @@ input[type="text"] {
 			color-stop(0.8,red),
 			color-stop(0.99,purple));
 
-		-webkit-background-size: 20% 100%;			
+		-webkit-background-size: 100% 100%;			
 }
 
 .cell-STR> div,.cell-QCK> div,.cell-DEX> div,.cell-PSY> div,.cell-INT> div{

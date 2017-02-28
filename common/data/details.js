@@ -7980,8 +7980,7 @@ window.details = {
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
-RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{
@@ -7997,8 +7996,7 @@ RAINBOW].",
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
-RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{

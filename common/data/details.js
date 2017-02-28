@@ -7452,12 +7452,14 @@ window.details = {
 	1396: { 
 		captain:"Aumenta el ATK de los personajes Driven 1.75x y la HP de los personajes Striker 1.25x",
 		specialName:"Surprise Jitte Onslaught",
-		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno"
+		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno",
+		specialNotes:""
 	},
 	1397: { 
 		captain:"Aumenta el ATK de los personajes Driven 2x y la HP de los personajes Striker 1.5x",
 		specialName:"Surprise Jitte Onslaught",
-		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno"
+		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno",
+		specialNotes:""
 	},
 	1398: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x",
@@ -7973,18 +7975,166 @@ window.details = {
 		specialName:"Deep Claw Stab",
 		special: "Reduce la HP actual del equipo en un 90% y hace una cantidad de daño sin tipo equivalente a la HP perdida 1x a todos los enemigos"
 	},
+	1472: { 
+		captain:"Aumenta el ATK de todos los personajes 2.25x y su propio ATK 1.125x y recupera una cantidad de HP equivalente a su RCV 5x al final de cada turno. Si Shirahoshi no ataca, en dicho turno se reduce el daño recibido un 10%",
+		specialName:"Tears of Courage",
+		special: [
+			{
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
+RAINBOW].",
+				"cooldown": [13,null]
+			},
+			{
+				"description": "recupera una cantidad de HP equivalente a su RCV 100x y cambia todos los orbes, incluidos los [NEGATIVO], a [RAINBOW]",
+				"cooldown": [22,null]
+			}
+		],
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
+	},
+	1473: { 
+		captain:"Aumenta el ATK de todos los personajes 2.25x y su propio ATK 1.125x y recupera una cantidad de HP equivalente a su RCV 5x al final de cada turno. Si Shirahoshi no ataca, en dicho turno se reduce el daño recibido un 10%",
+		specialName:"Tears of Courage",
+		special: [
+			{
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
+RAINBOW].",
+				"cooldown": [13,null]
+			},
+			{
+				"description": "recupera una cantidad de HP equivalente a su RCV 100x y cambia todos los orbes, incluidos los [NEGATIVO], a [RAINBOW]",
+				"cooldown": [22,null]
+			}
+		],
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
+	},
+	1474: { 
+		captain:"Aumenta el ATK de todos los personajes 1.5x y la EXP al finalizar la partida 1.5x",
+		specialName:"King Neptune Special",
+		special: "Fija orbes durante 1 turno. Si la HP actual del enemigo que tenga más HP se encuentra por encima del 50%, reduce la HP actual de todos los enemigos un 20%. Si se encuentra por debajo del 50%, hace su ATK 140x como daño sin tipo a todos los enemigos",
+		sailor:"Hace que los orbes [PSY], [INT] y [RCV] cuenten como favorables para esta unidad"
+	},
+	1475: { 
+		captain:"Aumenta el ATK de todos los personajes 2.25x y la EXP al finalizar la partida 1.5x",
+		captainNotes:"",
+		specialName:"King Neptune Special",
+		special: "Fija orbes durante 1 turno. Si la HP actual del enemigo que tenga más HP se encuentra por encima del 50%, reduce la HP actual de todos los enemigos un 20%. Si se encuentra por debajo del 50%, hace su ATK 140x como daño sin tipo a todos los enemigos",
+		sailor:"Hace que los orbes [PSY], [INT] y [RCV] cuenten como favorables para esta unidad"
+	},
+	1476: { 
+		captain:"Aumenta el ATK de los personajes Striker 2x",
+		specialName:"Fukaboshi Special",
+		special: "Retrasa a todos los enemigos 1 turno. Aumenta el ATK de los personajes Striker y Powerhouse 1.75x durante 1 turno",
+		sailor:"Aumenta el ATK, la HP y el RCV de todos los personajes 50 puntos"
+	},
+	1477: { 
+		captain:"Aumenta el ATK de los personajes Striker 2.5x y la HP de los personajes Powerhouse 1.25x",
+		captainNotes:"#{boostAcumulado : Powerhouse : Striker}",
+		specialName:"Fukaboshi Special",
+		special: "Retrasa a todos los enemigos 1 turno. Aumenta el ATK de los personajes Striker y Powerhouse 1.75x durante 1 turno",
+		sailor:"Aumenta el ATK, la HP y el RCV de todos los personajes 50 puntos"
+	},
+	1478: { 
+		captain:"Aumenta el ATK de todos los personajes 1.5x a partir del 11º golpe, 1.75x a partir del 22º, 2x a partir del 33º y 3x a partir del 44º",
+		specialName:"Caribou Special",
+		special: "Inflige 15 golpes, haciendo su ATK 12x como daño sin tipo con cada golpe, a enemigos aleatorios. Aumenta el ATK de los personajes [QCK] e [INT] 2x durante 1 turno",
+		specialNotes:"",
+		sailor:"Esta unidad resiste totalmente a la Parálisis"
+	},
+	1479: { 
+		captain:"Aumenta el ATK de todos los personajes 1.75x a partir del 11º golpe, 2x a partir del 22º, 2.75x a partir del 33º y 3.75x a partir del 44º",
+		specialName:"Caribou Special",
+		special: "Inflige 15 golpes, haciendo su ATK 12x como daño sin tipo con cada golpe, a enemigos aleatorios. Aumenta el ATK de los personajes [QCK] e [INT] 2x durante 1 turno",
+		specialNotes:"",
+		sailor:"Esta unidad resiste totalmente a la Parálisis"
+	},
+	1480: { 
+		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects",
+		specialName:"Vander Decken IX Special",
+		special: "Hace 200.000 puntos de daño fijo ignorando todos los bufos defensivos. Reduce la duración de los Encadenamientos y Silencios 2 turnos",
+		specialNotes:"#{silencio} <br> Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán",
+		sailor:"Reduce la carga del especial 1 turno si ésta fue aumentada por un enemigo y reduce la duración del Silencio 3 turnos para esta unidad",
+		sailorNotes:"#{silencio}"
+	},
+	1481: { 
+		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects y 3.5x tras hacer 5 Perfects",
+		specialName:"Vander Decken IX Special",
+		special: "Hace 200.000 puntos de daño fijo ignorando todos los bufos defensivos. Reduce la duración de los Encadenamientos y Silencios 2 turnos",
+		specialNotes:"#{silencio} <br> Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán",
+		sailor:"Reduce la carga del especial 1 turno si ésta fue aumentada por un enemigo y reduce la duración del Silencio 3 turnos para esta unidad",
+		sailorNotes:"#{silencio}"
+	},
+	1482: { 
+		captain:"Aumenta el ATK de los personajes [INT] 2x y su RCV 1.2x",
+		specialName:"Madame Shyarly Special",
+		special: "Aleatoriza todos los orbes excepto para sí misma. Intercambia la posición de los orbes 2 veces. Aumenta el ATK de todos los personajes 1.75x contra enemigos que tengan barrera, aumentando 1.25x si no tienen barrera",
+		specialNotes:"",
+		sailor:"Los personajes [INT] hacen un 1.1x de daño adicional a aquellos enemigos que no sean [PSY]"
+	},
+	1483: { 
+		captain:"Aumenta el ATK de los personajes [INT] 2.5x y su RCV 1.2x",
+		specialName:"Madame Shyarly Special",
+		special: "Aleatoriza todos los orbes excepto para sí misma. Intercambia la posición de los orbes 2 veces. Aumenta el ATK de todos los personajes 1.75x contra enemigos que tengan barrera, aumentando 1.25x si no tienen barrera",
+		specialNotes:"",
+		sailor:"Los personajes [INT] hacen un 1.1x de daño adicional a aquellos enemigos que no sean [PSY]"
+	},
+	1484: { 
+		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 3 Perfects",
+		specialName:"Sanji Special",
+		special: "Reduce la duración de los Encadenamientos 5 turnos y fija el multiplicador de cadena en 2.5x durante 1 turno",
+		sailor:"Cambia todos los orbes a [RCV] al principio de la batalla"
+	},
+	1485: { 
+		captain:"Aumenta el ATK y la HP de todos los personajes ligeramente y además aumenta el ATK de todos los personajes 3.25x tras hacer 3 Perfects",
+		specialName:"Sanji Special",
+		special: "Reduce la duración de los Encadenamientos 5 turnos y fija el multiplicador de cadena en 2.5x durante 1 turno",
+		sailor:"Cambia todos los orbes a [RCV] al principio de la batalla"
+	},
+	1486: { 
+		captain:"",
+		specialName:"Ideo Special",
+		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
+		specialNotes:"#{orb : 2x}"
+	},
+	1487: { 
+		captain:"Reduce la carga de los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Fighter 2.25x, aumentando 3x si tienen orbe favorable",
+		specialName:"Ideo Special",
+		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
+		specialNotes:"#{orb : 2x}"
+	},
+	1488: { 
+		captain:"",
+		specialName:"Don Krieg Special",
+		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
+	},
+	1489: { 
+		captain:"",
+		specialName:"Don Krieg Special",
+		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
+	},
+	1490: { 
+		captain:"",
+		specialName:"Mr. 5 Special",
+		special: "Reduce la duración de los Encadenamientos 2 turnos. Cambia los orbes de la fila superior a [BOMBA]. Reduce la defensa de los enemigos en un 50% durante 1 turno"
+	},
+	1491: { 
+		captain:"Aumenta el ATK de todos los personajes 2x tras hacer Good > Good > Great.",
+		specialName:"Mr. 5 Special",
+		special: "Reduce la duración de los Encadenamientos 2 turnos. Cambia los orbes de la fila superior a [BOMBA]. Reduce la defensa de los enemigos en un 50% durante 1 turno"
+	},
 	1492: { 
-		captain:"Aumenta la HP y el RCV de todos los personajes 1.2x, además aumenta el ATK de los personajes Free Spirit 2.75x",
+		captain:"Aumenta la HP y el RCV de todos los personajes 1.2x. Además, aumenta el ATK de los personajes Free Spirit 2.75x",
 		captainNotes:"",
 		specialName:"Burning Dragon Claw Fist",
 		special: [
 			{
 				"description": "aumenta el ATK de los personajes Free Spirit 1.5x. Si en ese turno 5 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente.",
-				"cooldown": [null,null]
+				"cooldown": [18,12]
 			},
 			{
 				"description": "aumenta el ATK de los personajes Free Spirit 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente",
-				"cooldown": [20,14]
+				"cooldown": [23,17]
 			}
 		]
 	}

@@ -1989,7 +1989,7 @@ window.evolutions = {
     },
     1307: {
         evolution: 1308,
-        evolvers: [  ]
+        evolvers: [ 117, 79, 85, 301, 101 ]
     },
     1309: {
         evolution: 1310,
@@ -2187,37 +2187,33 @@ window.evolutions = {
         evolution: 1430,
         evolvers: [ 117, 83, 86, 91, 97 ]
     },
-    416: {
-        evolution: 1445,
-        evolvers: [  ]
-    },
     1431: {
         evolution: 1432,
         evolvers: [ 118, 266, 300, 301, 302 ]
     },
     1433: {
         evolution: 1434,
-        evolvers: [  ]
+        evolvers: [ 118, 266, 267, 99, 304 ]
     },
     1435: {
         evolution: 1436,
-        evolvers: [  ]
+        evolvers: [ 118, 96, 1180, 101, 301 ]
     },
     1437: {
         evolution: 1438,
-        evolvers: [  ]
+        evolvers: [ 87, 1180, 94, 103, 303 ]
     },
     1439: {
         evolution: 1440,
-        evolvers: [  ]
+        evolvers: [ 118, 83, 86, 102, 302 ]
     },
     1441: {
         evolution: 1442,
-        evolvers: [  ]
+        evolvers: [ 266, 93, 104, 104, 304 ]
     },
     1443: {
         evolution: 1444,
-        evolvers: [  ]
+        evolvers: [ 95, 95, 1180, 300, 300 ]
     },
     416: {
         evolution: 1445,
@@ -2245,7 +2241,7 @@ window.evolutions = {
     },
     1453: {
         evolution: 1454,
-        evolvers: [  ]
+        evolvers: [ 117, 83, 84, 89, 95 ]
     },
     1455: {
         evolution: 1456,
@@ -2261,11 +2257,11 @@ window.evolutions = {
     },
     1462: {
         evolution: 1463,
-        evolvers: [  ]
+        evolvers: [ 116, 117, 81, 87, 98 ]
     },
     1464: {
         evolution: 1465,
-        evolvers: [  ]
+        evolvers: [ 116, 117, 82, 88, 99 ]
     },
     1466: {
         evolution: 1467,
@@ -2273,6 +2269,46 @@ window.evolutions = {
     },
     1468: {
         evolution: 1469,
+        evolvers: [ 117, 78, 84, 89, 100 ]
+    },
+    1472: {
+        evolution: 1473,
+        evolvers: [ 118, 266, 98, 267, 303 ]
+    },
+    1474: {
+        evolution: 1475,
+        evolvers: [ 118, 84, 95, 1180, 100 ]
+    },
+    1476: {
+        evolution: 1477,
+        evolvers: [ 116, 87, 266, 1180, 303 ]
+    },
+    1478: {
+        evolution: 1479,
+        evolvers: [ 83, 85, 94, 131, 301 ]
+    },
+    1480: {
+        evolution: 1482,
+        evolvers: [ 118, 86, 94, 102, 302 ]
+    },
+    1482: {
+        evolution: 1483,
+        evolvers: [ 88, 99, 1180, 104, 304 ]
+    },
+    1484: {
+        evolution: 1485,
+        evolvers: [  ]
+    },
+    1486: {
+        evolution: 1487,
+        evolvers: [  ]
+    },
+    1488: {
+        evolution: 1489,
+        evolvers: [  ]
+    },
+    1490: {
+        evolution: 1491,
         evolvers: [  ]
     },
 };

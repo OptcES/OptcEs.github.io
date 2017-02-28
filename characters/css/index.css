@@ -123,6 +123,20 @@ input[type="text"] {
 .BLOCK { background: darkslateblue; }
 .BOMB  { background: maroon; }
 .G     { background: orange; }
+.RAINBOW {	
+		background:-webkit-gradient(linear,
+			right top, left bottom,
+			color-stop(0.01,purple),
+			color-stop(0.1,indigo),
+			color-stop(0.2,blue),
+			color-stop(0.4,green),
+			color-stop(0.5,yellow),
+			color-stop(0.7,orange),
+			color-stop(0.8,red),
+			color-stop(0.99,purple));
+
+		-webkit-background-size: 20% 100%;			
+}
 
 .cell-STR> div,.cell-QCK> div,.cell-DEX> div,.cell-PSY> div,.cell-INT> div{
   -webkit-border-radius: 28;

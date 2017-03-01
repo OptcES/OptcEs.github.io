@@ -2178,7 +2178,7 @@ window.specials = {
             var n = (window.specials[1480].multiplier == 1.5 ? 1 : 0);
             window.specials[1480].multiplier = [1.25, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Using the ' + [1.25, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.25][n] + 'x multiplier, disable and re-enable this special',
                 name: '1480warning'
             });
         },
@@ -2190,7 +2190,7 @@ window.specials = {
             var n = (window.specials[1481].multiplier == 1.5 ? 1 : 0);
             window.specials[1481].multiplier = [1.25, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Using the ' + [1.25, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.25][n] + 'x multiplier, disable and re-enable this special',
                 name: '1481warning'
             });
         },
@@ -2214,7 +2214,7 @@ window.specials = {
             var n = (window.specials[1492].multiplier == 1.5 ? 1 : window.specials[1492].multiplier == 1.75 ? 2 : 0);
             window.specials[1492].multiplier = [1.5, 1.75, 2][n];
             p.scope.notify({
-                text: 'Usando ' + [1.5, 1.75, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x ATK multiplier. To switch to the ' + [1.75, 2, 1.5][n] + 'x multiplier, disable and re-enable this special',
                 name: '1492warning'
             });
         }

@@ -339,7 +339,7 @@ window.matchers = [
         name: 'Reductores de HP en %',
         target: 'special',
         matcher: /Reduce la HP actual de los enemigos/i,
-		include: [ 1226, 1439, 1440 ]
+		include: [ 1226, 1439, 1440, 1455, 1456 ]
     },
 
     {

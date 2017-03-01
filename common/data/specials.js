@@ -2069,16 +2069,16 @@ window.specials = {
     },
 	1425: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); },
-        warning: "Selected special (%name%) assumes that an ally has been inflicted with Bind."
+        warning: "El especial seleccionado (%name%) asume que un miembro del equipo ha sido encadenado."
     },
     1426: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); },
-        warning: "Selected special (%name%) assumes that an ally has been inflicted with Bind."
+        warning: "El especial seleccionado (%name%) asume que un miembro del equipo ha sido encadenado."
     },
     1428: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
         type: "class",
-        warning: "Selected special (%name%) assumes that the enemy has been Delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1431: {
         atk: function(p) { return 1.5; },
@@ -2092,13 +2092,13 @@ window.specials = {
         atk: function(p) { return 1.5; },
         type: "condition",
         orb: function(p) { return p.unit.class.has("Powerhouse") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1438: {
         atk: function(p) { return 1.5; },
         type: "condition",
         orb: function(p) { return p.unit.class.has("Powerhouse") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1439: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 1.75 : 1; },
@@ -2138,7 +2138,7 @@ window.specials = {
             var n = (window.specials[1447].multiplier == 1.5 ? 1 : 0);
             window.specials[1447].multiplier = [1.2, 1.5][n];
             p.scope.notify({
-                text: 'Using the ' + [1.2, 1.5][n] + 'x ATK multiplier. To switch to the ' + [1.5, 1.2][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.2, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.2][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1447warning'
             });
         }
@@ -2178,7 +2178,7 @@ window.specials = {
             var n = (window.specials[1480].multiplier == 1.5 ? 1 : 0);
             window.specials[1480].multiplier = [1.25, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.25, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.25][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1480warning'
             });
         },
@@ -2190,7 +2190,7 @@ window.specials = {
             var n = (window.specials[1481].multiplier == 1.5 ? 1 : 0);
             window.specials[1481].multiplier = [1.25, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.25, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.25][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1481warning'
             });
         },
@@ -2210,7 +2210,7 @@ window.specials = {
             var n = (window.specials[1492].multiplier == 1.5 ? 1 : window.specials[1492].multiplier == 1.75 ? 2 : 0);
             window.specials[1492].multiplier = [1.5, 1.75, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x ATK multiplier. To switch to the ' + [1.75, 2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.75, 1.25][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1492warning'
             });
         }

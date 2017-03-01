@@ -7980,7 +7980,8 @@ window.details = {
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
+RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{
@@ -7988,7 +7989,7 @@ window.details = {
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1473: { 
@@ -7996,7 +7997,8 @@ window.details = {
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
+RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{
@@ -8004,7 +8006,7 @@ window.details = {
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1474: { 
@@ -8091,24 +8093,24 @@ window.details = {
 	},
 	1486: { 
 		captain:"",
-		specialName:"Ideo Special",
+		specialName:"Destruction Cannon: Hidden Bullet",
 		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1487: { 
 		captain:"Reduce la carga de los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Fighter 2.25x, aumentando 3x si tienen orbe favorable",
-		specialName:"Ideo Special",
+		specialName:"Destruction Cannon: Hidden Bullet",
 		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1488: { 
 		captain:"",
-		specialName:"Don Krieg Special",
+		specialName:"Great Battle Spear",
 		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
 	},
 	1489: { 
 		captain:"",
-		specialName:"Don Krieg Special",
+		specialName:"Great Battle Spear",
 		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
 	},
 	1490: { 

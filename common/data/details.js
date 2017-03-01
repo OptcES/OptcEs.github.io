@@ -7944,12 +7944,12 @@ window.details = {
 	1466: { 
 		captain:"Aumenta el ATK de los personajes [QCK] y [PSY] 2x",
 		specialName:"Cavendish Special",
-		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [STR] y el del capitán aliado a [PSY]"
+		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [PSY] y el del capitán aliado a [STR]"
 	},
 	1467: { 
 		captain:"Aumenta el ATK de los personajes [QCK] y [PSY] 2.25x y su RCV 1.3x",
 		specialName:"Cavendish Special",
-		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [STR] y el del capitán aliado a [PSY]"
+		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno. Cambia su propio orbe a [PSY] y el del capitán aliado a [STR]"
 	},
 	1468: { 
 		captain:"Aumenta el ATK de los personajes [STR] 1.75x y la HP de los personajes Powerhouse 1.2x",
@@ -7980,8 +7980,7 @@ window.details = {
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
-RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{
@@ -7989,7 +7988,7 @@ RAINBOW].",
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1473: { 
@@ -7997,8 +7996,7 @@ RAINBOW].",
 		specialName:"Tears of Courage",
 		special: [
 			{
-				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a 
-RAINBOW].",
+				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
 				"cooldown": [13,null]
 			},
 			{
@@ -8006,7 +8004,7 @@ RAINBOW].",
 				"cooldown": [22,null]
 			}
 		],
-		specialNotes:"Orbes Rainbow son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
+		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
 		sailor:"Cambia todos los orbes a [RAINBOW] al principio de la batalla"
 	},
 	1474: { 
@@ -8092,29 +8090,29 @@ RAINBOW].",
 		sailor:"Cambia todos los orbes a [RCV] al principio de la batalla"
 	},
 	1486: { 
-		captain:"",
+		captain:"Aumenta el ATK de los personajes Fighter 2.5x si tienen orbe favorable",
 		specialName:"Destruction Cannon: Hidden Bullet",
 		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1487: { 
-		captain:"Reduce la carga de los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Fighter 2.25x, aumentando 3x si tienen orbe favorable",
+		captain:"Reduce la carga de los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Fighter 3x si tienen orbe favorable",
 		specialName:"Destruction Cannon: Hidden Bullet",
 		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1488: { 
-		captain:"",
+		captain:"Aumenta el ATK de los personajes Driven 1.5x y reduce el daño recibido un 20%",
 		specialName:"Great Battle Spear",
 		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
 	},
 	1489: { 
-		captain:"",
+		captain:"Aumenta el ATK de los personajes Driven 2x y reduce el daño recibido un 20%",
 		specialName:"Great Battle Spear",
 		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
 	},
 	1490: { 
-		captain:"",
+		captain:"Aumenta el ATK de todos los personajes 1.75x tras hacer Good > Good > Great.",
 		specialName:"Mr. 5 Special",
 		special: "Reduce la duración de los Encadenamientos 2 turnos. Cambia los orbes de la fila superior a [BOMBA]. Reduce la defensa de los enemigos en un 50% durante 1 turno"
 	},

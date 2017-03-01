@@ -2195,14 +2195,6 @@ window.specials = {
             });
         },
     },
-    1484: {
-        chain: function(p) { return 2.5; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; 
-    },
-    1485: {
-        chain: function(p) { return 2.5; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; 
-    },
     1492: {//CHANGE THIS IF THIS ISN'T SABO
         atk: function(p) { return !p.unit.class.has('Free Spirit') ? 1 : window.specials[1492].multiplier; },
         type: "class",

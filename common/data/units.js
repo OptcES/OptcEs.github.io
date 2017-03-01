@@ -1485,7 +1485,7 @@ window.units = [
 	 [ "Sanji Salvaje ", "STR", ["Slasher", "Powerhouse"], 4, 15, 6, 3, 50, 392109, 242, 133, 49, null, null, null , null ],
 	 [ "Sanji Salvaje Evo", "STR", ["Slasher", "Powerhouse"], 5, 30, 4, 4, 99, 4000000, null, null, null, 2625, 1289, 250, null ],
 	 [ "Ideo Coliseo", "DEX", ["Shooter", "Fighter"], 4, 25, 6, 2, 70, 1066998, 505, 303, 41, null, null, null , null ],
-	 [ "Ideo Coliseo Evo", "DEX", ["Shooter", "Fighter"], 5, 40, null, 3, 99, 4000000, null, null, null, null, null, null , null ],
+	 [ "Ideo Coliseo Evo", "DEX", ["Shooter", "Fighter"], 5, 40, null, 3, 99, 4000000, null, null, null, 2099, 1399, 302, null ],
 	 [ "Don Krieg Coliseo", "STR", ["Driven", "Shooter"], 3, 16, 7, 2, 50, 392109, 177, 106, 14, null, null, null , null ],
 	 [ "Don Krieg Coliseo Evo", "STR", ["Driven", "Shooter"], 4, 26, 8, 3, 99, 3000000, 1200, 476, 30, 2707, 1225, 106, null ],
 	 [ "Mr. 5 Coliseo", "QCK", "Shooter", 3, 10, 6, 2, 35, 136167, 288, 147, 35, null, null, null , null ],

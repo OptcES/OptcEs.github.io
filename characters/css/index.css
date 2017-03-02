@@ -638,7 +638,7 @@ h3 > label {
 }
 
 tr.incomplete td:nth-child(2) > a:after {
-    content: "INCOMPLETE";
+    content: "INCOMPLETO";
     padding: 5px;
     border-radius: 10px;
     margin-left: 10px;

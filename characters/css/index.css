@@ -601,6 +601,8 @@ h3 > label {
 }
 
 #mainTable td {
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
     vertical-align: middle;
 }
 
@@ -616,7 +618,7 @@ h3 > label {
 
 #mainTable td:nth-child(2) {
     white-space: nowrap;
-    width: 100%;
+    width: 60%;
 }
 
 #mainTable tr:nth-child(2n+2) {
@@ -624,7 +626,7 @@ h3 > label {
 }
 
 #mainTable td + td ~ td {
-    min-width: 75px;
+    min-width: 60px;
 }
 
 .dataTables_filter {

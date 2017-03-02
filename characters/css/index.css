@@ -232,33 +232,33 @@ input[type="text"] {
 .stars-6:before { color: #9932cc; content: '\e900\e900\e900\e900\e900\e900'; }
 
 .starsx-1 { background-image: url("../img/1estrellas.png"); 
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center;
 	}
 
 .starsx-2 { background-image: url("../img/2estrellas.png"); 
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center; }
 
 .starsx-3 { background-image: url("../img/3estrellas.png"); 
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center; }
 
 .starsx-4 { background-image: url("../img/4estrellas.png"); 
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center; }
 
 .starsx-5 { background-image: url("../img/5estrellas.png");
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center; }
 
 .starsx-6 { background-image: url("../img/6estrellas.png"); 
-    background-size: 45px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center; }
 	

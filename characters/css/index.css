@@ -1038,8 +1038,7 @@ unit > a:hover, .clickable:hover {
 
     #mainTable td:nth-child(2) > a {
         height: 40px;
-        text-align: center;
-        padding-left: 3px;
+        padding-left: 10px;
         vertical-align: middle;
     }
 

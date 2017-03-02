@@ -248,7 +248,8 @@ input[type="text"] {
     background-position: center; }
 
 .starsx-4 { background-image: url("../img/4estrellas.png"); 
-	background-repeat: no-repeat;
+    background-size: 33px;
+    background-repeat: no-repeat;
     background-position: center; }
 
 .starsx-5 { background-image: url("../img/5estrellas.png");

@@ -8135,5 +8135,79 @@ window.details = {
 				"cooldown": [23,17]
 			}
 		]
+	},
+	1493: { 
+		captain:"Aumenta el ATK de los personajes [STR] 1.5x",
+		specialName:"",
+		special: "Inflige 5 golpes de daño aleatorio a enemigos aleatorios"
+	},
+	1494: { 
+		captain:"Aumenta el ATK de los personajes [QCK] 1.5x",
+		specialName:"",
+		special: "Fija el orbe del capitán durante 1 turno"
+	},
+	1495: { 
+		captain:"Aumenta el ATK de los personajes [DEX] 1.5x",
+		specialName:"",
+		special: "Reduce la duración del Silencio 1 turno",
+		specialNotes:"#{silencio}"
+	},
+	1496: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 1.5x ",
+		specialName:"",
+		special: "Reduce la duración del Despair 2 turnos"
+	},
+	1497: { 
+		captain:"Aumenta el ATK de los personajes Shooter 1.5x ",
+		specialName:"",
+		special: "Aumenta su propio ATK 1.5x durante 1 turno"
+	},
+	1498: { 
+		captain:"Aumenta el ATK, la HP y el RCV de los personajes [STR] 1.2x",
+		specialName:"",
+		special: "Cambia el orbe del capitán a [STR]"
+	},
+	1499: { 
+		captain:"Aumenta el ATK, la HP y el RCV de los personajes [QCK] 1.2x",
+		specialName:"",
+		special: "Cambia el orbe [NEGATIVO] del capitán a orbe favorable"
+	},
+	1500: { 
+		captain:"Aumenta el ATK, la HP y el RCV de los personajes [DEX] 1.2x",
+		specialName:"",
+		special: "Recupera 2.000 puntos de HP"
+	},
+	1501: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes con coste 15 o inferior 2x",
+		specialName:"",
+		special: "Reduce la HP actual del equipo en un 50%. Aumenta el ATK de todos los personajes 1.3x durante 1 turno"
+	},
+	1502: { 
+		captain:"Reduce el daño recibido de personajes [PSY] e [INT] en un 30%",
+		specialName:"",
+		special: "Aleatoriza los orbes no favorables de los personajes Driven"
+	},
+	1503: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse proporcionalmente a la HP del equipo",
+		captainNotes:"Fórmula desconocida",
+		specialName:"",
+		special: "Cambia su propio orbe a [QCK] y los orbes adyacentes a [VACIO]"
+	},
+	1504: { 
+		captain:"Aumenta el ATK de los personajes Driven 2x al principio de la cadena y 2.4x tras hacer 3 Perfects",
+		specialName:"",
+		special: "Cambia los orbes de la fila central a [VACIO]. Hace su ATK 20x como daño [DEX] a todos los enemigos al final del turno durante 2 turnos"
+	},
+	1505: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Si la HP del equipo se encuentra por debajo del x%, aumenta el ATK de los personajes Powerhouse 2.25x",
+		specialName:"",
+		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno",
+		specialNotes:"Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán"
+	},
+	1506: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes Powerhouse 2.25x y si la HP del equipo se encuentra por debajo del x%, aumenta el ATK de los personajes Powerhouse 2.5x",
+		specialName:"",
+		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno",
+		specialNotes:"Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán"
 	}
 };

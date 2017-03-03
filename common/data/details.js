@@ -8127,11 +8127,11 @@ window.details = {
 		specialName:"Burning Dragon Claw Fist",
 		special: [
 			{
-				"description": "aumenta el ATK de los personajes Free Spirit 1.5x. Si en ese turno 5 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente.",
+				"description": "Aumenta el ATK de los personajes Free Spirit 1.5x. Si en ese turno 5 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente.",
 				"cooldown": [18,12]
 			},
 			{
-				"description": "aumenta el ATK de los personajes Free Spirit 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente",
+				"description": "Aumenta el ATK de los personajes Free Spirit 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente",
 				"cooldown": [23,17]
 			}
 		]

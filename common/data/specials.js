@@ -2196,10 +2196,10 @@ window.specials = {
         },
     },
     1486: {
-        orb: function(p) { return (p.unit.class.has("Fighter")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, 1, 1); }	
+        orb: function(p) { return (p.unit.class.has("Fighter")) ? CrunchUtils.getOrbMultiplier(p.orb, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); }		
     },
     1487: {
-        orb: function(p) { return (p.unit.class.has("Fighter")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, 1, 1); }	
+        orb: function(p) { return (p.unit.class.has("Fighter")) ? CrunchUtils.getOrbMultiplier(p.orb, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); }		
     },
     1490: {
         def: function(p) { return 0.5; }

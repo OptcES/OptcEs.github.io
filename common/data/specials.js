@@ -2227,4 +2227,16 @@ window.specials = {
             });
         }
     },
+    1501: {
+        atk: function(p) { return 1.3; },
+        type: "type"
+    },
+    1505: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
+        type: "type"
+    },
+    1506: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
+        type: "type"
+    },
 };

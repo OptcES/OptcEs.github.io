@@ -6683,7 +6683,7 @@ window.details = {
 				"description": "Aleatoriza los orbes que no sean favorables y aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno.",
 				"cooldown": [24,9]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1251: { 
@@ -6699,7 +6699,7 @@ window.details = {
 				"description": "Aleatoriza los orbes que no sean favorables y aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno.",
 				"cooldown": [24,9]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1252: { 
@@ -6712,21 +6712,21 @@ window.details = {
 	1253: { 
 		captain:"Aumenta el ATK de los personajes [DEX] 2.25x si la HP del equipo se encuentra por encima del 99%",
 		specialName:"Angry Instigator",
-		special: "Durante 1 turno los Perfects son más dificiles de acertar. Una vez lanzado el especial, si todos los miembros del equipo hacen Perfect, aumenta el ATK de los personajes [DEX] 1.75x al turno siguiente"
+		special: "Durante 1 turno los Perfects son más dificiles de acertar. Una vez lanzado el especial, si todos los miembros del equipo hacen Perfect, aumenta el ATK de los personajes [DEX] 1.75x al turno siguiente",
 		specialNotes:"#{perfectDificil}",
 	},
 	1254: { 
 		captain:"Aumenta el ATK de los personajes Striker 2.5x hasta que se de un golpe que no sea Perfect. Reduce la HP actual en un 5% al final de cada turno",
 		specialName:"Sword Attack Without Hesitation",
 		special: "Hace su ATK 10x como daño [QCK] a un solo enemigo, reduce la HP actual del equipo en un 30% y reduce la defensa del enemigo en un determinado porcentaje durante 1 turno",
-		sailor:"Reduce la duración de la Parálisis 1 turno para esta unidad"
+		sailor:"Reduce la duración de la Parálisis 1 turno para esta unidad",
 		sailorNotes:"#{paralisis}",
 	},
 	1255: { 
 		captain:"Aumenta el ATK de todos los personajes 1.5x a partir de 11º golpe de la cadena, 2x a partir del 16º y 2.5x a partir del 22º",
 		specialName:"Large Fleet Commander",
 		special: "Hace que los Perfect sean ligeramente más fáciles de acertar e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{orb : 1.5x}"
+		specialNotes:"#{orb : 1.5x}",
 		sailor:"Aumenta el ATK base de los personajes Fighter 40 puntos si la HP del equipo es baja",
 	},
 	1256: { 
@@ -6751,7 +6751,7 @@ window.details = {
 				"description": "Reduce la HP actual de los enemigos en un 40%",
 				"cooldown": [36,24]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1258: { 
@@ -6770,7 +6770,7 @@ window.details = {
 				"description": "Reduce la HP actual de los enemigos en un 40%",
 				"cooldown": [36,24]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1259: { 
@@ -6800,13 +6800,13 @@ window.details = {
 	1263: { 
 		captain:"Aumenta el ATK de todos los personajes con coste 20 o menor 2.5x",
 		specialName:"Iron Leg Sanctions",
-		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno"
+		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno",
 		specialNotes:"#{fixed}",
 	},
 	1264: { 
 		captain:"Aumenta el ATK de todos los personajes con coste 30 o menor 2.5x",
 		specialName:"Iron Leg Sanctions",
-		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno"
+		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno",
 		specialNotes:"#{fixed}",
 	},
 	1265: { 
@@ -6851,14 +6851,14 @@ window.details = {
 		captain:"Reduce las cargas de los especiales a los personajes Shooter 1 turno al principio de la batalla. Aumenta el ATK de los personajes Shooter 2x",
 		specialName:"Other Side of Fate",
 		special: "Cambia los orbes de la fila superior a favorables. Para personajes Shooter, incrementa la efectividad de los orbes 1.75x durante 1 turno",
-		specialNotes:"#{orb : 1.75x}"
+		specialNotes:"#{orb : 1.75x}",
 		sailor:"Reduce la duración de la Ceguera 5 turnos",
 	},
 	1272: { 
 		captain:"Reduce las cargas de los especiales a los personajes Shooter 1 turno al principio de la batalla. Aumenta el ATK de los personajes Shooter 2.5x",
 		specialName:"Other Side of Fate",
 		special: "Cambia los orbes de la fila superior a favorables. Para personajes Shooter, incrementa la efectividad de los orbes 1.75x durante 1 turno",
-		specialNotes:"#{orb : 1.75x}"
+		specialNotes:"#{orb : 1.75x}",
 		sailor:"Reduce la duración de la Ceguera 5 turnos",
 	},
 	1273: { 
@@ -6911,7 +6911,7 @@ window.details = {
 	1280: { 
 		captain:"Aumenta el ATK de los personajes [PSY] 2.5x",
 		specialName:"Ice Chunks - Trident",
-		special: "Hace 10.000 puntos de daño fijo a todos los enemigos y fija los orbes 1 turno"
+		special: "Hace 10.000 puntos de daño fijo a todos los enemigos y fija los orbes 1 turno",
 		specialNotes:"#{fixed}",
 	},
 	1281: { 
@@ -6923,7 +6923,7 @@ window.details = {
 	1282: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 2.5x",
 		specialName:"Encircling Wall around Marineford Bay",
-		special: "Reduce la carga de todos los especiales 1 turno. Aumenta el ATK de todos los personajes 1.2x e incrementa la efectividad de los orbes 1.2x durante 1 turno"
+		special: "Reduce la carga de todos los especiales 1 turno. Aumenta el ATK de todos los personajes 1.2x e incrementa la efectividad de los orbes 1.2x durante 1 turno",
 		specialNotes:"#{orb : 1.2x}",
 	},
 	1283: { 
@@ -6935,7 +6935,7 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Striker 1.5x y su HP 1.2x",
 		specialName:"Wild Hunt",
 		special: "Reduce la duración de los Encadenamientos y el Silencio 3 turnos y aleatoriza todos los orbes, incluidos los [NEGATIVO]",
-		specialNotes:"#{silencio}"
+		specialNotes:"#{silencio}",
 		sailor:"Reduce la duración del Silencio 3 turnos para esta unidad",
 		sailorNotes:"#{silencio}",
 	},
@@ -6943,7 +6943,7 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Striker 1.5x y su HP 1.25x. Tras hacer 3 Perfects seguidos, aumenta el ATK de los personajes Striker 3.375x",
 		specialName:"Wild Hunt",
 		special: "Reduce la duración de los Encadenamientos y el Silencio 3 turnos y aleatoriza todos los orbes, incluidos los [NEGATIVO]",
-		specialNotes:"#{silencio}"
+		specialNotes:"#{silencio}",
 		sailor:"Reduce la duración del Silencio 3 turnos para esta unidad",
 		sailorNotes:"#{silencio}",
 	},
@@ -7180,7 +7180,7 @@ window.details = {
 		specialName:"A Decree of the Veteran",
 		special: "Inflige 10 golpes de daño [QCK] aleatorio a enemigos aleatorios. Aumenta el ATK de todos los personajes 1.5x durante 1 turno",
 		specialNotes:"#{randomHits : 10}",
-		sailor:"Reduce la duración de la Parálisis 1 turno"
+		sailor:"Reduce la duración de la Parálisis 1 turno",
 		sailorNotes:"#{paralisis}",
 	},
 	1320: { 
@@ -7188,21 +7188,21 @@ window.details = {
 		specialName:"A Decree of the Veteran",
 		special: "Inflige 10 golpes de daño [QCK] aleatorio a enemigos aleatorios. Aumenta el ATK de todos los personajes 1.5x durante 1 turno",
 		specialNotes:"#{randomHits : 10}",
-		sailor:"Reduce la duración de la Parálisis 1 turno"
+		sailor:"Reduce la duración de la Parálisis 1 turno",
 		sailorNotes:"#{paralisis}",
 	},
 	1321: { 
 		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.25x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]",
 		captainNotes:"El aumento de ATK depende de un requisito acumulativo, es decir, necesitaremos una unidad de cada tipo para obtenerlo.",
 		specialName:"Front Line Dissection",
-		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay"
+		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay",
 		sailor:"Aumenta el ATK de los personajes Slasher y Cerebral 75 puntos si tu capitán es Cerebral",
 	},
 	1322: { 
 		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]",
 		captainNotes:"El aumento de ATK depende de un requisito acumulativo, es decir, necesitaremos una unidad de cada tipo para obtenerlo.",
 		specialName:"Front Line Dissection",
-		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay"
+		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay",
 		sailor:"Aumenta el ATK de los personajes Slasher y Cerebral 75 puntos si tu capitán es Cerebral",
 	},
 	1323: { 
@@ -7211,7 +7211,7 @@ window.details = {
 		specialName:"Onigumo of Dismantling Swordsmanship",
 		special: "Aleatoriza los orbes [RCV], [TND], [BOMBA] y [NEGATIVO]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
 		specialNotes:"",
-		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad"
+		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad",
 		sailorNotes:"#{paralisis}",
 	},
 	1324: { 
@@ -7220,7 +7220,7 @@ window.details = {
 		specialName:"Onigumo of Dismantling Swordsmanship",
 		special: "Aleatoriza los orbes [RCV], [TND], [BOMBA] y [NEGATIVO]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
 		specialNotes:"",
-		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad"
+		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad",
 		sailorNotes:"#{paralisis}",
 	},
 	1325: { 
@@ -7245,13 +7245,13 @@ window.details = {
 				"description": "Hace su ATK 15x como daño [DEX] a un enemigo y cambia su propio orbe y el del capitán aliado a favorables.",
 				"cooldown": [19,12]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1328: { 
 		captain:"Aumenta el ATK de los personajes con coste 20 o menos 2.5x",
 		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
-		specialName:"Tail Hammer"
+		specialName:"Tail Hammer",
 		special: [
 			{
 				"description": "Hace su ATK 3x como daño [DEX] a un enemigo y cambia su propio orbe a favorable.",
@@ -7301,7 +7301,7 @@ window.details = {
 				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x.",
 				"cooldown": [24,17]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1332: { 
@@ -7316,7 +7316,7 @@ window.details = {
 				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x.",
 				"cooldown": [24,17]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1333: { 
@@ -7367,7 +7367,7 @@ window.details = {
 				"description": "Reduce la duración de la Parálisis 2 turnos. Aumenta 0.5x el multiplicador de cadena durante 1 turno.",
 				"cooldown": [25,15]
 			}
-		]
+		],
 		specialNotes:"#{paralisis} <br> #{stages}",
 	},
 	1340: { 
@@ -7412,7 +7412,7 @@ window.details = {
 	},
 	1348: { 
 		specialName:"Imitation Tactics",
-		special: "Aumenta el ATK de todos los personajes 1.2x durante 1 turno e incrementa la efectividad de los orbes 1.2x durante 1 turno"
+		special: "Aumenta el ATK de todos los personajes 1.2x durante 1 turno e incrementa la efectividad de los orbes 1.2x durante 1 turno",
 		specialNotes:"#{orb : 1.2x}",
 	},
 	1349: { 
@@ -7741,7 +7741,7 @@ window.details = {
 	1393: { 
 		captain:"Aumenta el ATK de los personajes con coste 30 o inferior 2x",
 		specialName:"Three Forked Tongue",
-		special: "Aumenta el ATK de todos los personajes 1.1x, aumenta ligeramente la probabilidad de obtener orbes favorables e incrementa la efectividad de los orbes 1.1x durante 7 turnos"
+		special: "Aumenta el ATK de todos los personajes 1.1x, aumenta ligeramente la probabilidad de obtener orbes favorables e incrementa la efectividad de los orbes 1.1x durante 7 turnos",
 		specialNotes:"#{orb : 1.1x}",
 	},
 	1394: { 
@@ -7769,13 +7769,13 @@ window.details = {
 	1398: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x",
 		specialName:"Out-of-Control White Smoke",
-		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos"
+		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos",
 		specialNotes:"Es la misma habilidad que podemos ver en Shiki Raid Boss. No se puede usar el especial si se ha producido el mismo efecto (por ejemplo si Shiki cambia primero el capitán)",
 	},
 	1399: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x y reduce el daño recibido un 15%",
 		specialName:"Out-of-Control White Smoke",
-		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos"
+		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos",
 		specialNotes:"Es la misma habilidad que podemos ver en Shiki Raid Boss. No se puede usar el especial si se ha producido el mismo efecto (por ejemplo si Shiki cambia primero el capitán)",
 	},
 	1400: { 
@@ -7822,7 +7822,7 @@ window.details = {
 				"description": "Hace su ATK 13x como daño [PSY] a un solo enemigo y aumenta el ATK de los personajes [PSY] 1.5x durante 1 turno",
 				"cooldown": [18,8]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1403: { 
@@ -7838,7 +7838,7 @@ window.details = {
 				"description": "Hace su ATK 60x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos.",
 				"cooldown": [18,13]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1404: { 
@@ -7854,7 +7854,7 @@ window.details = {
 				"description": "Hace su ATK 60x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos.",
 				"cooldown": [18,13]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1405: { 
@@ -7888,7 +7888,7 @@ window.details = {
 		captainNotes:"#{zombie}",
 		specialName:"Soul's Murder Soul: Soul Solid",
 		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
-		sailor:"Esta unidad resiste totalmente a la Parálisis"
+		sailor:"Esta unidad resiste totalmente a la Parálisis",
 		sailorNotes:"#{paralisis}",
 	},
 	1410: { 
@@ -7896,7 +7896,7 @@ window.details = {
 		captainNotes:"#{zombie}",
 		specialName:"Soul's Murder Soul: Soul Solid",
 		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
-		sailor:"Esta unidad resiste totalmente a la Parálisis"
+		sailor:"Esta unidad resiste totalmente a la Parálisis",
 		sailorNotes:"#{paralisis}",
 	},
 	1411: { 
@@ -7977,13 +7977,13 @@ window.details = {
 	1425: { 
 		captain:"Aumenta el ATK de los personajes Fighter y Striker 1.75x",
 		specialName:"Military Leg Heel",
-		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos"
+		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos",
 		specialNotes:"#{orb : 1.5x} <br> Es un nuevo tipo de aumento condicional",
 	},
 	1426: { 
 		captain:"Aumenta el ATK de los personajes Fighter y Striker 2x y su HP 1.25x",
 		specialName:"Military Leg Heel",
-		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos"
+		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos",
 		specialNotes:"#{orb : 1.5x} <br> Es un nuevo tipo de aumento condicional",
 	},
 	1427: { 
@@ -8002,25 +8002,25 @@ window.details = {
 	1429: { 
 		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 1.5x",
 		specialName:"Boy's Unknown Taste of Hard Work",
-		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos."
+		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos.",
 		specialNotes:"#{paralisis}",
 	},
 	1430: { 
 		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 2x",
 		specialName:"Boy's Unknown Taste of Hard Work",
-		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos"
+		special: "Reduce la duración de los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos",
 		specialNotes:"#{paralisis}",
 	},
 	1431: { 
 		captain:"Aumenta el ATK de todos los personajes 2x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.2x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
 		captainNotes:"Los aumentos de ATK y HP dependen de requisitos acumulativos, es decir, necesitaremos una unidad de cada tipo para obtener el aumento de ATK y una unidad de cada clase mencionada para obtener el aumento de HP.",
-		specialName:"General Cannon"
+		specialName:"General Cannon",
 		special: "Hace su ATK 100x como daño sin tipo a todos los enemigos. Imposibilita la utilización por parte del enemigo de los siguientes bufos: potenciación de ataque, berserker, daño al final del turno y cura al final del turno. Aumenta el ATK de todos los personajes 1.5x.",
 	},
 	1432: { 
 		captain:"Aumenta el ATK de todos los personajes 2.5x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.5x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
 		captainNotes:"Los aumentos de ATK y HP dependen de requisitos acumulativos, es decir, necesitaremos una unidad de cada tipo para obtener el aumento de ATK y una unidad de cada clase mencionada para obtener el aumento de HP.",
-		specialName:"General Cannon"
+		specialName:"General Cannon",
 		special: "Hace su ATK 100x como daño sin tipo a todos los enemigos. Imposibilita la utilización por parte del enemigo de los siguientes bufos: potenciación de ataque, berserker, daño al final del turno y cura al final del turno. Aumenta el ATK de todos los personajes 1.5x.",
 	},
 	1433: { 
@@ -8036,7 +8036,7 @@ window.details = {
 				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
 				"cooldown": [22,17]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1434: { 
@@ -8052,7 +8052,7 @@ window.details = {
 				"description": "Hace su ATK 60x como daño [INT] a todos los enemigos, reduce la carga de los especiales de los personajes Powerhouse 2 turnos y reduce el daño recibido un 90% durante 1 turno",
 				"cooldown": [22,17]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1435: { 
@@ -8082,7 +8082,7 @@ window.details = {
 		captainNotes:"#{boostAcumulado : Powerhouse : Striker}",
 		specialName:"Squid Spear",
 		special: "Reduce la HP actual del equipo un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno para los personajes Powerhouse y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos que sufren delay",
-		specialNotes:"#{orb : 1.75x}"
+		specialNotes:"#{orb : 1.75x}",
 		sailor:"Hace que los orbes [STR], [DEX], [QCK], [PSY] e [INT] cuenten como favorables para esta unidad si el equipo está formado por 6 personajes Powerhouse",
 	},
 	1439: { 
@@ -8117,14 +8117,14 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x tras hacer Good>Great>Perfect",
 		specialName:"Papara Hammer",
 		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACIO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{orb : 1.5x}"
+		specialNotes:"#{orb : 1.5x}",
 		sailor:"Aumenta su propio ATK 150 puntos y su propia HP 50 puntos si el equipo está formado por 6 personajes Powerhouse",
 	},
 	1444: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 3.25x tras hacer Good>Great>Perfect",
 		specialName:"Papara Hammer",
 		special: "Cambia aleatoriamente los orbes [RCV], [TND], [VACIO], [NEGATIVO] y [BOMBA] a orbes [STR], [DEX], [QCK], [PSY] o [INT]. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{orb : 1.5x}"
+		specialNotes:"#{orb : 1.5x}",
 		sailor:"Aumenta su propio ATK 150 puntos y su propia HP 50 puntos si el equipo está formado por 6 personajes Powerhouse",
 	},
 	1445: { 
@@ -8150,7 +8150,7 @@ window.details = {
 				"description": "Hace 50.000 puntos de daño fijo a todos los enemigos y aumenta su propio ATK 1.5x durante 1 turno",
 				"cooldown": [20,15]
 			}
-		]
+		],
 		specialNotes:"#{stages} <br> #{fixed}",
 	},
 	1448: { 
@@ -8203,7 +8203,7 @@ window.details = {
 				"description": "reduce la HP actual de un solo enemigo un 25%. Reduce el daño recibido un 70% durante 1 turno",
 				"cooldown": [30,15]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1456: { 
@@ -8218,7 +8218,7 @@ window.details = {
 				"description": "reduce la HP actual de un solo enemigo un 25%. Reduce el daño recibido un 70% durante 1 turno",
 				"cooldown": [30,15]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1457: { 
@@ -8250,14 +8250,14 @@ window.details = {
 		captain:"Aumenta el multiplicador de cadena 2x",
 		specialName:"Gum-Gum Gigant Axe - Sweets",
 		special: "Reduce la HP actual del equipo un 50%. Reduce la HP de todos los enemigos un 20%. Hace que los orbes [STR] y [PSY] cuenten como favorables para personajes Fighter durante 1 turno",
-		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad"
+		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad",
 		sailorNotes:"#{paralisis}",
 	},
 	1463: { 
 		captain:"Aumenta el multiplicador de cadena 2.5x",
 		specialName:"Gum-Gum Gigant Axe - Sweets",
 		special: "Reduce la HP actual del equipo un 50%. Reduce la HP de todos los enemigos un 20%. Hace que los orbes [STR] y [PSY] cuenten como favorables para personajes Fighter durante 1 turno",
-		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad"
+		sailor:"Reduce la duración de la Parálisis 2 turnos para esta unidad",
 		sailorNotes:"#{paralisis}",
 	},
 	1464: { 
@@ -8265,7 +8265,7 @@ window.details = {
 		captainNotes:"#{zombie}",
 		specialName:"Devoted Healing - 'Instant Recovery'",
 		special: "Recupera una cantidad de HP equivalente a su RCV 6x. Reduce la duración de la Parálisis 2 turnos",
-		specialNotes:"#{paralisis}"
+		specialNotes:"#{paralisis}",
 		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 100 puntos",
 	},
 	1465: { 
@@ -8273,7 +8273,7 @@ window.details = {
 		captainNotes:"#{zombie}",
 		specialName:"Devoted Healing - 'Instant Recovery'",
 		special: "Recupera una cantidad de HP equivalente a su RCV 6x. Reduce la duración de la Parálisis 2 turnos",
-		specialNotes:"#{paralisis}"
+		specialNotes:"#{paralisis}",
 		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 100 puntos",
 	},
 	1466: { 
@@ -8373,7 +8373,7 @@ window.details = {
 		specialName:"Caribou Special",
 		special: "Inflige 15 golpes, haciendo su ATK 12x como daño sin tipo con cada golpe, a enemigos aleatorios. Aumenta el ATK de los personajes [QCK] e [INT] 2x durante 1 turno",
 		specialNotes:"",
-		sailor:"Esta unidad resiste totalmente a la Parálisis"
+		sailor:"Esta unidad resiste totalmente a la Parálisis",
 		sailorNotes:"#{paralisis}",
 	},
 	1479: { 
@@ -8381,7 +8381,7 @@ window.details = {
 		specialName:"Caribou Special",
 		special: "Inflige 15 golpes, haciendo su ATK 12x como daño sin tipo con cada golpe, a enemigos aleatorios. Aumenta el ATK de los personajes [QCK] e [INT] 2x durante 1 turno",
 		specialNotes:"",
-		sailor:"Esta unidad resiste totalmente a la Parálisis"
+		sailor:"Esta unidad resiste totalmente a la Parálisis",
 		sailorNotes:"#{paralisis}",
 	},
 	1480: { 
@@ -8441,13 +8441,13 @@ window.details = {
 	1488: { 
 		captain:"Aumenta el ATK de los personajes Driven 1.5x y reduce el daño recibido un 20%",
 		specialName:"Great Battle Spear",
-		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
+		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'",
 		specialNotes:"Orb Chance Up se refiere al aumento de probabilidad de obtener unos determinados orbes. Orb Chance Down se refiere a la disminución de probabilidad de obtener unos determinados orbes",
 	},
 	1489: { 
 		captain:"Aumenta el ATK de los personajes Driven 2x y reduce el daño recibido un 20%",
 		specialName:"Great Battle Spear",
-		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'"
+		special: "Hace su ATK 20x como daño [STR] a un solo enemigo. Elimina los 'Orb Chance Up' y 'Orb Chance Down'",
 		specialNotes:"Orb Chance Up se refiere al aumento de probabilidad de obtener unos determinados orbes. Orb Chance Down se refiere a la disminución de probabilidad de obtener unos determinados orbes",
 	},
 	1490: { 
@@ -8473,7 +8473,7 @@ window.details = {
 				"description": "aumenta el ATK de los personajes Free Spirit 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes Free Spirit 2x durante el turno siguiente",
 				"cooldown": [23,17]
 			}
-		]
+		],
 		specialNotes:"#{stages}",
 	},
 	1493: { 
@@ -8542,13 +8542,13 @@ window.details = {
 	1505: { 
 		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Si la HP del equipo se encuentra por debajo del x%, aumenta el ATK de los personajes Powerhouse 2.25x",
 		specialName:"Shark Arrows",
-		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno"
+		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno",
 		specialNotes:"Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán",
 	},
 	1506: { 
 		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes Powerhouse 2.25x y si la HP del equipo se encuentra por debajo del 30%, aumenta el ATK de los personajes Powerhouse 2.5x",
 		specialName:"Shark Arrows",
-		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno"
+		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno",
 		specialNotes:"Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán",
 	},
 	1507: { 

@@ -8209,5 +8209,54 @@ window.details = {
 		specialName:"",
 		special: "Hace un gran daño [STR] a un solo enemigo ignorando todos los bufos defensivos. Reduce la HP actual del equipo en un 90%. Durante 1 turno hace que los Perfect sean más difíciles de acertar. Aumenta su propio ATK 2.25x durante 1 turno",
 		specialNotes:"Las barreras ignoradas son las mismas que ignora Kurohige Legend cuando es capitán"
+	},
+	1507: { 
+		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.3x",
+		captainNotes:"#{boostAcumulado : Fighter : Powerhouse}",
+		specialName:"Diable Jambe - Concassé Baked",
+		special: "Hace su ATK 15x como daño [QCK] a un solo enemigo. Aumenta el ATK de los personajes Fighter 1.75x durante 1 turno",
+		sailor:""
+	},
+	1508: { 
+		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.5x. Recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
+		captainNotes:"#{boostAcumulado : Fighter : Powerhouse}",
+		specialName:"Diable Jambe - Concassé Baked",
+		special: "Hace su ATK 15x como daño [QCK] a un solo enemigo. Aumenta el ATK de los personajes Fighter 1.75x durante 1 turno",
+		sailor:""
+	},
+	1509: { 
+		captain:"Reduce la carga de los especiales para personajes Slasher y Cerebral 1 turno al principio de la batalla. Aumenta el ATK de los personajes [INT] 2x.",
+		specialName:"Haruta Special",
+		special: "Hace su ATK 12x como daño [INT] a un solo enemigo. Reduce el daño recibido de enemigos [PSY] en un 80% durante 1 turno",
+		sailor:"Reduce la duración de los Silencios 2 turnos para esta unidad",
+		sailorNotes:"#{silencio}"
+	},
+	1510: { 
+		captain:"Aumenta el ATK de los personajes Striker y Driven 2x",
+		specialName:"Genocide Jil Special",
+		special: "Hace 12.500 puntos de daño fijo a un solo enemigo",
+		sailor:"Aumenta el ATK de los personajes Striker 20 puntos si la HP es superior al 70%"
+	},
+	1511: { 
+		captain:"Aumenta el ATK de los personajes [PSY] 2x",
+		specialName:"Atmos Special",
+		special: "Reduce la duración del Despair 3 turnos. Aumenta su propio ATK 1.5x durante 1 turno",
+		sailor:"Aumenta el ATK de los personajes Powerhouse 20 puntos si tu capitán es Powerhouse"
+	},
+	1512: { 
+		captain:"Aumenta el ATK de los personaje Fighter y Powerhouse 2x",
+		specialName:"Kingdew Special",
+		special: "Elimina el veneno. Aumenta el ATK de los personajes Powerhouse 1.5x durante 1 turno si la HP del equipo se encuentra por debajo de 30%",
+		sailor:"Hace que los orbes [RCV] cuenten como favorables para esta unidad si tu capitán es Powerhouse"
+	},
+	1513: { 
+		captain:"Aumenta el ATK de los personajes Fighter 1.75x y el RCV de los personajes Powerhouse 1.2x",
+		specialName:"Sanji Special",
+		special: "Aleatoriza todos los orbes incluyendo los [NEGATIVO]. Reduce la carga del especial de un solo personaje 1 turno"
+	},
+	1514: { 
+		captain:"Aumenta el ATK de los personajes Fighter 2.5x y el RCV de los personajes Powerhouse 1.2x",
+		specialName:"Sanji Special",
+		special: "Aleatoriza todos los orbes incluyendo los [NEGATIVO]. Reduce la carga del especial de un solo personaje 1 turno"
 	}
 };

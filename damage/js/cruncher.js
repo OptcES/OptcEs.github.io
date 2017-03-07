@@ -457,7 +457,9 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     var applyChainAndBonusMultipliers = function(damage,modifiers) {
         var currentMax = -1, currentResult = null, addition = 0.0;
-		
+		if(shipBonus.bonus.name=="Doffy Ship w/ special"){
+            addition = 0.2
+        }
 		//get the highest Chain Addition if it exists
         chainAddition.forEach(function(special){
                     if(addition<special.chainAddition())

@@ -238,7 +238,7 @@ window.ships = [
     },
     
     { // 19
-        name: "Doflamingo Ship",
+        name: "Doflamingo Ship sin especial",
         thumb: 'ship_0020_c.png',
         description: 'Aumenta el ATK de los personajes Driven 1.5x y su HP 1.35x. Hace más fáciles de acertar los Perfects para los personajes Driven. Especial: añade 0.2x al multiplicador de la cadena (carga: 15 turnos)',
         atk: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5][p.boatLevel - 1]},
@@ -246,6 +246,14 @@ window.ships = [
     },
     
     { // 20
+        name: "Doflamingo Ship con especial",
+        thumb: 'ship_0020_c.png',
+        description: 'Aumenta el ATK de los personajes Driven 1.5x y su HP 1.35x. Hace más fáciles de acertar los Perfects para los personajes Driven. Especial: añade 0.2x al multiplicador de la cadena (ACTIVADO)',
+        atk: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5][p.boatLevel - 1]},
+        hp: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.1, 1.1, 1.1, 1.15, 1.2, 1.2, 1.2, 1.2, 1.2, 1.35][p.boatLevel - 1]}
+    },
+	
+    { // 21
         name: 'The Rocket Man',
         thumb: 'ship_0021_c.png',
         description: 'Aumenta el ATK de los personajes Powerhouse 1.55x y recupera una cantidad de HP variable al final de cada turno en función del número de personajes Powerhouse que haya en el equipo. (Al MAX, cura 900 puntos por turno con 6 personajes Powerhouse). Reduce gravemente las stats de los personajes que no sean Powerhouse. Especial: Hace 99.999 puntos de daño sin tipo a un solo enemigo (carga: 17 turnos)',
@@ -261,7 +269,7 @@ window.ships = [
         
     },
     
-    { // 21
+    { // 22
         name: 'Burning Whitebeard Ship',
         thumb: 'ship_0022_c.png',
         description: 'Aumenta la HP 1.3x',
@@ -270,7 +278,7 @@ window.ships = [
         },
     },
     
-    { // 22
+    { // 23
         name: 'Garp Ship',
         thumb: 'ship_0023_c.png',
         description: 'Aumenta el ATK de los personajes STR y PSY 1.5x y su HP 1.25x',
@@ -282,7 +290,7 @@ window.ships = [
         },
     },
     
-    { //23
+    { //24
         name: 'Polar Tang',
         thumb: 'ship_0024_c.png',
         description: 'Aumenta el ATK de los personajes Slasher y Free Spirit 1.5x y su HP 1.25x. Especial: recupera 10.000 puntos de HP si se encuentra baja (carga: 18 turnos)',
@@ -294,7 +302,7 @@ window.ships = [
         },        
     },
 	
-	{ // 24
+	{ // 25
         name: 'New Year\'s Big Top',
         thumb: 'ship_0025_c.png',
         description: 'Aumenta el ATK de los personajes 1.2x',
@@ -303,7 +311,7 @@ window.ships = [
 		},
 	},
 	
-	{ // 25
+	{ // 26
         name: 'Thousand Sunny: Coated',
         thumb: 'ship_0026_c.png',
         description: 'Aumenta el ATK de todos los personajes 1.5x. Especial: reduce el daño recibido un 50% durante 1 turno (carga: 16 turnos).',
@@ -312,7 +320,7 @@ window.ships = [
         }
     },
 	
-    { // 26
+    { // 27
         name: 'Kizaru\'s Cannonball',
         thumb: null,
         description: 'Aumenta el ATK de los personajes Shooter 1.55x y su HP 1.2x y reduce la carga de todos los especiales 1 turno al principio de la batalla. Especial: Reduce la HP actual de los enemigos un 7% (carga: 15 turnos).',
@@ -325,7 +333,7 @@ window.ships = [
         }
     },
 	
-    { // 27
+    { // 28
         name: 'Going Luffy SENPAI!',
         thumb: null,
         description: 'Aumenta el ATK de los personajes Striker 1.5x y su HP 1.2x. Especial: Reduce cualquier daño recibido a partir de los 10.000 puntos de daño (carga: 17 turnos).',

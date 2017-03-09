@@ -116,7 +116,7 @@ var ImportCtrl = function($scope, $rootScope, $state, $stateParams) {
                 .slice(-6).split('').map(function(x) { return parseInt(x, 10); });
             temp.forEach(function(x,n) {
                 var unit = $scope.tdata.team[n];
-                if (type == 'O') unit.orb = (x == 1 ? 2 : (x == 2 ? 0.5 : (x == 3 ? 'g' : 1)));
+               if (type == 'O') unit.orb = (x == 1 ? 2 : (x == 2 ? 0.5 : (x == 3 ? 'g' :(x == 4 ? 'str' : 1))));
                 else if (type == 'L') unit.lock = x;
                 else if (type == 'G') unit.silence = x;
                 else if (type == 'R') unit.removed = x;

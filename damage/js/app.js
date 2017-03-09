@@ -61,7 +61,8 @@ var SharedRootCtrl = function($scope, $rootScope, $timeout) {
 
     $rootScope.options = {
         gOrbsEnabled: 0,
-        slidersEnabled: true,
+        strOrbsEnabled: 0,
+	slidersEnabled: true,
         sidebarVisible: false,
         transientMode: false,
         crunchInhibitor: Infinity
@@ -120,6 +121,34 @@ var SharedRootCtrl = function($scope, $rootScope, $timeout) {
         return false;
     };
 
+    /* * * * * [STR] orb control * * * * */
+
+    var resetSTROrbs = function() {
+        for (var i=0;i<6;++i) {
+            if ($scope.tdata.team[i].orb == 'str')
+                $scope.tdata.team[i].orb = 1;
+        }
+    };
+
+    // reset STR slots automatically
+    $scope.$watch('options.strOrbsEnabled',function() {
+        if (!$rootScope.areSTROrbsEnabled())
+            resetSTROrbs();
+    });
+
+    $scope.$watch('data.effect',function() {
+        if (!$rootScope.areSTROrbsEnabled())
+            resetSTROrbs();
+    });
+
+    $rootScope.areSTROrbsEnabled = function() {
+        if ($rootScope.options.strOrbsEnabled > 0) return true;
+        if ($rootScope.data.effect) {
+            var effect = window.effects[$rootScope.data.effect];
+            if (effect && effect.strOrbsEnabled) return true;
+        }
+        return false;
+};
     /* * * * * Custom hit modifiers resetting * * * * */
 
     var resetTransitional = function() {

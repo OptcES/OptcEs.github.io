@@ -130,23 +130,23 @@ window.events = {
         }
     },
     1313: {
-        onInsertion: function($scope) {
-            if (++$scope.options.gOrbsEnabled == 1)
-                $scope.notify({ text: 'Se está implementando la habilidad de capitán de esta unidad. Utilice un orbe [G] para simular un orbe STR de una unidad (Sólo aumentará el ATK un 1.5x).' });
+       onInsertion: function($scope) {
+            if (++$scope.options.strOrbsEnabled == 1)
+                $scope.notify({ text: 'Orbes [STR] activados.' });
         },
         onRemoval: function($scope) {
-            if (--$scope.options.gOrbsEnabled === 0)
-                $scope.notify({ text: 'Desactivando orbes [G].' });
+            if (--$scope.options.strOrbsEnabled === 0)
+                $scope.notify({ text: 'Orbes [STR] desactivados.' });
         }
     },
     1314: {
         onInsertion: function($scope) {
-            if (++$scope.options.gOrbsEnabled == 1)
-                $scope.notify({ text: 'Se está implementando la habilidad de capitán de esta unidad. Utilice un orbe [G] para simular un orbe STR de una unidad (Sólo aumentará el ATK un 1.5x).' });
+            if (++$scope.options.strOrbsEnabled == 1)
+                $scope.notify({ text: 'Orbes [STR] activados.' });
         },
         onRemoval: function($scope) {
-            if (--$scope.options.gOrbsEnabled === 0)
-                $scope.notify({ text: 'Desactivando orbes [G].' });
+            if (--$scope.options.strOrbsEnabled === 0)
+                $scope.notify({ text: 'Orbes [STR] desactivados.' });
         }
     },
 };

@@ -2239,4 +2239,28 @@ window.specials = {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
         type: "type"
     },
+    1507: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
+    },
+    1508: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
+    },
+    1511: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 1.5 : 1; },
+        type: "type"
+    },
+    1512: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? window.specials[1512].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (p.percHP <= 30 ? 1.5 : 1);
+            window.specials[1512].multiplier = n;
+            p.scope.notify({
+                text: 'HP ' + (n == 1.5 ? 'por debajo' : 'por encima') + ' del 30%, usando ' + n + 'x como multiplicador.',
+                name: '1512warning'
+            });
+        }
+    },
 };

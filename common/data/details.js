@@ -4709,11 +4709,11 @@ window.details = {
 		specialName:"Peeping Mind",
 		special: [
 			{
-				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 1 turno. Muestra",
+				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 1 turno. Muestra: Ataque Enemigo, Defensa, Combo, HP actual y total, Intervalo de Ataque, Especiales por turno y Efectos tras morir",
 				"cooldown": [13,7]
 			},
 			{
-				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 2 turnos. Muestra",
+				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 2 turnos. Muestra: Ataque Enemigo, Defensa, Combo, HP actual y total, Intervalo de Ataque, Especiales por turno y Efectos tras morir",
 				"cooldown": [20,14]
 			}
 		],
@@ -4726,11 +4726,11 @@ window.details = {
 		specialName:"Peeping Mind",
 		special: [
 			{
-				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 1 turno. Muestra",
+				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 1 turno. Muestra: Ataque Enemigo, Defensa, Combo, HP actual y total, Intervalo de Ataque, Especiales por turno y Efectos tras morir",
 				"cooldown": [13,7]
 			},
 			{
-				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 2 turnos. Muestra",
+				"description": "Reduce la carga de los especiales de los personajes Fighter y Cerebral en 2 turnos. Muestra: Ataque Enemigo, Defensa, Combo, HP actual y total, Intervalo de Ataque, Especiales por turno y Efectos tras morir",
 				"cooldown": [20,14]
 			}
 		],

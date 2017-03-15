@@ -1570,6 +1570,24 @@ window.specials = {
             });
         }
     },
+    1221: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1221].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1221].turnedOn = false;
+        }
+    },
+    1222: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1222].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1222].turnedOn = false;
+        }
+    },
     1227: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
         type: "type"
@@ -1697,6 +1715,24 @@ window.specials = {
         type: "condition",
         warning: "El especial seleccionado (%name%) asume que el enemigo tiene un bufo de defensa activo."
     },
+    1259: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1259].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1259].turnedOn = false;
+        }
+    },
+    1260: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1260].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1260].turnedOn = false;
+        }
+    },
     1261: {//Young Senor Pink
         affinity: function(p){ return p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit") ? 1.5 : 1; }
     },
@@ -1789,6 +1825,24 @@ window.specials = {
         atk: function(p) { return 1.5; },
         type: "condition",
         warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+    1323: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1323].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1323].turnedOn = false;
+        }
+    },
+    1324: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1324].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1324].turnedOn = false;
+        }
     },
     1329: {
         affinity: function(p){ return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 1.25 : 1; }

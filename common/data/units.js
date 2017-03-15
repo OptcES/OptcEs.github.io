@@ -1490,7 +1490,7 @@ window.units = [
 	 [ "Don Krieg, Gobernante Supremo del East Blue", "STR", ["Driven", "Shooter"], 4, 26, 10, 3, 99, 3000000, 1200, 476, 30, 2707, 1225, 106, 1 ],
 	 [ "Mr. 5, Bomba Humana", "QCK", "Shooter", 3, 10, 5, 2, 35, 136167, 288, 147, 35, 808, 401, 74, 1 ],
 	 [ "Mr. 5, Agente de Baroque Works", "QCK", "Shooter", 4, 20, 4, 3, 70, 1778330, 733, 325, 44, 1618, 818, 198, 1 ],
-	 [ "Sabo SuperEvo", "PSY", ["Fighter", "Free Spirit"], 6, 65, 4, 5, 99, 5000000, 1534, 777, 277, 3234, 1534, 452, 1 ],
+	 [ "Sabo, Segundo al Mando de la Armada Revolucionaria, Usuario de la Mera Mera no Mi", "PSY", ["Fighter", "Free Spirit"], 6, 65, 4, 5, 99, 5000000, 1534, 777, 277, 3234, 1534, 452, 1 ],
 	 [ "Tritón Bandido ", "STR", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 73, 42, 13, 1173, 749, 143, 1 ],
 	 [ "Tritón Bandido", "QCK", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 71, 37, 16, 1167, 701, 169, 1 ],
 	 [ "Tritón Bandido", "DEX", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 67, 40, 15, 1143, 737, 157, 1 ],

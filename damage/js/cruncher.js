@@ -179,6 +179,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             var multipliers = [ ];
             if (orb == 'g') orb = 1.5;
             if (orb == 'str') orb = 1.0;
+	    if (orb == 0.5 && x.unit.type == 'DEX' && (window.specials[1221].turnedOn || window.specials[1222].turnedOn 
+                                 || (window.specials[1259].turnedOn && x.unit.class.has("Driven")) || (window.specials[1260].turnedOn && x.unit.class.has("Driven")) 
+                                 || (window.specials[1323].turnedOn && (x.unit.class.has("Driven") || x.unit.class.has("Slasher")))||(window.specials[1324].turnedOn && (x.unit.class.has("Driven") || x.unit.class.has("Slasher"))))) orb = 2;
+            if (orb == 'str') orb = (window.specials[1221].turnedOn || window.specials[1222].turnedOn 
+                                 || (window.specials[1259].turnedOn && x.unit.class.has("Driven")) || (window.specials[1260].turnedOn && x.unit.class.has("Driven")) 
+                                 || (window.specials[1323].turnedOn && (x.unit.class.has("Driven") || x.unit.class.has("Slasher")))|| (window.specials[1324].turnedOn && (x.unit.class.has("Driven") || x.unit.class.has("Slasher")))) ? 2 : 1;
             atk += getShipBonus('atk',true,x.unit,n);
             multipliers.push([ orb, 'orbe' ]); // orb multiplier (fixed)
             multipliers.push([ getTypeMultiplierOfUnit(x.unit.type,type, x), 'tipo' ]); // type multiplier

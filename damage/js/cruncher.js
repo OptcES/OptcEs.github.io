@@ -683,16 +683,19 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         if ($scope.data.effect) {
             var data = effects[$scope.data.effect];
             if (data.orb) enabledSpecials.push({ orb: data.orb, permanent: true, sourceSlot: -1 });
-			if (data.chainModifier) mapEffect.chainModifier = data.chainModifier;
+            if (data.chainModifier) mapEffect.chainModifier = data.chainModifier;
             if (data.chainLimiter) mapEffect.chainLimiter = data.chainLimiter;
-            if (data.comboShield) mapEffect.comboShield = data.comboShield;
-			if (data.comboType) mapEffect.comboType = data.comboType;
+            if ($scope.data.comboShield) mapEffect.comboShield = $scope.data.comboShield;
+            if ($scope.data.comboType) mapEffect.comboType = $scope.data.comboType;
             if (data.damage) mapEffect.damage = data.damage;
-			if (data.barrierThreshold) {
+            if (data.barrierThreshold) {
                 mapEffect.barrierThreshold = data.barrierThreshold;
                 mapEffect.barrierReduction = data.barrierReduction;
             }
         }
+
+        if ($scope.data.comboShield) mapEffect.comboShield = $scope.data.comboShield;
+            if ($scope.data.comboType) mapEffect.comboType = $scope.data.comboType;
         // team
         team = $scope.data.team.map(function(x,n) {
             if (!$scope.tdata.team[n] || $scope.tdata.team[n].removed)

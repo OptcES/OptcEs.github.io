@@ -25,6 +25,19 @@
                 Defensa del Enemigo: <input type="number" id="defense" to-int ng-model="data.defense"></input>
             </div>
         </li>
+        
+        <li>
+            <div id="shieldContainer">
+                <i class="fa fa-shield"></i>
+                Escudo: <input min="0" style="color: black; width:40px" type="number" id="comboShield" to-int ng-model="data.comboShield">
+                                                                      <select style="color: black" id="comboType" ng-model="data.comboType">
+                                                                        <option value="" selected>Hits</option>
+                                                                        <option value="Good">Good</option>
+                                                                        <option value="Great">Great</option>
+                                                                        <option value="Perfect">Perfect</option>
+                                                                      </select> 
+            </div>
+        </li>
 
         <li ui-sref=".candy">
             <div id="candyContainer">

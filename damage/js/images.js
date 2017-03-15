@@ -141,8 +141,14 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
     baseY += 42;
 
     // defense
-    awesome(context, { text: 'f132', x: baseX + 8, y: baseY + 20, align: 'center' });
+     awesome(context, { text: 'f132', x: baseX + 8, y: baseY + 20, align: 'center' });
     type(context, { text: $filter('number')($scope.data.defense) + ' DEF', x: baseX + 25, y: baseY + 20 });
+    baseY += 25;
+
+    var cmbType;
+    if($scope.data.comboType==""){cmbType="Hits"}else{cmbType=$scope.data.comboType+" hits"}
+    awesome(context, { text: 'f132', x: baseX + 8, y: baseY + 20, align: 'center' });
+    type(context, { text: $filter('number')($scope.data.comboShield) +" "+cmbType , x: baseX + 25, y: baseY + 20 });
     baseY += 25;
 
     // turn counter

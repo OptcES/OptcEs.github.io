@@ -25,7 +25,9 @@ var SharedRootCtrl = function($scope, $rootScope, $timeout) {
 
         defense: 0,
 
-        effect: null
+        effect: null,
+        comboShield: 0,
+        comboType: null
 
     };
     

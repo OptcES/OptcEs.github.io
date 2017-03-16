@@ -57,6 +57,18 @@
     background-image: radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
 }
 
+.unitOrb.Gg {
+    background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, orange, orangered);
+    background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, orange, orangered);
+    background-image: radial-gradient(9px 3px, circle cover, oldlace, orange, orangered);
+}
+
+.unitOrb.Sg {
+    background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
+    background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
+    background-image: radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
+}
+
 .unitOrb .fa {
     position: relative;
     font-size: 2em;
@@ -92,13 +104,13 @@
  *     ORB GLOWING     *
  ***********************/
 
-.unitOrb.STR { animation: glowRed .5s linear infinite alternate; }
-.unitOrb.DEX { animation: glowGreen .5s linear infinite alternate; }
-.unitOrb.QCK { animation: glowBlue .5s linear infinite alternate; }
-.unitOrb.PSY { animation: glowOrange .5s linear infinite alternate; }
-.unitOrb.INT { animation: glowPurple .5s linear infinite alternate; }
-.unitOrb.S { animation: glowG .5s linear infinite alternate; }
-.unitOrb.G { animation: glowG .5s linear infinite alternate; }
+.unitOrb.STRg { animation: glowRed .5s linear infinite alternate; }
+.unitOrb.DEXg { animation: glowGreen .5s linear infinite alternate; }
+.unitOrb.QCKg { animation: glowBlue .5s linear infinite alternate; }
+.unitOrb.PSYg { animation: glowOrange .5s linear infinite alternate; }
+.unitOrb.INTg { animation: glowPurple .5s linear infinite alternate; }
+.unitOrb.Sg { animation: glowG .5s linear infinite alternate; }
+.unitOrb.Gg { animation: glowG .5s linear infinite alternate; }
 .unitOrb.opposite { animation: glowBlack .5s linear infinite alternate; }
 
 @keyframes glowRed {

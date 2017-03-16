@@ -1252,11 +1252,11 @@ window.specials = {
     1025: {
         orb: function(p) {
             if(p.percHP >= 70.0){
-                return CrunchUtils.getOrbMultiplier(p.orb, 1, p.unit.type, 1.25);
+                return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.25);
             }else if(p.percHP >= 30.0){
-                return CrunchUtils.getOrbMultiplier(p.orb, 1, p.unit.type, 1.5);
+                return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5);
             }else{
-                return CrunchUtils.getOrbMultiplier(p.orb, 1, p.unit.type, 1.75);
+                return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75);
             }
         }
     },

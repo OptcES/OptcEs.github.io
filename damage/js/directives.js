@@ -581,11 +581,19 @@ directives.unitOrb = function($rootScope) {
         link: function(scope, element, attrs) {
             scope.glow = function() {
                 var unit = scope.tdata.team[scope.slot];
+                if (screen.width>=1024) {
+                if (unit.orb == 1) return 'none';
+                if (unit.orb == 2) return scope.data.team[scope.slot].unit.type+"g";
+                if (unit.orb == 'g') return 'Gg';
+                if (unit.orb == 'str') return 'Sg';
+                return Utils.getOppositeType(scope.data.team[scope.slot].unit.type) + ' opposite';
+                 }else{
                 if (unit.orb == 1) return 'none';
                 if (unit.orb == 2) return scope.data.team[scope.slot].unit.type;
                 if (unit.orb == 'g') return 'G';
                 if (unit.orb == 'str') return 'S';
-                return Utils.getOppositeType(scope.data.team[scope.slot].unit.type) + ' opposite';
+                return Utils.getOppositeType(scope.data.team[scope.slot].unit.type);
+                 }
             };
             var onShortPress = function(e) {
                 var unit = scope.data.team[scope.slot], tunit = scope.tdata.team[scope.slot];

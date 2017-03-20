@@ -1494,7 +1494,7 @@ window.units = [
 	 [ "Tritón Bandido ", "STR", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 73, 42, 13, 1173, 749, 143, 1 ],
 	 [ "Tritón Bandido", "QCK", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 71, 37, 16, 1167, 701, 169, 1 ],
 	 [ "Tritón Bandido", "DEX", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 67, 40, 15, 1143, 737, 157, 1 ],
-	 [ "Tritón cañonero", "PSY", ["Powerhouse", "Shooter"], 3, 12, 6, 3, 60, 449516, 63, 43, 17, 1137, 750, 173, 1 ],
+	 [ "Tritón cañonero", "INT", ["Powerhouse", "Shooter"], 3, 12, 6, 3, 60, 449516, 63, 43, 17, 1137, 750, 173, 1 ],
 	 [ "Tritón cañonero", "PSY", ["Powerhouse", "Shooter"], 3, 12, 6, 3, 60, 449516, 57, 47, 14, 1093, 773, 153, 1 ],
 	 [ "Tritón Guardia", "STR", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 83, 35, 18, 1247, 697, 174, 1 ],
 	 [ "Tritón Guardia", "QCK", ["Powerhouse", "Striker"], 3, 12, 6, 3, 60, 449516, 79, 30, 22, 1237, 673, 183, 1 ],

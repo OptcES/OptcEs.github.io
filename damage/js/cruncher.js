@@ -344,7 +344,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         }
 		//Apply Static Bonus Damage From Specials
         var staticBonusDamage = computeFlatBonusDamage(hitModifier);
-        if ((staticBonusDamage > 0) && ((staticBonusDamage - currentDefense)>0 && mapEffect.shieldLeft==0)) {
+        if ((staticBonusDamage > 0) && ((staticBonusDamage - currentDefense)>0) && (mapEffect.shieldLeft==0)) {
             result.result += (staticBonusDamage - currentDefense);
         }
         

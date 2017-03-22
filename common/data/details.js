@@ -8258,5 +8258,29 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Fighter 2.5x y el RCV de los personajes Powerhouse 1.2x",
 		specialName:"Sanji Special",
 		special: "Aleatoriza todos los orbes incluyendo los [NEGATIVO]. Reduce la carga del especial de un solo personaje 1 turno"
-	}
+	},
+	1515: { 
+		captain:"Aumenta el ATK de los personajes [STR] y [QCK] 1.5x",
+		specialName:"Brook Special",
+		special: "Reduce la HP actual de los enemigos un 10% y hace que los orbes [RCV] cuenten como favorables para todos los personajes durante 1 turno",
+		sailor:"Hace que los orbes [RCV] cuenten como favorables para esta unidad"
+	},
+	1516: { 
+		captain:"Aumenta el ATK de los personajes [STR] y [QCK] 2x y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
+		specialName:"Brook Special",
+		special: "Reduce la HP actual de los enemigos un 10% y hace que los orbes [RCV] cuenten como favorables para todos los personajes durante 1 turno",
+		sailor:"Hace que los orbes [RCV] cuenten como favorables para esta unidad"
+	},
+	1517: { 
+		captain:"Aumenta el ATK de los personajes Driven 2x",
+		specialName:"Spring Hopper - Bullet",
+		special: "Reduce la HP actual de los enemigos un 10%, hace que los orbes [PSY] e [INT] cuenten como favorables para todos los personajes durante 1 turno e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		specialNotes:"#{orb : 1.75x}",
+	},
+	1518: { 
+		captain:"Aumenta el ATK de los personajes Driven 2.5x",
+		specialName:"Spring Hopper - Bullet",
+		special: "Reduce la HP actual de los enemigos un 10%, hace que los orbes [PSY] e [INT] cuenten como favorables para todos los personajes durante 1 turno e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		specialNotes:"#{orb : 1.75x}",
+	},
 };

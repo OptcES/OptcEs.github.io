@@ -8275,12 +8275,24 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Driven 2x",
 		specialName:"Spring Hopper - Bullet",
 		special: "Reduce la HP actual de los enemigos un 10%, hace que los orbes [PSY] e [INT] cuenten como favorables para todos los personajes durante 1 turno e incrementa la efectividad de los orbes 1.75x durante 1 turno",
-		specialNotes:"#{orb : 1.75x}",
+		specialNotes:"#{orb : 1.75x}"
 	},
 	1518: { 
 		captain:"Aumenta el ATK de los personajes Driven 2.5x",
 		specialName:"Spring Hopper - Bullet",
 		special: "Reduce la HP actual de los enemigos un 10%, hace que los orbes [PSY] e [INT] cuenten como favorables para todos los personajes durante 1 turno e incrementa la efectividad de los orbes 1.75x durante 1 turno",
-		specialNotes:"#{orb : 1.75x}",
+		specialNotes:"#{orb : 1.75x}"
+	},
+        1529: { 
+		captain:"Aumenta el ATK de todos los personajes 1.5x, aumenta SU propio ATK 3x",
+		specialName:"Cavendish ambush special",
+		special: "Aumenta la efectividad de los orbes 2.25x a Slashers si la HP está por encima del 50%, si está por debajo aumenta un 2x",
+		specialNotes:"#{orb : 2.25x}"
+	},
+        1530: { 
+		captain:"Aumenta el ATK de todos los personajes 1.75x, aumenta SU propio ATK 3.5x",
+		specialName:"Cavendish ambush special",
+		special: "Aumenta la efectividad de los orbes 2.25x a Slashers si la HP está por encima del 50%, si está por debajo aumenta un 2x",
+		specialNotes:"#{orb : 2.25x}"
 	},
 };

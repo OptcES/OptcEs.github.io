@@ -2293,4 +2293,32 @@ window.specials = {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
         type: "type"
     },
+    1517: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); },
+        type: "type"
+    },
+    1518: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); },
+        type: "type"
+    },
+    1529: {
+        orb: function(p) {
+             if(p.percHP >= 50.0){
+                return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1);
+            }else{
+                return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1);
+            }
+          },
+        type: "type"
+    },
+    1530: {
+        orb: function(p) {
+             if(p.percHP >= 50.0){
+                return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1);
+            }else{
+                return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1);
+            }
+          },
+        type: "type"
+    },
 };

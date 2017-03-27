@@ -1527,4 +1527,6 @@ window.units = [
 	 [ "Arlong ", "INT", ["Striker", "Shooter"], 3, 16, null, 2, 50, 392109, null, null, null, null, null, null , null ],
 	 [ "Arlong, Capitán de los Piratas de Arlong", "INT", ["Striker", "Shooter"], 4, 26, 4, 3, 99, 3000000, null, null, null, 2053, 1479, 153, null ],
 	 [ "Blenheim, Comandante de la Novena División de los Piratas de Shirohige", "PSY", ["Powerhouse", "Slasher"], 4, 26, 6, 3, null, null , null, null, null, 1959, 1246, 248, null ],
+         [ "Cavendish Ambush", "QCK", ["Slasher", "Free Spirit"], 4, 30, 6, 2, 70, 1778330 , 1072, 535, 131, 1500, 737, 202, null ],
+         [ "Cavendish Ambush Evo", "QCK", ["Slasher", "Free Spirit"], 5, 50, 5, 3, 99, 5000000 , 1500, 737, 202, 2487, 1477, 361, null ]
 ];

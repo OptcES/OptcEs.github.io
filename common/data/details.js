@@ -8366,4 +8366,76 @@ window.details = {
 		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
 		specialNotes:"#{orb : 2.25x}"
 	},
+        1531: { 
+		captain:"Todos los orbes contarán como favorables, excepto [G], [NEGATIVO] y [BOMBA]. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		specialName:"God Usopp Special",
+		special: "Retrasa a todos los enemigos 5 turnos. Añade .3x al multiplicador de la cadena 4 turnos",
+	},
+        1532: {            
+		captain:"Todos los orbes contarán como favorables, excepto [G], [NEGATIVO] y [BOMBA]. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		specialName:"God Usopp Special",
+		special: "Retrasa a todos los enemigos 5 turnos. Añade .3x al multiplicador de la cadena 4 turnos",
+	},
+        1533: { 
+                captain: "None",
+		specialName:"Rayleigh RR Special",
+		special: "Cambia todos los orbes, incluidos [NEGATIVO], a [QCK]",
+                sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
+	},
+        1534: { 
+		captain:"Aumenta el ATK de los personajes [QCK] 2.5x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 3x",
+		specialName:"Rayleigh RR Special",
+		special: "Cambia todos los orbes, incluidos [NEGATIVO], a [QCK]",
+                sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
+	},
+        1535: { 
+                captain: "None",            
+		specialName:"Duval RR Special",
+		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] durante 1 turno",
+                sailor: "Los orbes [INT] contarán como favorables para esta unidad",
+	},
+        1536: { 
+		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla para personajes [PSY]. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
+		specialName:"Duval RR Special",
+		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] durante 1 turno",
+                sailor: "Los orbes [INT] contarán como favorables para esta unidad",
+	},
+        1537: { 
+                captain: "None", 
+		specialName:"Heracles RR Special",
+		special: "Reduce la HP actual de todos los enemigos un 20%. Cambia los orbes de la columna derecha a [BOMBA] y convierte los orbes de los personajes [STR] en favorables",
+                sailor: "Aumenta la HP de los personajes [STR] +150",
+	},
+        1538: { 
+		captain:"Aumenta el ataque de los personajes [STR] 2.5x y su HP 1.2x",
+		specialName:"Heracles RR Special",
+		special: "Reduce la HP actual de todos los enemigos un 20%. Cambia los orbes de la columna derecha a [BOMBA] y convierte los orbes de los personajes [STR] en favorables",
+                sailor: "Aumenta la HP de los personajes [STR] +150",
+	},
+        1539: { 
+               captain: "None", 
+		specialName:"Perona RR Special",
+		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
+                specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
+                sailor: "Aumenta la HP de los personajes [STR] +150",
+	},
+        1540: { 
+		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
+		specialName:"Perona RR Special",
+		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
+                specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
+                sailor: "Aumenta las stats de los personajes [INT] +50",
+	},
+        1541: { 
+                captain: "None", 
+		specialName:"Elizabeth RR Special",
+		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
+                sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
+	},
+        1542: { 
+		captain:"Aumenta ligeramente la HP y el RCV de todos los personajes. Aumenta el ATK de todos los personajes 2.5x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good",
+		specialName:"Elizabeth RR Special",
+		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
+                sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
+	},
 };

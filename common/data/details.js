@@ -8283,16 +8283,87 @@ window.details = {
 		special: "Reduce la HP actual de los enemigos un 10%, hace que los orbes [PSY] e [INT] cuenten como favorables para todos los personajes durante 1 turno e incrementa la efectividad de los orbes 1.75x durante 1 turno",
 		specialNotes:"#{orb : 1.75x}"
 	},
+        1519: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes Slasher 1.5x",
+		specialName:"Break by the Fireplace",
+		special: "Reduce la HP actual de los enemigos un 10%. Si la HP del equipo se encuentra al 100%, cambia los orbes de los capitanes a favorables"
+	},
+        1520: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes Slasher 2x",
+		specialName:"Break by the Fireplace",
+		special: "Reduce la HP actual de los enemigos un 10%. Si la HP del equipo se encuentra al 100%, cambia los orbes de los capitanes a favorables"
+	},
+        1521: { 
+		captain:"Aumenta el ATK de los personajes [QCK] y Slasher 1.2x",
+                captainNotes:"#{boostAcumulado : QCK : Slasher}",
+		specialName:"Affectionate Circumstances",
+		special: "Reduce la duración del Despair 2 turnos. Recupera 1000 HP al final de cada turno por 2 turnos"
+	},
+        1522: { 
+		captain:"Aumenta el ATK de los personajes [DEX] 1.75x y su HP 1.2x ",
+		specialName:"Demon's Temper",
+		special: "Elimina la Ceguera. Aumenta SU propio ATK 1.75x"
+	},
+        1523: { 
+		captain:"Aumenta el ATK de los personajes [PSY] 1.75x y recupera 1000 HP al final de cada turno",
+		specialName:"The Life Risked for the 'Sakura' Miracle",
+		special: "Cambia los orbes de los capitanes a favorables. Cambia los orbes [NEGATIVO] y desfavorables a orbes [G]"
+	},
+        1524: { 
+		captain:"Aumenta el ATK de los personajes [PSY] 2.25x y recupera 1224 HP al final de cada turno",
+		specialName:"The Life Risked for the 'Sakura' Miracle",
+		special: "Cambia los orbes de los capitanes a favorables. Cambia los orbes [NEGATIVO] y desfavorables a orbes [G]"
+	},
+        1525: { 
+		captain:"Aumenta el ATK de los personajes Slasher 3.25x  y reduce su multiplicador de ATK ???x al final de cada turno ",
+                captainNotes:"Su multiplicador de ATK empezará por 3.25x en el primer turno, ???x en el segundo, ???x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Slasher.",
+		specialName:"Sorrowful Execution",
+		special: "Inflige 3 golpes de daño aleatorio sin tipo a enemigos aleatorios. Retrasa a todos los enemigos 1 turno y aumenta el ATK de todos los personajes 1.3x durante 2 turnos contra enemigos que sufren delay",
+		specialNotes:"#{randomHits : 3}"
+	},
+        1526: { 
+		captain:"Aumenta el ATK de los personajes [INT] 2.75x",
+		specialName:"Arlong Special",
+                special: [
+			{
+				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.5x 1 turno",
+				"cooldown": [16,7]
+			},
+			{
+				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.75x 1 turno",
+				"cooldown": [21,12]
+			}
+		]
+	},
+        1527: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes [INT] 2x",
+		specialName:"Arlong Special",
+                special: [
+			{
+				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.5x 1 turno",
+				"cooldown": [16,7]
+			},
+			{
+				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.75x 1 turno",
+				"cooldown": [21,12]
+			}
+		]	
+            },
+        1528: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.25x",
+		specialName:"Blenheim Special",
+		special: "Reduce la duración del Despair 2 turnos. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Powerhouse durante 1 turnos si la HP está por debajo del 30% al principio del turno",		
+	},
         1529: { 
 		captain:"Aumenta el ATK de todos los personajes 1.5x, aumenta SU propio ATK 3x",
 		specialName:"Cavendish ambush special",
-		special: "Aumenta la efectividad de los orbes 2.25x a Slashers si la HP está por encima del 50%, si está por debajo aumenta un 2x",
+		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
 		specialNotes:"#{orb : 2.25x}"
 	},
         1530: { 
 		captain:"Aumenta el ATK de todos los personajes 1.75x, aumenta SU propio ATK 3.5x",
 		specialName:"Cavendish ambush special",
-		special: "Aumenta la efectividad de los orbes 2.25x a Slashers si la HP está por encima del 50%, si está por debajo aumenta un 2x",
+		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
 		specialNotes:"#{orb : 2.25x}"
 	},
 };

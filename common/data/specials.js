@@ -2301,6 +2301,39 @@ window.specials = {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); },
         type: "type"
     },
+    1522: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
+        type: "type",
+    },
+    1525: {
+        atk: function(p) { return 1.3; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+     1526: {
+        atk: function(p) { return p.slot < 2 ? window.specials[1526].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[1526].multiplier == 1.5 ? 1 : 0);
+            window.specials[1526].multiplier = [1.5, 1.75][n];
+            p.scope.notify({
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar este especial',
+                name: '1526warning'
+            });
+        },
+    },
+    1527: {
+        atk: function(p) { return p.slot < 2 ? window.specials[1527].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[1527].multiplier == 1.5 ? 1 : 0);
+            window.specials[1527].multiplier = [1.5, 1.75][n];
+            p.scope.notify({
+                 text: 'Usando ' + [1.5, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar este especial',
+                name: '1527warning'
+            });
+        },
+},
     1529: {
         orb: function(p) {
              if(p.percHP >= 50.0){
@@ -2320,5 +2353,5 @@ window.specials = {
             }
           },
         type: "type"
-    },
+    },   
 };

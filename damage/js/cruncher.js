@@ -55,7 +55,8 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     /* * * * * Local variables * * * * */
 
-    var cptsWith = { };
+    var cptsWith = { };       
+    var sailorsWith = { };
     var currentDefense = 0;
     var isDefenseDown = false;
 
@@ -192,6 +193,13 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             result.push({ unit: x, orb: orb, base: Math.floor(atk), multipliers: multipliers, position: n });
         });
         // apply static multipliers and static bonuses
+          for (var x=0;x<enabledSailors.length;++x) {
+            if (enabledSailors[x].hasOwnProperty('atkStatic'))
+                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atkStatic,null,true);
+            if (enabledSailors[x].hasOwnProperty('atk'))
+                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atk,null,false,enabledSailors[x].sourceSlot);
+        }
+        
         for (var i=0;i<enabledEffects.length;++i) {
             if (enabledEffects[i].hasOwnProperty('atkStatic'))
                 result = applyCaptainEffectsToDamage(result,enabledEffects[i].atkStatic,null,true);
@@ -433,6 +441,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     var applyCaptainEffectsToHP = function(slotNumber,hp) {
         var params = getParameters(slotNumber);
+        //static
+         for (var q=0;q<enabledSailors.length;++q) {
+            if (enabledSailors[q].hasOwnProperty('hpStatic'))
+                hp += enabledSailors[q].hpStatic(params);
+        }
+        //nonstatic
         for (var i=0;i<enabledEffects.length;++i) {
             if (enabledEffects[i].hasOwnProperty('hp'))
                 hp *= enabledEffects[i].hp(params);
@@ -446,6 +460,10 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         for (var j=0;j<enabledSpecials.length;++j) {
             if (enabledSpecials[j].hasOwnProperty('rcvStatic'))
                 rcv += enabledSpecials[j].rcvStatic(params);
+        }
+        for (var z=0;z<enabledSailors.length;++z) {
+            if (enabledSailors[z].hasOwnProperty('rcvStatic'))
+                rcv += enabledSailors[z].rcvStatic(params);
         }
         // non-static rcv
         for (var i=0;i<enabledEffects.length;++i) {
@@ -747,6 +765,22 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             chainModifiers: enabledEffects.filter(function(x) { return x.hasOwnProperty('chainModifier'); }),
             damageSorters:  enabledEffects.filter(function(x) { return x.hasOwnProperty('damageSorter');  })
         };
+        
+        enabledSailors = [ ];
+        for (var x=2;x<6;++x) {
+            if (team[x].unit === null) continue;
+            var id = team[x].unit.number + 1;
+            if (!window.sailors.hasOwnProperty(id)) continue;
+            var effect2 = jQuery.extend({ },window.sailors[id]);               
+			effect2.sourceSlot = x;
+            enabledSailors.push(effect2);
+        }
+        sailorsWith = {
+            hitModifiers:   enabledSailors.filter(function(x) { return x.hasOwnProperty('hitModifiers');  }),
+            hitMultipliers: enabledSailors.filter(function(x) { return x.hasOwnProperty('hit');  }),
+            chainModifiers: enabledSailors.filter(function(x) { return x.hasOwnProperty('chainModifier'); }),
+            damageSorters:  enabledSailors.filter(function(x) { return x.hasOwnProperty('damageSorter');  })
+        };
         // get all non-default hit modifiers
         hitModifiers = getPossibleHitModifiers(cptsWith.hitModifiers);
         // compute special combinations
@@ -806,7 +840,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             slot: slotNumber,
             turnCounter: $scope.tdata.turnCounter.value,
             chainPosition: chainPosition,
-			classCount: classCounter(),
+            classCount: classCounter(),
             colorCount: colorCounter()
         };
     };

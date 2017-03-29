@@ -8407,7 +8407,7 @@ window.details = {
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1538: { 
-		captain:"Aumenta el ataque de los personajes [STR] 2.5x y su HP 1.2x",
+		captain:"Aumenta el ATK de los personajes [STR] 2.5x y su HP 1.2x",
 		specialName:"Heracles RR Special",
 		special: "Reduce la HP actual de todos los enemigos un 20%. Cambia los orbes de la columna derecha a [BOMBA] y convierte los orbes de los personajes [STR] en favorables",
                 sailor: "Aumenta la HP de los personajes [STR] +150",

@@ -178,6 +178,12 @@ window.sailors = {
         atkStatic: function(p) { return p.unit.class.has("Striker") && p.percHP >= 70.0 ? 20 :0 ; }
     },
     1511: {       
-        atkStatic: function(p) { return p.unit.class.has("Powerhouse") && p.scope.data.team[1].unit.class.has("Powrhouse") ? 20 :0 ; }
+        atkStatic: function(p) { return p.unit.class.has("Powerhouse") && p.scope.data.team[1].unit.class.has("Powehouse") ? 20 :0 ; }
+    },
+    1529: {       
+        atk: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "QCK" ? 0.5 :1 ; }
+    },
+    1530: {       
+        atk: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "QCK" ? 0.5 :1 ; }
     },
     }

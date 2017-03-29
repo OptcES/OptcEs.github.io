@@ -8358,13 +8358,15 @@ window.details = {
 		captain:"Aumenta el ATK de todos los personajes 1.5x, aumenta SU propio ATK 3x",
 		specialName:"Cavendish ambush special",
 		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
-		specialNotes:"#{orb : 2.25x}"
+		specialNotes:"#{orb : 2.25x}",
+                sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1530: { 
 		captain:"Aumenta el ATK de todos los personajes 1.75x, aumenta SU propio ATK 3.5x",
 		specialName:"Cavendish ambush special",
 		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
-		specialNotes:"#{orb : 2.25x}"
+		specialNotes:"#{orb : 2.25x}",
+                sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1531: { 
 		captain:"Todos los orbes contarán como favorables, excepto [G], [NEGATIVO] y [BOMBA]. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",

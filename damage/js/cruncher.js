@@ -197,14 +197,14 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             if (enabledSailors[x].hasOwnProperty('atkStatic'))
                 result = applyCaptainEffectsToDamage(result,enabledSailors[x].atkStatic,null,true);
             if (enabledSailors[x].hasOwnProperty('atk'))
-                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atk,null,false,enabledSailors[x].sourceSlot);
+                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atk,null,false,enabledSailors[x].sourceSlot,true);
         }
         
         for (var i=0;i<enabledEffects.length;++i) {
             if (enabledEffects[i].hasOwnProperty('atkStatic'))
                 result = applyCaptainEffectsToDamage(result,enabledEffects[i].atkStatic,null,true);
             if (enabledEffects[i].hasOwnProperty('atk'))
-                result = applyCaptainEffectsToDamage(result,enabledEffects[i].atk,null,false,enabledEffects[i].sourceSlot);
+                result = applyCaptainEffectsToDamage(result,enabledEffects[i].atk,null,false,enabledEffects[i].sourceSlot,false);
         }
         // if the user has specified a custom order, sort by that
         if ($scope.tdata.orderOverride.hasOwnProperty(type)) {
@@ -430,11 +430,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     /* * * * * Captain effects/specials * * * * */
 
-    var applyCaptainEffectsToDamage = function(damage,func,modifiers,isStatic,sourceSlot) {
+    var applyCaptainEffectsToDamage = function(damage,func,modifiers,isStatic,sourceSlot, isSailor) {
         return damage.map(function(x,n) {
             var params = jQuery.extend({ damage: damage, modifiers: modifiers, sourceSlot: sourceSlot },getParameters(x.position, n));
             if (isStatic) x.base += func(params);
-            else x.multipliers.push([ func(params), 'efecto capitán' ]);
+            else if(!isSailor) x.multipliers.push([ func(params), 'efecto capitán' ]);
+            else x.multipliers.push([ func(params), 'efecto sailor' ]);
             return { unit: x.unit, orb: x.orb, base: x.base, multipliers: x.multipliers, position: x.position, sourceSlot: sourceSlot };
         });
     };

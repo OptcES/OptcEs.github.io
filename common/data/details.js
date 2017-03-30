@@ -8369,17 +8369,45 @@ window.details = {
                 sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1531: { 
-		captain:"Todos los orbes contarán como favorables, excepto [G], [NEGATIVO] y [BOMBA]. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
-		specialName:"God Usopp Special",
-		special: "Retrasa a todos los enemigos 5 turnos. Añade .3x al multiplicador de la cadena 4 turnos",
+		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		specialName:"Long-Range Attack: Bagworm",
+		special: [
+                    {
+                        "description": "Retrasa a los enemigos 3 turnos",
+                        "cooldown": [ 13, 10 ],
+                    },
+                    {
+                        "description": "Retrasa a los enemigos 4 turnos. Añade .2x al multiplicador de cadena durante 4 turnos",
+                        "cooldown": [ 19, 16 ],
+                    },
+                    {
+                        "description": "Retrasa a los enemigos 5 turnos. Añade .3x al multiplicador de cadena durante 4 turnos",
+                        "cooldown": [ 24, 21 ],
+                    },
+                ],
+                sailor: "Esta unida resiste la ceguera",
 	},
         1532: {            
-		captain:"Todos los orbes contarán como favorables, excepto [G], [NEGATIVO] y [BOMBA]. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
-		specialName:"God Usopp Special",
-		special: "Retrasa a todos los enemigos 5 turnos. Añade .3x al multiplicador de la cadena 4 turnos",
+		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		specialName:"Long-Range Attack: Bagworm",
+		special: [
+                    {
+                        "description": "Retrasa a los enemigos 3 turnos",
+                        "cooldown": [ 13, 10 ],
+                    },
+                    {
+                        "description": "Retrasa a los enemigos 4 turnos. Añade .2x al multiplicador de cadena durante 4 turnos",
+                        "cooldown": [ 19, 16 ],
+                    },
+                    {
+                        "description": "Retrasa a los enemigos 5 turnos. Añade .3x al multiplicador de cadena durante 4 turnos",
+                        "cooldown": [ 24, 21 ],
+                    },
+                ],
+                sailor: "Esta unidad resiste la ceguera",
 	},
         1533: { 
-                captain: "None",
+                captain: "Aumenta el ATK de los personajes [QCK] 2x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 2.5x",
 		specialName:"Rayleigh RR Special",
 		special: "Cambia todos los orbes, incluidos [NEGATIVO], a [QCK]",
                 sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
@@ -8403,19 +8431,19 @@ window.details = {
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1537: { 
-                captain: "None", 
+                captain: "Aumenta el ATK de los personajes [STR] 2x y su HP 1.2x", 
 		specialName:"Heracles RR Special",
-		special: "Reduce la HP actual de todos los enemigos un 20%. Cambia los orbes de la columna derecha a [BOMBA] y convierte los orbes de los personajes [STR] en favorables",
+		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1538: { 
-		captain:"Aumenta el ATK de los personajes [STR] 2.5x y su HP 1.2x",
+		captain:"Aumenta el ATK de los personajes [STR] 2.5x y su HP 1.25x",
 		specialName:"Heracles RR Special",
-		special: "Reduce la HP actual de todos los enemigos un 20%. Cambia los orbes de la columna derecha a [BOMBA] y convierte los orbes de los personajes [STR] en favorables",
+		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1539: { 
-               captain: "None", 
+               captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
 		specialName:"Perona RR Special",
 		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
@@ -8440,4 +8468,10 @@ window.details = {
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
 	},
+         1543: {
+                captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP está por debajo de 50%, 1.75x si la salud está por debajo del 30%",
+                special: " Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
+                sailor: "Esta unidad resiste la ceguera",
+                specialName: "Green Star, Impact Wolf",
+        },
 };

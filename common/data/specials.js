@@ -2353,5 +2353,27 @@ window.specials = {
             }
           },
         type: "type"
-    },   
+    },
+    1531: {
+        chainAddition: function(p) {return window.specials[1531].multiplier;},
+        onActivation: function(p) {
+            var n = (window.specials[1531].multiplier == 0.2 ? 1 : 0);
+            window.specials[1531].multiplier = [0.2, 0.3][n];
+            p.scope.notify({
+                text: 'Usando el multiplicador de cadena' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
+                name: '1531warning'
+            });
+        }
+    },
+    1532: {
+        chainAddition: function(p) {return window.specials[1532].multiplier;},
+        onActivation: function(p) {
+            var n = (window.specials[1532].multiplier == 0.2 ? 1 : 0);
+            window.specials[1532].multiplier = [0.2, 0.3][n];
+            p.scope.notify({
+                text: 'Usando el multiplicador de cadena' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
+                name: '1532warning'
+            });
+        }
+},
 };

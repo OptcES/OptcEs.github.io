@@ -8323,7 +8323,7 @@ window.details = {
 	},
         1526: { 
 		captain:"Aumenta el ATK de los personajes [INT] 2.75x",
-		specialName:"Arlong Special",
+		specialName:"Just 'Water Play'",
                 special: [
 			{
 				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.5x 1 turno",
@@ -8337,7 +8337,7 @@ window.details = {
 	},
         1527: { 
 		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes [INT] 2x",
-		specialName:"Arlong Special",
+		specialName:"Just 'Water Play'",
                 special: [
 			{
 				"description": "Reduce la carga de los especiales de los capitanes 1 turno. Aumenta el ATK de los capitanes 1.5x 1 turno",
@@ -8421,13 +8421,13 @@ window.details = {
         1535: { 
                 captain: "None",            
 		specialName:"Duval RR Special",
-		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] durante 1 turno",
+		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1536: { 
 		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla para personajes [PSY]. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
 		specialName:"Duval RR Special",
-		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] durante 1 turno",
+		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1537: { 
@@ -8443,7 +8443,7 @@ window.details = {
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1539: { 
-               captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
+                captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
 		specialName:"Perona RR Special",
 		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",

@@ -8378,7 +8378,7 @@ window.details = {
                     },
                     {
                         "description": "Retrasa a los enemigos 4 turnos. Añade .2x al multiplicador de cadena durante 4 turnos",
-                        "cooldown": [ 19, 16 ],
+                        "cooldown": [18, 15 ],
                     },
                     {
                         "description": "Retrasa a los enemigos 5 turnos. Añade .3x al multiplicador de cadena durante 4 turnos",
@@ -8397,7 +8397,7 @@ window.details = {
                     },
                     {
                         "description": "Retrasa a los enemigos 4 turnos. Añade .2x al multiplicador de cadena durante 4 turnos",
-                        "cooldown": [ 19, 16 ],
+                        "cooldown": [18, 15 ],
                     },
                     {
                         "description": "Retrasa a los enemigos 5 turnos. Añade .3x al multiplicador de cadena durante 4 turnos",
@@ -8445,19 +8445,19 @@ window.details = {
         1539: { 
                 captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
 		specialName:"Perona RR Special",
-		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
+		special: "Reduce el daño recibido un 90%. Reduce la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1540: { 
 		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
 		specialName:"Perona RR Special",
-		special: "Reduce el daño recibido un 90%. Desactiva la Reducción de Daño enemiga y el Limitador de Daño durante 2 turnos",
+		special: "Reduce el daño recibido y la defensa de los enemigos un 90 durante 1 turno%. Reduce la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta las stats de los personajes [INT] +50",
 	},
         1541: { 
-                captain: "None", 
+                captain: "Aumenta el ATK de todos los personajes 2x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good", 
 		specialName:"Elizabeth RR Special",
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",

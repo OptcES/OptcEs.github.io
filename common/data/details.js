@@ -8385,7 +8385,7 @@ window.details = {
                         "cooldown": [ 24, 21 ],
                     },
                 ],
-                sailor: "Esta unida resiste la ceguera",
+                sailor: "Esta unidad te da inmunidad a la ceguera",
 	},
         1532: {            
 		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
@@ -8404,7 +8404,7 @@ window.details = {
                         "cooldown": [ 24, 21 ],
                     },
                 ],
-                sailor: "Esta unidad resiste la ceguera",
+                sailor: "Esta unidad te da inmunidad a la ceguera",
 	},
         1533: { 
                 captain: "Aumenta el ATK de los personajes [QCK] 2x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 2.5x",
@@ -8471,7 +8471,7 @@ window.details = {
          1543: {
                 captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP está por debajo de 50%, 1.75x si la salud está por debajo del 30%",
                 special: " Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
-                sailor: "Esta unidad resiste la ceguera",
+                sailor: "Esta unidad te da inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
         },
 };

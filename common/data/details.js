@@ -5928,11 +5928,11 @@ window.details = {
 		specialName:"Extreme Speed - One Sword Style, Ten Slashes",
 		special: [
 			{
-				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 1 turno.",
+				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT].",
 				"cooldown": [8,3]
 			},
 			{
-				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 2 turnos.",
+				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 1 turno.",
 				"cooldown": [17,12]
 			}
 		],
@@ -5945,11 +5945,11 @@ window.details = {
 		specialName:"Extreme Speed - One Sword Style, Ten Slashes",
 		special: [
 			{
-				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 1 turno.",
+				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT].",
 				"cooldown": [8,3]
 			},
 			{
-				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 2 turnos.",
+				"description": "Hace daño [INT] a todos los enemigos. Cambia su propio orbe a [INT]. Reduce la carga de los especiales de los personajes Slasher y Cerebral en 1 turno.",
 				"cooldown": [17,12]
 			}
 		],

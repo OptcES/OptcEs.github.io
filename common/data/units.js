@@ -1477,7 +1477,7 @@ window.units = [
 	 [ "Fukaboshi ", "PSY", ["Powerhouse", "Striker"], 4, 15, 5, 3, 50, 392109, 202, 91, 33, 1042, 651, 149, 1 ],
 	 [ "Príncipe Tritón Fukaboshi", "PSY", ["Powerhouse", "Striker"], 5, 30, 8, 4, 99, 4000000, 959, 579, 89, 2554, 1206, 323, 1 ],
 	 [ "Caribou", "QCK", ["Driven", "Slasher"], 4, 15, 4, 3, 50, 392109, 144, 144, 22, 1042, 651, 149, 1 ],
-	 [ "Caribou, Usuario de la Numa Numa no Mi", "QCK", ["Driven", "Slasher"], 5, 30, 4, 4, 99, 4000000, 959, 579, 89, 2340, 1484, 257, 1 ],
+	 [ "Caribou, Usuario de la Numa Numa no Mi", "QCK", ["Driven", "Shooter"], 5, 30, 10, 4, 99, 4000000, 959, 579, 89, 2340, 1484, 257, 1 ],
 	 [ "Vander Decken IX", "DEX", ["Slasher", "Shooter"], 4, 15, 4, 3, 50, 392109, 123, 119, 29, 1000, 589, 171, 1 ],
 	 [ "Vander Decken IX, Capitán de los Piratas Voladores", "DEX", ["Slasher", "Shooter"], 5, 30, 4, 4, 99, 4000000, 929, 532, 132, 2198, 1393, 316, 1 ],
 	 [ "Madame Shyarly", "INT", ["Fighter", "Cerebral"], 4, 15, 6, 3, 50, 392109, 91, 89, 44, 935, 478, 232, 1 ],

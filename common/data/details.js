@@ -8421,13 +8421,13 @@ window.details = {
         1535: { 
                 captain: "None",            
 		specialName:"Duval RR Special",
-		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] 1.75x durante 1 turno",
+		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1536: { 
 		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla para personajes [PSY]. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
 		specialName:"Duval RR Special",
-		special: "Reduce el daño recibido un 50% y aumenta el ataque de los personajes [PSY] 1.75x durante 1 turno",
+		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1537: { 
@@ -8445,14 +8445,14 @@ window.details = {
         1539: { 
                 captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
 		specialName:"Perona RR Special",
-		special: "Reduce el daño recibido un 90%. Reduce la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
+		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1540: { 
 		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
 		specialName:"Perona RR Special",
-		special: "Reduce el daño recibido y la defensa de los enemigos un 90 durante 1 turno%. Reduce la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
+		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta las stats de los personajes [INT] +50",
 	},

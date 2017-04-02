@@ -346,4 +346,26 @@ window.ships = [
                 [ 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
         }
     },
+    { // 29
+        name: 'Thriller Bark',
+        thumb: null,
+        description: 'Aumenta el ATK de los personajes INT y DEX 1.5x y su HP 1.25x',
+        atk: function(p) {
+            return p.unit.type == "INT" || p.unit.type == "DEX" ? [ 1.2, 1.25, 1.25, 1.3, 1.35, 1.35, 1.4, 1.4, 1.45, 1.5 ][p.boatLevel - 1] : 1;
+        },
+        hp: function(p) {
+            return p.unit.type == "INT" || p.unit.type == "DEX" ? [ 1.1, 1.1, 1.15, 1.15, 1.15, 1.2, 1.2, 1.25, 1.25, 1.25 ][p.boatLevel - 1] : 1;
+        },
+    },
+    { //30
+        name: 'NOSE',
+        thumb: null,
+        description: 'Aumenta el ATK y el HP de los personajes SOLO Shooter x2, aumenta el ATK del resto de personajes x1.5. Especial: Restrasa a los enemigos 2 turnos (carga: 12 turnos)',
+        atk: function(p) {
+            return !(p.unit.class.has('Shooter') && p.unit.class.length > 2 ) ? 1.5 : 2;
+        },
+        hp: function(p) {
+            return !(p.unit.class.has('Shooter') && p.unit.class.length > 2) ? 1 :2;
+        },        
+    },
 ];

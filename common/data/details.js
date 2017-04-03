@@ -7603,7 +7603,7 @@ window.details = {
 	},
 	1413: { 
 		captain:"Aumenta la HP de todos los personajes 1.2x y aumenta el ATK de todos los personajes 3x si la HP se encuentra por debajo del 30%, aumentando 1.75x si se encuentra por encima del 30%",
-		specialName:"Seaquake",
+		specialName:"Emperor's Pride",
 		special: "Reduce la HP actual de los enemigos un 30%, reduce la carga de todos los especiales 1 turno y aleatoriza los orbes no favorables, incluidos los [NEGATIVO]"
 	},
 	1414: { 
@@ -8369,7 +8369,7 @@ window.details = {
                 sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1531: { 
-		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP se encuentra por debajo del 50%, por 1.75x si la salud se encuentra por debajo del 30%",
 		specialName:"Long-Range Attack: Bagworm",
 		special: [
                     {
@@ -8388,7 +8388,7 @@ window.details = {
                 sailor: "Esta unidad te da inmunidad a la ceguera",
 	},
         1532: {            
-		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP está por debajo de 50%, por 1.75x si la salud está por debajo del 30%",
+		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP se encuentra por debajo del 50%, por 1.75x se encuentra por debajo del 30%",
 		specialName:"Long-Range Attack: Bagworm",
 		special: [
                     {
@@ -8408,69 +8408,69 @@ window.details = {
 	},
         1533: { 
                 captain: "Aumenta el ATK de los personajes [QCK] 2x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 2.5x",
-		specialName:"Rayleigh RR Special",
+		specialName:"The Teacher's Final Ordeal",
 		special: "Cambia todos los orbes, incluidos [NEGATIVO], a [QCK]",
                 sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
 	},
         1534: { 
 		captain:"Aumenta el ATK de los personajes [QCK] 2.5x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 3x",
-		specialName:"Rayleigh RR Special",
+		specialName:"The Teacher's Final Ordeal",
 		special: "Cambia todos los orbes, incluidos [NEGATIVO], a [QCK]",
                 sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
 	},
         1535: { 
                 captain: "None",            
-		specialName:"Duval RR Special",
+		specialName:"Prideful Memories",
 		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1536: { 
 		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla para personajes [PSY]. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
-		specialName:"Duval RR Special",
+		specialName:"Prideful Memories",
 		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1537: { 
                 captain: "Aumenta el ATK de los personajes [STR] 2x y su HP 1.2x", 
-		specialName:"Heracles RR Special",
+		specialName:"Greenstone Threat",
 		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1538: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2.5x y su HP 1.25x",
-		specialName:"Heracles RR Special",
+		specialName:"Greenstone Threat",
 		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1539: { 
                 captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
-		specialName:"Perona RR Special",
+		specialName:"Negative Hollow: You're all Rotten Imbeciles",
 		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta la HP de los personajes [STR] +150",
 	},
         1540: { 
 		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
-		specialName:"Perona RR Special",
+		specialName:"Negative Hollow: You're all Rotten Imbeciles",
 		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
                 sailor: "Aumenta las stats de los personajes [INT] +50",
 	},
         1541: { 
                 captain: "Aumenta el ATK de todos los personajes 2x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good", 
-		specialName:"Elizabeth RR Special",
+		specialName:"Soft and Gentle Fluffy Kisses",
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
 	},
         1542: { 
 		captain:"Aumenta ligeramente la HP y el RCV de todos los personajes. Aumenta el ATK de todos los personajes 2.5x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good",
-		specialName:"Elizabeth RR Special",
+		specialName:"Soft and Gentle Fluffy Kisses",
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
 	},
          1543: {
-                captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP está por debajo de 50%, 1.75x si la salud está por debajo del 30%",
-                special: " Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
+                captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP se encuentra por debajo del 50%, 1.75x se encuentra por debajo del 30%",
+                special: "Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
                 sailor: "Esta unidad te da inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
         },

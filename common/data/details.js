@@ -7853,13 +7853,13 @@ window.details = {
 	1453: { 
 		captain:"",
 		specialName:"Doki Doki Heart",
-		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 99% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
+		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 69% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
 		specialNotes:""
 	},
 	1454: { 
 		captain:"Aumenta el ATK de los personajes [STR], [DEX] y [QCK] 1.75x y su RCV 1.5x",
 		specialName:"Doki Doki Heart",
-		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 99% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
+		special: "Cambia los orbes dependiendo de la HP actual: por encima del 70% la fila superior a [QCK] y la fila central a [STR]; entre 69% y 30% la columna izquierda a orbes [G]; por debajo del 30% la fila superior a [RCV], la fila central a [QCK] y la fila inferior a [STR]",
 		specialNotes:""
 	},
 	1455: { 

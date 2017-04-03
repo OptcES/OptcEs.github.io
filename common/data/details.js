@@ -8474,4 +8474,14 @@ window.details = {
                 sailor: "Esta unidad te da inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
         },
+        1544: {
+                captain: "None",
+                special: "Aumenta el ATK de los personajes Free Spirit 1.5x durante 1 turno y hace que los orbes desfavorables no reduzcan el daño durante ? turnos",            
+                specialName: "Brook FN Special",
+        },
+        1545: {
+                captain: "Aumenta el ATK de los personajes [QCK] 2x y aumenta la HP de los personajes Free Spirit 1.3x",
+                special: "Aumenta el ATK de los personajes Free Spirit 1.5x durante 1 turno y hace que los orbes desfavorables no reduzcan el daño durante ? turnos",            
+                specialName: "Brook FN Special",
+        },
 };

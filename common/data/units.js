@@ -1542,7 +1542,7 @@ window.units = [
          [ "Elizabeth, Compañera de los Mugiwaras", "DEX",  ["Fighter", "Free Spirit"], 4, 15, 6, 3, 50, 392109, 77, 55, 33, 888, 444, 222, 1 ],
          [ "Elizabeth, Cómplice de los Mugiwaras", "DEX",  ["Fighter", "Free Spirit"],  5, 30, 8, 4, 99, 4000000, 821, 380, 157, 2681, 810, 381, 1 ],
          [ "Capitán Usopp", "DEX", "Shooter", 6, 55, 4, 5, 99, 5000000, 1556, 577, 179, 3410, 1341, 481, 1 ],
-         [ "Brook FN", "QCK", [ "Slasher", "Free Spirit" ], 3, 13, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Brook FN Evo", "QCK", [ "Slasher", "Free Spirit" ], 4, 20, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Sancrin", "STR", [ "Shooter", "Driven" ], 3, 13, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Brook FN", "QCK", [ "Slasher", "Free Spirit" ], 3, 13, 6, 2, 50, null, 384, 434, 143, null, null, null, null ],
+         [ "Brook FN Evo", "QCK", [ "Slasher", "Free Spirit" ], 4, 20, 8, 4, 99, null, 1043, 434, 143, null, null, null, null ],
+         [ "Sancrin", "STR", [ "Shooter", "Driven" ], 3, 13, 6, 2, 70, null, null, null, null, null, null, null, null ],
 ];

@@ -4264,10 +4264,10 @@ window.captains = {
         },
         hitModifiers: ["Good", "Good", "Great", "Perfect", "Perfect", "Perfect"]
     },
-    1492: {//CHANGE THIS IF THIS ISN'T SABO
+    1492: {
         atk: function(p) { return p.unit.class.has("Free Spirit") ? 2.75 : 1; },
-        hp: function(p) { return 1.2; },
-        rcv: function(p) { return 1.2; }
+        hp: function(p) { return  p.unit.class.has("Free Spirit") ? 1.2 : 1; },
+        rcv: function(p) { return  p.unit.class.has("Free Spirit") ? 1.2 : 1; }
     },
     1493: {
         atk: function(p) { return p.unit.type == "STR" ? 1.5 : 1; },

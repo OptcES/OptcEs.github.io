@@ -8122,7 +8122,7 @@ window.details = {
 		special: "Reduce la duración de los Encadenamientos 2 turnos. Cambia los orbes de la fila superior a [BOMBA]. Reduce la defensa de los enemigos en un 50% durante 1 turno"
 	},
 	1492: { 
-		captain:"Aumenta la HP y el RCV de todos los personajes 1.2x. Además, aumenta el ATK de los personajes Free Spirit 2.75x",
+		captain:"Aumenta el ATK de los personajes Free Spirit 2.75x y su HP y RCV 1.2x",
 		captainNotes:"",
 		specialName:"Burning Dragon Claw Fist",
 		special: [

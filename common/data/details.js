@@ -8474,19 +8474,19 @@ window.details = {
                 sailor: "Esta unidad te da inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
         },
-        1544: {
+        1546: {
                 captain: "Aumenta el ATK de los personajes [QCK] 1.5x y aumenta la HP de los personajes Free Spirit 1.2x",
                 special: "Aumenta el ATK de los personajes Free Spirit 1.5x y hace que los orbes desfavorables no reduzcan el daño durante 1 turno",            
-                specialName: "Brook FN Special",
+                specialName: "Dawn of A Big Star",
         },
-        1545: {
+        1547: {
                 captain: "Aumenta el ATK de los personajes [QCK] 2x y aumenta la HP de los personajes Free Spirit 1.3x",
                 special: "Aumenta el ATK de los personajes Free Spirit 1.5x y hace que los orbes desfavorables no reduzcan el daño durante 1 turno",            
-                specialName: "Brook FN Special",
+                specialName: "Dawn of A Big Star",
         },
-        1546: {
+        1548: {
                 captain: "Aumenta la HP de los personajes Driven 1.5x",
                 special: "Retrasa a los enemigos 1 turno y añade .2x al multiplicador de cadena durante 1 turno",            
-                specialName: "Sancrin Special",
+                specialName: "Former Thief's Box Office",
         },
 };

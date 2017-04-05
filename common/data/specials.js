@@ -2360,7 +2360,7 @@ window.specials = {
             var n = (window.specials[1531].multiplier == 0.2 ? 1 : 0);
             window.specials[1531].multiplier = [0.2, 0.3][n];
             p.scope.notify({
-                text: 'Usando el multiplicador de cadena' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
+                text: 'Usando el multiplicador de cadena ' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
                 name: '1531warning'
             });
         }
@@ -2371,7 +2371,7 @@ window.specials = {
             var n = (window.specials[1532].multiplier == 0.2 ? 1 : 0);
             window.specials[1532].multiplier = [0.2, 0.3][n];
             p.scope.notify({
-                text: 'Usando el multiplicador de cadena' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
+                text: 'Usando el multiplicador de cadena ' + [0.2, 0.3][n] + 'x. Para cambiar al multiplicador de cadena ' + [0.3, 0.2][n] + 'x, desactiva y activa este especial',
                 name: '1532warning'
             });
         }
@@ -2396,4 +2396,15 @@ window.specials = {
     1542: {
         chainAddition: function(p){ return 0.5;}
     },
+    1546: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+        type: "class"
+    },
+    1547: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+        type: "class"
+    },
+    1548: {
+        chainAddition: function(p){ return 0.2;}
+},
 };

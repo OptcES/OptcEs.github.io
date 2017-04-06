@@ -742,8 +742,12 @@ directives.unitSailor = function() {
         restrict: 'E',
         replace: true,
         scope: true,
-        template: '<div class="unitSailor"><i class="fa fa-anchor"></div>',
+        template: '<div class="unitSailor" ng-show="hasSailor"><i class="fa fa-anchor"></div>',
         link: function(scope, element, attrs) {
+          scope.hasSailor = false;
+           scope.$watch('data.team[slot].unit',function(unit) {
+                scope.hasSailor = unit && window.sailors.hasOwnProperty(unit.number+1);
+            });
         }
     };
 };

@@ -942,7 +942,7 @@ nav > li > div {
     width: 19px;
     height: 21px;
     bottom: -1px;
-    z-index: 3;
+    z-index: 4;
     font-size: 9pt;
     color: powderblue;
     border: 2px solid gold;

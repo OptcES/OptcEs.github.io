@@ -345,6 +345,8 @@ directives.slot = function() {
         templateUrl: 'views/fragments/slot.html',
         scope: true,
         link: function(scope, element, attrs) {
+            var id = scope.data.team[element.index()].unit.number + 1;
+            scope.sailors = window.sailors[id] ? JSON.parse(JSON.stringify(window.sailors[id])) : null;
             scope.slot = element.index();
             scope.onDrop = function(i, j) {
                 var temp = scope.data.team[i];
@@ -731,6 +733,17 @@ directives.unitCandies = function() {
                 scope.text = (total > 0 ? '+' + total : '');
             };
             scope.$watch('data.team[slot].candies',update,true);
+        }
+    };
+};
+
+directives.unitSailor = function() {
+    return {
+        restrict: 'E',
+        replace: true,
+        scope: true,
+        template: '<div class="unitSailor"><i class="fa fa-anchor"></div>',
+        link: function(scope, element, attrs) {
         }
     };
 };

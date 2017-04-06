@@ -345,9 +345,9 @@ directives.slot = function() {
         templateUrl: 'views/fragments/slot.html',
         scope: true,
         link: function(scope, element, attrs) {
-            var id = scope.tdata.team[scope.slot].unit.number + 1;
-            scope.sailors = window.sailors[id] ? JSON.parse(JSON.stringify(window.sailors[id])) : null;
-            scope.slot = element.index();
+		 scope.slot = element.index();
+            var id = scope.data.team[scope.slot].unit.number + 1;
+            scope.sailors = window.sailors[id] ? JSON.parse(JSON.stringify(window.sailors[id])) : null;           
             scope.onDrop = function(i, j) {
                 var temp = scope.data.team[i];
                 scope.data.team[i] = scope.data.team[j];

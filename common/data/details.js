@@ -8385,7 +8385,7 @@ window.details = {
                         "cooldown": [ 24, 21 ],
                     },
                 ],
-                sailor: "Esta unidad te da inmunidad a la ceguera",
+                sailor: "Esta unidad te otorga inmunidad a la ceguera",
 	},
         1532: {            
 		captain:"Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables. Aumenta el ATK de todos los personajes 1.5x si la HP se encuentra por debajo del 50%, por 1.75x se encuentra por debajo del 30%",
@@ -8404,7 +8404,7 @@ window.details = {
                         "cooldown": [ 24, 21 ],
                     },
                 ],
-                sailor: "Esta unidad te da inmunidad a la ceguera",
+                sailor: "Esta unidad te otorga inmunidad a la ceguera",
 	},
         1533: { 
                 captain: "Aumenta el ATK de los personajes [QCK] 2x y su HP 1.2x. Despues de 4 PERFECTS aumenta el multiplicador de ATK A 2.5x",
@@ -8434,27 +8434,27 @@ window.details = {
                 captain: "Aumenta el ATK de los personajes [STR] 2x y su HP 1.2x", 
 		specialName:"Greenstone Threat",
 		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
-                sailor: "Aumenta la HP de los personajes [STR] +150",
+                sailor: "Aumenta la HP de los personajes [STR] 150 puntos",
 	},
         1538: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2.5x y su HP 1.25x",
 		specialName:"Greenstone Threat",
 		special: "Reduce la HP actual de los enemigos un 20%. Cambia los orbes de la columna derecha a Favorables para personajes Striker y Shooter",
-                sailor: "Aumenta la HP de los personajes [STR] +150",
+                sailor: "Aumenta la HP de los personajes [STR] 150 puntos",
 	},
         1539: { 
                 captain: "Aumenta el ATK de los personajes que tengan un coste menor de 20 1.5x", 
-		specialName:"Negative Hollow: You're all Rotten Imbeciles",
+		specialName:"Negative Hollow: You're All Rotten Imbeciles",
 		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
-                sailor: "Aumenta la HP de los personajes [STR] +150",
+                sailor: "Aumenta las stats de los personajes [INT] 50 puntos",
 	},
         1540: { 
 		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
-		specialName:"Negative Hollow: You're all Rotten Imbeciles",
+		specialName:"Negative Hollow: You're All Rotten Imbeciles",
 		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
-                sailor: "Aumenta las stats de los personajes [INT] +50",
+                sailor: "Aumenta las stats de los personajes [INT] 50 puntos",
 	},
         1541: { 
                 captain: "Aumenta el ATK de todos los personajes 2x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good", 
@@ -8471,7 +8471,7 @@ window.details = {
          1543: {
                 captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP se encuentra por debajo del 50%, 1.75x se encuentra por debajo del 30%",
                 special: "Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
-                sailor: "Esta unidad te da inmunidad a la ceguera",
+                sailor: "Esta unidad te otorga inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
         },
         1546: {

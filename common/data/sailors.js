@@ -186,4 +186,20 @@ window.sailors = {
     1530: {       
         atk: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "QCK" ? 0.5 :1 ; }
     },
+    1537: {       
+        hpStatic: function(p) { return p.unit.type == "STR" ? 150 : 0; }
+    },   
+    1538: {       
+        hpStatic: function(p) { return p.unit.type == "STR" ? 150 : 0; }
+    }, 
+    1539: {       
+        atkStatic: function(p) { return  p.unit.type == "INT" ? 50: 0; },
+        hpStatic: function(p) {return p.unit.type == "INT" ? 50: 0; },
+        rcvStatic: function(p) { return p.unit.type == "INT" ? 50: 0; }
+    }, 
+    1540: {       
+        atkStatic: function(p) { return  p.unit.type == "INT" ? 50: 0; },
+        hpStatic: function(p) {return p.unit.type == "INT" ? 50: 0; },
+        rcvStatic: function(p) { return p.unit.type == "INT" ? 50: 0; }
+    },
     }

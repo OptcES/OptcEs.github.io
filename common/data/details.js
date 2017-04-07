@@ -8489,4 +8489,24 @@ window.details = {
                 special: "Retrasa a los enemigos 1 turno y añade .2x al multiplicador de cadena durante 1 turno",            
                 specialName: "Former Thief's Box Office",
         },
+        1552: {
+                captain: "None",
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 x1.75 durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                specialName: "Harjudin Special",
+        },
+        1553: {
+                captain: "Aumenta el ATK de los personajes con coste 40 x2.75",
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 x1.75 durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                specialName: "Harjudin Special",
+        },
+        1554: {
+                captain: "None",
+                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante ? turnos",            
+                specialName: "Ryuuma Special",
+        },
+        1555: {
+                captain: "Aumenta el ATK de los personajes [DEX] x2.25 y recupera una candidad equivalenta a x2 de su RCV al final de cada turno",
+                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante ? turnos",            
+                specialName: "Ryuuma Special",
+        },
 };

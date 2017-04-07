@@ -1547,4 +1547,11 @@ window.units = [
          [ "Soul King Brook", "QCK", [ "Slasher", "Free Spirit" ], 3, 13, 6, 2, 50, 392109, 100, 43, 38, 1094, 434, 184, 1 ],
          [ "Soul King Brook, el Pirata", "QCK", [ "Slasher", "Free Spirit" ], 4, 20, 8, 4, 99, 3000000, 1043, 434, 143, 2043, 1043, 304, 1 ],
          [ "Sancrin", "STR", [ "Shooter", "Driven" ], 3, 13, 6, 2, 70, 1066998, 52, 31, 40, 962, 775, 226, 1 ],
+         [ "Robin 5+?", "INT", [ null, null ], 5, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Brook 5+?", "DEX", [ null, null ], 5, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Franky 5+?", "INT", [ null, null ], 5, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Harjudin Coliseo", "STR", [ "Powerhouse", "Striker" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Harjudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Ryuuma Coliseo", "DEX", "Slasher", 3, 16, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Ryuuma Coliseo Evo", "DEX", "Slasher", 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
 ];

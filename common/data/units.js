@@ -1550,8 +1550,8 @@ window.units = [
          [ "Robin 5+?", "PSY", [ "Fighter", "Cerebral" ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Brook 5+?", "DEX", [ "Slasher", "Free Spirit"], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Franky 5+?", "INT", [ "Fighter", "Free Spirit" ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Harjudin Coliseo", "STR", [ "Powerhouse", "Striker" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Harjudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Hajrudin Coliseo", "STR", [ "Powerhouse", "Striker" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Hajrudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, 5, 3, 99, 4000000, 1000, 500, 100, 2500, 1200, 200, null ],
          [ "Ryuuma Coliseo", "DEX", "Slasher", 3, 16, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Ryuuma Coliseo Evo", "DEX", "Slasher", 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
 ];

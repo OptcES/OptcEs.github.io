@@ -2406,5 +2406,9 @@ window.specials = {
     },
     1548: {
         chainAddition: function(p){ return 0.2;}
-},
+    },
+    1553: {
+        atk: function(p) { return p.unit.cost == 40  ? 1.75 : 1; },
+        type: "class"
+    },
 };

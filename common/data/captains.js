@@ -4492,5 +4492,8 @@ window.captains = {
     1548: {
         hp: function(p) { return p.unit.class.has("Driven") ? 1.5 : 1; }
     },
+    1553: {
+        atk: function(p) { return p.unit.cost == 40  ? 2.75 : 1; }
+    },
     
 };

@@ -1313,6 +1313,25 @@ window.drops = {
             condition: "You can only bring QCK units",
             "Todas las dificultades": [ 1468, 1470, 1471, -1268, -1322, -1228, -906, -914, -310, -1061, -1470 ]
         },
+        {
+            name: "Exit! Whitebeard Pirates",
+            thumb: 1509,
+            condition: "You can only bring PSY units",
+            "Todas las dificultades": [ 1509, 1510, 1511, 1512, -1001, -1316, -1280, -314, -908, -16, -1446, -1370, -1368, -816 ],
+        },
+        
+        {
+            name: "Dadan Family! Encounter with the Mountain Bandits",
+            thumb: 1520,
+            "Todas las dificultades": [ 1519, 1521, 1522, -1314, -1366, -1364, -912, -937, -316, -1281, -891, -22, -1448 ],
+        },
+        
+        {
+            name: "Soul King! Farewell Tour Concert",
+            thumb: 1547,
+            condition: "Mugiwaras are boosted",
+            "Todas las dificultades": [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20 ],
+        },
         
     ],
 
@@ -1510,6 +1529,12 @@ window.drops = {
             thumb: 1432,
             Master: [ 1431, 215, 799 ],
             Ultimate: [ 1431, 215, 799 ],
+        },
+        {
+            name: 'Clash!! Bellamy',
+            thumb: 1518,
+            Master: [ 1517 ],
+            Expert: [ 1517 ],
         },
     ],
 

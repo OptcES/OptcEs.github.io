@@ -2407,8 +2407,22 @@ window.specials = {
     1548: {
         chainAddition: function(p){ return 0.2;}
     },
+    1552: {
+        atk: function(p) { return p.unit.cost == 40  ? 1.75 : 1; },
+        type: "class"
+    },
     1553: {
         atk: function(p) { return p.unit.cost == 40  ? 1.75 : 1; },
         type: "class"
+    },
+    1554: {
+        atk: function(p) { return p.unit.type == "DEX" ? 1.35 : 1; },
+        orb: function(p) { return p.unit.type == "DEX" ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1.35) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1); },
+        type: "type"
+    },
+    1555: {
+        atk: function(p) { return p.unit.type == "DEX" ? 1.35 : 1; },
+        orb: function(p) { return p.unit.type == "DEX" ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1.35) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1); },
+        type: "type"
     },
 };

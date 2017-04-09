@@ -315,4 +315,48 @@ window.zombies = {
         type: 'healer',
         amount: 918
     },
+    1455: { // Colo Don Chinjao
+        type: 'healer',
+        amount: 120
+    },
+    1456: { // Colo Don Chinjao
+        type: 'healer',
+        amount: 120
+    },
+    1465: { // White Day Chopper
+        type: 'zombie',
+        threshold: 0.5
+    },
+    1466: { // White Day Chopper
+        type: 'zombie',
+        threshold: 0.5
+    },
+    1472: { // Shirahoshi
+        type: 'healer',
+        multiplier: 5
+    },
+    1473: { // Shirahoshi
+        type: 'healer',
+        multiplier: 5
+    },
+    1508: { // White Day Sanji
+        type: 'healer',
+        multiplier: 2
+    },
+    1516: { // White Day Brook
+        type: 'healer',
+        multiplier: 2
+    },
+    1523: { //  Chopper Primavera
+        type: 'healer',
+        amount: 1000
+    },
+    1524: { //  Chopper Primavera
+        type: 'healer',
+        amount: 1224
+    },
+    1555: { // Coliseum Ryuma
+        type: 'healer',
+        multiplier: 2
+},
 };

@@ -7614,12 +7614,12 @@ window.details = {
 	1415: { 
 		captain:"Aumenta el ATK de los personajes con coste 30 o menor 1.5x",
 		specialName:"Unshakeable Resolution of the Wise Master",
-		special: "Reduce la carga de los especiales de todos los personajes 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
+		special: "Reduce la carga de los especiales de todos los personajes con coste 30 o menor 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
 	},
 	1416: { 
 		captain:"Aumenta el ATK de los personajes con coste 30 o menor 2.25x y la HP 1.2x",
 		specialName:"Unshakeable Resolution of the Wise Master",
-		special: "Reduce la carga de los especiales de todos los personajes 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
+		special: "Reduce la carga de los especiales de todos los personajes con coste 30 o menor 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
 	},
 	1417: { 
 		captain:"Aumenta el ATK y la HP de los personajes [STR] 1.5x",
@@ -8315,8 +8315,8 @@ window.details = {
 		special: "Cambia los orbes de los capitanes a favorables. Cambia los orbes [NEGATIVO] y desfavorables a orbes [G]"
 	},
         1525: { 
-		captain:"Aumenta el ATK de los personajes Slasher 3.25x  y reduce su multiplicador de ATK ???x al final de cada turno ",
-                captainNotes:"Su multiplicador de ATK empezará por 3.25x en el primer turno, ???x en el segundo, ???x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Slasher.",
+		captain:"Aumenta el ATK de los personajes Slasher 3.25x  y reduce su multiplicador de ATK 0.0625x al final de cada turno ",
+                captainNotes:"Su multiplicador de ATK empezará por 3.25x en el primer turno, 3.1875x en el segundo, 3.125x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 2x. El multiplicador solo afecta a los personajes Slasher.",
 		specialName:"Sorrowful Execution",
 		special: "Inflige 3 golpes de daño aleatorio sin tipo a enemigos aleatorios. Retrasa a todos los enemigos 1 turno y aumenta el ATK de todos los personajes 1.3x durante 2 turnos contra enemigos que sufren delay",
 		specialNotes:"#{randomHits : 3}"
@@ -8419,13 +8419,13 @@ window.details = {
                 sailor: "Los orbes [STR] [DEX] [INT] contarán como favorables para esta unidad",
 	},
         1535: { 
-                captain: "None",            
+                captain: "Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ataque de los personajes [PSY] x2.5 si tienen orbe favorable",            
 		specialName:"Prideful Memories",
 		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
 	},
         1536: { 
-		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla para personajes [PSY]. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
+		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla. Aumenta el ataque de los personajes [PSY] x3 si tienen orbe favorable",
 		specialName:"Prideful Memories",
 		special: "Reduce el daño recibido un 50% y aumenta el ATK de los personajes [PSY] 1.75x durante 1 turno",
                 sailor: "Los orbes [INT] contarán como favorables para esta unidad",
@@ -8450,7 +8450,7 @@ window.details = {
                 sailor: "Aumenta las stats de los personajes [INT] 50 puntos",
 	},
         1540: { 
-		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5",
+		captain:"Aumenta el ATK de los personajes que tengan un coste menor de 30 2.25x y su RCV 1.5x",
 		specialName:"Negative Hollow: You're All Rotten Imbeciles",
 		special: "Reduce el daño recibido y la defensa de los enemigos un 90% durante 1 turno. Reduce la duracíon de la Reducción de Daño enemiga y el Limitador de Daño en 2 turnos",
                 specialNotes:"Reducción de daño es el Escudo Arco-Iris que tienen los enemigos",
@@ -8463,7 +8463,7 @@ window.details = {
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
 	},
         1542: { 
-		captain:"Aumenta ligeramente la HP y el RCV de todos los personajes. Aumenta el ATK de todos los personajes 2.5x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good",
+		captain:"Aumenta el HP y el RCV de todos los personajes 1.2x. Aumenta el ATK de todos los personajes 2.5x  si se ataca siguiendo un orden [STR] > [DEX] > [QCK], golpeando con ataques mejores o iguales que Good",
 		specialName:"Soft and Gentle Fluffy Kisses",
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
@@ -8490,23 +8490,23 @@ window.details = {
                 specialName: "Former Thief's Box Office",
         },
         1552: {
-                captain: "None",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 x1.75 durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                captain: "Aumenta el ATK de los personajes con coste 40 ???x",
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
                 specialName: "Harjudin Special",
         },
         1553: {
-                captain: "Aumenta el ATK de los personajes con coste 40 x2.75",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 x1.75 durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                captain: "Aumenta el ATK de los personajes con coste 40 2.75x",
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
                 specialName: "Harjudin Special",
         },
         1554: {
-                captain: "None",
-                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante ? turnos",            
+                captain: "Aumenta el ATK de los personajes [DEX] 2x",
+                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX 1.35x durante 1 turno",            
                 specialName: "Ryuuma Special",
         },
         1555: {
-                captain: "Aumenta el ATK de los personajes [DEX] x2.25 y recupera una candidad equivalenta a x2 de su RCV al final de cada turno",
-                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante ? turnos",            
+                captain: "Aumenta el ATK de los personajes [DEX] 2.25x y recupera una candidad equivalenta a x2 de su RCV al final de cada turno",
+                special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante 1 turno",            
                 specialName: "Ryuuma Special",
         },
 };

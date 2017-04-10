@@ -8468,11 +8468,21 @@ window.details = {
 		special: "Recupera una cantidad de HP equivalente a su RCV 13x. Aumenta 0.5x el multiplicador de cadena y reduce la defensa del enemigo a 0 durante 1 turno",
                 sailor: "Reduce la carga del especial 2 turnos si ésta fue aumentada por un enemigo",
 	},
-         1543: {
+        1543: {
                 captain: "Al comienzo de cada Stage, retrasa a los enemigos un turno. Los orbes [STR], [DEX], [QCK], [PSY], [INT], [RCV], y [TND] serán tratados como favorables para personajes Shooter. Aumenta el ATK de los personajes Shooter 1.5x si la HP se encuentra por debajo del 50%, 1.75x se encuentra por debajo del 30%",
                 special: "Reduce la HP actual de los enemigos 10%. Si los enemigos tienen inmunidad al delay los retrasa 1 turno, si no tienen inmunidad retrasa a los enemigos 3 turnos.",
                 sailor: "Esta unidad te otorga inmunidad a la ceguera",
                 specialName: "Green Star, Impact Wolf",
+        },
+        1544: {
+                captain: "None",
+                special: "Aumenta el ATK de los personajes Fighter 1.5x y cambia el orbe del capitán a Favorable",            
+                specialName: "Koala Special",
+        },
+        1545: {
+                captain: "Aumenta el ATK de los personajes Fighter 2.25x y recupera una cantidad de HP equivalente a su RCV 0.5x cada vez que ejecutas un Perfect",
+                special: "Aumenta el ATK de los personajes Fighter 1.5x y cambia el orbe del capitán a Favorable",            
+                specialName: "Koala Special",
         },
         1546: {
                 captain: "Aumenta el ATK de los personajes [QCK] 1.5x y aumenta la HP de los personajes Free Spirit 1.2x",
@@ -8488,16 +8498,31 @@ window.details = {
                 captain: "Aumenta la HP de los personajes Driven 1.5x",
                 special: "Retrasa a los enemigos 1 turno y añade .2x al multiplicador de cadena durante 1 turno",            
                 specialName: "Former Thief's Box Office",
+        },       
+        1549: {
+                captain: "Aumenta el ATK de los personajes Free Spirit 2.5x y recupera 430 HP al final de cada turno",
+                special: "Retrasa a los enemigos 1 turno y fija los orbes durante 1 turno",            
+                specialName: "Timeskip Brook Special",
+        },
+        1550: {
+                captain: "Aumenta el ATK de los personajes [PSY] 2.25x y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
+                special: "Reduce la duración de Cadenas, Despair y Silencio de Especiales 3 turnos. Reduce la carga de todos los especiales 1 turno",            
+                specialName: "Timeskip Robin Special",
+        },
+        1551: {
+                captain: "Aumenta el ATK de los personajes [INT] 2.5x y reduce el daño recibido un 10%",
+                special: "Hace su ATK 12x como daño [INT] a todos los enemigos. Cambia los orbes [RCV] y [TND] a favorables para personajes Shooter y Free Spirit",            
+                specialName: "Timeskip Franky Special",
         },
         1552: {
                 captain: "Aumenta el ATK de los personajes con coste 40 ???x",
                 special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
-                specialName: "Harjudin Special",
+                specialName: "Thunder Giant",
         },
         1553: {
                 captain: "Aumenta el ATK de los personajes con coste 40 2.75x",
                 special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
-                specialName: "Harjudin Special",
+                specialName: "Thunder Giant",
         },
         1554: {
                 captain: "Aumenta el ATK de los personajes [DEX] 2x",

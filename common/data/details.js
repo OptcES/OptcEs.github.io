@@ -8505,13 +8505,13 @@ window.details = {
                 specialName: "Timeskip Brook Special",
         },
         1550: {
-                captain: "Aumenta el ATK de los personajes [PSY] 2.25x y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
+                captain: "Aumenta el ATK de los personajes [PSY] 2.25x y recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno",
                 special: "Reduce la duración de Cadenas, Despair y Silencio de Especiales 3 turnos. Reduce la carga de todos los especiales 1 turno",            
                 specialName: "Timeskip Robin Special",
         },
         1551: {
                 captain: "Aumenta el ATK de los personajes [INT] 2.5x y reduce el daño recibido un 10%",
-                special: "Hace su ATK 12x como daño [INT] a todos los enemigos. Cambia los orbes [RCV] y [TND] a favorables para personajes Shooter y Free Spirit",            
+                special: "Hace su ATK 35x como daño [INT] a todos los enemigos. Cambia los orbes [RCV] y [TND] a favorables para personajes Shooter y Free Spirit",            
                 specialName: "Timeskip Franky Special",
         },
         1552: {

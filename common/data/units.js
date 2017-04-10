@@ -1549,7 +1549,7 @@ window.units = [
          [ "Sancrin", "STR", [ "Shooter", "Driven" ], 3, 13, 6, 2, 70, 1066998, 52, 31, 40, 962, 775, 226, 1 ],
          [ "Brook 5+", "DEX", [ "Slasher", "Free Spirit"], 5, 30, 6, 3, 99, null, 1043, 481, 187, null, null, null, null ],
          [ "Robin 5+", "PSY", [ "Fighter", "Cerebral" ], 5, 30, null, 3, 99, null, 979, 487, 171, null, null, null, null ],
-         [ "Franky 5+", "INT", [ "Fighter", "Free Spirit" ], 5, 30, 4, 3, 9, null, 1655, 803, 91, null, null, null, null ],
+         [ "Franky 5+", "INT", [ "Shooter", "Free Spirit" ], 5, 30, 4, 3, 9, null, 1655, 803, 91, null, null, null, null ],
          [ "Hajrudin Coliseo", "STR", [ "Powerhouse", "Striker" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Hajrudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, 5, 3, 99, 4000000, 1000, 500, 100, 2500, 1200, 200, null ],
          [ "Ryuuma Coliseo", "DEX", "Slasher", 3, 16, null, null, null, null, null, null, null, null, null, null, null ],

@@ -355,8 +355,16 @@ window.zombies = {
         type: 'healer',
         amount: 1224
     },
+    1549: { // Brook 5+
+            type: 'healer',
+            amount: 430
+        },
+    4550: { // Robin 5+
+            type: 'healer',
+            multiplier: 3
+    },
     1555: { // Coliseum Ryuma
         type: 'healer',
         multiplier: 2
-},
+},   
 };

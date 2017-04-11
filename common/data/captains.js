@@ -4503,13 +4503,13 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Driven") ? 1.5 : 1; }
     },
     1549: {
-        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2.5 : 1;}
-    },
-    1550: {
         atk: function(p) { return p.unit.type == "PSY" ? 2.25 : 1; }
     },
-    1551: {
+    1550: {
         atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; }
+    },
+    1551: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2.5 : 1;}
     },
     1552: {
         atk: function(p) { return p.unit.cost == 40  ? 2 : 1; }

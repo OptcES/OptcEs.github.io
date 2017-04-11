@@ -1541,5 +1541,17 @@ window.families = [
     "Perona",
     "Elizabeth",
     "Elizabeth",
-    "Usopp"
+    "Usopp",
+    "Koala",
+    "Koala",
+    "Brook",
+    "Brook",
+    null,
+    "Nico Robin",
+    "Franky",
+    "Brook",
+    "Hajrudin",
+    "Hajrudin",
+    "Ryuuma",
+    "Ryuuma",   
 ];

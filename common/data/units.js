@@ -1551,7 +1551,7 @@ window.units = [
          [ "Timeskip Franky, Rocket Launcher", "INT", [ "Shooter", "Free Spirit" ], 5, 30, 4, 3, 99, 3000000, 1655, 803, 91, 2687, 1359, 244, null ],
          [ "Timeskip Brook, Song of Scratches: Blizzard Slash ", "DEX", [ "Slasher", "Free Spirit"], 5, 30, 6, 3, 99, 3000000, 1043, 481, 187, 2204, 1277, 351, null ],
          [ "Hajrudin Coliseo", "STR", [ "Powerhouse", "Striker" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Hajrudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, 5, 3, 99, 4000000, 1000, 500, 100, 2500, 1200, 200, null ],
-         [ "Ryuuma Coliseo", "DEX", "Slasher", 3, 16, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Ryuuma Coliseo Evo", "DEX", "Slasher", 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Hajrudin Coliseo Evo", "STR", [ "Powerhouse", "Striker" ], 5, 40, 5, 3, 99, 4000000, 1225, 683, 89, 2500, 1200, 200, null ],
+         [ "Samurai Ryuuma, General Zombie", "DEX", "Slasher", 3, 16, 6, 1, 50, null, 131, 111, 0, 1094, 525, 99, null ],
+         [ "Espadachín Samurai Ryuuma, General Zombie", "DEX", "Slasher", 4, 26, 6, 3, 99, 3000000, 1031, 450, 99, 2017, 1192, 244, null ],
 ];

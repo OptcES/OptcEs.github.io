@@ -6527,12 +6527,12 @@ window.details = {
 	1263: { 
 		captain:"Aumenta el ATK de todos los personajes con coste 20 o menor 2.5x",
 		specialName:"Iron Leg Sanctions",
-		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno"
+		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 2 turnos"
 	},
 	1264: { 
 		captain:"Aumenta el ATK de todos los personajes con coste 30 o menor 2.5x",
 		specialName:"Iron Leg Sanctions",
-		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 1 turno"
+		special: "Hace 200.000 puntos de daño fijo a un enemigo. Aumenta su propio ATK 2x durante 2 turnos"
 	},
 	1265: { 
 		captain:"Aumenta el ATK de los personajes Shooter 2x",
@@ -8515,13 +8515,13 @@ window.details = {
                 specialName: "Song of Scratches: Blizzard Slash",
         },
         1552: {
-                captain: "Aumenta el ATK de los personajes con coste 40 ???x",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                captain: "Aumenta el ATK de los personajes con coste 40 2.5x",
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y desactiva las barreras defensivas del enemigo durante 1 turno",            
                 specialName: "Thunder Giant",
         },
         1553: {
                 captain: "Aumenta el ATK de los personajes con coste 40 2.75x",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x durante 1 turno. Desactiva las barreras defensivas durante ? turnos",            
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y desactiva las barreras defensivas del enemigo durante 1 turno",            
                 specialName: "Thunder Giant",
         },
         1554: {

@@ -8555,7 +8555,7 @@ window.details = {
                 specialName: "The Disturbance of the Drunken Slitter",
         },
         1560: {
-                captain: "Aumenta el ATK de los personajes Fighter reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                captain: "Aumenta el ATK de los personajes Fighter 3x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
                 special: "Cambia todos los orbes, incluido los [NEGATIVO], a [VACIO]",            
                 specialName: "Daruma Special",
         },

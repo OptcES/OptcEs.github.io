@@ -8315,7 +8315,7 @@ window.details = {
 		special: "Cambia los orbes de los capitanes a favorables. Cambia los orbes [NEGATIVO] y desfavorables a orbes [G]"
 	},
         1525: { 
-		captain:"Aumenta el ATK de los personajes Slasher 3.25x  y reduce su multiplicador de ATK 0.0625x al final de cada turno ",
+		captain:"Aumenta el ATK de los personajes Slasher 3.25x  y reduce su multiplicador de ATK 0.0625x al final de cada turno",
                 captainNotes:"Su multiplicador de ATK empezará por 3.25x en el primer turno, 3.1875x en el segundo, 3.125x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 2x. El multiplicador solo afecta a los personajes Slasher.",
 		specialName:"Sorrowful Execution",
 		special: "Inflige 3 golpes de daño aleatorio sin tipo a enemigos aleatorios. Retrasa a todos los enemigos 1 turno y aumenta el ATK de todos los personajes 1.3x durante 2 turnos contra enemigos que sufren delay",
@@ -8533,5 +8533,40 @@ window.details = {
                 captain: "Aumenta el ATK de los personajes [DEX] 2.25x y recupera una candidad equivalenta a x2 de su RCV al final de cada turno",
                 special: "Aumenta el ATK y la efectividad de los orbes de los personajes DEX x1.35 durante 1 turno",            
                 specialName: "Ryuuma Special",
+        },
+        1556: {
+                captain: "Aumenta el HP de los personajes [STR] 2x",
+                special: "Aumenta SU propio ATK x2 durante un turno si el enemigo con mayor HP supera los 3.000.000",            
+                specialName: "Wadatsumi Special",
+        },
+        1557: {
+                captain: "Aumenta el ATK de los personajes Striker 3x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Impide que los orbes desfavorables bajen el ataque durante dos turnos",            
+                specialName: "Superfoot Injury",
+        },
+        1558: {
+                captain: "Aumenta el ATK de los personajes Shooter 3x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Reduce el HP actual de los enemigos 15%",            
+                specialName: "Stamping Brace",
+        },
+        1559: {
+                captain: "Aumenta el ATK de los personajes Slasher 3x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Si la HP actual se encuentra al 50% o menos, hace un gran daño sin tipo a todos los enemigos",            
+                specialName: "The Disturbance of the Drunken Slitter",
+        },
+        1560: {
+                captain: "Aumenta el ATK de los personajes Fighter reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Cambia todos los orbes, incluido los [NEGATIVO], a [VACIO]",            
+                specialName: "Daruma Special",
+        },
+        1561: {
+                captain: "Aumenta el ATK de los personajes [INT] 3x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Hace su ATK 25x como daño [INT] a un solo enemigo. Aumenta el ATK de los personajes Striker 1.5x durante 1 turno",            
+                specialName: "Explosive Nail Hammer",
+        },
+        1562: {
+                captain: "Aumenta el ATK de los personajes Powerhouse 3.5x, reduce su multiplicador de ATK 0.1x y un 10% el HP actual al final de cada turno",
+                special: "Hace su ATK 60x como daño [QCK] a un solo enemigo. Aumenta el daño recibido 2x durante 2 turnos y aumenta el ATK de los personajes Powerhouse 1.75x durante 1 turno",            
+                specialName: "Hody Special",
         },
 };

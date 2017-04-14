@@ -322,7 +322,7 @@ window.ships = [
 	
     { // 27
         name: 'Kizaru\'s Cannonball',
-        thumb: null,
+        thumb: 'ship_0027_c.png',
         description: 'Aumenta el ATK de los personajes Shooter 1.55x y su HP 1.2x y reduce la carga de todos los especiales 1 turno al principio de la batalla. Especial: Reduce la HP actual de los enemigos un 7% (carga: 15 turnos).',
 
         atk: function(p) {
@@ -335,20 +335,20 @@ window.ships = [
 	
     { // 28
         name: 'Going Luffy SENPAI!',
-        thumb: null,
-        description: 'Aumenta el ATK de los personajes Striker 1.5x y su HP 1.2x. Especial: Reduce cualquier daño recibido a partir de los 10.000 puntos de daño (carga: 17 turnos).',
+        thumb: 'ship_0028_c.png',
+        description: 'Aumenta el ATK de los personajes Striker 1.5x y su HP 1.2x si hay 6 Strikers en tu equipo. Especial: Reduce cualquier daño recibido a partir de los 10.000 puntos de daño (carga: 17 turnos).',
         atk: function(p) {
-            return !p.unit.class.has('Striker') ? 1 :
+            return !(p.classCount.Striker == 6) ? 1 : !p.unit.class.has('Striker') ? 1 :
                 [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.5 ][p.boatLevel - 1];
         },
         hp: function(p) {
-            return !p.unit.class.has('Striker') ? 1 :
+            return !(p.classCount.Striker == 6) ? 1 : !p.unit.class.has('Striker') ? 1 :
                 [ 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
         }
     },
     { // 29
         name: 'Thriller Bark',
-        thumb: null,
+        thumb: 'ship_0029_c.png',
         description: 'Aumenta el ATK de los personajes INT y DEX 1.5x y su HP 1.25x',
         atk: function(p) {
             return p.unit.type == "INT" || p.unit.type == "DEX" ? [ 1.2, 1.25, 1.25, 1.3, 1.35, 1.35, 1.4, 1.4, 1.45, 1.5 ][p.boatLevel - 1] : 1;
@@ -359,7 +359,7 @@ window.ships = [
     },
     { //30
         name: 'NOSE',
-        thumb: null,
+        thumb: 'ship_0030_c.png',
         description: 'Aumenta el ATK y el HP de los personajes SOLO Shooter x2, aumenta el ATK del resto de personajes x1.5. Especial: Restrasa a los enemigos 2 turnos (carga: 12 turnos)',
         atk: function(p) {
             return !(p.unit.class.has('Shooter') && p.unit.class.length > 2 ) ? 1.5 : 2;

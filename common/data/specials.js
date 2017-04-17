@@ -2438,5 +2438,13 @@ window.specials = {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 1.75 : 1; },
         type: "class"
     },
+    1563: {
+        chainAddition: function(p) {return 0.3;},
+        warning: "El especial seleccionado (%name%) asume que estás utilizando su segunda carga."
+    },
+    1564: {
+        chainAddition: function(p) {return 0.3;},
+        warning: "El especial seleccionado (%name%) asume que estás utilizando su segunda carga."
+    },
     
 };

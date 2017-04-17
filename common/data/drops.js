@@ -1320,7 +1320,7 @@ window.drops = {
             "Todas las dificultades": [ 1509, 1510, 1511, 1512, -1001, -1316, -1280, -314, -908, -16, -1446, -1370, -1368, -816 ],
         },
         
-        {
+       {
             name: "Dadan Family! Encounter with the Mountain Bandits",
             thumb: 1520,
             "Todas las dificultades": [ 1519, 1521, 1522, -1314, -1366, -1364, -912, -937, -316, -1281, -891, -22, -1448 ],
@@ -1329,9 +1329,15 @@ window.drops = {
         {
             name: "Soul King! Farewell Tour Concert",
             thumb: 1547,
-            condition: "Mugiwaras are boosted",
+            condition: "Los Mugiwaras aumentan su ATK, HP, y RCV 1.5x and y reduce la carga de sus especiales 9 turnos añ principio de la batalla",
             "Todas las dificultades": [ 1546, 1548, -1035, -1410, -1406, -939, -943, -312, -1279, -1282, -1447, -20 ],
         },
+        
+        {
+            name: "Prodence Kingdom",
+            thumb: 1564,
+            "Todas las dificultades": [ 1563, 1565, -1362, -1408, -1412, -941, -991, -308, -1283, -892, -1549, -709 ],
+},
         
     ],
 

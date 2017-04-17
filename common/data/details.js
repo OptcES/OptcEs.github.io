@@ -8569,4 +8569,42 @@ window.details = {
                 special: "Hace su ATK 60x como daño [QCK] a un solo enemigo. Aumenta el daño recibido 2x durante 2 turnos y aumenta el ATK de los personajes Powerhouse 1.75x durante 1 turno",            
                 specialName: "Hody Special",
         },
+        1563: {
+                captain: "Aumenta el ATK de los personajes Fighter y Powerhouse 1.75x. Despues de 5 PERFECTS aumenta el multiplicador de ATK un 1.25x adicional",
+                special: [
+                    {
+                        "description": "Inflige 10 golpes de daño sin tipo de su ATK 3x a todos los enemigos y cambia su propio orbe a [STR]",
+             
+                    },
+                    {
+                        "description": "Inflige 10 golpes de daño sin tipo de su ATK 15x a todos los enemigos, cambia su propio orbe a [STR] y aumenta el multiplicador de cadena en .3x",
+                       
+                    },
+                ],
+                specialName: "Elizabello Special",
+        },
+        1564: {
+                captain: "Aumenta el ATK de los personajes Fighter y Powerhouse 2x. Despues de 5 PERFECTS aumenta el multiplicador de ATK un 1.5x adicional",
+               special: [
+                    {
+                        "description": "Inflige 10 golpes de daño sin tipo de su ATK 3x a todos los enemigos y cambia su propio orbe a [STR]",
+                         "cooldown": "??",
+                    },
+                    {
+                        "description": "Inflige 10 golpes de daño sin tipo de su ATK 15x a todos los enemigos, cambia su propio orbe a [STR] y aumenta el multiplicador de cadena en .3x",
+                        "cooldown": "??",
+                    },
+                ],            
+                specialName: "Elizabello Special",
+        },
+        1565: {
+                captain: "Reduce la carga de todos los especiales 1 turno a principio de la batalla. Aumenta el ATK de todos los personajes 1.75x",
+                special: "Reduce la carga de todos los especiales 1 turno y reduce un 10% nuestra HP actual",            
+                specialName: "Dagama Special",
+        },
+        1566: {
+                captain: "Reduce la carga de todos los especiales 2 turnos a principio de la batalla. Aumenta el ATK de todos los personajes 2x",
+                special: "Reduce la carga de todos los especiales 1 turno y reduce un 10% nuestra HP actual",            
+                specialName: "Dagama Special",
+        },
 };

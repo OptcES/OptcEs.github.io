@@ -100,6 +100,20 @@ body, html {
     animation-duration: 0.5s !important;
     -webkit-animation-duration: 0.5s !important;
 }
+#instructions {
+    padding-left:10px;
+    overflow-y: auto;
+}
+ 
+#instructions > ul {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+#insbody{
+   max-height: calc(100vh - 210px);
+   overflow-y: auto;
+}
 
 /******************
  * MAIN UNIT PANE *

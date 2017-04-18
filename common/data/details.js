@@ -8574,11 +8574,11 @@ window.details = {
                 special: [
                     {
                         "description": "Inflige 10 golpes de daño sin tipo de su ATK 3x a todos los enemigos y cambia su propio orbe a [STR]",
-             
+                        "cooldown": [17,9],        
                     },
                     {
                         "description": "Inflige 10 golpes de daño sin tipo de su ATK 15x a todos los enemigos, cambia su propio orbe a [STR] y aumenta el multiplicador de cadena en .3x",
-                       
+                        "cooldown": [24,16],
                     },
                 ],
                 specialName: "Elizabello Special",
@@ -8588,11 +8588,11 @@ window.details = {
                special: [
                     {
                         "description": "Inflige 10 golpes de daño sin tipo de su ATK 3x a todos los enemigos y cambia su propio orbe a [STR]",
-                         "cooldown": "??",
+                         "cooldown": [17,9],
                     },
                     {
                         "description": "Inflige 10 golpes de daño sin tipo de su ATK 15x a todos los enemigos, cambia su propio orbe a [STR] y aumenta el multiplicador de cadena en .3x",
-                        "cooldown": "??",
+                        "cooldown": [24,16],
                     },
                 ],            
                 specialName: "Elizabello Special",

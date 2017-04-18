@@ -1561,4 +1561,8 @@ window.cooldowns = [
     11,
     23,
     15,
+    null, //Elizabello FN
+    null, //Elizabello FN
+    15,
+    15,   
 ];

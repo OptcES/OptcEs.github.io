@@ -11,7 +11,7 @@ var notes = {
     orb: "La efectividad de los orbes solo cuenta con orbes favorables y desfavorables: " +
         "se aumentan los orbes favorables #1 y se disminuyen los orbes desfavorables #1.",
     poison: "El veneno equivale al ATK del personaje 0.5x como daño fijo al final de cada turno.",
-    strongpoison: "El veneno equivale al ATK del personaje 5x como daño fijo al final de cada turno.",
+    strongpoison: "El veneno grave equivale al ATK del personaje 5x como daño fijo al final de cada turno.",
     random: "Rango estimado del daño aleatorio: entre #1 HP y #2 HP.",
     randomHits: "El objetivo de cada uno de los #1 golpes es elegido aleatoriamente.",
     specialProportional: "El multiplicador exacto usado para calcular el daño es proporcional a " +
@@ -89,7 +89,7 @@ filters.decorate = function() {
             .replace(/\[VACIO\]/g,'<span class="badge EMPTY"><i class="fa fa-circle-o"></i> VACIO</span>')
             .replace(/\[NEGATIVO\]/g,'<span class="badge BLOCK"><i class="block-icon"></i> NEGATIVO</span>')
             .replace(/\[BOMBA\]/g,'<span class="badge BOMB"><i class="fa fa-bomb"></i> BOMBA</span>')
-			.replace(/\[RAINBOW\]/g,'<span class="badge RAINBOW"></i> RAINBOW</span>')											  
+	    .replace(/\[RAINBOW\]/g,'<span class="badge RAINBOW"></i> RAINBOW</span>')											  
             .replace(/\[G\]/g,'<span class="badge G">G</span>');
     };
 };

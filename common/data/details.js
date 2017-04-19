@@ -8516,12 +8516,12 @@ window.details = {
         },
         1552: {
                 captain: "Aumenta el ATK de los personajes con coste 40 2.5x",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y desactiva las barreras defensivas del enemigo durante 1 turno",            
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y reduce las barreras defensivas del enemigo 1 turno",            
                 specialName: "Thunder Giant",
         },
         1553: {
                 captain: "Aumenta el ATK de los personajes con coste 40 2.75x",
-                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y desactiva las barreras defensivas del enemigo durante 1 turno",            
+                special: "Hace 300.000 puntos de daño fijo. Aumenta el ATK de los personajes con coste 40 1.75x y reduce las barreras defensivas del enemigo 1 turno",            
                 specialName: "Thunder Giant",
         },
         1554: {

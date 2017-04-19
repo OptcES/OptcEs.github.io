@@ -2143,16 +2143,46 @@ window.specials = {
         type: "type"
     },
     1437: {
-        atk: function(p) { return 1.5; },
+        atk: function(p) { return window.specials[1438].multiplier; },
         type: "condition",
         orb: function(p) { return p.unit.class.has("Powerhouse") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); },
-        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+        //warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
+        onActivation: function(p) {
+            var n = (window.specials[1438].multiplier == 1 ? 1 : 0);
+            window.specials[1438].multiplier = [1, 1.5][n];
+            if( window.specials[1438].multiplier == 1){
+            p.scope.notify({
+                text: 'Usando solo el pontenciador de orbes. Para activar tambien el multiplicador de ATK asumiendo que el enemigo tiene delay, desactiva y vuelve a activar este especial',
+                name: '1480warning'
+            });
+        }else{
+           p.scope.notify({
+                text: 'Usando el multiplicador de ATK y de orbes, asumiendo que el enemigo tiene delay. Para usar solo el potenciador de orbes, desactiva y vuelve a activar este especial',
+                name: '1480warning'
+            }); 
+        }
+        },
     },
     1438: {
-        atk: function(p) { return 1.5; },
+        atk: function(p) { return window.specials[1438].multiplier; },
         type: "condition",
         orb: function(p) { return p.unit.class.has("Powerhouse") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); },
-        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+        //warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
+        onActivation: function(p) {
+            var n = (window.specials[1438].multiplier == 1 ? 1 : 0);
+            window.specials[1438].multiplier = [1, 1.5][n];
+            if( window.specials[1438].multiplier == 1){
+            p.scope.notify({
+                text: 'Usando solo el pontenciador de orbes. Para activar tambien el multiplicador de ATK asumiendo que el enemigo tiene delay, desactiva y vuelve a activar este especial',
+                name: '1480warning'
+            });
+        }else{
+           p.scope.notify({
+                text: 'Usando el multiplicador de ATK y de orbes, asumiendo que el enemigo tiene delay. Para usar solo el potenciador de orbes, desactiva y vuelve a activar este especial',
+                name: '1480warning'
+            }); 
+        }
+        },
     },
     1439: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 1.75 : 1; },

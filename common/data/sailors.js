@@ -202,4 +202,12 @@ window.sailors = {
         hpStatic: function(p) {return p.unit.type == "INT" ? 50: 0; },
         rcvStatic: function(p) { return p.unit.type == "INT" ? 50: 0; }
     },
+    /* Elizabello grr
+    1565: {       
+        atkStatic: function(p) { }
+    },
+    1566: {       
+        atkStatic: function(p) { }
+    },
+    */
     }

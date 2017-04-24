@@ -8609,9 +8609,20 @@ window.details = {
                 special: "Reduce la carga de todos los especiales 1 turno y reduce un 10% nuestra HP actual",            
                 specialName: "War of Mislead Order",
         },
+        1567: {
+                captain: "Aumenta el ATK y el RCV de los personajes [QCK] 1.5x",
+                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes ???x durante 3 turnos",            
+                specialName: "Kid Boa Special",
+        },
+        1568: {
+                captain: "Aumenta el ATK y el RCV de los personajes [QCK] 2x",
+                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes ???x durante 3 turnos",            
+                specialName: "Kid Boa Special",
+        },
         1569: {
-                captain: "Aumenta el ATK de todos los personajes 2.25x. Aumenta la cantidad de Belis y la EXP recibida al final de la batalla 1.2x ",
-                special: "Sin datos",            
-                specialName: "Law Special",
+                captain: "Aumenta el ATK de los personajes ¿Free Spirit? 2.25x. Aumenta la cantidad de Belis y la EXP recibida al final de la batalla 1.2x ",
+                special: "Aleatoriza los orbes que no sean favorables (incluidos los [NEGATIVO]) e intercambia la posición de los orbes 3 veces",
+                specialNotes:"Los orbes que 'Cuentan como favorables', como los que hace Luffy Timeskip Legend con su especial, se aleatorizarán tambien",
+                specialName: "ROOM: Shambles Junction",
         },
 };

@@ -8609,7 +8609,7 @@ window.details = {
                 special: "Reduce la carga de todos los especiales 1 turno y reduce un 10% nuestra HP actual",            
                 specialName: "War of Mislead Order",
         },
-        1567: {
+        1569: {
                 captain: "Aumenta el ATK de todos los personajes 2.25x. Aumenta la cantidad de Belis y la EXP recibida al final de la batalla 1.2x ",
                 special: "Sin datos",            
                 specialName: "Law Special",

@@ -5987,12 +5987,12 @@ window.details = {
 		sailor:"Aumenta el ATK de los personajes [QCK] 40 puntos"
 	},
 	1191: { 
-		captain:"Aumenta el ATK de todos los personajes 2x y su HP 1.25x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 8 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2x.",
+		captain:"Aumenta el ATK de todos los personajes 2x y su HP 1.2x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 8 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2x.",
 		specialName:"Ice Age",
 		special: "Aumenta la duración de cualquier potenciación de Clase/Tipo y Potenciación de Orbes en 1 turno"
 	},
 	1192: { 
-		captain:"Aumenta el ATK de todos los personajes 2x y su HP 1.25x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 8 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2x.",
+		captain:"Aumenta el ATK de todos los personajes 2x y su HP 1.2x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 8 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2x.",
 		specialName:"Ice Age",
 		special: "Aumenta la duración de cualquier potenciación de Clase/Tipo y Potenciación de Orbes en 1 turno"
 	},
@@ -8620,7 +8620,7 @@ window.details = {
                 specialName: "Kid Boa Special",
         },
         1569: {
-                captain: "Aumenta el ATK de los personajes ¿Free Spirit? 2.25x. Aumenta la cantidad de Belis y la EXP recibida al final de la batalla 1.2x ",
+                captain: "Aumenta el ATK de todos los personajes 2.25x. Aumenta la cantidad de Belis y la EXP recibida al final de la batalla 1.2x ",
                 special: "Aleatoriza los orbes que no sean favorables (incluidos los [NEGATIVO]) e intercambia la posición de los orbes 3 veces",
                 specialNotes:"Los orbes que 'Cuentan como favorables', como los que hace Luffy Timeskip Legend con su especial, se aleatorizarán tambien",
                 specialName: "ROOM: Shambles Junction",

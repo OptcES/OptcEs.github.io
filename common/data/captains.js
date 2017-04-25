@@ -4582,5 +4582,16 @@ window.captains = {
             return 2;
         }
     },
+    1567: {
+        atk: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; },
+        rcv: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; }
+    },
+    1568: {
+        atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
+        rcv: function(p) { return p.unit.type == "QCK" ? 2 : 1; }
+    },
+    1569: {
+        atk: function(p) { p.unit.class.has("Free Spirit") ? 2.25 : 1; }
+},
     
 };

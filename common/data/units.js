@@ -1565,7 +1565,7 @@ window.units = [
          [ "'Rey de la Lucha' Elizabello II, Reino de Prodence", "STR", [ "Fighter", "Powerhouse" ], 4, 20, 4, 4, 99, 3000000, 931, 495, 90, 2151, 1200, 193, 1 ],
          [ "Dagama, el Estratega", "DEX", [ "Driven", "Cerebral" ], 3, 13, 4, 2, 50, 392109, 101, 45, 70, 1012, 511, 160, 1 ],
          [ "Dagama, Estratega del Reino de Prodence", "DEX", [ "Driven", "Cerebral" ], 4, 20, 6, 4, 99, 3000000, 912, 451, 99, 2022, 1011, 276, 1 ],
-         [ "Boa Niña", "QCK", [ "Fighter", "Free Spirit" ], 4, 10,null,null, null, null, null, null, null, null, null, null, null ],
-         [ "Boa Niña Evo", "QCK", [ "Fighter", "Free Spirit" ], 5, 18,null,null, null, null, null, null, null, null, null, null, null ],
+         [ "Boa Hancock, Niña Guerrera", "QCK", [ "Fighter", "Free Spirit" ], 4, 10,null,null, null, null, null, null, null, null, null, null, null ],
+         [ "Boa Hancock, Futura Princesa", "QCK", [ "Fighter", "Free Spirit" ], 5, 18, 4, 5, 70, 1066998, 534, 255, 249, 1030, 603, 436, null ],
          [ "Law, Capitán de los piratas Heart, Alianza con los Mugiwaras", "INT", [ "Free Spirit", "Striker" ], 4,15, 4, 4, 99, 2000000, 197, 109, 15, 2017, 1230, 245, null ],
 ];

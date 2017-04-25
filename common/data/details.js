@@ -8611,12 +8611,12 @@ window.details = {
         },
         1567: {
                 captain: "Aumenta el ATK y el RCV de los personajes [QCK] 1.5x",
-                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes ???x durante 3 turnos",            
+                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes 1.5x durante 3 turnos",            
                 specialName: "Kid Boa Special",
         },
         1568: {
                 captain: "Aumenta el ATK y el RCV de los personajes [QCK] 2x",
-                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes ???x durante 3 turnos",            
+                special: "Recupera una cantidad de HP equivalente a su RCV 13x e incrementa la efectividad de los orbes 1.5x durante 3 turnos",            
                 specialName: "Kid Boa Special",
         },
         1569: {

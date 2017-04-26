@@ -2490,9 +2490,11 @@ window.specials = {
     },
     1574: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+        type: "class"
     },
     1575: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+        type: "class"
     },
     1576: {
         chainAddition: function(p) {return 0.5;},

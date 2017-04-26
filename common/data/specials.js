@@ -2256,10 +2256,10 @@ window.specials = {
         type: "type"
     },
      1482: {
-        atk: function(p) { return window.specials[1480].multiplier; },
+        atk: function(p) { return window.specials[1482].multiplier; },
         type: "class",
         onActivation: function(p) {
-            var n = (window.specials[1480].multiplier == 1.5 ? 1 : 0);
+            var n = (window.specials[1482].multiplier == 1.5 ? 1 : 0);
             window.specials[1480].multiplier = [1.25, 1.75][n];
             p.scope.notify({
                 text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar este especial',
@@ -2268,10 +2268,10 @@ window.specials = {
         },
     },
     1483: {
-        atk: function(p) { return window.specials[1481].multiplier; },
+        atk: function(p) { return window.specials[1483].multiplier; },
         type: "class",
         onActivation: function(p) {
-            var n = (window.specials[1481].multiplier == 1.5 ? 1 : 0);
+            var n = (window.specials[1483].multiplier == 1.5 ? 1 : 0);
             window.specials[1481].multiplier = [1.25, 1.75][n];
             p.scope.notify({
                 text: 'Usando ' + [1.25, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.25][n] + 'x, desactiva y vuelve a activar este especial',
@@ -2322,6 +2322,14 @@ window.specials = {
     1506: {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
         type: "type"
+    },
+    1507: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
+    },
+    1508: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
     },
     1517: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); },

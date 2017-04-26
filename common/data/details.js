@@ -8676,13 +8676,13 @@ window.details = {
         1578: { 
                 captain: "Sin traducir", 
 		specialName:"Sicilian Special",
-		special: "Hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
+		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
 	},
         1579: { 
 		captain: "Aumenta el ATK de los personajes [INT] 2.5x y su RCV 1.2x", 
 		specialName:"Sicilian Special",
-		special: "Hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
+		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
 	},
         

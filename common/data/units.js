@@ -1570,4 +1570,12 @@ window.units = [
          [ "Law, Capitán de los piratas Heart, Alianza con los Mugiwaras", "INT", [ "Free Spirit", "Striker" ], 4,15, 4, 4, 99, 2000000, 197, 109, 15, 2017, 1230, 245, null ],
          [ "Inuarashi Legend", "STR", [ "Cerebral", "Slasher" ], 5,30, 4, 5, 70, null, null, null, null, null, null, null, null ],
          [ "Inuarashi Legend Evo", "STR", [ "Cerebral", "Slasher" ], 6,55, 4, 5, 99, 5000000, 1000, 500, 100, 3000, 1450, 300, null ],
+         [ "Kinemon", "DEX", [ "Slasher", "Free Spirit" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
+         [ "Kinemon Evo", "DEX", [ "Slasher", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2500, 1300, 200, null ],
+         [ "Wanda", "QCK", [ "Slasher", "Cerebral" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
+         [ "Wanda Evo", "QCK", [ "Slasher", "Cerebral" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2100, 1200, 200, null ],
+         [ "Momonosuke", "PSY", [ "Free Spirit", "Striker" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
+         [ "Momonosuke Evo", "PSY", [ "Free Spirit", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2100, 1000, 200, null ],
+         [ "Sicilian", "INT", [ "Slasher", "Cerebral" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
+         [ "Sicilian Evo", "INT", [ "Slasher", "Cerebral" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2500, 1300, 200, null ],
 ];

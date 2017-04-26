@@ -210,4 +210,10 @@ window.sailors = {
         atkStatic: function(p) { }
     },
     */
+    1578: {       
+        atkStatic: function(p) { return p.percHP <= 30.0 ? 200 :0 ; }
+    },
+    1579: {       
+        atkStatic: function(p) { return p.percHP <= 30.0 ? 200 :0 ; }
+    },
     }

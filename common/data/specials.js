@@ -2488,6 +2488,18 @@ window.specials = {
     1571: {
         staticMult: function(p) { return 80; }
     },
+    1574: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+    },
+    1575: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+    },
+    1576: {
+        chainAddition: function(p) {return 0.5;},
+    },
+    1577: {
+        chainAddition: function(p) {return 0.5;},
+    },
     
     
 };

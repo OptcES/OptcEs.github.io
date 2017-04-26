@@ -8626,15 +8626,64 @@ window.details = {
                 specialName: "ROOM: Shambles Junction",
         },
         1570: {
-                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% umenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
+                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% aumenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
                 special: "Reduce drásticamente nuestra HP actual. Amplifica colores y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
                 specialNotes:"'Amplificar color' está bajo investigacion",
                 specialName: "Inuarashi Legend Special",
         },
         1571: {
-                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% umenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
+                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% aumenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
                 special: "Reduce drásticamente nuestra HP actual. Amplifica colores y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
                 specialNotes:"'Amplificar color' está bajo investigacion",
                 specialName: "Inuarashi Legend Special",
         },
+        1572: { 
+                captain: "Sin traducir", 
+		specialName:"Kinemon Special",
+		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes a favorables",
+                sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
+	},
+        1573: { 
+		captain: "Recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno y aumenta el ATK de todos los personajes 3.5x tras hacer Good > Great > Perfect", 
+		specialName:"Kinemon Special",
+		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes a favorables",
+                sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
+	},
+        1574: { 
+                captain: "Sin traducir", 
+		specialName:"Wanda Special",
+		special: "Aleatoriza todos los orbes y aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
+                sailor: "Reduce su parálisis 1 turno",
+	},
+        1575: { 
+		captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.2x", 
+		specialName:"Wanda Special",
+		special: "Aleatoriza todos los orbes y aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
+                sailor: "Reduce su parálisis 1 turno",
+	},
+        1576: { 
+                captain: "Sin traducir", 
+		specialName:"Momonosuke Special",
+		special: "Intercambia la posición de los orbes 1 vez y aumenta el multiplicador de cadena .5x durante ? turnos",
+                sailor: "Los orbes [STR], [DEX], [QCK] e [INT] cuentan como favorables para esta unidad",
+	},
+        1577: { 
+		captain: "Aumenta el ATK, HP y RCV de todos los personajes 1.35x y sobrevives a un ataque mortal si la HP del equipo se encuentra por encima del 30%", 
+		specialName:"Momonosuke Special",
+		special: "Intercambia la posición de los orbes 1 vez y aumenta el multiplicador de cadena .5x durante ? turnos",
+                sailor: "Los orbes [STR], [DEX], [QCK] e [INT] cuentan como favorables para esta unidad",
+	},
+        1578: { 
+                captain: "Sin traducir", 
+		specialName:"Sicilian Special",
+		special: "Hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
+                sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
+	},
+        1579: { 
+		captain: "Aumenta el ATK de los personajes [INT] 2.5x y su RCV 1.2x", 
+		specialName:"Sicilian Special",
+		special: "Hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia todos los orbes a favorables para personajes Cerebral",
+                sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
+	},
+        
 };

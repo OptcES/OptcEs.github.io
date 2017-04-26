@@ -8625,4 +8625,16 @@ window.details = {
                 specialNotes:"Los orbes que 'Cuentan como favorables', como los que hace Luffy Timeskip Legend con su especial, se aleatorizarán tambien",
                 specialName: "ROOM: Shambles Junction",
         },
+        1570: {
+                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% umenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
+                special: "Reduce drásticamente nuestra HP actual. Amplifica colores y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
+                specialNotes:"'Amplificar color' está bajo investigacion",
+                specialName: "Inuarashi Legend Special",
+        },
+        1571: {
+                captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% umenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
+                special: "Reduce drásticamente nuestra HP actual. Amplifica colores y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
+                specialNotes:"'Amplificar color' está bajo investigacion",
+                specialName: "Inuarashi Legend Special",
+        },
 };

@@ -2481,6 +2481,13 @@ window.specials = {
     },
     1568: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5); }
-},
+    },
+    1570: {
+        staticMult: function(p) { return 80; }
+    },
+    1571: {
+        staticMult: function(p) { return 80; }
+    },
+    
     
 };

@@ -4592,6 +4592,14 @@ window.captains = {
     },
     1569: {
         atk: function(p) { return 2.25; }
-},
+    },
+    1570: {
+        atk: function(p) { return !(p.unit.class.has("Cerebral")) ? 1 : p.percHP <= 30.0 ? 2.75 : 2.5; },
+        chainModifier: function(p) { return p.percHP <= 30.0 ? 1.5 :1; }
+    },
+    1571: {
+       atk: function(p) { return !(p.unit.class.has("Cerebral")) ? 1 : p.percHP <= 30.0 ? 2.75 : 2.5; },
+        chainModifier: function(p) { return p.percHP <= 30.0 ? 1.5 :1; }
+    },
     
 };

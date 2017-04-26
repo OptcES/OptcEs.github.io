@@ -1568,4 +1568,6 @@ window.units = [
          [ "Boa Hancock, Niña Guerrera", "QCK", [ "Fighter", "Free Spirit" ], 4, 10,null,null, null, null, null, null, null, null, null, null, null ],
          [ "Boa Hancock, Futura Princesa", "QCK", [ "Fighter", "Free Spirit" ], 5, 18, 4, 5, 70, 1066998, 534, 255, 249, 1030, 603, 436, null ],
          [ "Law, Capitán de los piratas Heart, Alianza con los Mugiwaras", "INT", [ "Free Spirit", "Striker" ], 4,15, 4, 4, 99, 2000000, 197, 109, 15, 2017, 1230, 245, null ],
+         [ "Inuarashi Legend", "STR", [ "Cerebral", "Slasher" ], 5,30, 4, 5, 70, null, null, null, null, null, null, null, null ],
+         [ "Inuarashi Legend Evo", "STR", [ "Cerebral", "Slasher" ], 6,55, 4, 5, 99, 5000000, 1000, 500, 100, 3000, 1450, 300, null ],
 ];

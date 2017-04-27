@@ -2491,10 +2491,10 @@ window.specials = {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5); }
     },
     1570: {
-        staticMult: function(p) { return 80; }
+        staticMult: function(p) { return 80; },
     },
     1571: {
-        staticMult: function(p) { return 80; }
+        staticMult: function(p) { return 80; },
     },
     1574: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },

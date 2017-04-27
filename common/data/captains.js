@@ -4633,11 +4633,11 @@ window.captains = {
     },
     1578: {
         atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; },
-        rcv: function(p) { return p.unit.type == "INT" ? 1.2 : 1; },       
+        hp: function(p) { return p.unit.type == "INT" ? 1.25 : 1; },       
     },
     1579: {
        atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; },
-        rcv: function(p) { return p.unit.type == "INT" ? 1.2 : 1; }
+       hp: function(p) { return p.unit.type == "INT" ? 1.25 : 1; }
     },
     
     

@@ -8632,32 +8632,32 @@ window.details = {
         },
         1571: {
                 captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% aumenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
-                special: "Reduce un 80% nuestra HP actual. Hace un daño equivalente a su ATK 80x [STR] a un solo enemigo y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
+                special: "Reduce un 80% nuestra HP actual. Hace un daño equivalente a su ATK ???x [STR] a un solo enemigo y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
                 specialName: "Inuarashi Legend Special",
         },
         1572: { 
                 captain: "Sin traducir", 
 		specialName:"Wanda Special",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
-                sailor: "Reduce su parálisis 1 turno",
+                sailor: "Reduce la parálisis de todos los personajes 1 turno",
 	},
         1573: { 
 		captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.2x", 
 		specialName:"Wanda Special",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
-                sailor: "Reduce su parálisis 1 turno",
+                sailor: "Reduce la parálisis de todos los personajes 1 turno",
 	},
         1574: { 
                 captain: "Aumenta el ATK de los personajes [INT] 2.25x", 
 		specialName:"Sicilian Special",
 		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
-                sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
+                sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1575: { 
 		captain: "Aumenta el ATK de los personajes [INT] 2.5x y su HP 1.25x", 
 		specialName:"Sicilian Special",
 		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
-                sailor: "Si tienes la HP baja aumenta el ATK de todos los personajes 200 puntos",
+                sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1576: { 
                 captain: "Sin traducir", 

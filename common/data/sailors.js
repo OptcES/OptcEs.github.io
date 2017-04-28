@@ -211,9 +211,9 @@ window.sailors = {
     },
     */
     1578: {       
-        atkStatic: function(p) { return p.percHP <= 30.0 ? 200 :0 ; }
+        atkStatic: function(p) { return p.percHP <= 30.0 && p.slot == p.sourceSlot ? 200 :0 ; }
     },
     1579: {       
-        atkStatic: function(p) { return p.percHP <= 30.0 ? 200 :0 ; }
+        atkStatic: function(p) { return p.percHP <= 30.0 && p.slot == p.sourceSlot ? 200 :0 ; }
     },
     }

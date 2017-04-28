@@ -363,8 +363,20 @@ window.zombies = {
             type: 'healer',
             multiplier: 3
     },
-    1555: { // Coliseum Ryuma
+    1555: { // Coliseo Ryuma
         type: 'healer',
         multiplier: 2
-},   
+    }, 
+    1577: { // Kin'emon
+        type: 'healer',
+        multiplier: 3
+    },
+    1578: { // Momonosuke
+        type: 'zombie',
+        threshold: 0.3
+    },
+    1579: { // Momonosuke
+        type: 'zombie',
+        threshold: 0.3
+},
 };

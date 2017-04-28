@@ -1577,5 +1577,12 @@ window.units = [
          [ "Kin'emon, Samurai del Pais de Wano", "DEX", [ "Slasher", "Free Spirit" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
          [ "Kin'emon 'el Zorro de Fuego', Vasallo de la Familia Kozuki", "DEX", [ "Slasher", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2500, 1300, 200, null ],        
          [ "Momonosuke", "PSY", [ "Free Spirit", "Striker" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
-         [ "Kozuki Momonosuke, Heredero de la Familia Kozuki", "PSY", [ "Free Spirit", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2100, 1000, 200, null ],        
+         [ "Kozuki Momonosuke, Heredero de la Familia Kozuki", "PSY", [ "Free Spirit", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2100, 1000, 200, null ],
+         [ "Law FN", "DEX", [ "Free Spirit", "Slasher" ], 3, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Law FN Evo", "DEX", [ "Free Spirit", "Slasher" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Monet FN", "PSY", [ "Cerebral", "Free Spirit" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Orlumbus Coliseo", "PSY", [ "Striker", "Fighter" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Orlumbus Coliseo Evo", "PSY", [ "Striker", "Fighter" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Helmeppo Coliseo", "QCK", [ "Slasher", "Driven" ], 3, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Helmeppo Coliseo Evo", "QCK", [ "Slasher", "Driven" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],                    
 ];

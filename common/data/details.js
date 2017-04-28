@@ -8684,6 +8684,41 @@ window.details = {
 		special: "Intercambia la posición de los orbes 1 vez y aumenta el multiplicador de cadena .5x durante ? turnos",
                 sailor: "Los orbes [STR], [DEX], [QCK] e [INT] cuentan como favorables para esta unidad",
 	},
+        1580: {
+                captain: "Sin traducir",
+                special: "Aumenta la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                specialName: "Law Special",
+        },
+        1581: {
+                captain: "Aumenta el ATK de los personajes Free Spirit 2x y el RCV de los personajes [DEX] 1.5x",
+                special: "Aumenta la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                specialName: "Law Special",
+        },
+        1582: {
+                captain: "Aumenta el ATK y el RCV de los personajes Cerebral 1.2x",
+                special: "Recupera una cantidad de HP equivalente a su RCV 10x. Aumenta el ATK y RCV de los personajes Cerebral 1.5x",            
+                specialName: "Monet Special",
+        },
+        1583: {
+                captain: "Sin traducir",
+                special: "Fija todos los orbes durante 1 turno. Aumenta la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, aumentando un 1.5x si son menos de 4",            
+                specialName: "Orlumbus Special",
+        },
+        1584: {
+                captain: "Aumenta el ATK de los personajes Striker 2.5x. Si la HP se encuentra por debajo del ??% aumenta el ATK un 1.2x más",
+                special: "Fija todos los orbes durante 1 turno. Aumenta la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, aumentando un 1.5x si son menos de 4",            
+                specialName: "Orlumbus Special",
+        },
+        1585: {
+                captain: "Sin traducir",
+                special: "Si la HP actual se encuentra a menos de 5000 de HP en el momento que el especial se ha activado aumenta el ATK de los personajes Slasher y Driven 1.75x y recupera una cantidad de HP equivalente a su RCV 10x",            
+                specialName: "Helmeppo Special",
+        },
+        1586: {
+                captain: "Aumenta el ATK de los personajes Slasher y Driven 2x y el RCV 1.5x",
+                special: "Si la HP actual se encuentra a menos de 5000 de HP en el momento que el especial se ha activado aumenta el ATK de los personajes Slasher y Driven 1.75x y recupera una cantidad de HP equivalente a su RCV 10x",            
+                specialName: "Helmeppo Special",
+        },
         
         
 };

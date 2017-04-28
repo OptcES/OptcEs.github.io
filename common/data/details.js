@@ -8686,12 +8686,12 @@ window.details = {
 	},
         1580: {
                 captain: "Sin traducir",
-                special: "Aumenta la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
                 specialName: "Law Special",
         },
         1581: {
                 captain: "Aumenta el ATK de los personajes Free Spirit 2x y el RCV de los personajes [DEX] 1.5x",
-                special: "Aumenta la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
                 specialName: "Law Special",
         },
         1582: {
@@ -8701,12 +8701,12 @@ window.details = {
         },
         1583: {
                 captain: "Sin traducir",
-                special: "Fija todos los orbes durante 1 turno. Aumenta la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, aumentando un 1.5x si son menos de 4",            
+                special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
                 specialName: "Orlumbus Special",
         },
         1584: {
                 captain: "Aumenta el ATK de los personajes Striker 2.5x. Si la HP se encuentra por debajo del ??% aumenta el ATK un 1.2x más",
-                special: "Fija todos los orbes durante 1 turno. Aumenta la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, aumentando un 1.5x si son menos de 4",            
+                special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
                 specialName: "Orlumbus Special",
         },
         1585: {

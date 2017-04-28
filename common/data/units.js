@@ -1579,7 +1579,7 @@ window.units = [
          [ "Momonosuke", "PSY", [ "Free Spirit", "Striker" ], 4, 15, 4, 4, 70, null, null, null, null, null, null, null, null ],
          [ "Kozuki Momonosuke, Heredero de la Familia Kozuki", "PSY", [ "Free Spirit", "Striker" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 100, 2100, 1000, 200, null ],
          [ "Law FN", "DEX", [ "Free Spirit", "Slasher" ], 3, null, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Law FN Evo", "DEX", [ "Free Spirit", "Slasher" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Law FN Evo", "DEX", [ "Free Spirit", "Fighter" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Monet FN", "PSY", [ "Cerebral", "Free Spirit" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Orlumbus Coliseo", "PSY", [ "Striker", "Fighter" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Orlumbus Coliseo Evo", "PSY", [ "Striker", "Fighter" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],

@@ -8501,7 +8501,7 @@ window.details = {
         },               
         1549: {
                 captain: "Aumenta el ATK de los personajes [PSY] 2.25x y recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno",
-                special: "Reduce la duración de Cadenas y Despair 3 turnos. Reduce la carga de todos los especiales 1 turno",            
+                special: "Reduce la duración de Cadenas, Despair y silencio de especiales 3 turnos. Reduce la carga de todos los especiales 1 turno",            
                 specialName: "Mil Fluer: Campo de Flores",
         },
         1550: {

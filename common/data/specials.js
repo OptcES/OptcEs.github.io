@@ -2505,11 +2505,70 @@ window.specials = {
         type: "class"
     },
     1578: {
-        chainAddition: function(p) {return 0.5;},
+        chainAddition: function(p) {return window.specials[1578].multiplier;},
+        onActivation: function(p) {
+            var n = (window.specials[1578].multiplier == 0.2 ? 1 : window.specials[1578].multiplier == 0.3 ? 2 : 0);
+            window.specials[1578].multiplier = [0.2, 0.3, 0.5][n];
+            p.scope.notify({
+                text: 'Usando el añadido de multiplicador de cadena' + [0.2, 0.3, 0.5][n] + 'x . Para cambiar al ' + [0.3, 0.5, 0.2][n] + 'x, Desactiva y reactiva el especial',
+                name: '1578warning'
+            });
+        }
     },
     1579: {
-        chainAddition: function(p) {return 0.5;},
+        chainAddition: function(p) {return window.specials[1579].multiplier;},
+        onActivation: function(p) {
+            var n = (window.specials[1579].multiplier == 0.2 ? 1 : window.specials[1579].multiplier == 0.3 ? 2 : 0);
+            window.specials[1579].multiplier = [0.2, 0.3, 0.5][n];
+            p.scope.notify({
+                text: 'Usando el añadido de multiplicador de cadena' + [0.2, 0.3, 0.5][n] + 'x . Para cambiar al ' + [0.3, 0.5, 0.2][n] + 'x, Desactiva y reactiva el especial',
+                name: '1579warning'
+            });
+        }
     },
+    1580: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }
+    },
+    1581: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }
+    },
+    1582: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+        rcv: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+        type: "class"
+    },
+    1583:{
+        orb: function(p) { return (p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1583].multiplier) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1583].multiplier); },
+        onActivation: function(p) {
+            var n = (window.specials[1583].multiplier == 1.5 ? 1 : 0);
+            window.specials[1583].multiplier = [1.5, 2][n];
+            p.scope.notify({
+                text: 'Usando el boost de orbes de' + [1.5, 2][n] + 'x. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y reactiva el especial',
+                name: '1583warning'
+            });
+        },
+    },
+    1584:{
+        orb: function(p) { return (p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1584].multiplier) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1584].multiplier); },
+        onActivation: function(p) {
+            var n = (window.specials[1584].multiplier == 1.5 ? 1 : 0);
+            window.specials[1584].multiplier = [1.5, 2][n];
+            p.scope.notify({
+                text: 'Usando el boost de orbes de' + [1.5, 2][n] + 'x. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y reactiva el especial',
+                name: '1584warning'
+            });
+        },
+    },
+    1585: {
+        atk: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.75 : 1; },
+        rcv: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.5 : 1; },
+        type: "class"
+    },
+    1586: {
+        atk: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.75 : 1; },
+        rcv: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.5 : 1; },
+        type: "class"
+},
     
     
 };

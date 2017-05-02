@@ -8501,7 +8501,7 @@ window.details = {
         },               
         1549: {
                 captain: "Aumenta el ATK de los personajes [PSY] 2.25x y recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno",
-                special: "Reduce la duración de Cadenas, Despair y silencio de especiales 3 turnos. Reduce la carga de todos los especiales 1 turno",            
+                special: "Reduce la duración de los Encadenamientos, Despair y Silencio de Especiales 3 turnos. Reduce la carga de todos los especiales 1 turno",            
                 specialName: "Mil Fluer: Campo de Flores",
         },
         1550: {
@@ -8628,53 +8628,56 @@ window.details = {
         1570: {
                 captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% aumenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
                 special: "Reduce un 80% nuestra HP actual. Hace un daño equivalente a su ATK 60x [STR] a un solo enemigo y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
-                specialName: "Inuarashi Legend Special",
+                specialName: "King Sword Shine",
         },
         1571: {
                 captain: "Aumenta el ATK de los personajes Cerebral 2.5x. Si la HP actual se encuentra por debajo del 30% aumenta el ATK de los personajes Cerebral 2.75x y aumenta el multiplicador de cadena 1.5x",
                 special: "Reduce un 80% nuestra HP actual. Hace un daño equivalente a su ATK 60x [STR] a un solo enemigo y cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Inuarashi 80x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
-                specialName: "Inuarashi Legend Special",
+                specialName: "King Sword Shine",
         },
         1572: { 
-                captain: "Sin traducir", 
-		specialName:"Wanda Special",
+                captain: "Aumenta el ATK de los personajes Cerebral 2x y su RCV 1.2x", 
+		specialName:"Ruler's Aide Flight",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
                 sailor: "Reduce la parálisis de si misma 1 turno",
 	},
         1573: { 
 		captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.2x", 
-		specialName:"Wanda Special",
+		specialName:"Ruler's Aide Flight",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
                 sailor: "Reduce la parálisis de si misma 1 turno",
 	},
         1574: { 
                 captain: "Aumenta el ATK de los personajes [INT] 2.25x", 
-		specialName:"Sicilian Special",
+		specialName:"Dash - Dive - Destroy",
 		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1575: { 
 		captain: "Aumenta el ATK de los personajes [INT] 2.5x y su HP 1.25x", 
-		specialName:"Sicilian Special",
+		specialName:"Dash - Dive - Destroy",
 		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1576: { 
-                captain: "Sin traducir", 
-		specialName:"Kinemon Special",
+                captain: "Aumenta el ATK de todos los personajes 2.5x tras hacer Good > Great > Perfect", 
+		specialName:"Flaming Flash",
 		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
+                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien le los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
 	},
         1577: { 
 		captain: "Recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno y aumenta el ATK de todos los personajes 3.5x tras hacer Good > Great > Perfect", 
-		specialName:"Kinemon Special",
+		specialName:"Flaming Flash",
 		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
+                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien le los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
+
 	},
        
         1578: { 
-                captain: "Sin traducir", 
-		specialName:"Momonosuke Special",
+                captain: "Sobrevives a un ataque mortal si la HP del equipo se encuentra por encima del ??%", 
+		specialName:"Miraculous Flying Dragon",
 		special: [
                     {
                         "description": "Aumenta el multiplicador de cadena .5x durante 1 turno",
@@ -8693,7 +8696,7 @@ window.details = {
 	},
         1579: { 
 		captain: "Aumenta el ATK, HP y RCV de todos los personajes 1.25x y sobrevives a un ataque mortal si la HP del equipo se encuentra por encima del 30%", 
-		specialName:"Momonosuke Special",
+		specialName:"Miraculous Flying Dragon",
 		special: [
                     {
                         "description": "Aumenta el multiplicador de cadena .5x durante 1 turno",
@@ -8713,27 +8716,30 @@ window.details = {
         1580: {
                 captain: "Sin traducir",
                 special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
-                specialName: "Law Special",
+                specialName: "ROOM: Tact",
         },
         1581: {
                 captain: "Aumenta el ATK de los personajes Free Spirit 2x y el RCV de los personajes [DEX] 1.5x",
                 special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
-                specialName: "Law Special",
+                specialName: "ROOM: Tact",
         },
         1582: {
                 captain: "Aumenta el ATK y el RCV de los personajes Cerebral 1.2x",
                 special: "Recupera una cantidad de HP equivalente a su RCV 10x. Aumenta el ATK y RCV de los personajes Cerebral 1.5x",            
-                specialName: "Monet Special",
+                specialName: "Snowstorm Control",
         },
         1583: {
                 captain: "Sin traducir",
                 special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
                 specialName: "Orlumbus Special",
+                specialNotes:"#{orb : 1.5x/2x}"
         },
         1584: {
                 captain: "Aumenta el ATK de los personajes Striker 2.5x. Si la HP se encuentra por debajo del ??% aumenta el ATK un 1.2x más",
                 special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
                 specialName: "Orlumbus Special",
+                specialNotes:"#{orb : 1.5x/2x}"
+
         },
         1585: {
                 captain: "Sin traducir",

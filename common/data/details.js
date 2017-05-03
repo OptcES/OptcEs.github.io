@@ -8662,14 +8662,14 @@ window.details = {
         1576: { 
                 captain: "Aumenta el ATK de todos los personajes 2.5x tras hacer Good > Great > Perfect", 
 		specialName:"Flaming Flash",
-		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
+		special: "Hace un daño equivalente a su ATK 60x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
                 specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien se los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
 	},
         1577: { 
 		captain: "Recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno y aumenta el ATK de todos los personajes 3.5x tras hacer Good > Great > Perfect", 
 		specialName:"Flaming Flash",
-		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
+		special: "Hace un daño equivalente a su ATK 60x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
                 specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien se los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
 
@@ -8714,13 +8714,13 @@ window.details = {
                 sailor: "Los orbes [STR], [DEX], [QCK] e [INT] cuentan como favorables para esta unidad",
 	},
         1580: {
-                captain: "Sin traducir",
-                special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                captain: "Aumenta el ATK de los personajes Free Spirit 1.5x y el RCV de los personajes [DEX] 1.2x",
+                special: "Incrementa la efectividad de los orbes 1.5x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
                 specialName: "ROOM: Tact",
         },
         1581: {
                 captain: "Aumenta el ATK de los personajes Free Spirit 2x y el RCV de los personajes [DEX] 1.5x",
-                special: "Incrementa la efectividad de los orbes ???x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
+                special: "Incrementa la efectividad de los orbes 1.5x durante 1 turno. Cambia los orbes de la columna derecha en: [DEX] arriba, [PSY] central e [INT] abajo. Intercambia la posición de los orbes 2 veces",            
                 specialName: "ROOM: Tact",
         },
         1582: {
@@ -8731,25 +8731,25 @@ window.details = {
         1583: {
                 captain: "Sin traducir",
                 special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
-                specialName: "Orlumbus Special",
+                specialName: "Admiral Hug",
                 specialNotes:"#{orb : 1.5x/2x}"
         },
         1584: {
                 captain: "Aumenta el ATK de los personajes Striker 2.5x. Si la HP se encuentra por debajo del ??% aumenta el ATK un 1.2x más",
                 special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
-                specialName: "Orlumbus Special",
+                specialName: "Admiral Hug",
                 specialNotes:"#{orb : 1.5x/2x}"
 
         },
         1585: {
-                captain: "Sin traducir",
+                captain: "Aumenta el ATK y el RCV de los personajes Slasher y Driven 1.5x",
                 special: "Si la HP actual se encuentra a menos de 5000 de HP en el momento que el especial se ha activado aumenta el ATK de los personajes Slasher y Driven 1.75x y recupera una cantidad de HP equivalente a su RCV 10x",            
-                specialName: "Helmeppo Special",
+                specialName: "With Fire Morale",
         },
         1586: {
                 captain: "Aumenta el ATK de los personajes Slasher y Driven 2x y el RCV 1.5x",
                 special: "Si la HP actual se encuentra a menos de 5000 de HP en el momento que el especial se ha activado aumenta el ATK de los personajes Slasher y Driven 1.75x y recupera una cantidad de HP equivalente a su RCV 10x",            
-                specialName: "Helmeppo Special",
+                specialName: "With Fire Morale",
         },
         
         

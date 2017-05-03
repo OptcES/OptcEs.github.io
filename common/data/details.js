@@ -8358,14 +8358,14 @@ window.details = {
 		captain:"Aumenta el ATK de todos los personajes 1.5x, aumenta SU propio ATK 3x",
 		specialName:"Cavendish ambush special",
 		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
-		specialNotes:"#{orb : 2.25x}",
+		specialNotes:"#{orb : 2x/2.25x}",
                 sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1530: { 
 		captain:"Aumenta el ATK de todos los personajes 1.75x, aumenta SU propio ATK 3.5x",
 		specialName:"Cavendish ambush special",
 		special: "Incrementa la efectividad de los orbes 2.25x para los personajes Slasher si la HP del equipo se encuentra por encima del 50%, aumentando 2x si se encuentra por debajo",
-		specialNotes:"#{orb : 2.25x}",
+		specialNotes:"#{orb : 2x/2.25x}",
                 sailor:"Reduce el ATK de todos los personajes 0.5x si tu propio capitan es [STR] o [QCK]"
 	},
         1531: { 
@@ -8650,13 +8650,13 @@ window.details = {
         1574: { 
                 captain: "Aumenta el ATK de los personajes [INT] 2.25x", 
 		specialName:"Dash - Dive - Destroy",
-		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
+		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK 25x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1575: { 
 		captain: "Aumenta el ATK de los personajes [INT] 2.5x y su HP 1.25x", 
 		specialName:"Dash - Dive - Destroy",
-		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK ???x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
+		special: "Retrasa a los enemigos 1 turno, hace un daño equivalente a su ATK 25x [INT] a todos los enemigos y cambia los orbes [DEX], [QCK], [STR], [INT] y [PSY] a favorables para personajes Cerebral",
                 sailor: "Si tienes la HP baja aumenta su ATK 200 puntos",
 	},
         1576: { 
@@ -8664,14 +8664,14 @@ window.details = {
 		specialName:"Flaming Flash",
 		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
-                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien le los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
+                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien se los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
 	},
         1577: { 
 		captain: "Recupera una cantidad de HP equivalente a su RCV 3x al final de cada turno y aumenta el ATK de todos los personajes 3.5x tras hacer Good > Great > Perfect", 
 		specialName:"Flaming Flash",
 		special: "Hace un daño equivalente a su ATK ???x sin tipo a todos los enemigos y cambia todos los orbes al orbe del mismo tipo que tenga Kinemon en el momento de activar el especial",
                 sailor: "Los orbes [STR] y [QCK] cuentan como favorables para esta unidad",
-                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien le los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
+                specialNotes:"Si Kinemon tiene orbe [NEGATIVO] o [RAINBOW] tambien se los transfiere a toda la tripulación. No puede cambiar los orbes [NEGATIVO] de la tripulación, pero sí cambia el sello de orbes (Como el de Cavendish Invasion)."
 
 	},
        

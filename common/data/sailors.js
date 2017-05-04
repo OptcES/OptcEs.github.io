@@ -210,10 +210,10 @@ window.sailors = {
         atkStatic: function(p) { }
     },
     */
-    1578: {       
+    1574: {       
         atkStatic: function(p) { return p.percHP <= 30.0 && p.slot == p.sourceSlot ? 200 :0 ; }
     },
-    1579: {       
+    1575: {       
         atkStatic: function(p) { return p.percHP <= 30.0 && p.slot == p.sourceSlot ? 200 :0 ; }
     },
     }

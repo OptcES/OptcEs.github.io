@@ -8639,13 +8639,13 @@ window.details = {
                 captain: "Aumenta el ATK de los personajes Cerebral 2x y su RCV 1.2x", 
 		specialName:"Ruler's Aide Flight",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
-                sailor: "Reduce la parálisis de si misma 1 turno",
+                sailor: "Reduce la parálisis de todos los personajes 1 turno",
 	},
         1573: { 
 		captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.2x", 
 		specialName:"Ruler's Aide Flight",
 		special: "Aleatoriza todos los orbes (incluidos [NEGATIVO]) a [DEX], [QCK], [STR], [INT] o [PSY]. Aumenta el ATK de los personajes Cerebral 1.75x durante 3 turnos",
-                sailor: "Reduce la parálisis de si misma 1 turno",
+                sailor: "Reduce la parálisis de todos los personajes 1 turno",
 	},
         1574: { 
                 captain: "Aumenta el ATK de los personajes [INT] 2.25x", 

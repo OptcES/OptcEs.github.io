@@ -195,7 +195,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         // apply static multipliers and static bonuses
           for (var x=0;x<enabledSailors.length;++x) {
             if (enabledSailors[x].hasOwnProperty('atkStatic'))
-                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atkStatic,null,true);
+                result = applyCaptainEffectsToDamage(result,enabledSailors[x].atkStatic,null,true,enabledSailors[x].sourceSlot);
             if (enabledSailors[x].hasOwnProperty('atk'))
                 result = applyCaptainEffectsToDamage(result,enabledSailors[x].atk,null,false,enabledSailors[x].sourceSlot,true);
         }
@@ -429,7 +429,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     };
 
     /* * * * * Captain effects/specials * * * * */
-
+                                                
     var applyCaptainEffectsToDamage = function(damage,func,modifiers,isStatic,sourceSlot, isSailor) {
         return damage.map(function(x,n) {
             var params = jQuery.extend({ damage: damage, modifiers: modifiers, sourceSlot: sourceSlot },getParameters(x.position, n));
@@ -773,7 +773,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             var id = team[x].unit.number + 1;
             if (!window.sailors.hasOwnProperty(id)) continue;
             var effect2 = jQuery.extend({ },window.sailors[id]);               
-			effect2.sourceSlot = x;
+	    effect2.sourceSlot = x;
             enabledSailors.push(effect2);
         }
         sailorsWith = {

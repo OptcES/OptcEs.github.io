@@ -8729,7 +8729,7 @@ window.details = {
                 specialName: "Snowstorm Control",
         },
         1583: {
-                captain: "Sin traducir",
+                captain: "Aumenta el ATK de los personajes Striker 2x",
                 special: "Fija todos los orbes durante 1 turno. Incrementa la efectividad de los orbes de los personajes Striker 2x durante 1 turno si hay 4 enemigos o más en la pantalla, incrementando un 1.5x si son menos de 4",            
                 specialName: "Admiral Hug",
                 specialNotes:"#{orb : 1.5x/2x}"

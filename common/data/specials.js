@@ -2561,12 +2561,10 @@ window.specials = {
     },
     1585: {
         atk: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.75 : 1; },
-        rcv: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.5 : 1; },
         type: "class"
     },
     1586: {
         atk: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.75 : 1; },
-        rcv: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.5 : 1; },
         type: "class"
 },
     

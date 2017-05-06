@@ -1441,8 +1441,8 @@ window.cooldowns = [
     [ 22, 15 ],
     17,
     17,
-    20,
-    20,
+    [ 20, 15 ],
+    [ 20, 15 ],
     [ 17, 13 ],
     [ 17, 12 ],
     null,//5+ Sanji
@@ -1576,8 +1576,8 @@ window.cooldowns = [
     19,
     19,
     19,
-    null,
-    null,
+    null, //Momonosuke
+    null, //Momonosuke
     [ 20, 13 ],
     [ 20, 13 ],
     [ 22, 15 ],

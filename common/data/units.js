@@ -1344,7 +1344,7 @@ window.units = [
 	 [ "Porchemy", "DEX", ["Fighter", "Driven"], 3, 13, 6, 1, 50, 392109, 125, 106, 6, 1734, 891, 34, 1 ],
 	 [ "Bluejam", "STR", ["Shooter", "Driven"], 3, 13, 5, 1, 70, 1066998, 131, 133, 1, 1809, 1043, 9, 1 ],
 	 [ "Jimbe, Capitán de los Piratas Gyojin", "STR", ["Fighter", "Powerhouse"], 4, 30, 5, 3, 99, 3000000, 304, 161, 56, 2329, 1144, 229, 1 ],
-	 [ "Heracles, Maestro del Bosque", "STR", ["Cerebral", "Shooter"], 4, 20, 4, 3, 99, 3000000, 142, 91, 43, 2095, 899, 303, 1 ],
+	 [ "Heracles, Maestro del Bosque", "DEX", ["Cerebral", "Shooter"], 4, 20, 4, 3, 99, 3000000, 142, 91, 43, 2095, 899, 303, 1 ],
 	 [ "Monstruos del Reino Torino", "PSY", ["Fighter", "Powerhouse"], 3, 13, 4, 1, 70, 1066998, 109, 66, 12, 1487, 706, 127, 1 ],
 	 [ "Orangutanes", "STR", ["Slasher", "Powerhouse"], 3, 13, 6, 1, 70, 1066998, 133, 112, 0, 1600, 1020, 0, 1 ],
 	 [ "Haredas", "PSY", ["Cerebral", "Shooter"], 3, 13, 4, 1, 70, 1066998, 21, 40, 32, 377, 505, 394, 1 ],
@@ -1585,4 +1585,9 @@ window.units = [
          [ "Gobernante de la Masacre Orlumbus, Almirante de la Gran Flota Yonta Maria", "PSY", [ "Striker", "Fighter" ], 5, 40, 6, 3, 99, 4000000, 1354, 544, 67, 3012, 1243, 200, null ],
          [ "Helmeppo, Sargento de los Cuarteles Generales de la Marina", "QCK", [ "Slasher", "Driven" ], 3, 16, 6, 1, 50, 392109, 124, 77, 23, 905, 492, 136, null ],
          [ "Compañero Valiente Helmeppo, Sargento de los Cuarteles Generales de la Marina", "QCK", [ "Slasher", "Driven" ], 4, 26, 6, 3, 99, 3000000, 817, 420, 89, 1971, 1016, 322, null ],                    
+         [ "Luffy Gear Fourth", "PSY", [ null, null ], 6, 65, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Sanji Legend", "INT", [ null, null ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Sanji Legend Evo", "INT", [ null, null],6, 55, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Boa de Tercer Aniversario", "INT", [ null, null ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Shanks de Tercer Aniversario", "QCK", [ null, null ],null, null, null, null, null, null, null, null, null, null, null, null, null ],
 ];

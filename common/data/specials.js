@@ -2586,9 +2586,9 @@ window.specials = {
         type: "class",
         onActivation: function(p) {
             var n = (window.specials[1588].multiplier == 2 ? 1 : window.specials[1588].multiplier == 2.5 ? 2 : 0);
-            window.specials[1588].multiplier = [2, 2.5, 15.625][n];
+            window.specials[1588].multiplier = [2, 2.5, 5][n];
             p.scope.notify({
-                text: 'Usando ' + [2, 2.5, 15.625][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [15.625, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [2, 2.5, 5][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [5, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '668warning'
             });
         }
@@ -2598,9 +2598,9 @@ window.specials = {
         type: "class",
         onActivation: function(p) {
             var n = (window.specials[1589].multiplier == 2 ? 1 : window.specials[1589].multiplier == 2.5 ? 2 : 0);
-            window.specials[1589].multiplier = [2, 2.5, 15.625][n];
+            window.specials[1589].multiplier = [2, 2.5, 5][n];
             p.scope.notify({
-                text: 'Usando ' + [2, 2.5, 15.625][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [15.625, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [2, 2.5, 5][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [5, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '668warning'
             });
         }

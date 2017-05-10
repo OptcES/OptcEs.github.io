@@ -1585,9 +1585,9 @@ window.units = [
          [ "Gobernante de la Masacre Orlumbus, Almirante de la Gran Flota Yonta Maria", "PSY", [ "Striker", "Fighter" ], 5, 40, 6, 3, 99, 4000000, 1354, 544, 67, 3012, 1243, 200, null ],
          [ "Helmeppo, Sargento de los Cuarteles Generales de la Marina", "QCK", [ "Slasher", "Driven" ], 3, 16, 6, 1, 50, 392109, 124, 77, 23, 905, 492, 136, null ],
          [ "Compañero Valiente Helmeppo, Sargento de los Cuarteles Generales de la Marina", "QCK", [ "Slasher", "Driven" ], 4, 26, 6, 3, 99, 3000000, 817, 420, 89, 1971, 1016, 322, null ],                    
-         [ "Luffy Gear Fourth", "PSY", [ null, null ], 6, 65, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Sanji Legend", "INT", [ null, null ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Sanji Legend Evo", "INT", [ null, null],6, 55, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Luffy Gear Fourth", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, null, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, 1 ],
+         [ "Sanji Legend", "INT", [ "Fighter", "Powerhouse" ], 5, 30, null, 3, 70, 1066998, 369, 222, 31, 1323, 784, 200, 1 ],
+         [ "Sanji Legend Evo", "INT", [ "Fighter", "Powerhouse" ],6, 55, null, 5, 99, 5000000, 1251, 726, 147, 3233, 1506, 354, 1 ],
          [ "Boa de Tercer Aniversario", "INT", [ null, null ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Shanks de Tercer Aniversario", "QCK", [ null, null ],null, null, null, null, null, null, null, null, null, null, null, null, null ],
 ];

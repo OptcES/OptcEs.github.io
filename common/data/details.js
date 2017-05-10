@@ -8759,13 +8759,13 @@ window.details = {
         },
         1588: {
                 captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x",
-                special: "Hace 100.000 puntos de daño fijo a todos los enemigos, pone su orbe favorable, el de los aliados adyacentes y cambia orbes [TND], [Negativo] a favorables, aumenta su propio ATK 2x",            
+                special: "Hace 100.000 puntos de daño fijo a todos los enemigos, pone su orbe favorable, el de los aliados adyacentes y cambia orbes [TND], [NEGATIVO] a favorables, aumenta su propio ATK 2x",            
                 specialName: "Especial Sanji Legend",
 		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         }, 
 	1589: {
                 captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x",
-                special: "Hace 100.000 puntos de daño fijo a todos los enemigos, pone su orbe favorable, el de los aliados adyacentes y cambia orbes [TND], [Negativo] a favorables, aumenta su propio ATK 2x",            
+                special: "Hace 100.000 puntos de daño fijo a todos los enemigos, pone su orbe favorable, el de los aliados adyacentes y cambia orbes [TND], [NEGATIVO] a favorables, aumenta su propio ATK 2x",            
                 specialName: "Especial Sanji Legend",
 		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         }, 

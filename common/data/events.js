@@ -139,14 +139,25 @@ window.events = {
                 $scope.notify({ text: 'Orbes [STR] desactivados.' });
         }
     },
-    1314: {
-        onInsertion: function($scope) {
-            if (++$scope.options.strOrbsEnabled == 1)
-                $scope.notify({ text: 'Orbes [STR] activados.' });
+    
+    1587: {
+        onInsertion: function($scope) {    
+                $scope.notify({ text: 'Como utilizar a Sanji Legend y su propio multiplicador de ATK:   \n\
+                                       Sanji amigo capitán x6.25 -> Turnos transcurridos 1|||    \n\
+                                       Sanji capitán x6.25 propio -> Turnos transcurridos 2|||   \n\
+                                       Dos capitanes Sanji x6.25  -> Turnos transcurridos 3 |||  INCOMPATIBLE CON KUZAN/ZORO LEGEND DE CAPITÁN',
+                                timeout: 20500});
         },
-        onRemoval: function($scope) {
-            if (--$scope.options.strOrbsEnabled === 0)
-                $scope.notify({ text: 'Orbes [STR] desactivados.' });
-        }
+        
+    },
+    1588: {
+       onInsertion: function($scope) {
+                $scope.notify({ text: 'Como utilizar a Sanji Legend y su propio multiplicador de ATK:   \n\
+                                       Sanji amigo capitán x6.25 -> Turnos transcurridos 1|||    \n\
+                                       Sanji capitán x6.25 propio -> Turnos transcurridos 2|||   \n\
+                                       Dos capitanes Sanji x6.25  -> Turnos transcurridos 3 |||  INCOMPATIBLE CON KUZAN/ZORO LEGEND DE CAPITÁN',
+                                       timeout: 20500});
+        },
+        
     },
 };

@@ -4665,16 +4665,27 @@ window.captains = {
         rcv: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Driven") ? 1.5 : 1; },
     },
     1587: {
+        atk: function(p) { 
+           
+            return Math.min(6.25, 2.5 + 3.75 * p.turnCounter); },
+        hp: function(p) { return 1.3; },              
+    },
+    1588: {
+        atk: function(p) {
+            if(p.sourceSlot==0 && p.turnCounter==1){
+            return p.slot==0 ? 6.25: 2.5;
+            }else if(p.sourceSlot==1 && p.turnCounter==2){
+             return p.slot==1 ? 6.25: 2.5;   
+            }else if(p.scope.data.team[0].unit.number + 1==1588 && p.scope.data.team[1].unit.number + 1==1588 && p.turnCounter==3){
+              return p.slot==0 || p.slot==1? 6.25: 2.5;  
+            }else{
+              return 2.5;
+            }},
+        hp: function(p) { return 1.3; },              
+    },
+    1593: {
         atk: function(p){ 
             return p.unit.class.has("Fighter") ? ((!window.specials[1587].turnedOn || (window.specials[1587].multiplier == null)) ? 2.5 : window.specials[1587].multiplier) : 1;
         },
     },
-    1588: {
-        atk: function(p) { return 2.5; },
-        hp: function(p) { return 1.3; },              
-    },
-    1589: {
-        atk: function(p) { return 2.5; },
-        hp: function(p) { return 1.3; },              
-    },   
 };

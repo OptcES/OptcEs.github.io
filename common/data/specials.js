@@ -2567,43 +2567,28 @@ window.specials = {
         atk: function(p) { return (p.percHP*p.maxHP/100 > 5000 && (p.unit.class.has("Slasher") || p.unit.class.has("Driven"))) ? 1.75 : 1; },
         type: "class"
     },
+    
     1587: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
+        type: "class",
+    },
+    1588: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
+        type: "class",
+    },
+    1593: {
         onActivation: function(p) {
-            var n = (window.specials[1587].multiplier == 3.16 ? 1 : 0);
-            window.specials[1587].turnedOn = true;
-            window.specials[1587].multiplier = [3.16, 4][n];
+            var n = (window.specials[1593].multiplier == 3.16 ? 1 : 0);
+            window.specials[1593].turnedOn = true;
+            window.specials[1593].multiplier = [3.16, 4][n];
             p.scope.notify({
                 text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
-                name: '1404warning'
+                name: '1593warning'
             });
         },
         onDeactivation: function(p) {
-            window.specials[1587].turnedOn = false;
+            window.specials[1593].turnedOn = false;
         }      
-    },
-    1588: {
-        atk: function(p) { return p.slot == p.sourceSlot ? window.specials[1588].multiplier : 1; },
-        type: "class",
-        onActivation: function(p) {
-            var n = (window.specials[1588].multiplier == 2 ? 1 : window.specials[1588].multiplier == 2.5 ? 2 : 0);
-            window.specials[1588].multiplier = [2, 2.5, 5][n];
-            p.scope.notify({
-                text: 'Usando ' + [2, 2.5, 5][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [5, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
-                name: '668warning'
-            });
-        }
-    },
-    1589: {
-        atk: function(p) { return p.slot == p.sourceSlot ? window.specials[1589].multiplier : 1; },
-        type: "class",
-        onActivation: function(p) {
-            var n = (window.specials[1589].multiplier == 2 ? 1 : window.specials[1589].multiplier == 2.5 ? 2 : 0);
-            window.specials[1589].multiplier = [2, 2.5, 5][n];
-            p.scope.notify({
-                text: 'Usando ' + [2, 2.5, 5][n] + 'x como multiplicador de ATK de este Sanji. Para cambiar al ' + [5, 2.5, 2][n] + 'x, desactiva y vuelve a activar el especial',
-                name: '668warning'
-            });
-        }
     },
     
     

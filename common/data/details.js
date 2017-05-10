@@ -8751,6 +8751,11 @@ window.details = {
                 special: "Si la HP actual se encuentra a menos de 5000 de HP en el momento que el especial se ha activado aumenta el ATK de los personajes Slasher y Driven 1.75x y recupera una cantidad de HP equivalente a su RCV 10x",            
                 specialName: "With Fire Morale",
         },
+	1587: {
+                captain: "Aumenta el ATK de los personajes Fighter 2.5x. Si se usa 'King Kong Gun' (especial de Luffy Gear Fourth), aumentará el ATK 4x y reducirá el daño recibido un 56% mientras se encuentre activo el efecto del especial (3 turnos)",
+                special: "Hace su ATK 200x sin tipo a un enemigo, por 3 turnos [STR], [DEX], [PSY], [INT], [TND], [RCV] cuenten como favorables para Fighter y Free Spirit, al acabar el efecto Luffy Gear Fourth sufre estados negativos durante 3 turnos",            
+                specialName: "King Kong Gun",
+        },
         
         
 };

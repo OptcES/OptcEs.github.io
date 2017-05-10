@@ -139,6 +139,16 @@ window.events = {
                 $scope.notify({ text: 'Orbes [STR] desactivados.' });
         }
     },
+    1314: {
+       onInsertion: function($scope) {
+            if (++$scope.options.strOrbsEnabled == 1)
+                $scope.notify({ text: 'Orbes [STR] activados.' });
+        },
+        onRemoval: function($scope) {
+            if (--$scope.options.strOrbsEnabled === 0)
+                $scope.notify({ text: 'Orbes [STR] desactivados.' });
+        }
+    },
     
     1587: {
         onInsertion: function($scope) {    

@@ -2576,6 +2576,14 @@ window.specials = {
         atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
         type: "class",
     },
+    1591: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") || p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
+    },
+    1592: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") || p.unit.class.has("Fighter") ? 1.75 : 1; },
+        type: "class"
+    },
     1593: {
         onActivation: function(p) {
             var n = (window.specials[1593].multiplier == 3.16 ? 1 : 0);

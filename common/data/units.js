@@ -1588,8 +1588,8 @@ window.units = [
 	 [ "Sanji Legend", "INT", [ "Fighter", "Powerhouse" ], 5, 30, 4, 3, 70, 1066998, 369, 222, 31, 1323, 784, 200, null ],
          [ "Sanji Legend Evo", "INT", [ "Fighter", "Powerhouse" ],6, 55, 5, 5, 99, 5000000, 1251, 726, 147, 3233, 1506, 354, null ], 
          [ "Shanks de Tercer Aniversario", "QCK", [ "Slasher", "Cerebral" ],null, null, null, null, null, null, null, null, null, null, null, null, null ],
-	 [ "Shanks de Tercer Aniversario Evo", "QCK", [ "Slasher", "Cerebral" ],null, null, null, null, null, null, null, null, null, null, null, null, null ],
+	 [ "Shanks de Tercer Aniversario Evo", "QCK", [ "Slasher", "Cerebral" ],5, 30, null, null, null, null, null, null, null, null, null, null, null ],
 	 [ "Boa de Tercer Aniversario", "INT", [ "Fighter", "Free Spirit" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-	 [ "Boa de Tercer Aniversario Evo", "INT", [ "Fighter", "Free Spirit" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+	 [ "Boa de Tercer Aniversario Evo", "INT", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 50, 2500, 1200, 300, null ],
 	 [ "Luffy Gear Fourth", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, 5, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, null ],
 ];

@@ -4690,6 +4690,22 @@ window.captains = {
             }},
         hp: function(p) { return 1.3; },              
     },
+    1589: {
+        chainModifier: function(p) { return 3; },
+    },
+    1590: {
+        chainModifier: function(p) { return 3.5; },
+        rcv: function(p) { return 1.2 },
+        hp: function(p) { return 1.2 },
+    },
+    1591: {
+        atk: function(p) { return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+        rcv: function(p) { return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+    },
+    1592: {
+        atk: function(p) { return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 2.25 : 1; },
+        rcv: function(p) { return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 1.75 : 1; },
+},
     1593: {
         atk: function(p){ 
             return p.unit.class.has("Fighter") ? ((!window.specials[1593].turnedOn || (window.specials[1593].multiplier == null)) ? 2.5 : window.specials[1593].multiplier) : 1;

@@ -8752,8 +8752,7 @@ window.details = {
                 specialName: "With Fire Morale",
         },
         1587: {
-                captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x. CAPTAIN ACTION: Sanji se eleva en el aire durante un turno haciéndose inmune a diferentes estados negativos y preventivos del enemigo, al siguiente turno el Sanji que ha saltado aumenta SU propio ATK un x2.5 más durante un turno",
-                captainNotes:"'Captain action' es una nueva mecánica que se activa cuando deslizas el dedo hacia abajo en el icono del Capitán (Como si lanzaras un Especial pero al revés), añade efectos extra al personaje mientras sea Capitán",
+                captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x",
                 captainAction:"Sanji se eleva en el aire durante un turno haciéndose inmune a diferentes estados negativos y preventivos del enemigo, al siguiente turno el Sanji que ha saltado aumenta SU propio ATK un x2.5 más durante un turno",
                 captainActionNotes:"'Captain action' es una nueva mecánica que se activa cuando deslizas el dedo hacia abajo en el icono del Capitán (Como si lanzaras un Especial pero al revés), añade efectos extra al personaje mientras sea Capitán",
                 special: "Hace 100.000 puntos de daño fijo a todos los enemigos. Cambia su propio orbe a [INT], cambia los orbes [TND], [NEGATIVO] y el orbe de los aliados adyacentes a favorables. Aumenta SU propio ATK 2x",            
@@ -8761,7 +8760,7 @@ window.details = {
 		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         }, 
 	1588: {
-                captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x.",
+                captain: "Aumenta el ATK de todos los personajes 2.5x y el HP 1.3x",
                 captainAction:"Sanji se eleva en el aire durante un turno haciéndose inmune a diferentes estados negativos y preventivos del enemigo, al siguiente turno el Sanji que ha saltado aumenta SU propio ATK un x2.5 más durante un turno",
                 captainActionNotes:"'Captain action' es una nueva mecánica que se activa cuando deslizas el dedo hacia abajo en el icono del Capitán (Como si lanzaras un Especial pero al revés), añade efectos extra al personaje mientras sea Capitán",
                 special: "Hace 100.000 puntos de daño fijo a todos los enemigos. Cambia su propio orbe a [INT], cambia los orbes [TND], [NEGATIVO] y el orbe de los aliados adyacentes a favorables. Aumenta SU propio ATK 2x",            

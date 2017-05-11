@@ -8771,13 +8771,11 @@ window.details = {
                 captain: "Aumenta el multiplicador de cadena 3.5x y la HP y el RCV 1.2x",
                 special: "Recupera una cantidad de HP equivalente al 50% de la HP máxima del equipo y cambia los orbes de la fila inferior a favorables",            
                 specialName: "Especial Shanks Aniversario",
-		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         },
 	1590: {
                 captain: "Aumenta el multiplicador de cadena 3.5x y la HP y el RCV 1.2x",
                 special: "Recupera una cantidad de HP equivalente al 50% de la HP máxima del equipo y cambia los orbes de la fila inferior a favorables",            
                 specialName: "Especial Shanks Aniversario",
-		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         },
 	1591: {
                 captain: "Aumenta el ATK de los personajes Free Spirit y Fighter 2.25x y el RCV 1.75x",

@@ -6,7 +6,7 @@ window.evolutions = {
     2: {
         evolution: 3,
         evolvers: [ 115, 78 ]
-    },
+    },    
     3: {
         evolution: 4,
         evolvers: [ 117, 84, 95, 100 ]
@@ -2113,15 +2113,15 @@ window.evolutions = {
     },
     4: {
         evolution: 1387,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     8: {
         evolution: 1388,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     12: {
         evolution: 1389,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     1390: {
         evolution: 1391,
@@ -2141,7 +2141,7 @@ window.evolutions = {
     },
     1400: {
         evolution: 1401,
-        evolvers: [  ]
+        evolvers: [ 118, 84, 300, 267 ]
     },
     1403: {
         evolution: 1404,
@@ -2217,19 +2217,19 @@ window.evolutions = {
     },
     416: {
         evolution: 1445,
-        evolvers: [  ]
+        evolvers: [ 118, 85, 301, 267 ]
     },
     16: {
         evolution: 1446,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     20: {
         evolution: 1447,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     22: {
         evolution: 1448,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     1449: {
         evolution: 1450,
@@ -2313,7 +2313,7 @@ window.evolutions = {
     },   
     669: {
         evolution: 1492,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 303, 267 ]
     },
     1505: {
         evolution: 1506,
@@ -2357,7 +2357,7 @@ window.evolutions = {
     },
     1532: {
         evolution: 1543,
-        evolvers: [  ]
+        evolvers: [ 118, 86, 302, 267 ]
     },
     1533: {
         evolution: 1534,
@@ -2385,15 +2385,15 @@ window.evolutions = {
     },
     709: {
         evolution: 1549,
-        evolvers: [  ]
+        evolvers: [ 267]
     },
     739: {
         evolution: 1550,
-        evolvers: [  ]
+        evolvers: [ 267 ]
     },
     896: {
         evolution: 1551,
-        evolvers: [  ]
+        evolvers: [ 267 ]
 },
     1552: {
         evolution: 1553,
@@ -2413,7 +2413,7 @@ window.evolutions = {
     },
     1567: {
         evolution: 1568,
-        evolvers: [  ]
+        evolvers: [ 117, 118, 79, 101 ]
     },
     1570: {
         evolution: 1571,
@@ -2421,7 +2421,7 @@ window.evolutions = {
     },
     1572: {
         evolution: 1573,
-        evolvers: [  ]
+        evolvers: [ 85, 96, 1180, 301, 101 ]
     },
     1574: {
         evolution: 1575,
@@ -2434,10 +2434,10 @@ window.evolutions = {
     1578: {
         evolution: 1579,
         evolvers: [ 115, 116, 117, 118, 103 ]
-    },
+},
     1580: {
         evolution: 1581,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 86, 97, 102 ]
     },
     1583: {
         evolution: 1584,
@@ -2447,4 +2447,12 @@ window.evolutions = {
         evolution: 1586,
         evolvers: [  ]
     },
+    1404: {
+        evolution: 1593,
+        evolvers: [  ]
+    },
+    1587: {
+        evolution: 1588,
+        evolvers: [  ]
+},
 };

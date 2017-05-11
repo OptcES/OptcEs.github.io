@@ -1591,5 +1591,5 @@ window.units = [
 	 [ "Shanks de Tercer Aniversario Evo", "QCK", [ "Slasher", "Cerebral" ],5, 30, null, null, null, null, null, null, null, null, null, null, null ],
 	 [ "Boa de Tercer Aniversario", "INT", [ "Fighter", "Free Spirit" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
 	 [ "Boa de Tercer Aniversario Evo", "INT", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 50, 2500, 1200, 300, null ],
-	 [ "Luffy 'Gear Fourth', Boundman", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, 5, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, null ],
+	 [ "Luffy 'Gear Fourth', Boundman", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, null ],
 ];

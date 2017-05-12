@@ -8092,13 +8092,13 @@ window.details = {
 	1486: { 
 		captain:"Aumenta el ATK de los personajes Fighter 2.5x si tienen orbe favorable",
 		specialName:"Destruction Cannon: Hidden Bullet",
-		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
+		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Incrementa la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1487: { 
 		captain:"Reduce la carga de los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Fighter 3x si tienen orbe favorable",
 		specialName:"Destruction Cannon: Hidden Bullet",
-		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Aumenta la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
+		special: "Aumenta el daño recibido 2x durante 1 turno. Hace daño [DEX] aleatorio a un solo enemigo. Incrementa la efectividad de los orbes de los personajes Fighter 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
 	1488: { 
@@ -8796,12 +8796,12 @@ window.details = {
         },
         1594: {
                 captain: "Sin traducir",
-                special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable y aAumenta la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
+                special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
                 specialName: "Fujitora Special",
         },
         1595: {
                 captain: "Aumenta el ATK de los personajes Powerhouse 2.25x y su HP 1.2x. Reduce la HP actual de los enemigos en un 10% al final de cada turno",
-                special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable y aAumenta la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
+                special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
                 specialName: "Fujitora Special",
         },
 };

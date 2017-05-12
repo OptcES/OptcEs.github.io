@@ -1592,4 +1592,6 @@ window.units = [
 	 [ "Boa de Tercer Aniversario", "INT", [ "Fighter", "Free Spirit" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
 	 [ "Boa de Tercer Aniversario Evo", "INT", [ "Fighter", "Free Spirit" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 50, 2500, 1200, 300, null ],
 	 [ "Luffy 'Gear Fourth', Boundman", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, null ],
+         [ "Fujitora", "PSY", [ "Powerhouse", "Slasher" ], 4, 30, 4, 4, 70, null, null, null, null, null, null, null, null ],
+	 [ "Fujitora, Hombre Gravedad", "PSY", [ "Powerhouse", "Slasher" ], 5, 50, 4, 4, 99, 4000000, 1400, 700, 200, 2800, 1400, 200, null ],
 ];

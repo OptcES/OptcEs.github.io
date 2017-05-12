@@ -8797,11 +8797,11 @@ window.details = {
         1594: {
                 captain: "Sin traducir",
                 special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
-                specialName: "Fujitora Special",
+                specialName: "Gravity Blade: Raging Tiger",
         },
         1595: {
                 captain: "Aumenta el ATK de los personajes Powerhouse 2.25x y su HP 1.2x. Reduce la HP actual de los enemigos en un 10% al final de cada turno",
                 special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
-                specialName: "Fujitora Special",
+                specialName: "Gravity Blade: Raging Tiger",
         },
 };

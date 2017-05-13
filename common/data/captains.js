@@ -4711,9 +4711,6 @@ window.captains = {
             return p.unit.class.has("Fighter") ? ((!window.specials[1593].turnedOn || (window.specials[1593].multiplier == null)) ? 2.5 : window.specials[1593].multiplier) : 1;
         },
     },
-    1594: {
-        atk: function(p) { return p.unit.class.has("Powerhouse") ? 2 : 1; }
-    },
     1595: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 2.25 : 1; },
         hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; }

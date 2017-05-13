@@ -1474,6 +1474,7 @@ window.drops = {
         
         {
             name: 'Pica',
+            global: true,
             thumb: 932,
             Master: [ 932 ],
             Expert: [ 932 ]
@@ -1481,6 +1482,7 @@ window.drops = {
         
         {
             name: 'Kizaru',
+            global: true,
             thumb: 978,
             Ultimate: [ 977 ],
             Master: [ 977 ]
@@ -1488,6 +1490,7 @@ window.drops = {
         
         {
             name: 'Impostor Straw Hat Pirates',
+            global: true,
             showManual: true,
             thumb: 989,
             Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709, -1115, -1177, -1175, -1210, -1208 ]
@@ -1495,6 +1498,7 @@ window.drops = {
         
         {
             name: 'Sabo',
+            global: true,
             thumb: 1047,
             Ultimate: [ 1046 ],
             Master: [ 1046 ],
@@ -1520,6 +1524,7 @@ window.drops = {
         
         {
             name: 'Akainu',
+            global: true,
             thumb: 1298,
             Ultimate: [ 1297 ]
         },

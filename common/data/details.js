@@ -8768,34 +8768,43 @@ window.details = {
 		sailor: "Los orbes [RCV] cuentan como favorables para todo el equipo",
         }, 
 	1589: {
-                captain: "Aumenta el multiplicador de cadena 3.5x y la HP y el RCV 1.2x",
+                captain: "Aumenta el multiplicador de cadena 3x",
                 special: "Recupera una cantidad de HP equivalente al 50% de la HP máxima del equipo y cambia los orbes de la fila inferior a favorables",            
-                specialName: "Especial Shanks Aniversario",
+                specialName: "Sharing a Cup Filled with Emotion",
         },
 	1590: {
                 captain: "Aumenta el multiplicador de cadena 3.5x y la HP y el RCV 1.2x",
                 special: "Recupera una cantidad de HP equivalente al 50% de la HP máxima del equipo y cambia los orbes de la fila inferior a favorables",            
-                specialName: "Especial Shanks Aniversario",
+                specialName: "Sharing a Cup Filled with Emotion",
         },
 	1591: {
                 captain: "Aumenta el ATK de los personajes Free Spirit y Fighter 2.25x y el RCV 1.75x",
                 special: "Aumenta el ATK de los personajes Free Spirit y Fighter 1.75x durante 1 turno y cura 3000 puntos de HP",            
-                specialName: "Especial de Boa Aniversario",
+                specialName: "Immoral Gaze",
         },
 	1592: {
                 captain: "Aumenta el ATK de los personajes Free Spirit y Fighter 2.25x y el RCV 1.75x",
                 special: "Aumenta el ATK de los personajes Free Spirit y Fighter 1.75x durante 1 turno y cura 3000 puntos de HP",            
-                specialName: "Especial de Boa Aniversario",
+                specialName: "Immoral Gaze",
         },
 	1593: {
                 captain: "Aumenta el ATK de los personajes Fighter 2.5x. Si se usa 'King Kong Gun' (especial de Luffy Gear Fourth), aumentará el ATK 4x y reducirá el daño recibido un 56% mientras se encuentre activo el efecto del especial (3 turnos)",
                 captainNotes:"El uso de su especial solo afectará al Luffy que lo usa, de forma que el Luffy que no haya usado el especial aumentará el ATK de los personajes Fighter 2.5x, mientras que el que lo ha usado aumentará el ATK 4x. Lanzando los especiales de ambos Luffys, ambos aumentarán x4, es decir, se pueden usar los dos especiales en el mismo turno.",
-                special: "Hace un daño equivalente a su ATK 200x sin tipo a un enemigo. Hace que los orbes [STR], [DEX], [PSY], [INT], [TND], [RCV] cuenten como favorables para personajes Fighter y Free Spirit durante 3 turnos. Al acabar el efecto del especial Luffy Gear Fourth se encadena y silencia su habilidad de capitán durante 7 turnos",                        
+                special: [
+            {
+                "description": "Hace un daño equivalente a su ATK 100x sin tipo a un enemigo. Hace que los orbes [STR], [DEX], [PSY], [INT], [TND], [RCV] cuenten como favorables para personajes Fighter y Free Spirit durante 1 turno. Al acabar el efecto del especial Luffy Gear Fourth se encadena y silencia su habilidad de capitán durante 7 turnos",
+                "cooldown": [ 13, 8 ],
+            },
+            {
+                "description": "Hace un daño equivalente a su ATK 200x sin tipo a un enemigo. Hace que los orbes [STR], [DEX], [PSY], [INT], [TND], [RCV] cuenten como favorables para personajes Fighter y Free Spirit durante 3 turnos. Al acabar el efecto del especial Luffy Gear Fourth se encadena y silencia su habilidad de capitán durante 7 turnos",
+                "cooldown": [ 18, 13 ],
+            },
+            ],
                 specialName: "King Kong Gun",
 		sailor: "Inmune a Parálisis",
         },
         1594: {
-                captain: "Sin traducir",
+                captain: "Reduce la HP actual de los enemigos en un 10% al final de cada turno",
                 special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
                 specialName: "Gravity Blade: Raging Tiger",
         },

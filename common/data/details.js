@@ -8813,4 +8813,24 @@ window.details = {
                 special: "Hace un daño equivalente a su ATK 50x [PSY] a todos los enemigos que traspasa cualquier barrera. Cambia los orbes adyacentes a favorable e incrementa la efectividad de los orbes de los personajes Powerhouse 2x durante 1 turno",                        
                 specialName: "Gravity Blade: Raging Tiger",
         },
+        1596: {
+        captain: "Aumenta el ATK y el RCV de los Personajes [INT] 1.5x",
+        special: "Reduce la duración de la Parálisis y el Silencio de Especiales 2 turnos. Reduce el daño recibido un 70% durante 1 turno",
+        specialName: "Great Adventure until Dinner",
+        },
+        1597: {
+            captain: "Aumenta el ATK y el RCV de los Personajes [INT] 1.75x",
+            special: "Reduce la duración de los Encadenamientos, Parálisis y Despair 2 turnos. Reduce el daño recibido un 70% durante 1 turno",
+            specialName: "Great Adventure until Dinner",
+        },
+        1598: {
+            captain: "Aumenta el HP de los personajes Powerhouse 1.5x",
+            special: "Aumenta el ATK de todos los personajes 1.2x y recupera una cantidad de HP equivalente a su RCV 5x al final del turno durante 3 turnos",
+            specialName: "Desired Scale",
+        },
+        1599: {
+            captain: "Aumenta el ATK de los personajes Powerhouse 1.75x",
+            special: "Reduce la defensa de los enemigos un 50% durante 1 turno y cambia su propio orbe a [QCK]",
+            specialName: "Manboshi Special",
+        },
 };

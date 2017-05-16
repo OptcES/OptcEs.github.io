@@ -1594,4 +1594,9 @@ window.units = [
 	 [ "Luffy 'Gear Fourth', Boundman", "PSY", [ "Fighter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1402, 777, 177, 3380, 1600, 400, 1 ],
          [ "Fujitora, Fuerzas de Elite de la Marina", "PSY", [ "Powerhouse", "Slasher" ], 4, 30, 6, 2, 70, 1066998, 303, 165, 29, 1344, 700, 144, 1 ],
 	 [ "Fujitora, 'Gravity Blade'", "PSY", [ "Powerhouse", "Slasher" ], 5, 50, 4, 3, 99, 4000000, 1268, 634, 109, 2825, 1420, 254, 1 ],
+         [ "Shirahoshi, Reino de Ryugu", "INT", "Striker", 3, 13, 6, 2, 50, 392109, 62, 45, 35, 690, 360, 215, null ],
+         [ "Shirahoshi, Princesa del Reino de Ryugu", "INT", "Striker", 4, 20, 4, 3, 99, 3000000, 620, 330, 200, 1536, 858, 408, null ],
+         [ "Ryuboshi", "STR", [ "Powerhouse", "Slasher" ], 3, 15, 6, 1, 70, 1066998, 123, 87, 29, null, null, null, null ],
+         [ "Manboshi", "QCK", [ "Powerhouse", "Slasher" ], 3, 15, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],         
 ];

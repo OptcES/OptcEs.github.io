@@ -2429,9 +2429,11 @@ window.specials = {
         def: function(p) { return 0.1; }
     },
     1541: {
+        def: function(p) { return 0; },
         chainAddition: function(p) {return 0.5;}
     },
     1542: {
+        def: function(p) { return 0; },
         chainAddition: function(p){ return 0.5;}
     },
     1546: {

@@ -1598,5 +1598,5 @@ window.units = [
          [ "Shirahoshi, Princesa del Reino de Ryugu", "INT", "Striker", 4, 20, 4, 3, 99, 3000000, 620, 330, 200, 1536, 858, 408, null ],
          [ "Ryuboshi", "STR", [ "Powerhouse", "Slasher" ], 3, 15, 6, 1, 70, 1066998, 123, 87, 29, null, null, null, null ],
          [ "Manboshi", "QCK", [ "Powerhouse", "Slasher" ], 3, 15, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],         
+         [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, 4, 4, 99, 3000000, null, null, null, 2105, 1244, 224, null ],         
 ];

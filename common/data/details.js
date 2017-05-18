@@ -8836,6 +8836,6 @@ window.details = {
         1600: {
             captain: "Aumenta el ATK de los personajes [PSY] e [INT] 2.5x",
             special: "Hace un daño equivalente a su ATK 20x [PSY] a todos los enemigos. Fija todos los orbes e incrementa la efectividad de los orbes 1.75x de los personajes [PSY] e [INT] durante 1 turno",
-            specialName: "Luffy Special",
+            specialName: "Right Leg Armament: Gum-Gum Battle Axe",
         },
 };

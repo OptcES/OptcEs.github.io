@@ -6600,14 +6600,14 @@ window.details = {
 	},
 	1275: { 
 		captain:"Aumenta el ATK y la HP de los personajes Slasher 1.5x",
-		specialName:"Handling Hell",
+		specialName:"Hell Disposal",
 		special: "Tiene la posibilidad derrotar instantáneamente a cualquier enemigo",
 		specialNotes:"",
 		sailor:"Esta unidad resiste totalmente al Silencio"
 	},
 	1276: { 
 		captain:"Aumenta el ATK y la HP de los personajes Slasher 2x",
-		specialName:"Handling Hell",
+		specialName:"Hell Disposal",
 		special: "Tiene la posibilidad derrotar instantáneamente a cualquier enemigo",
 		specialNotes:"",
 		sailor:"Esta unidad resiste totalmente al silencio"
@@ -8838,4 +8838,21 @@ window.details = {
             special: "Hace un daño equivalente a su ATK 20x [PSY] a todos los enemigos. Fija todos los orbes e incrementa la efectividad de los orbes 1.75x de los personajes [PSY] e [INT] durante 1 turno",
             specialName: "Right Leg Armament: Gum-Gum Battle Axe",
         },
+        1601: {
+        captain: "Sin traducir",
+        special: "Derrota instantáneamente a los enemigos que tengan una vida equivalente o menor al ATK de Shiryu 75x. Elimina el envenenamiento y reduce el daño recibido un 50% durante 3 turnos",
+        specialName: "Shiryu Special",
+        sailor: "Aumenta su propio ATK 100 puntos si Shiryu es el último de la cadena en atacar",
+        },
+        1602: {
+        captain: "Aumenta el ATK de los personajes Slasher 2x. Despues de 3 PERFECTS aumenta el multiplicador de ATK A 3x",
+        special: "Derrota instantáneamente a los enemigos que tengan una vida equivalente o menor al ATK de Shiryu 75x. Elimina el envenenamiento y reduce el daño recibido un 50% durante 3 turnos",
+        specialName: "Shiryu Special",
+        sailor: "Aumenta su propio ATK 100 puntos si Shiryu es el último de la cadena en atacar",
+    },
+        1603: {//McGuy
+        captain: "Aumenta el ATK de los personajes [STR] 2.25x y su RCV 1.25x",
+        special: "Retrasa a los enemigos 2 turnos",
+        specialName: "McGuy Special",
+},
 };

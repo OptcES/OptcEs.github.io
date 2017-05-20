@@ -1598,5 +1598,8 @@ window.units = [
          [ "Shirahoshi, Princesa del Reino de Ryugu", "INT", "Striker", 4, 20, 4, 3, 99, 3000000, 620, 330, 200, 1536, 858, 408, 1 ],
          [ "Ryuboshi", "STR", [ "Powerhouse", "Slasher" ], 3, 15, 6, 1, 70, 1066998, 123, 87, 29, 1362, 699, 180, 1 ],
          [ "Manboshi", "QCK", [ "Powerhouse", "Slasher" ],  3, 15, 6, 1, 70, 1066998, 79, 90, 40, 864, 768, 240, 1  ],
-         [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, 4, 4, 99, 3000000, null, null, null, 2105, 1244, 224, 1 ],         
+         [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, 4, 4, 99, 2000000, 209, 113, 12, 2105, 1244, 224, 1 ],
+         [ "Shiryu, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Shiryu de la Lluvia, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "'Señor del Trueno' McGuy, Aliado de los Piratas de Shirohige", "STR", [ "Slasher", "Cerebral" ], 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
 ];

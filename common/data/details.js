@@ -8839,7 +8839,7 @@ window.details = {
             specialName: "Right Leg Armament: Gum-Gum Battle Axe",
         },
         1601: {
-        captain: "Sin traducir",
+        captain: "Aumenta el ATK de los personajes Slasher 2x",
         special: "Derrota instantáneamente a los enemigos que tengan una vida equivalente o menor al ATK de Shiryu 75x. Elimina el envenenamiento y reduce el daño recibido un 50% durante 3 turnos",
         specialName: "Shiryu Special",
         sailor: "Aumenta su propio ATK 100 puntos si Shiryu es el último de la cadena en atacar",
@@ -8850,9 +8850,20 @@ window.details = {
         specialName: "Shiryu Special",
         sailor: "Aumenta su propio ATK 100 puntos si Shiryu es el último de la cadena en atacar",
     },
-        1603: {//McGuy
+        1603: {
         captain: "Aumenta el ATK de los personajes [STR] 2.25x y su RCV 1.25x",
         special: "Retrasa a los enemigos 2 turnos",
         specialName: "McGuy Special",
-},
+        },
+        1604: {
+        captain: "Aumenta el ATK de los personajes [STR] 1.5x",
+        special: "Aleatoriza los orbes no-favorables y hace un daño equivalente a su ATK 13x [STR] a todos los enemigos",
+        specialName: "Fist of the Demon's Child 'Fire'",
+        },
+        1605: {
+        captain: "Aumenta el ATK de los personajes [STR] 2x y recupera 500 de HP al final de cada turno",
+        special: "Aleatoriza los orbes no-favorables y hace un daño equivalente a su ATK 13x [STR] a todos los enemigos",
+        specialName: "Fist of the Demon's Child 'Fire'",
+    },
+
 };

@@ -4732,6 +4732,9 @@ window.captains = {
     1600:{
         atk: function(p) { return p.unit.type == "INT" || p.unit.type == "PSY" ? 2.5 : 1; },
     },
+    1601: {
+        atk: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; }
+    },
     1602: {
         damageSorter: function(d) { return CrunchUtils.classSort(d, 3, [ "Slasher" ]); },
         hitAtk: function(p) {
@@ -4743,5 +4746,11 @@ window.captains = {
     1603: {
         atk: function(p) { return p.unit.type == "STR" ? 2.25 : 1; },
         rcv: function(p) { return p.unit.type == "STR" ? 1.25 : 1; }
-},
+    },
+    1604: {
+        atk: function(p) { return p.unit.type == "STR" ? 1.5 : 1; },
+    },
+    1605: {
+        atk: function(p) { return p.unit.type == "STR" ? 2 : 1; },
+    },
 };

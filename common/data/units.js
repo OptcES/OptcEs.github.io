@@ -1599,7 +1599,9 @@ window.units = [
          [ "Ryuboshi", "STR", [ "Powerhouse", "Slasher" ], 3, 15, 6, 1, 70, 1066998, 123, 87, 29, 1362, 699, 180, 1 ],
          [ "Manboshi", "QCK", [ "Powerhouse", "Slasher" ],  3, 15, 6, 1, 70, 1066998, 79, 90, 40, 864, 768, 240, 1  ],
          [ "Luffy, Capitán de los Mugiwaras, Alianza con los Piratas Heart", "PSY", [ "Fighter", "Freedom" ], 4, 15, 4, 4, 99, 2000000, 209, 113, 12, 2105, 1244, 224, 1 ],
-         [ "Shiryu, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 4, 25, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Shiryu de la Lluvia, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 5, 40, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "'Señor del Trueno' McGuy, Aliado de los Piratas de Shirohige", "STR", [ "Slasher", "Cerebral" ], 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
+         [ "Shiryu, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 4, 25, 6, 3, 70, 1066998, 444, 444, -300, 1099, 750, -300, nill ],
+         [ "Shiryu de la Lluvia, Capitán del Segundo Barco de los Piratas de Kurohige", "INT", [ "Slasher", "Driven" ], 5, 40, 5, 5, 99, 4000000, 1020, 670, -300, 3000, 1505, -300, null ],
+         [ "'Señor del Trueno' McGuy", "STR", [ "Slasher", "Cerebral" ], 4, 26, 6, 3, 99, 3000000, 151, 90, 98, 1760, 1190, 257, null ],
+         [ "Portgas D. Ace, Hermano de Luffy", "STR", [ "Free Spirit", "Shooter" ], 3, 8, 5, 2, 50, null, 50, 30, 10, 950, 500, 150, null ],
+         [ "Portgas D. Ace, Hijo de Shirohige", "STR", [ "Free Spirit", "Shooter" ], 4, 15, 4, 3, 99, null, 880, 410, 110, 1850, 1090, 260, null ],
 ];

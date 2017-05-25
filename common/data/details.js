@@ -7180,16 +7180,16 @@ window.details = {
 		special: "Cambia su propio orbe a [QCK] y hace su ATK 15x como daño [QCK] a un enemigo"
 	},
 	1361: { 
-		captain:"Aumenta el ATK de los personajes Slasher 2.5x y su HP 1.5x si hay al menos 5 personajes Slasher en el equipo. Si un enemigo ha sido derrotado en el turno anterior, aumenta el ATK de los personajes Slasher 3x",
+		captain:"Aumenta el ATK de los personajes Slasher 2.5x y su HP 1.5x si hay al menos 5 personajes Slasher en el equipo. Si un enemigo ha sido derrotado en el turno anterior, aumenta el ATK de los personajes Slasher 3x y al resto 1.2x",
 		captainNotes:"Para que aumente el ATK 3x, es suficiente con derrotar a un solo enemigo en el turno anterior. Además, si un enemigo revive al ser derrotado cuenta como enemigo derrotado en el turno anterior",
 		specialName:"Three Blade Style Secret Skill: Crossroad of Six Paths",
-		special: "Hace su ATK 60x como daño sin tipo a todos los enemigos. Aumenta el ATK de los personajes Slasher 2x si se usa como capitán, aumentando 1.75x si no es así"
+		special: "Hace su ATK 60x como daño fijo a todos los enemigos. Aumenta el ATK de los personajes Slasher 2x si se usa como capitán, aumentando 1.75x si no es así"
 	},
 	1362: { 
-		captain:"Aumenta el ATK de los personajes Slasher 2.5x y su HP 1.5x si hay al menos 5 personajes Slasher en el equipo. Si un enemigo ha sido derrotado en el turno anterior, aumenta el ATK de los personajes Slasher 3x",
+		captain:"Aumenta el ATK de los personajes Slasher 2.5x y su HP 1.5x si hay al menos 5 personajes Slasher en el equipo. Si un enemigo ha sido derrotado en el turno anterior, aumenta el ATK de los personajes Slasher 3x y al resto 1.2x",
 		captainNotes:"Para que aumente el ATK 3x, es suficiente con derrotar a un solo enemigo en el turno anterior. Además, si un enemigo revive al ser derrotado cuenta como enemigo derrotado en el turno anterior",
 		specialName:"Three Blade Style Secret Skill: Crossroad of Six Paths",
-		special: "Hace su ATK 60x como daño sin tipo a todos los enemigos. Aumenta el ATK de los personajes Slasher 2x si se usa como capitán, aumentando 1.75x si no es así"
+		special: "Hace su ATK 60x como daño fijo a todos los enemigos. Aumenta el ATK de los personajes Slasher 2x si se usa como capitán, aumentando 1.75x si no es así"
 	},
 	1363: { 
 		captain:"Aumenta el ATK de los personajes [PSY] 2x y reduce el daño recibido un 10%",

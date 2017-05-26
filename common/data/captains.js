@@ -4753,4 +4753,28 @@ window.captains = {
     1605: {
         atk: function(p) { return p.unit.type == "STR" ? 2 : 1; },
     },
+    1610: {
+        atk: function(p) { return 3.25},
+        hp: function(p) { return 0.8},
+    },
+    1612: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; },
+        rcv: function(p) { return p.unit.class.has("Shooter") ? 1.25 : 1;},
+    },
+    1614: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 2.5 : 1; },
+        hp: function(p) { return p.unit.class.has("Fighter") ? 1.2 : 1;},
+    },
+    1616: {
+        atk: function(p) { return p.unit.class.has("Striker") ? 2.5 : 1; },
+    },
+    1618: {
+        atk: function(p) { p.unit.type == "INT" || p.unit.type == "STR" || p.unit.type == "DEX" ? 2.5 : 1; },
+    },
+    1619: {
+        chainModifier: function(p) { return 4; },
+        hp: function(p) { return 1.2},
+        rcv: function(p) { return 1.2},
+    },
+    
 };

@@ -1604,4 +1604,18 @@ window.units = [
          [ "'Señor del Trueno' McGuy", "STR", [ "Slasher", "Cerebral" ], 4, 26, 6, 3, 99, 3000000, 151, 90, 98, 1760, 1190, 257, null ],
          [ "Portgas D. Ace, Hermano de Luffy", "STR", [ "Free Spirit", "Shooter" ], 3, 8, 5, 2, 50, null, 50, 30, 10, 950, 500, 150, null ],
          [ "Portgas D. Ace, Hijo de Shirohige", "STR", [ "Free Spirit", "Shooter" ], 4, 15, 4, 3, 99, null, 880, 410, 110, 1850, 1090, 260, null ],
+         [ null,null, [ null, null ], 3, null, null, null, 70, null, null, null, null, null, null, null, null ],
+         [ null,null, [ null, null ], 3, null, null, null, 70, null, null, null, null, null, null, null, null ],
+         [ null,null, [ null, null ], 3, null, null, null, 70, null, null, null, null, null, null, null, null ],
+         [ "Enel Legend", "QCK", [ "Shooter", "Striker" ], 5, null, null, null, 70, null, null, null, null, null, null, null, null ],
+         [ "Enel Legend Evo", "QCK", [ "Shooter", "Striker" ], 6, 55, 4, 5, 99, 5000000, 1000, 500, 1000, 2500, 1550, 500, null ],
+         [ "Kuma", "PSY", [ "Shooter", "Cerebral" ], 4, 15, null, null, 50, null, null, null, null, null, null, null, null ],
+         [ "Kuma Evo", "PSY", [ "Shooter", "Cerebral" ], 5, 30, 4, 4, 99, 4000000, 1000, 410, 110, 3000, 1400, 200, null ],
+         [ "Lucci", "DEX", [ "Fighter", "Slasher" ], 4, 15, null, null, 50, null, null, null, null, null, null, null, null ],
+         [ "Lucci Evo", "DEX", [ "Fighter", "Slasher" ], 5, 30, 4, 4, 99, 4000000, 880, 410, 110, 2700, 1350, 200, null ],
+         [ "Croco", "INT", [ "Striker", "Driven" ],  4, 15, null, null, 50, null, null, null, null, null, null, null, null ],
+         [ "Croco Evo", "INT", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1000, 400, 150, 2800, 1300, 200, null ],
+         [ "Moria", "STR", [ "Driven", "Slasher" ], 4, 15, null, null, 50, null, null, null, null, null, null, null, null ],
+         [ "Moria Evo", "STR", [ "Driven", "Fighter" ], 5, 30, 4, 4, 99, 4000000, 1000, 400, 150, 3500, 1400, -200, null ],
+       
 ];

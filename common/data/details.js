@@ -8867,13 +8867,13 @@ window.details = {
         },
         1609: {
         captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV]",
-        captainNote: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
+        captainNotes: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
         special: "Hace  daño sin tipo a todos los enemigos equivalente a 10x de la cantidad de HP recuperada en el anterior turno, con un máximo de 2.000.000 de daño",
         specialName: "Enel Special",
         },
         1610: {
         captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV]",
-        captainNote: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
+        captainNotes: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
         special: "Hace  daño sin tipo a todos los enemigos equivalente a 10x de la cantidad de HP recuperada en el anterior turno, con un máximo de 2.000.000 de daño",
         specialName: "Enel Special",       
         },

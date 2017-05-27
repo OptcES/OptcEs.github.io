@@ -1617,5 +1617,5 @@ window.units = [
          [ "Croco Evo", "INT", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1000, 400, 150, 2800, 1300, 200, null ],
          [ "Moria", "STR", [ "Driven", "Slasher" ], 4, 15, null, null, 50, null, null, null, null, null, null, null, null ],
          [ "Moria Evo", "STR", [ "Driven", "Fighter" ], 5, 30, 4, 4, 99, 4000000, 1000, 400, 150, 3500, 1400, -200, null ],
-         [ "Rayleigh 6+", "STR", [ "Fighter", "Slasher" ], 6, 65, 4, 4, 99, 4000000, 1000, 400, 150, 3100, 1450, 400, null ],           
+         [ "Rayleigh 6+", "INT", [ "Fighter", "Slasher" ], 6, 65, 4, 4, 99, 4000000, 1000, 400, 150, 3100, 1450, 400, null ],           
 ];

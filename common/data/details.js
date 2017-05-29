@@ -8866,13 +8866,13 @@ window.details = {
         specialName: "Fist of the Demon's Child 'Fire'",
         },
         1609: {
-        captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV]",
+        captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV] y estos contarán como orbes Favorables.",
         captainNotes: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
         special: "Hace  daño sin tipo a todos los enemigos equivalente a 10x de la cantidad de HP recuperada en el anterior turno, con un máximo de 2.000.000 de daño",
         specialName: "Enel Special",
         },
         1610: {
-        captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV]",
+        captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo de la cantidad de HP curada en el anterior turno. Aumenta la aparicion de orbes [RCV] y estos contarán como orbes Favorables.",
         captainNotes: "Cuanto más te cures, mayor será el multiplicador de ATK, Aumenta un 3.25x como máximo y un 2x como mínimo.",
         special: "Hace  daño sin tipo a todos los enemigos equivalente a 10x de la cantidad de HP recuperada en el anterior turno, con un máximo de 2.000.000 de daño",
         specialName: "Enel Special",       
@@ -8880,46 +8880,54 @@ window.details = {
         1611: {
         captain: "Sin traducir",
         special: "Reduce la duracion del despair y los encadenamientos 7 turnos. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo. Tiene una pequeña posibilidad derrotar instantáneamente a cualquier enemigo",
+        sailor: "Si está unidad tiene un orbe [PSY] y ejecuta un perfect mantendrá su orbe [PSY]",
         specialName: "Kuma Special",       
         },
         1612: {
         captain: "Aumenta el ATK de los personajes Shooter 2.5x y su RCV 1.25x",
         special: "Reduce la duracion del despair y los encadenamientos 7 turnos. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo. Tiene una pequeña posibilidad derrotar instantáneamente a cualquier enemigo",
+        sailor: "Si está unidad tiene un orbe [PSY] y ejecuta un perfect mantendrá su orbe [PSY]",
         specialName: "Kuma Special",            
         },
         1613: {
         captain: "Sin traducir",
-        special: "Reduce el HP del enemigo un 10% y su defensa un 50%. Incrementa la probabilidad de aparicion de los orbes favorables durante 1 turno",
+        special: "Reduce la HP actual de los enemigos en un 10% y reduce su Defensa un 50%. Aumenta la probabilidad de aparicion de los orbes favorables durante 1 turno",
+        sailor: "Añade un daño adicional equivalente a su ATK x2 en su 'Tap Timing' (Cuando ataca)",
         specialName: "Lucci Special",       
         },
         1614: {
         captain: "Aumenta el ATK de los personajes Fighter 2.5x y su HP 1.2x",
-        special: "Reduce el HP del enemigo un 10% y su defensa un 50%. Incrementa la probabilidad de aparicion de los orbes favorables durante 1 turno",
+        special: "Reduce la HP actual de los enemigos en un 10% y  reduce su Defensa un 50%. Aumenta la probabilidad de aparicion de los orbes favorables durante 1 turno",
+        sailor: "Añade un daño adicional equivalente a su ATK x2 en su 'Tap Timing' (Cuando ataca)",
         specialName: "Lucci Special",            
         },
         1615: {
         captain: "Sin traducir",
         special: "Hace un daño equivalente a su ATK 20x a todos los enemigos. Reduce la carga de los especiales de los personajes Striker 1 turno. Aumenta el ATK y la efectividad de los orbes de los personajes Striker ???x durante un turno",
+        sailor: "Cuando retrasan su especial recupera 2 turnos de su carga de especial",
         specialName: "Crocodile Special",       
         },
         1616: {
         captain: "Aumenta el ATK de los personajes Striker 2.5x. Recupera una cantidad de HP equivalente a su RCV 1.5x al final de cada turno",
         special: "Hace un daño equivalente a su ATK 20x a todos los enemigos. Reduce la carga de los especiales de los personajes Striker 1 turno. Aumenta el ATK y la efectividad de los orbes de los personajes Striker ???x durante un turno",
+        sailor: "Cuando retrasan su especial recupera 2 turnos de su carga de especial",
         specialName: "Crocodile Special",            
         },
         1617: {
         captain: "Sin traducir",
         special: "Aleatoriza los orbes no-favorables para los personajes [STR], [DEX] e [INT]. Aumenta el ATK de los personajes [STR], [DEX] e [INT] 1.75x durante 1 turno",
+        sailor: "Reduce la carga del especial de esta unidad si´esta mata a una unidad",
         specialName: "Moria Special",       
         },
         1618: {
         captain: "Aumenta el ATK de los personajes [STR], [DEX] e [INT] 2.5x",
         special: "Aleatoriza los orbes no-favorables para los personajes [STR], [DEX] e [INT]. Aumenta el ATK de los personajes [STR], [DEX] e [INT] 1.75x durante 1 turno",
+        sailor: "Reduce la carga del especial de esta unidad si´esta mata a una unidad",
         specialName: "Moria Special",            
         },
         1619: {
         captain: "Aumenta el multiplicador de cadena 4x. Aumenta el HP y el RCV 1.2x",
-        special: "Reduce la duracion del despair, encadenamientos y parálisis 7 turnos. Retrasa a los enemigos 1 turno y hace que los perfects sean más fáciles de acertar durante 1 turno",
+        special: "Reduce la duracion del Encadenamiento, Despair y parálisis 7 turnos. Retrasa a los enemigos 1 turno y hace que los perfects sean más fáciles de acertar durante 1 turno",
         specialName: "Ray Special",            
         },
 

@@ -2619,13 +2619,25 @@ window.specials = {
     1600: {
        orb: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1); },       
     },
+    1606: {
+        def: function(p) { return 0.5 },
+    },
+    1607: {
+        atk: function(p) { return (p.unit.class.has("Shooter")) ? 1.5 : 1; },
+    },
+    1615: {
+        atk: function(p) { return p.unit.class.has("Striker") ? 1.5 : 1; },
+        type: "class",
+        orb: function(p) { return p.unit.class.has("Striker") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
     1616: {
         atk: function(p) { return p.unit.class.has("Striker") ? 1.5 : 1; },
         type: "class",
         orb: function(p) { return p.unit.class.has("Striker") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); },
     },
      1618: {
-       atk: function(p) { return  p.unit.type == "STR" || p.unit.type == "INT" ||  p.unit.type == "DEX" ? 1.75 : 1; },
+       atk: function(p) { return  p.unit.type == "STR" || p.unit.type == "INT" ||  p.unit.type == "DEX" ? 1.75 : 1;},
+       type: "type",
     },
     
     

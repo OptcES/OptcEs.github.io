@@ -4753,28 +4753,56 @@ window.captains = {
     1605: {
         atk: function(p) { return p.unit.type == "STR" ? 2 : 1; },
     },
+    1606: {
+        atk: function(p) { return p.unit.type == "PSY" ? 1.75 : 1; },
+        rcv: function(p) { return p.unit.type == "PSY" ? 1.75 : 1; },
+    },
+    1607: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; },
+    },
+    1608: {
+        atk: function(p) { return p.unit.type == "INT" ? 1.5 : 1; },
+        rcv: function(p) { return p.unit.type == "INT" ? 1.5 : 1; },
+    },
+    1609: {
+        atk: function(p) { return 3.25},
+        hp: function(p) { return 0.8 },     
+    },
     1610: {
         atk: function(p) { return 3.25},
         hp: function(p) { return 0.8},
     },
+    1611: {
+        atk: function(p) {return p.unit.class.has("Shooter") ? 1.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Shooter") ? 1.2 : 1; },
+    },
     1612: {
         atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; },
-        rcv: function(p) { return p.unit.class.has("Shooter") ? 1.25 : 1;},
+        hp: function(p) { return p.unit.class.has("Shooter") ? 1.2 : 1; },
+    },
+    1613: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 2.25 : 1; },
     },
     1614: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 2.5 : 1; },
-        hp: function(p) { return p.unit.class.has("Fighter") ? 1.2 : 1;},
+        hp: function(p) { return p.unit.class.has("Fighter") ? 1.25 : 1; },
+    },
+    1615: {
+        atk: function(p) { return p.unit.class.has("Striker") ? 2 : 1; },
     },
     1616: {
         atk: function(p) { return p.unit.class.has("Striker") ? 2.5 : 1; },
     },
+    1617: {
+        atk: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "INT" ? 2 : 1; },
+    },
     1618: {
-        atk: function(p) { p.unit.type == "INT" || p.unit.type == "STR" || p.unit.type == "DEX" ? 2.5 : 1; },
+        atk: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "INT" ? 2.5 : 1; },
     },
     1619: {
         chainModifier: function(p) { return 4; },
-        hp: function(p) { return 1.2},
-        rcv: function(p) { return 1.2},
-    },
+        hp: function(p) { return 1.2 },
+        rcv: function(p) { return 1.2 },
+     },
     
 };

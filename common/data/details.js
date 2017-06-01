@@ -8932,5 +8932,10 @@ window.details = {
         special: "Reduce la duracion del Encadenamiento, Despair y Parálisis 7 turnos. Retrasa a los enemigos 1 turno y hace que los perfects sean más fáciles de acertar durante 1 turno",
         specialName: "Netherworld Conqueror",            
         },
+        1620: {
+        captain: "Aumenta el ATK de los personajes Striker 2.5x y su HP 1.2x. Si la HP del equipo se encuentra a menos del 30% al principio del turno aumenta el ATK x3",
+        special: "Reduce drásticamente el HP del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
+        specialName: "Log Kid Special",            
+        },
 
 };

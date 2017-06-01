@@ -1617,5 +1617,6 @@ window.units = [
          [ "Mr.0, Confrontamiento de la Gran Era de los Piratas, 'Utopia'", "INT", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1131, 540, 59, 2760, 1457, 197, 1 ],
          [ "Moria, Sueño sin Fin de los Villanos", "STR", [ "Driven", "Slasher" ], 4, 15, 6, 3, 50, 392109, 190, 150, 0, null, null, null, null ],
          [ "Moria, Confrontamiento de la Gran Era de los Piratas, 'La Tripulación más Fuerte'", "STR", [ "Driven", "Fighter" ],  5, 30, 4, 4, 99, 4000000, 1328, 620, 0, 3002, 1501, 0, 1 ],
-         [ "'Rey Oscuro' Silvers Rayleigh, Mano Derecha del Rey de los Piratas", "INT", [ "Fighter", "Slasher" ], 6, 65, 4, 4, 99, 4000000, 1000, 400, 150, 3100, 1450, 400, null ],           
+         [ "'Rey Oscuro' Silvers Rayleigh, Mano Derecha del Rey de los Piratas", "INT", [ "Fighter", "Slasher" ], 6, 65, 4, 4, 99, 5000000, 1000, 400, 150, 3021, 1462, 540, null ],           
+         [ "Log Kid", "STR", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 10, 3000, 1400, 50, null ],           
 ];

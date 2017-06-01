@@ -4804,5 +4804,9 @@ window.captains = {
         hp: function(p) { return 1.2 },
         rcv: function(p) { return 1.2 },
      },
+    1620: {
+        atk: function(p) { return p.unit.class.has("Striker") && p.percHP <= 30.0 ? 3 : 2.5; },
+        hp: function(p) { return p.unit.class.has("Striker") ? 1.2 : 1; }   
+    },
     
 };

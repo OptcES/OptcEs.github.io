@@ -2651,7 +2651,7 @@ window.specials = {
         atk: function(p) { return p.unit.type == "STR" || p.unit.type == "INT" || p.unit.type == "DEX" ? 1.75 : 1; },
         type: "type"
     },
-    1620: {
+    1621: {
         atk: function(p) { return p.unit.class.has("Striker") ? 2 : 1; },
         type: "class",
     },

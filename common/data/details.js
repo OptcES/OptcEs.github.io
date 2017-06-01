@@ -8937,5 +8937,10 @@ window.details = {
         special: "Reduce drásticamente el HP del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
         specialName: "Log Kid Special",            
         },
+        1621: {
+        captain: "Aumenta el ATK de los personajes Striker 2.5x y su HP 1.2x. Si la HP del equipo se encuentra a menos del 30% al principio del turno aumenta el ATK x3",
+        special: "Reduce drásticamente el HP del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
+        specialName: "Log Kid Special",            
+        },
 
 };

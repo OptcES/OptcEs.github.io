@@ -8865,6 +8865,22 @@ window.details = {
         special: "Aleatoriza los orbes no-favorables y hace un daño equivalente a su ATK 13x [STR] a todos los enemigos",
         specialName: "Fist of the Demon's Child 'Fire'",
         },
+        1606: {
+        captain: "Aumenta el ATK y el RCV de los personajes [PSY] 1.75x",
+        special: "Aleatoriza los orbes no favorables, reduce la defensa del enemigo un 50% y retrasa a los enemigos un turno",
+        specialName: "Deprivation of Self-Consciousness",
+        },
+        1607: {
+        captain: "Aumenta el ATK de los personajes Shooter 2x",
+        special: "Hace un daño equivalente a su ATK 10x [DEX] a un solo enemigo. Aumenta el ATK de los personajes Shooter 1.5x y fija los orbes durante un turno",
+        specialName: "Painless Bullet",
+        },
+        1608: {
+        captain: "Aumenta el ATK y el RCV de los personajes [INT] 1.5x",
+        special: "Tiene la pequeña posibilidad derrotar instantáneamente a cualquier enemigo",
+        specialNotes: "Especial similar al de Shiryu RR pero con bastante menor probabilidad de acierto",
+        specialName: "Vile Fruit",
+        },
         1609: {
         captain: "Reduce el HP máxima del equipo un 20%. Aumenta el ATK dependiendo del HP recuperada en el anterior turno (3.25x como máximo y un 2x como mínimo). Aumenta la aparicion de orbes [RCV] y estos contarán como orbes Favorables.",
         captainNotes: "Cuanto más alta sea esta cantidad de sanación, mayor será el multiplicador de ATK. 1000 de sanación equivale a 2.1x, 7000 sobre 3x y 10000 a 3.25x",
@@ -8933,14 +8949,14 @@ window.details = {
         specialName: "Netherworld Conqueror",            
         },
         1620: {
-        captain: "Aumenta el ATK de los personajes Striker 2.5x y su HP 1.2x. Si la HP del equipo se encuentra a menos del 30% al principio del turno aumenta el ATK x3",
+        captain: "Si la HP del equipo se encuentra a menos del 30% al principio del turno aumenta el ATK de los personajes Striker x2.5",
         special: "Reduce drásticamente el HP del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
-        specialName: "Log Kid Special",            
+        specialName: "Double Steel Magnetic Arm",            
         },
         1621: {
         captain: "Aumenta el ATK de los personajes Striker 2.5x y su HP 1.2x. Si la HP del equipo se encuentra a menos del 30% al principio del turno aumenta el ATK x3",
-        special: "Reduce drásticamente el HP del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
-        specialName: "Log Kid Special",            
+        special: "Reduce un 80% el HP actual del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
+        specialName: "Double Steel Magnetic Arm",            
         },
 
 };

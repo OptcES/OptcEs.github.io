@@ -1618,6 +1618,8 @@ window.units = [
          [ "Gekko Moria, Sueño sin Fin de los Villanos", "STR", [ "Driven", "Slasher" ], 4, 15, 6, 3, 50, 392109, 190, 150, 0, 1390, 699, 0, 1 ],
          [ "Gekko Moria, Confrontamiento de la Gran Era de los Piratas, 'La Tripulación más Fuerte'", "STR", [ "Driven", "Fighter" ],  5, 30, 4, 4, 99, 4000000, 1328, 620, 0, 3002, 1501, 0, 1 ],
          [ "'Rey Oscuro' Silvers Rayleigh, Mano Derecha del Rey de los Piratas", "INT", [ "Fighter", "Slasher" ], 6, 65, 4, 4, 99, 5000000, 1500, 800, 300, 3121, 1472, 515, null ],           
-         [ "Eustass Kid, Estela de un sueño sin fin, Piratas de Kid", "STR", [ "Striker", "Driven" ], 4, null, null, null, null, null, null, null, null, null, null, null, null ],           
-         [ "Eustass Kid, Promesa de la Gran Era de los Piratas, 'Rey de los Piratas'", "STR", [ "Striker", "Driven" ], 5, 30, 4, 4, 99, 4000000, 1000, 500, 10, 2795, 1324, 287, null ],           
+         [ "Eustass Kid, Estela de un sueño sin fin, Piratas de Kid", "STR", [ "Striker", "Driven" ], 4, 20, 4, 3, 70, null, null, null, null, 1424, 690, 151, null ],           
+         [ "Eustass Kid, Promesa de la Gran Era de los Piratas, 'Rey de los Piratas'", "STR", [ "Striker", "Driven" ], 5, 30, 5, 4, 99, 4000000, 1000, 500, 10, 2795, 1324, 287, null ],
+         [ "'Kai' Donquixote Doflamingo", "INT", ["Slasher", "Driven"], 4, 30, 4, 2, 70, 1066998, 200, 186, 30, 1061, 790, 145, null ],
+	 [ "'Kai' Donquixote Doflamingo, Shichibukai", "INT", ["Slasher", "Driven"], 5, 50, 5, 3, 99, 4000000, 932, 721, 118, 2311, 1500, 255, null ],
 ];

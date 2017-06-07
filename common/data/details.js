@@ -8958,5 +8958,17 @@ window.details = {
         special: "Reduce un 80% el HP actual del equipo y aumenta el ATK de los personajes Striker 2x durante 1 turno",
         specialName: "Double Steel Magnetic Arm",            
         },
+        1622: { 
+		captain:"Aumenta el ATK de los personajes Slasher 2x",
+		specialName:"Kai Overheat",
+		special: "Intercambia la posición de los orbes 2 veces e incrementa la efectividad de los orbes 2x durante 1 turno",
+		specialNotes:"#{orb : 2x}"
+	},
+	1623: { 
+		captain:"Aumenta el ATK y la HP de los personajes Slasher 2x",
+		specialName:"Kai Overheat",
+		special: "Intercambia la posición de los orbes 2 veces e incrementa la efectividad de los orbes 2x durante 1 turno",
+		specialNotes:"#{orb : 2x}"
+	},
 
 };

@@ -366,13 +366,16 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     /* Computes the actual defense threshold of the enemy after the specials are factored in.
      * Defense-reducing specials do not stack with each other, so we just use the one that grants the lowest defense.
      */
-    var computeActualDefense = function() {
+    var computeActualDefense = function(shipName) {
         var baseDefense = parseInt($scope.data.defense, 10) || 0;
         currentDefense = baseDefense;
         enabledSpecials.forEach(function(x) {
             if (x === null || !x.hasOwnProperty('def')) return;
             currentDefense = Math.min(currentDefense,baseDefense * x.def());
         });
+        if(shipName=="Flying Dutchman con especial"){
+            currentDefense = Math.min(currentDefense,baseDefense * .75);
+        }
     };
 
     var getShipBonus = function(type,static,unit,slot) {
@@ -484,7 +487,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         var currentMax = -1, currentResult = null, addition = 0.0;
 		if(shipBonus.bonus.name=="Doflamingo Ship con especial"){
             addition = 0.2
-        }
+        }                
 		//get the highest Chain Addition if it exists
         chainAddition.forEach(function(special){
                     if(addition<special.chainAddition())
@@ -711,7 +714,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 mapEffect.barrierReduction = data.barrierReduction;
             }
         }
-
+        shipBonus = jQuery.extend({ bonus: window.ships[$scope.data.ship[0]] },{ level: $scope.data.ship[1] });
         if ($scope.data.comboShield) mapEffect.comboShield = $scope.data.comboShield;
             if ($scope.data.comboType) mapEffect.comboType = $scope.data.comboType;
         // team
@@ -740,8 +743,8 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             $scope.notify({ type: 'error', text: 'Uno o más especiales seleccionados no pueden activarse debido a un efecto de mapa activo.' });
         
 		// check if defense is down (required by some captain effects)
-        computeActualDefense();
-        isDefenseDown = enabledSpecials.some(function(x) { return x !== null && x.hasOwnProperty('def'); });
+        computeActualDefense(shipBonus.bonus.name);
+        isDefenseDown = enabledSpecials.some(function(x) { return (x !== null && x.hasOwnProperty('def')) || (shipBonus.bonus.name == "Flying Dutchman con especial"); });
         // captain effect array
         enabledEffects = [ ];
         for (var i=0;i<2;++i) {

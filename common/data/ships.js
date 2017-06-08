@@ -368,4 +368,20 @@ window.ships = [
             return !(p.unit.class.has('Shooter') && p.unit.class.length > 2) ? 1 :2;
         },        
     },
+      { //31
+        name: "Flying Dutchman",
+        thumb: null,
+        description: 'Aumenta el ATK de todos los personajes 1.5x y aumenta la XP ganada 1.5x. Especial: Reduce la defensa de los enemigos un 25% durante un turno (carga: 16 turnos)',
+        atk: function(p) { return [ 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5 ][p.boatLevel - 1]; },
+    },
+    
+    
+    
+    { //31
+        name: "Flying Dutchman con especial",
+        thumb: null,
+        description: 'Aumenta el ATK de todos los personajes 1.5x y aumenta la XP ganada 1.5x. Especial: Reduce la defensa de los enemigos un 25% durante un turno (carga: 16 turnos) (ACTIVADO)',
+        atk: function(p) { return [ 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5 ][p.boatLevel - 1]; },
+},
+    
 ];

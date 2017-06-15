@@ -4815,5 +4815,34 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; },
         atk: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; }
     },
+    1624: {
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.25 : 1; },
+        atk: function(p) { return p.unit.class.has("Slasher") ? 1.5 : 1; }
+    },
+    1625: {
+        atk: function(p) { return p.unit.class.has("Fighter") || p.unit.class.has("Powerhouse") ? 1.75 : 1; },
+    },
+    1626: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 2.5, [ "Powerhouse" ]); },
+        hitAtk: function(p) {
+            return !p.unit.class.has("Powerhouse") ? 1 : p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 2.5 : 1;
+        },
+        hitModifiers: ["Good", "Great", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1627: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2 : 1; }
+    },
+    1628: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 2.25 : 1; },
+        rcv: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+    },
+    1629: {
+        hp: function(p) { return p.unit.class.has("Striker") ? 1.5 : 1; },
+        atk: function(p) { return p.unit.class.has("Striker") ? 1.5 : 1; }
+    },
+    1630: {
+        hp: function(p) { return p.unit.class.has("Striker") ? 1.5 : 1; },
+        atk: function(p) { return p.unit.class.has("Striker") ? 2 : 1; }
+    },
     
 };

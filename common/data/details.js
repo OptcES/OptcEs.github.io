@@ -8970,5 +8970,68 @@ window.details = {
 		special: "Intercambia la posición de los orbes 2 veces e incrementa la efectividad de los orbes 2x durante 1 turno",
 		specialNotes:"#{orb : 2x}"
 	},
+        1624: {
+        captain: "Aumenta el ATK de los personajes Slasher 1.5x y el HP de los personajes Powerhouse 1.25x",
+        special: "Aleatoriza todos los orbes, reduce el HP actual de los enemigos un 10% y envenena a todos los enemigos.",
+        specialName: "Flexible Six Swords",
+        },
+        1625: {
+            captain: "Aumenta el ATK de los personajes Fighter y Powerhouse 1.75x",
+            special: "Aleatoriza todos los orbes, incluidos [NEGATIVO] y reduce el daño recibido un 50% durante un turno",
+            specialName: "Arching Fangs",
+        },
+        1626: {
+            captain: "Aumenta el ATK de los personajes Powerhouse 2.5x tras hacer Good > Great > Perfect",
+            special: "Hace un daño equivalente a su ATK 20x [PSY] a un enemigo y aumenta el ATK de los personajes [PSY] 1.5x durante 1 turno",
+            specialName: "The Calm Before The Storm",
+        },
+        1627: {
+            captain: "Aumenta el ATK de los personajes Free Spirit 2x",
+            special: [
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 1 turno. Aumenta la Afinidad de Tipo de los personajes Striker 1.25x durante 1 turno",
+                    "cooldown": [ 23, 9 ]
+                },
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 3 turnos. Aumenta la Afinidad de Tipo de los personajes Striker 1.5x durante 1 turno",
+                    "cooldown": [ 27, 13 ]
+                },
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 5 turno. Aumenta la Afinidad de Tipo de los personajes Striker 1.75x durante 1 turno",
+                    "cooldown": [ 31, 17 ]
+                },
+            ],
+            specialNotes: "#{stages}",
+            specialName: "Thousand Ton Destruction",
+        },
+        1628: {
+            captain: "Aumenta el ATK de los personajes Free Spirit 2.25x y su RCV 1.5x",
+            special: [
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 1 turno. Aumenta la Afinidad de Tipo de los personajes Striker 1.25x durante 1 turno",
+                    "cooldown": [ 23, 9 ]
+                },
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 3 turnos. Aumenta la Afinidad de Tipo de los personajes Striker 1.5x durante 1 turno",
+                    "cooldown": [ 27, 13 ]
+                },
+                {
+                    "description": "Reduce la duración de el multiplicador de cadena fijado 5 turno. Aumenta la Afinidad de Tipo de los personajes Striker 1.75x durante 1 turno",
+                    "cooldown": [ 31, 17 ]
+                },
+            ],
+            specialNotes: "#{stages}",
+            specialName: "Thousand Ton Destruction",
+        },
+        1629: {
+            captain: "Aumenta el ATK y el HP de los personajes Striker 1.5x",
+            special: "Cambia todos los orbes a [STR], [DEX], [QCK], [INT], o [PSY] aleatoriamente y cambia su propio orbe a [INT]",
+            specialName: "The Spear that Penetrated the Undersea Mountain",
+        },
+        1630: {
+            captain: "Aumenta el ATK de los personajes Striker 2x y su HP 1.5x",
+            special: "Cambia todos los orbes a [STR], [DEX], [QCK], [INT], o [PSY] aleatoriamente y cambia su propio orbe a [INT]",
+            specialName: "The Spear that Penetrated the Undersea Mountain",
+        },
 
 };

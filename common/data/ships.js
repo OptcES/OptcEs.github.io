@@ -370,7 +370,7 @@ window.ships = [
     },
       { //31
         name: "Flying Dutchman",
-        thumb: null,
+        thumb: "ship_0033_c.png",
         description: 'Aumenta el ATK de todos los personajes 1.5x y aumenta la XP ganada 1.5x. Especial: Reduce la defensa de los enemigos un 25% durante un turno (carga: 16 turnos)',
         atk: function(p) { return [ 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5 ][p.boatLevel - 1]; },
     },
@@ -379,9 +379,20 @@ window.ships = [
     
     { //31
         name: "Flying Dutchman con especial",
-        thumb: null,
+        thumb: "ship_0033_c.png",
         description: 'Aumenta el ATK de todos los personajes 1.5x y aumenta la XP ganada 1.5x. Especial: Reduce la defensa de los enemigos un 25% durante un turno (carga: 16 turnos) (ACTIVADO)',
         atk: function(p) { return [ 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.5 ][p.boatLevel - 1]; },
+    },
+    { //32
+        name: "Marshal D. Teach 4 troncos mal puestos",
+        thumb: null,
+        description: 'Reduce el enfriamiento de todos los especiales 1 turno. Aumenta el HP de todos los personajes 1.25x. Aumenta el ATK de todos los personajes 1.55x si en el equipo hay un Striker, Shooter, Fighter y un Slasher en tu equipo.',
+        atk: function(p) { 
+            return (p.classCount.Striker >= 1 && p.classCount.Fighter >= 1 && p.classCount.Shooter >= 1 && p.classCount.Slasher >= 1) ? [ 1.2, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.5, 1.55 ][p.boatLevel - 1] : 1;
+        },
+        hp: function(p) {
+            return [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.25 ][p.boatLevel - 1];
+        }
 },
     
 ];

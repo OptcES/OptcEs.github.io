@@ -2667,7 +2667,7 @@ window.specials = {
             var n = (window.specials[1627].multiplier == 1.25 ? 1 : window.specials[1627].multiplier == 1.5 ? 2 : 0);
             window.specials[1627].multiplier = [1.25, 1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.25, 1.5, 1.75][n] + 'x affinity boost. To switch to the ' + [1.5, 1.75, 1.25][n] + 'x chain addition, disable and re-enable this special',
+                text: 'Usando el multiplicador de afinidad ' + [1.25, 1.5, 1.75][n] + 'x. Para cambiar al multiplicador a ' + [1.5, 1.75, 1.25][n] + 'x desactiva y reactiva el especial',
                 name: '1627warning'
             });
         }
@@ -2678,7 +2678,7 @@ window.specials = {
             var n = (window.specials[1628].multiplier == 1.25 ? 1 : window.specials[1628].multiplier == 1.5 ? 2 : 0);
             window.specials[1628].multiplier = [1.25, 1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.25, 1.5, 1.75][n] + 'x affinity boost. To switch to the ' + [1.5, 1.75, 1.25][n] + 'x chain addition, disable and re-enable this special',
+                text: 'Usando el multiplicador de afinidad ' + [1.25, 1.5, 1.75][n] + 'x. Para cambiar al multiplicador a ' + [1.5, 1.75, 1.25][n] + 'x desactiva y reactiva el especial',
                 name: '1628warning'
             });
         }

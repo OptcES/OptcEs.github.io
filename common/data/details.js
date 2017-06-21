@@ -9033,5 +9033,19 @@ window.details = {
             special: "Cambia todos los orbes a [STR], [DEX], [QCK], [INT], o [PSY] aleatoriamente y cambia su propio orbe a [INT]",
             specialName: "The Spear that Penetrated the Undersea Mountain",
         },
+        1631: {
+            captain: "Aumenta el ATK de los personajes Powerhouse 2.25x",
+            special: "Aumenta el ATK de los personajes Powerhouse 1.75x durante 3 turnos",
+            specialName: "Rebellion against the 'Prohibition': Taboo",
+            sailor: "Cuando un personaje Powerhouse usa su especial esta unidad reduce su propia carga de especial 1 turno"
+        },
+        1632: {
+            captain: "Aumenta el ATK de los personajes Powerhouse 2.75x",
+            special: "Aumenta el ATK de los personajes Powerhouse 1.75x durante 3 turnos",
+            specialName: "Rebellion against the 'Prohibition': Taboo",
+            sailor: "Cuando un personaje Powerhouse usa su especial esta unidad reduce su propia carga de especial 1 turno"
+            
+        },
+        
 
 };

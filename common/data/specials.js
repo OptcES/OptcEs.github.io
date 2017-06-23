@@ -2724,11 +2724,11 @@ window.specials = {
     },
     1652: {
         chain: function(p) { return 2.5; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
     },
     1653: {
         chain: function(p) { return 2.5; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
     },
     1654: {
         atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },

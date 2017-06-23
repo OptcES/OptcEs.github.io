@@ -9046,6 +9046,100 @@ window.details = {
             sailor: "Cuando un personaje Powerhouse usa su especial esta unidad reduce su propia carga de especial 1 turno"
             
         },
+        1646: { 
+		captain:"Aumenta el ATK y la HP de los personajes Powerhouse 1.5x",
+		specialName:"'Kai' Rock Domination Wall",
+		special: [
+			{
+				"description": "Cambia los orbes [VACIO] y desfavorables de los personajes Powerhouse y Driven a orbes favorables. Reduce la HP actual de los enemigos un 10%",
+				"cooldown": [25,11]
+			},
+			{
+				"description": "Cambia los orbes [VACIO] y desfavorables de todos los personjaes a orbes favorables. Reduce la HP actual de los enemigos un 20%",
+				"cooldown": [31,17]
+			}
+		],
+		specialNotes:"#{stages}"
+	},
+	1647: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.25x y su HP 1.5x",
+		specialName:"'Kai' Rock Domination Wall",
+		special: [
+			{
+				"description": "Cambia los orbes [VACIO] y desfavorables de los personajes Powerhouse y Driven a orbes favorables. Reduce la HP actual de los enemigos un 10%",
+				"cooldown": [25,11]
+			},
+			{
+				"description": "Cambia los orbes [VACIO] y desfavorables de todos los personjaes a orbes favorables. Reduce la HP actual de los enemigos un 20%",
+				"cooldown": [31,17]
+			}
+		],
+		specialNotes:"#{stages}"
+	},
+        1648: {
+            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
+            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
+            specialName: "Nekomamushi Special",
+        },
+        1649: {
+            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
+            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
+            specialName: "Nekomamushi Special",
+            
+        },
+        1650: {
+            captain: "Sin traducir",
+            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
+            specialName: "Raizo Special",
+            sailor: "Esta unidad es inmune al silencio de especial"
+        },
+        1651: {
+            captain: "Aumenta el ATK de los personajes Shooter 2.5x y hace que los orbes [TND] y [RCV] cuenten como favorables para personajes Shooter",
+            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
+            specialName: "Raizo Special",
+            sailor: "Esta unidad es inmune al silencio de especial"
+            
+        },
+        1652: {
+            captain: "Sin traducir",
+            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
+            specialName: "Kanjuro Special",
+            sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
+        },
+        1653: {
+            captain: "Aumenta el ATK de los personajes Striker y Free Spirit 2.5x",
+            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
+            specialName: "Kanjuro Special",
+            sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
+            
+        },
+        1654: {
+            captain: "Sin traducir",
+            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
+            specialName: "Carrot Special",
+            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+        },
+        1655: {
+            captain: "Aumenta el ATK de los personajes [QCK] 2.25x y su RCV 1.5x",
+            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
+            specialName: "Carrot Special",
+            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+            
+        },
+        1656: {
+            captain: "Sin traducir",
+            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
+            specialName: "Pedro Special",
+            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+        },
+        1657: {
+            captain: "Reduce la carga de los especiales 2 turnos. Aumenta el ATK de los personajes [INT] 2.5x",
+            special: "Reduce el HP del equipo a 1 punto, hace un daño equivalente a la vida perdida del equipo x7 sin tipo a todos los enemigos. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
+            specialName: "Pedro Special",
+            sailor: "Los orbes [INT] contarán como favorables para los personajes Slasher y Cerebral"
+            
+        },
+        
         
 
 };

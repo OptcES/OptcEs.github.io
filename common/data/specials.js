@@ -2691,6 +2691,61 @@ window.specials = {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 1.75 : 1; },
         type: "class",
     },
+    1633: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.25); }
+    },
+    1636: {
+        atk: function(p) { return 1.3; },
+        type: "condition",
+        warning: "Este especial (%name%) asume que el enemigo está envenenado"
+    },
+    1637: {
+        atk: function(p) { return 1.3; },
+        type: "condition",
+        warning: "Este especial (%name%) asume que el enemigo está envenenado"
+    },
+    1640: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[1640].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1640].turnedOn = false;
+        }
+    },
+    1641: {
+        atk: function(p) { return 1.2; },
+        type: "condition",
+        warning: "Este especial (%name%) asume que el enemigo está envenenado"
+    },
+    1643: {
+        atk: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
+        type: "class",
+    },
+    1652: {
+        chain: function(p) { return 2.5; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+    },
+    1653: {
+        chain: function(p) { return 2.5; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+    },
+    1654: {
+        atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
+        type: "type"
+    },
+    1655: {
+        atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
+        type: "type"
+    },
+    1656: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
+    1657: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
+    
+    
     
         
 };

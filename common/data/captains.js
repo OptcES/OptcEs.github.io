@@ -4849,6 +4849,59 @@ window.captains = {
     },
     1632: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 2.75 : 1; }
-},
+    },
+    1633: {
+        atk: function(p) { return p.unit.type == "STR" ? 1.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; }
+    },
+    1634: {
+        hp: function(p) { return p.unit.type == "INT" ? 2 : 1; }
+    },
+    1635: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 1.5 : p.unit.class.has("Cerebral") ? 2 : 1; }
+    },
+    1636: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 2 : 1; }
+    },
+    1637: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 2.25: 1; }
+    },
+    1644: {
+        atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; }
+    },
+    1645: {
+        atk: function(p) { 
+            return p.unit.class.has("Slasher") && p.unit.type == "DEX" ? 1.96 :
+                p.unit.class.has("Slasher") && !p.unit.type == "DEX" ? 1.3 :
+                !p.unit.class.has("Slasher") && p.unit.type == "DEX" ? 1.5 :
+                1;
+        }
+    },
+    1646: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? 1.5 : 1; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.5 : 1; }
+    },
+    1647: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? 2.25 : 1; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.5 : 1; }
+    },
+    
+    1649: {
+        atk: function(p) { return p.unit.class.has("Striker") && p.orb != 'g' ? 3.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Striker") ? 1.25 : 1; }
+    },
+    1651: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; },
+    },
+    1653: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 2.5 : 1; },
+    },
+    1655: {
+        atk: function(p) { return p.unit.type == "QCK" ? 2.25 : 1; },
+        rcv: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; }
+    },
+    1657: {
+        atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; },
+    },
     
 };

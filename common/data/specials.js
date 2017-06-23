@@ -2723,11 +2723,11 @@ window.specials = {
         type: "class",
     },
     1652: {
-        chain: function(p) { return 2.5; },
+        chain: function(p) { return 2.75; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
     },
     1653: {
-        chain: function(p) { return 2.5; },
+        chain: function(p) { return 2.75; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
     },
     1654: {

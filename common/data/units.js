@@ -1647,7 +1647,7 @@ window.units = [
          [ "'Kai' Pica ", "STR", [ "Powerhouse", "Driven" ], 4, 30, 4, 2, 70, 1066998, 270, 129, 1, null, null, null, null ],
          [ "'Kai' Pica, Donquixote Family", "STR", [ "Powerhouse", "Driven" ], 5, 50, 4, 3, 99, 5000000, 1630, 582, 1, 4020, 1210, 5, null ],
          [ "Nekomanushi", "PSY", [ "Striker", "Powerhouse" ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Nekomanushi Evo", "PSY", [ "Striker", "Striker" ], 6, 55, 4, 5, 99, 5000000, 1630, 582, 1, 3404, 1451, 353, null ],
+         [ "Nekomanushi Evo", "PSY", [ "Striker", "Powerhouse" ], 6, 55, 4, 5, 99, 5000000, 1630, 582, 1, 3404, 1451, 353, null ],
          [ "Raizo", "STR", [ "Shooter", "Free Spirit" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Raizo Evo", "STR", [ "Shooter", "Free Spirit" ], 4, 30, 8, 4, 99, null, 1000, 500, 100, 2353, 1363, 290, null ],
          [ "Kanjuro", "DEX", [ "Striker", "Free Spirit" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],
@@ -1655,6 +1655,6 @@ window.units = [
          [ "Carrot", "QCK", [ "Fighter", "Free Spirit" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Carrot Evo", "QCK", [ "Fighter", "Free Spirit" ], 4, 30, 4, 4, 99, null, 1000, 500, 100, 2041, 1250, 390, null ],
          [ "Pedro", "INT", [ "Slasher", "Cerebral" ], 4, 15, null, null, null, null, null, null, null, null, null, null, null ],
-         [ "Pedro Evo", "INT", [ "Slasher", "Cerebral" ], 4, 30, 4, 4, 99, null, null, 1000, 500, 100, 2009, 1438, 326, null ],
+         [ "Pedro Evo", "INT", [ "Slasher", "Cerebral" ], 4, 30, 4, 4, 99, null, 1000, 500, 100, 2009, 1438, 326, null ],
         
 ];

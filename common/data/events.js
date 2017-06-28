@@ -170,7 +170,17 @@ window.events = {
         },
         
     },
-    1649: {
+    1651: {
+        onInsertion: function($scope) {
+            if (++$scope.options.gOrbsEnabled == 1)
+                $scope.notify({ text: 'Activando orbes [G]. Utiliza el orbe [G] como substituto del RCV o TND' });
+        },
+        onRemoval: function($scope) {
+            if (--$scope.options.gOrbsEnabled === 0)
+                $scope.notify({ text: 'Desactivando orbes [G].' });
+        }
+    },
+    1652: {
         onInsertion: function($scope) {
             if (++$scope.options.gOrbsEnabled == 1)
                 $scope.notify({ text: 'Activando orbes [G]. Utiliza el orbe [G] como substituto del RCV o TND' });

@@ -9046,6 +9046,68 @@ window.details = {
             sailor: "Cuando un personaje Powerhouse usa su especial esta unidad reduce su propia carga de especial 1 turno"
             
         },
+        1633: {
+            captain: "Aumenta el ATK de los personajes [STR] 1.75x y la HP de los personajes Powerhouse 1.2x",
+            special: "hace un daño equivalente a su ATK 15x [STR] a todos los enemigos e incrementa la efectividad de los orbes 1.25x durante 1 turno",
+            specialName: "Flame Breath",
+        },
+        1634: {
+            captain: "Aumenta el HP de los personajes [INT] 2x",
+            special: "Reduce el daño recibido un 50% durante 1 turno",
+            specialName: "COOL Ambush",
+        },
+        1635: {
+            captain: "Aumenta SU propio ATK 1.5x y aumenta el ATK de los personajes Cerebral 2x",
+            special: "Reduce el HP actual de los enemigos un 20% y se encadena a si mismo durante 4 turnos",
+            specialName: "Crocodile Thrust",
+        },
+        1636: {
+            captain: "Aumenta el ATK de los personajes Cerebral 2x",
+            special: "Aumenta el ATK contra enemigos evenenados 1.3x durante 3 turnos y cambia los orbes [BOMBA] a favorables",
+            specialName: "Gastanet",
+        },
+        1637: {
+            captain: "Aumenta el ATK de los personajes Cerebral 2.25x y reduce el daño recibido un 15%",
+            special: "Aumenta el ATK contra enemigos evenenados 1.3x durante 3 turnos y cambia los orbes [BOMBA] a favorables",
+            specialName: "Gastanet",
+        },
+        1638: {
+            special: "Aumenta la probabilidad de obtener orbes [RCV] durante 1 turno",
+            specialName: "Meat for Meat",
+        },
+        1639: {
+            special: "Reduce la duración de la´parálisis 1 turno",
+            specialName: "Shock Recovery: Light",
+        },
+        1640: {
+            special: "Hace que los orbes [STR] sean favorables para personajes Shooter durante 1 turno",
+            specialName: "Shooter Beneficial Slot: STR",
+        },
+        1641: {
+            special: "Aumenta el ATK contra enemigos evenenados 1.2x durante 1 turnos",
+            specialName: "Rising Damage: Poison",
+        },
+        1642: {
+            special: "Evenena a todos los enemigos y hace un daño equivalente a su ATK x3 [INT] a todos los enemigos",
+            specialName: "Poison Attack",
+        },
+        1643: {
+            captain: "Reduce la carga de los especiales de los personajes Slasher 2 turnos",
+            special: "Aumenta el ATK de los personajes Slasher ??? durante 1 turno",
+            specialName: "Attack Boost: Slasher",
+        },
+        1644: {
+            captain: "Aumenta el ATK de los personajes [QCK] 2x y reduce la vida actual del equipo un 10% al final de cada turno",
+            special: "Reduce la duración del silencio 1 turn",
+            specialName: "Special Seal Recovery: Light",
+        },
+        1645: {
+            captain: "Aumenta el ATK de los personajes [DEX] 1.5x y aumenta el ATK de los personajes Slasher 1.3x",
+            captainNotes: "El multiplicador es acumulativo. Los personajes [DEX] - Slasher tienen un 1.95x de multiplicador de ATK",
+            special: "Inflige 5 golpes de daño [DEX a todos los enemigos",
+          
+            specialName: "Random Light Blows",
+    },
         1646: { 
 		captain:"Aumenta el ATK y la HP de los personajes Powerhouse 1.5x",
 		specialName:"'Kai' Rock Domination Wall",
@@ -9077,68 +9139,126 @@ window.details = {
 		specialNotes:"#{stages}"
 	},
         1648: {
-            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
-            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
-            specialName: "Nekomamushi Special",
+            captain: "Aumenta el ATK de todos los personakes 1.2x. Si ejecutas 4 Perfects seguidos aumenta el ATK de todos los personajes 2.4x",
+            special: "Reduce el daño recibido un 90% durante un turno y aleatoriza todos los ornes, incluidos los [NEGATIVO], a [STR], [DEX] o [QCK] orbs",
+            specialName: "Sprouting with Beautiful Passion",
         },
         1649: {
-            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
-            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
-            specialName: "Nekomamushi Special",
-            
+            captain: "Aumenta el ATK de todos los personakes 1.2x. Si ejecutas 4 Perfects seguidos aumenta el ATK de todos los personajes 3x",
+            special: "Reduce el daño recibido un 90% durante un turno y aleatoriza todos los ornes, incluidos los [NEGATIVO], a [STR], [DEX] o [QCK] orbs",
+            specialName: "Sprouting with Beautiful Passion",
         },
         1650: {
-            captain: "Sin traducir",
-            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
-            specialName: "Raizo Special",
-            sailor: "Esta unidad es inmune al silencio de especial"
+            captain: "Aumenta el RCV de los personajes [DEX] 1.5x. Aumenta el ATK de los personajes [DEX] 1.5x. Si tienen orbe favorable aumenta el ATK 3x",
+            special: "Cambia los orbes [NEGATIVO], [TND], [EMPTY], y [BOMBA] en [DEX] e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+            specialName: "Eyes Blinded by True Beauty",
         },
         1651: {
-            captain: "Aumenta el ATK de los personajes Shooter 2.5x y hace que los orbes [TND] y [RCV] cuenten como favorables para personajes Shooter",
-            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
-            specialName: "Raizo Special",
-            sailor: "Esta unidad es inmune al silencio de especial"
-            
+            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
+            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
+            specialName: "Daybreak Ruler's Spear",
         },
         1652: {
-            captain: "Sin traducir",
-            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
-            specialName: "Kanjuro Special",
-            sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
+            captain: "Aumenta el HP de los personajes Striker 1.25x. Aumenta el ATK de los personajes Striker 3.75x si tienen orbe [STR], [DEX], [QCK], [INT], [PSY] o [RAINBOW]",
+            special: "Hace un gran daño [PSY] a un solo enemigo. Hace que los orbes [STR], [DEX], [QCK], [INT] y [PSY] cuenten como favorables para los personajes Striker durante ? turnos",
+            specialName: "Daybreak Ruler's Spear",
+            
         },
         1653: {
+            captain: " Aumenta el ATK de los personajes [INT] 2x",
+            special: "Reduce el HP del equipo a 1 punto, hace un daño equivalente a la vida perdida del equipo x7 sin tipo a todos los enemigos. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
+            specialName: "Charge Drive",
+            sailor: "Los orbes [INT] contarán como favorables para los personajes Slasher y Cerebral"  
+        },
+        1654: {
+            captain: "Reduce la carga de los especiales 2 turnos. Aumenta el ATK de los personajes [INT] 2.5x",
+            special: "Reduce el HP del equipo a 1 punto, hace un daño equivalente a la vida perdida del equipo x7 sin tipo a todos los enemigos. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
+            specialName: "Charge Drive",
+            sailor: "Los orbes [INT] contarán como favorables para los personajes Slasher y Cerebral"  
+        },
+        1655: {
+            captain: "Aumenta el ATK de los personajes [QCK] y su RCV 1.5x",
+            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
+            specialName: "Electric Fist",
+            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+        },
+        1656: {
+            captain: "Aumenta el ATK de los personajes [QCK] 2.25x y su RCV 1.5x",
+            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
+            specialName: "Electric Fist",
+            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+            
+        },
+        1657: {
+            captain: "Aumenta el ATK de los personajes Striker y Free Spirit 2x",
+            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
+            specialName: "Summon Dragon",
+            sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
+        },
+        1658: {
             captain: "Aumenta el ATK de los personajes Striker y Free Spirit 2.5x",
             special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
-            specialName: "Kanjuro Special",
+            specialName: "Summon Dragon",
             sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
             
         },
-        1654: {
+        1659: {
+            captain: "Aumenta el ATK de los personajes Shooter 2x",
+            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
+            specialName: "Ninja Arts: Bunshin no Jutsu",
+            sailor: "Esta unidad es inmune al silencio de especial"
+        },
+        1660: {
+            captain: "Aumenta el ATK de los personajes Shooter 2.5x y hace que los orbes [TND] y [RCV] cuenten como favorables para personajes Shooter",
+            special: "Reduce la duración de la parálisis y el silencio de especial 3 turnos. Intercambia la posición de los orbes 3 veces",
+            specialName: "Ninja Arts: Bunshin no Jutsu",
+            sailor: "Esta unidad es inmune al silencio de especial"            
+        },
+
+        1661: {
+        captain: "Aumenta al ATK de los personajes [STR], [QCK], and [DEX] 2x y recupera 300 de HP al final de cada turno",
+        special: [
+            {
+                "description": "Fija el multiplicador de cadena en ??? y reduce la carga de los especiales de los personajes Cerebral y Free Spirit 1 turno",
+                "cooldown": [ null, null ]
+            },
+            {
+                "description": "Fija el multiplicador de cadena en 2.5x y reduce la carga de los especiales de los personajes Cerebral y Free Spirit 1 turno",
+                "cooldown": [ 10, 10 ]
+            }
+        ],
+        specialName: "The Sun under the Rain",
+        },
+        1662: {
             captain: "Sin traducir",
-            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
-            specialName: "Carrot Special",
-            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+            special: [
+            {
+                    "description": "Fija el multiplicador de cadena en ??? y reduce la carga de los especiales de los personajes Cerebral y Free Spirit 1 turno",
+                    "cooldown": [ null, null ]
+            },
+            {
+                "description": "Fija el multiplicador de cadena en 2.5x y reduce la carga de los especiales de los personajes Cerebral y Free Spirit 1 turno",
+                "cooldown": [ 10, 10 ]
+            }
+            ],
+            specialName: "The Sun under the Rain",
         },
-        1655: {
-            captain: "Aumenta el ATK de los personajes [QCK] 2.25x y su RCV 1.5x",
-            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
-            specialName: "Carrot Special",
-            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
-            
+        1663: {
+            captain: "Aumenta el ATK de los personajes Powerhouse 2.5x, aumentando 3.5x si tienen orbe favorable y reduce el RCV del equipo a 0",
+            special: "Hace su ATK 75x como daño sin tipo aumenta considerablemente la probabilidad de obtener orbes favorables durante 3 turnos",
+            specialNotes:"Aproximadamente un 85% de probabilidad de obtener orbes favorables",
+            specialName: "Rokushiki Mystery Rokuougan",
         },
-        1656: {
-            captain: "Sin traducir",
-            special: "Aumenta el ATK de los personajes [QCK] 2x durante un turno",
-            specialName: "Pedro Special",
-            sailor: "Aumenta el ATK y el RCV de los personajes [QCK] 75 puntos"
+        1664: {
+            captain: "Aumenta el ATK de los personajes Shooter 2.5x",
+            special: "Fija los orbes durante un turno. Si en ese turno 2 personajes hacen Perfect y tu capitán es Shooter, aumenta el ATK de los personajes Shooter 2x durante el turno siguiente",
+            specialName: "Ice Saber",
         },
-        1657: {
-            captain: "Reduce la carga de los especiales 2 turnos. Aumenta el ATK de los personajes [INT] 2.5x",
-            special: "Reduce el HP del equipo a 1 punto, hace un daño equivalente a la vida perdida del equipo x7 sin tipo a todos los enemigos. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
-            specialName: "Pedro Special",
-            sailor: "Los orbes [INT] contarán como favorables para los personajes Slasher y Cerebral"
-            
-        },
+        1665: {
+            captain: "Aumenta el ATK de los personajes Shooter 2.5x. Despues de hacer 3 Perfects aumenta el ATK de los personajes Shooter 3.25x",
+            special: "Fija los orbes durante un turno. Si en ese turno 2 personajes hacen Perfect y tu capitán es Shooter, aumenta el ATK de los personajes Shooter 2x durante el turno siguiente",
+            specialName: "Ice Saber",
+    },
         
         
 

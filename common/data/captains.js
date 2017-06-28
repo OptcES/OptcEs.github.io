@@ -4885,23 +4885,77 @@ window.captains = {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 2.25 : 1; },
         hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.5 : 1; }
     },
-    
+    1648: {
+        hitAtk: function(p) {
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect"]) ? 2.4 : 1.2;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+    },
     1649: {
+        hitAtk: function(p) {
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect"]) ? 3 : 1.2;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+    },
+    1650: {
+        atk: function(p) { return p.unit.type == "DEX" ? (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain]) == 2) && (p.orb != 'g')) ? 3 : 1.5) : 1; },
+},
+    1651: {
         atk: function(p) { return p.unit.class.has("Striker") && p.orb != 'g' ? 3.75 : 1; },
         hp: function(p) { return p.unit.class.has("Striker") ? 1.25 : 1; }
     },
-    1651: {
-        atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; },
+    1652: {
+        atk: function(p) { return p.unit.class.has("Striker") && p.orb != 'g' ? 3.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Striker") ? 1.25 : 1; }
     },
+    
     1653: {
-        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 2.5 : 1; },
+       atk:  function(p) { return p.unit.type == "INT" ? 2 : 1; }
+    },
+    1654: {
+        atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; }
     },
     1655: {
+        atk: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; },
+        rcv: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; }
+    },
+    1656: {
         atk: function(p) { return p.unit.type == "QCK" ? 2.25 : 1; },
         rcv: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; }
     },
     1657: {
-        atk: function(p) { return p.unit.type == "INT" ? 2.5 : 1; },
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 2 : 1; }
+    },
+    1658: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Free Spirit") ? 2.5 : 1; }
+    },
+    1659: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; }
+    },
+    1660: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; }
+    },
+    1661: {
+        atk: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK" ? 2 : 1; },
+    },
+    1662: {
+        atk: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK" ? 1 : 1; },
+    },
+    1663: {
+        atk: function(p) { return !p.unit.class.has("Powerhouse") ? 1 : (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain]) == 2) && (p.orb != 'g')) ? 3.5 : 2.5); },
+        rcv: function(p) { return 0; }
+    },
+    1664: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; }
+    },
+    1665: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 3, [ "Shooter" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has("Shooter")) return 1;
+            return p.modifiers.slice(0, p.chainPosition)
+                .subcontains(["Perfect", "Perfect", "Perfect"]) ? 3.25 : 2.5;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
     },
     
 };

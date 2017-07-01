@@ -216,4 +216,12 @@ window.sailors = {
     1575: {       
         atkStatic: function(p) { return p.percHP <= 30.0 && p.slot == p.sourceSlot ? 200 :0 ; }
     },
+    1654: {
+        atkStatic: function(p) { return p.unit.type == "QCK" ? 75 : 0; },
+        rcvStatic: function(p) { return p.unit.type == "QCK" ? 75 : 0; },
+    },
+    1655: {
+        atkStatic: function(p) { return p.unit.type == "QCK" ? 75 : 0; },
+        rcvStatic: function(p) { return p.unit.type == "QCK" ? 75 : 0; },
+},
     }

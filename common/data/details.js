@@ -9258,6 +9258,44 @@ window.details = {
             captain: "Aumenta el ATK de los personajes Shooter 2.5x. Despues de hacer 3 Perfects aumenta el ATK de los personajes Shooter 3.25x",
             special: "Fija los orbes durante un turno. Si en ese turno 2 personajes hacen Perfect y tu capitán es Shooter, aumenta el ATK de los personajes Shooter 2x durante el turno siguiente",
             specialName: "Ice Saber",
+        },
+        1666: {
+            captain: "Aumenta el ATK de los personajes Striker 2x",
+            special: "Cambia los orbes adyacentes a Favorables. Si el HP actual del equipo se encuentra por encima del 70% incrementa la efectividad de los orbes de los personajes Striker y Powerhouse 1.5x durante 1 turno",
+            specialName: "Kyros Special",
+        },
+        1667: {
+            captain: "Aumenta el HP de los personajes Striker 1.2x. Aumenta el ATK de los personajes Striker 2.25 y si el HP del equipo se encuentra a menos del 30% aumenta el ATK de los personajes Striker 2.75",
+            special: "Cambia los orbes adyacentes a Favorables. Si el HP actual del equipo se encuentra por encima del 70% incrementa la efectividad de los orbes de los personajes Striker y Powerhouse 1.5x durante 1 turno",
+            specialName: "Kyros Special",
+        },
+        1750: {
+            captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
+            special: [
+                {
+                    "description": "Hace 50000 de daño fijo a un enemigo e incrementa la efectividad de los orbes de los personajes Striker 1.75 durante 1 turno",
+                    "cooldown": [ 15, 10 ]
+                },
+                {
+                    "description": "Hace 300000 de daño fijo a un enemigo e incrementa la efectividad de los orbes de los personajes Striker 2.25 durante 1 turno",
+                    "cooldown": [ 20, 15 ]
+                }
+            ],
+            specialName: "Injection Shot",
+        },
+        1751: {
+            captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
+            special: [
+                {
+                    "description": "Hace 50000 de daño fijo a un enemigo e incrementa la efectividad de los orbes de los personajes Striker 1.75 durante 1 turno",
+                    "cooldown": [ 15, 10 ]
+                },
+                {
+                    "description": "Hace 300000 de daño fijo a un enemigo e incrementa la efectividad de los orbes de los personajes Striker 2.25 durante 1 turno",
+                    "cooldown": [ 20, 15 ]
+                }
+            ],
+            specialName: "Injection Shot",
     },
         
         

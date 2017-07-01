@@ -386,5 +386,21 @@ window.zombies = {
     1579: { // Momonosuke
         type: 'zombie',
         threshold: 0.3
-},
+    },
+    1605: { //  Ace
+        type: 'healer',
+        amount: 500
+    },
+    1616: { // Croco
+        type: 'healer',
+        multiplier: 1.5
+    },
+    1661: { // Corazon
+        type: 'healer',
+        amount: 300
+    },
+    1662: { // Corazon
+        type: 'healer',
+        amount: 300
+    },
 };

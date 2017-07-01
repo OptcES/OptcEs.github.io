@@ -2752,6 +2752,34 @@ window.specials = {
         atk: function(p) { return p.captain.class.has("Shooter") ? p.unit.class.has("Shooter") ? 2 : 1 : 1; },
         type: "class",
     },
+    1666: {
+        orb: function(p) { return ((p.unit.class.has("Powerhouse") || p.unit.class.has("Striker")) && (p.percHP > 70)) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
+    1667: {
+        orb: function(p) { return ((p.unit.class.has("Powerhouse") || p.unit.class.has("Striker")) && (p.percHP > 70)) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1); }	
+    },
+    1750:{
+        orb: function(p) { return (p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1750].multiplier) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1,1); },
+        onActivation: function(p) {
+            var n = (window.specials[1750].multiplier == 1.75 ? 1 : 0);
+            window.specials[1750].multiplier = [1.75, 2.25][n];
+            p.scope.notify({
+                text: 'Usando el multiplicador de orbes ' + [1.75, 2.25][n] + 'x . Para cambiar al multiplicador ' + [2.25, 1.75][n] + 'x desactiva y activa este especial',
+                name: '1584warning'
+            });
+        },
+    },
+    1751:{
+        orb: function(p) { return (p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[1751].multiplier) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); },
+        onActivation: function(p) {
+            var n = (window.specials[1751].multiplier == 1.75 ? 1 : 0);
+            window.specials[1751].multiplier = [1.75, 2.25][n];
+            p.scope.notify({
+                text: 'Usando el multiplicador de orbes ' + [1.75, 2.25][n] + 'x . Para cambiar al multiplicador ' + [2.25, 1.75][n] + 'x desactiva y activa este especial',
+                name: '1584warning'
+            });
+        },
+},
     
     
     

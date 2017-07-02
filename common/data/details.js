@@ -9230,7 +9230,7 @@ window.details = {
         specialName: "The Sun under the Rain",
         },
         1662: {
-            captain: "Sin traducir",
+            captain: "Aumenta al ATK de los personajes [STR], [QCK], and [DEX] 2.5x y recupera 500 de HP al final de cada turno",
             special: [
             {
                     "description": "Fija el multiplicador de cadena en ??? y reduce la carga de los especiales de los personajes Cerebral y Free Spirit 1 turno",

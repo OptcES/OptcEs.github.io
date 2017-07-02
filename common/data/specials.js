@@ -2744,6 +2744,14 @@ window.specials = {
         chain: function(p) { return p.scope.data.team[1].unit.class.has("Striker") ? 2.75 : 1; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
     },
+    1661: {
+        chain: function(p) { return 2.5; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+    },
+    1662: {
+        chain: function(p) { return  2.5; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
+    },
     1664: {
         atk: function(p) { return p.scope.data.team[1].unit.class.has("Shooter") ? p.scope.data.team[1].unit.class.has("Shooter") ? 2 : 1 : 1; },
         type: "class",

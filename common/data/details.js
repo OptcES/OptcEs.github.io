@@ -9269,6 +9269,148 @@ window.details = {
             special: "Cambia los orbes adyacentes a Favorables. Si el HP actual del equipo se encuentra por encima del 70% incrementa la efectividad de los orbes de los personajes Striker y Powerhouse 1.5x durante 1 turno",
             specialName: "Kyros Special",
         },
+        1668: {
+            special: "Aumenta el ATK de los personajes Striker 1.75x durante 2 turnos y fija los orbes durante 2 turnos",
+            specialName: "Kai, Ice Block - Pheasant Beak",
+            captain: "Aumenta el ATK de los personajes Striker 2x"
+        },
+        1669: {
+            special: "Aumenta el ATK de los personajes Striker 1.75x durante 2 turnos y fija los orbes durante 2 turnos",
+            specialName: "Kai, Ice Block - Pheasant Beak ",
+            captain: "Aumenta el ATK y la HP de los personajes Striker 2x"
+        },
+        1670: {
+            captain: "Aumenta el ATK de los personajes [DEX] 1.75x y su RCV 1.2x",
+            special: "Aleatoriza los orbes no favorables, intercambia la posición de los orbes dos veces y retrasa a los enemigos 1 turno",
+            specialName: "A Warning to the Fool",
+        },
+        1671: {
+            captain: "Aumenta el RCV de los personajes Free Spirit 1.5x",
+            special: "Recupera una cantidad equivalente al 15% de la salud máxima del equipo e incrementa la efectividad de los orbes 1.5x durante 1 turno",
+            specialName: "Cheerfulness that Shines in the Deep Sea",
+        },
+        1672: {
+            captain: "Aumenta el ATK y el HP de los personajes Powerhouse 1.5x",
+            special: "Reduce la duración de los encadenamientos y el despair 3 turnos y se encadena a si mismo durante 2 turnos",
+            specialName: "A Starfish Reaching for His Beliefs",
+        },
+        1673: {
+            captain: "Aumenta el ATK de todos personajes 1.75x y la experiencia ganada al final de batalla 1.2x",
+            special: "Reduce el daño recibido un 70% durante 1 turno, reduce la defensa de los enemigos un 90% durante 1 turno y reduce la duración Silencio de Especiales 2 turnos",
+            sailor: "Esta unidad resiste completamente el Silencio de Especial",
+            specialName: "Romantic Princess",
+        },
+        1674: {
+            captain: "Aumenta el ATK de todos personajes 2.25x y la experiencia ganada al final de batalla 1.5x",
+            special: "Reduce el daño recibido un 70% durante 1 turno, reduce la defensa de los enemigos un 90% durante 1 turno y reduce la duración Silencio de Especiales 2 turnos",
+            sailor: "Esta unidad resiste completamente el Silencio de Especial",
+            specialName: "Romantic Princess",
+        },
+        1675: {
+            captain: "Aumenta el multiplicador de cadena 2x",
+            special: "Aumenta el ATK de los personajes Slasher y Driven 1.5x durante 1 turno. Si tu capitán es un personaje Slasher o Driven cambia los orbes adyacentes a favorable y reduce la duración la Parálisis y el Despair 2 turnos",
+            sailor: "Reduces Blindness duration by 1 turn",
+            specialName: "Great Swordsman Under the Umbrella",
+        },
+        1676: {
+            captain: "Aumenta el multiplicador de cadena 3.25x y reduce el daño recibido un 10%",
+            special: "Aumenta el ATK de los personajes Slasher y Driven 1.5x durante 1 turno. Si tu capitán es un personaje Slasher o Driven cambia los orbes adyacentes a favorable y reduce la duración la Parálisis y el Despair 2 turnos",
+            sailor: "Reduces Blindness duration by 1 turn",
+            specialName: "Great Swordsman Under the Umbrella",
+        },
+        1677: {
+            captain: "Aumenta el ATK de los personajes Slasher 2.5x",
+            special: "Aumenta la Afinidad de Tipo de los personajes Slasher 1.5x durante 1 turno, cambia los orbes del medio a favorables e intercambia la posición de los orbes 3 veces",
+            specialName: "ROOM: Kikoku",
+            specialNotes:"#{afinidad : 3 : 0.25}",		
+        },
+        1678: {
+            captain: "Aumenta el ATK de los personajes Slasher 2.5x. Despues del tercer perfect aumenta el ATK de los personajes Slasher 3.25x",
+            special: "Aumenta la Afinidad de Tipo de los personajes Slasher 1.5x durante 1 turno, cambia los orbes del medio a favorables e intercambia la posición de los orbes 3 veces",
+            specialName: "ROOM: Kikoku", 
+            specialNotes:"#{afinidad : 3 : 0.25}",		
+        },
+        
+        1679: {
+            captain:"Aumenta el ATK de los personajes Slasher 2x",
+            specialName:"Kai Black Blade Ship Cutter",
+            special: "Reduce la HP actual de los enemigos en un 30%"
+        },
+        1680: {
+            captain:"Aumenta el ATK de los personajes Slasher 2.5x",
+            specialName:"Kai Black Blade Ship Cutter",
+            special: "Reduce la HP actual de los enemigos en un 30%"
+        },
+        1681: {
+            captain: "Aumenta el ATK de los personajes con 30 de coste o menos 2.5x",
+            special: "Reduce el HP actual de los enemigos un 20%. Si Luffy es capitán o capitán amigo cambia los robes de la columna de la derecha a favorables, si no, añade .5x al multiplicador de cadena durante 1 turno",
+            specialName: "Luffy Special",
+            sailor: "Aumenta el ATK y HP de todos los personajes 56 puntos",
+        },
+        1682: {
+            captain: "Aumenta el HP de los personajes con 30 de coste o menos 1.3x y su ATK 2.5x. Despues del tercer Perfect aumenta el ATK de los personajes con 30 o menos de coste 3.5x",
+            special: "Reduce el HP actual de los enemigos un 20%. Si Luffy es capitán o capitán amigo cambia los robes de la columna de la derecha a favorables, si no, añade .5x al multiplicador de cadena durante 1 turno",
+            specialName: "Luffy Special",
+            sailor: "Aumenta el ATK y HP de todos los personajes 56 puntos",
+        },
+        1683: {
+            captain: "Aumenta el ATK de los personajes Cerebral 2x y su RCV 1.3x",
+            special: "Se encadena a si misma durante 1 turno, vacia todos los orbes [NEGATIVO] hade daño severo a un solo enemigo y aumenta el ATK sobre los enemigos con defensa reducida 1.4x",
+            specialName: "Robin Special",
+            specialNotes: "Cuantos mas orbes vaciados, más daño hará el especial",
+            sailor: "Hace que los orbes [TND] cuenten como favorables para todos personajes si tu capitán es Fighter",
+        },
+        1684: {
+            captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.3x",
+            special: "Binds self for 1 turn, empties all slots with [BLOCK] orbs, deals several times the character's ATK in typeless damage to one enemy and boosts ATK against enemies with reduced defense by 1.5x for 2 turns",
+            specialName: "Robin Special",
+            specialNotes: "Cuantos mas orbes vaciados, más daño hará el especial",
+            sailor: "Hace que los orbes [TND] cuenten como favorables para todos personajes si tu capitán es Fighter",
+        },
+        1685: {
+            captain: "Aumenta el ATK de los personajes Shooter 2.75x tras hacer Good > Great > Perfect",
+            special: "Cambia los orbes [VACIO] a favorables, cambia los orbes desfavorables a [RCV] y retrasa a los enemigos 1 turno",
+            specialName: "Usopp Special",
+            sailor: "Reduce la duración del Silencio de Especial 4 turnos para esta unidad",
+        },
+        1686: {
+            captain: "Aumenta el ATK de los personajes Shooter 3.25x tras hacer Good > Great > Perfect",
+            special: "Cambia los orbes [VACIO] a favorables, cambia los orbes desfavorables a [RCV] y retrasa a los enemigos 1 turno",
+            specialName: "Usopp Special",
+            sailor: "Reduce la duración del Silencio de Especial 4 turnos para esta unidad",
+        },
+        1687: {
+            captain: "Aumenta el ATK de los personajes Fighter 2x y reduce el daño recibido un 10%",
+            special: "Cambia su orbe a [DEX], hace 15 golpes de daño aleatorio sin tipo a enemigos aleatorios y reduce la defensa de todos los enemigos un 100% durante 2 turnos",
+            specialName: "Franky Special",
+            sailor: "Reduce la carga de su especial cuando este lo hayan retrasado",
+        },
+        1688: {
+            captain: "Aumenta el ATK de los personajes Fighter 2.5x y reduce el daño recibido un 15%",
+            special: "Cambia su orbe a [DEX], hace 15 golpes de daño aleatorio sin tipo a enemigos aleatorios y reduce la defensa de todos los enemigos un 100% durante 2 turnos",
+            specialName: "Franky Special",
+            sailor: "Reduce la carga de su especial cuando este lo hayan retrasado",
+        },
+        1689: {//Fortnight Kid
+            captain: "Aumenta el ATK de todos los personajes 1.5x. Aumenta el ATK de todos los personajes 2.25x si se ataca siguiendo un orden STR > DEX > INT, golpeando con ataques mejores o iguales que Good",
+            special: "Reduce el HP actual de un enemigo un 20% y aumenta su propio ATK 2x durante 1 turno",
+            specialName: "Kid Special",
+        },
+        1690: {//Fortnight Kid
+            captain: "Aumenta el ATK de todos los personajes 2x. Aumenta el ATK de todos los personajes 3x si se ataca siguiendo un orden STR > DEX > INT, golpeando con ataques mejores o iguales que Good",
+            special: "Reduce el HP actual de un enemigo un 20% y aumenta su propio ATK 2x durante 1 turno",
+            specialName: "Kid Special",
+        },
+        1691: {//Heat
+            captain: "Aumenta el ATK de los personajes Shooter 1.75x",
+            special: "Aumenta el ATK contra los enemigos con defensa reducida 1.3x. Si el capitán tiene un orbe [STR], [DEX], [QCK], [INT], o [PSY] se lo cambia a favorable.",
+            specialName: "Heat Special",
+        },
+        1692: {//Wire
+            captain: "Aumenta el HP de los personajes Driven 1.5x",
+            special: "Añade .3x al multiplicador de cadena y reduce la defensa de todos los enemigos un 50% durante 1 turno",
+            specialName: "Wire Special",
+        },
         1750: {
             captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
             special: [

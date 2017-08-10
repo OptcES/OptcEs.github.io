@@ -9411,6 +9411,192 @@ window.details = {
             special: "Añade .3x al multiplicador de cadena y reduce la defensa de todos los enemigos un 50% durante 1 turno",
             specialName: "Wire Special",
         },
+        1693: {//Inuarashi
+        captain: "Boosts ATK of [PSY] characters by 2x",
+        special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
+        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+        specialName: "King's Lightning Burial",
+        },
+        1694: {//Inuarashi
+            captain: "Boosts ATK of [PSY] characters by 2.75x",
+            special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
+            specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+            specialName: "King's Lightning Burial",
+        },
+        1695: {//Vergo
+            captain: "Aumenta el ATK de los personajes Striker 2x",
+            special: "Hace un x50 de su ATK como daño [DEX] a un enemigo, incrementa la efectividad de los orbes de los personajes Striker x1,75 y reduce el daño recibido un 50% durante un turno.",
+            specialName: "Vergo Special",
+        },
+        1696: {//Vergo
+            captain: "Aumenta el ATK de los personajes Striker 2.5x y reduce el daño recibido un 10%",
+            special: "Hace un x50 de su ATK como daño [DEX] a un enemigo, incrementa la efectividad de los orbes de los personajes Striker x1,75 y reduce el daño recibido un 50% durante un turno.",
+            specialName: "Vergo Special",
+        },
+        1697: {//Magellan
+            captain: "Boosts ATK of all characters by 2.25x and their HP by 1.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew. Cuts the current HP of each enemy by 15% at the end of each turn",
+            special: "Inflicts Toxic to all enemies, recovers 13x character's RCV in HP at the end of each turn for 3 turns",
+            specialNotes: "Toxic starts at 50x character's attack and increases by 2x at the end of every turn until 2,000,000 damage per turn.",
+            specialName: "Venom Cloud",
+        },
+        1698: {//Magellan
+            captain: "Si tienes un personaje [STR], [DEX], [QCK], [PSY] e [INT] aumenta el ATK de todos los personajes 2.25x y su HP 1.5x. Corta el HP actual de los enemigos un 15% al principio del turno.",
+            special: "Inflicts Toxic to all enemies, recovers 13x character's RCV in HP at the end of each turn for 3 turns",
+            specialNotes: "Recupera una cantidad de HP equivalente a su RCV 13x durante 3 turnos. Envenena gravemente al enemigo. Cada turno aumenta un 50x el daño del veneno. (Máximo 2 millones de daño)",
+            specialName: "Venom Cloud",
+        },
+        1699: {//Jinbe
+            captain: "Boosts ATK of Fighter characters by 2x, and their HP by 1.2x",
+            special: "Adds .3x to Chain multiplier for 2 turns, reduces Chain Multiplier Limit and Chain Coeffiecient Reduction duration by 3 turns",
+            specialName: "Gentle Ultrasound Wave",
+            specialNotes: "This is most likely the effect that prevents your chain from exceeding a certain value.",
+            sailor: "Boosts ATK of Fighter characters by 75",
+        },
+        1700: {//Jinbe
+            captain: "Boosts ATK of Fighter characters by 2.5x, and their HP by 1.3x",
+            special: "Adds .3x to Chain multiplier for 2 turns, reduces Chain Multiplier Limit and Chain Coeffiecient Reduction duration by 3 turns",
+            specialName: "Gentle Ultrasound Wave",
+            specialNotes: "This is most likely the effect that prevents your chain from exceeding a certain value.",
+            sailor: "Boosts ATK of Fighter characters by 75",
+        },
+        1701: {//Ivankov
+            captain: "Boosts ATK of Free Spirit characters by 2x",
+            special: [
+                {
+                    "description": "Randomizes all orbs",
+                    "cooldown": [ 9, 4 ]
+                },
+                {
+                    "description": "Changes [BLOCK] orbs into Matching orbs",
+                    "cooldown": [ 12, 7 ]
+                },
+                {
+                    "description": "Changes [BLOCK] and Badly Matching orbs into Matching orbs",
+                    "cooldown": [ 15, 10 ]
+                }
+            ],
+            specialName: "Hair Removal Fist",
+            specialNotes: "#{stages}",
+            sailor: "Completely resists Paralysis on this character",
+        },
+        1702: {//Ivankov
+            captain: "Boosts ATK of Free Spirit characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
+            special: [
+                {
+                    "description": "Randomizes all orbs",
+                    "cooldown": [ 9, 4 ]
+                },
+                {
+                    "description": "Changes [BLOCK] orbs into Matching orbs",
+                    "cooldown": [ 12, 7 ]
+                },
+                {
+                    "description": "Changes [BLOCK] and Badly Matching orbs into Matching orbs",
+                    "cooldown": [ 15, 10 ]
+                }
+            ],
+            specialName: "Hair Removal Fist",
+            specialNotes: "#{stages}",
+            sailor: "Completely resists Paralysis on this character",
+        },
+        1703: {//Hannyabal
+            captain: "Boosts ATK of [INT] characters by 2x",
+            special: "Reduces damage received by 50% for 2 turns and boosts ATK against enemies inflicted with Toxic by 1.75x for 2 turns",
+            specialName: "Inferno Hell Wheel",
+            sailor: "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this unit if your Captain is a Striker character",
+        },
+        1704: {//Hannyabal
+            captain: "Boosts ATK of [INT] characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
+            special: "Reduces damage received by 50% for 2 turns and boosts ATK against enemies inflicted with Toxic by 1.75x for 2 turns",
+            specialName: "Inferno Hell Wheel",
+            sailor: "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this unit if your Captain is a Striker character",
+        },
+        1705: {//Bon Clay
+            captain: "Boosts ATK of [STR] characters by 2x",
+            special: "Removes all positive buffs on your team. If the special is activated with more than ??% health remaining, protects from defeat for 1 turn",
+            specialName: "A Speech Left in Hell",
+            sailor: "Boosts HP, RCV, and ATK of all characters by 50",
+        },
+        1706: {//Bon Clay
+            captain: "Boosts ATK of [STR] characters by 2.5x. Boosts ATK of [STR] characters by 3.125x after scoring 3 Perfects in a row",
+            special: "Removes all positive buffs on your team. If the special is activated with more than ??% health remaining, protects from defeat for 1 turn",
+            specialName: "A Speech Left in Hell",
+            sailor: "Boosts HP, RCV, and ATK of all characters by 50",
+        },
+        1707: {//Shanks 6+
+            captain: " Aumenta el ATK de los personajes [PSY] 2.75x y su HP 1.3x. Aumenta la probabilidad de obtener orbes [PSY] según el porcentaje de HP actual del equipo",
+            captainNotes: "Cuanto más alto más probable sacar orbes [PSY]",
+            special: "Hace un daño equivalente a su ATK 75x sin tipo a un enemigo. Cambia todos los orbes a [PSY] y reduce la defensa a 0 durante 1 turno",
+            specialName: "One-Armed Man that Splits the Heavens",
+        },
+        1708: {//Summer Nami
+            captain: "Recovers 3x character's RCV in HP at the end of each turn",
+            special: "Reduces Special Cooldown of Striker and Cerebral characters by 1 turn, reduces Paralysis duration by 2 turns, and randomizes all non-matching orbs",
+            specialName: "Cat Burglar's Eye Contact",
+            sailor: "Makes [TND] orbs \"beneficial\" for this unit",
+        },
+        1709: {//Summer Nami
+            captain: "Boosts ATK of all characters by 1.5x, recovers 4x character's RCV in HP at the end of each turn",
+            special: "Reduces Special Cooldown of Striker and Cerebral characters by 1 turn, reduces Paralysis duration by 2 turns, and randomizes all non-matching orbs",
+            specialName: "Cat Burglar's Eye Contact",
+            sailor: "Makes [TND] orbs \"beneficial\" for this unit",
+        },
+        1710: {//Summer Robin
+            captain: "Boosts ATK and RCV of Cerebral characters by 1.2x",
+            special: "Amplifies the effect of orbs for Cerebral characters by 1.75x for 1 turn and reduces damage received by 30% for 2 turns",
+            specialName: "Charmed by a Lovely Adult",
+            sailor: "Reduces Blindness duration by 2 turns",
+        },
+        1711: {//Summer Robin
+            captain: "Boosts RCV of Cerebral characters by 1.2x and boosts ATK by 3x if they have a matching orb, by 1.5x otherwise.",
+            special: "Amplifies the effect of orbs for Cerebral characters by 1.75x for 1 turn and reduces damage received by 30% for 2 turns",
+            specialName: "Charmed by a Lovely Adult",
+            sailor: "Reduces Blindness duration by 2 turns",
+        },
+        1720: {//Secret Jinbe
+            captain: "Boosts ATK of Fighter characters by 2.5x",
+            special: "If your Captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+            specialName: "Passive Agressive Boss"
+        },
+        1721: {//Secret Jinbe
+            captain: "Boosts HP of Fighter characters by 1.4x and boosts ATK by 2.75x if they have a matching orb, by 2.5x otherwise.",
+            special: "If your Captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+            specialName: "Passive Agressive Boss"
+        },
+        1722: {//Neptune
+            captain: "Boosts ATK of Striker characters by 2x.",
+            special: "Boosts ATK of Striker characters by 1.5x for 1 turn and Changes own orb into [PSY] if HP is below ???% when the special is activated and deals 20,000 Fixed damage to one enemy.",
+            specialName: "Sea God's Strike"
+        },
+        1723: {//Neptune
+            captain: "Boosts ATK of Striker characters by 2x and their RCV by 1.2x.",
+            special: "Boosts ATK of Striker characters by 1.5x for 1 turn and Changes own orb into [PSY] if HP is below ???% when the special is activated and deals 20,000 Fixed damage to one enemy.",
+            specialName: "Sea God's Strike"
+        },
+        1724: {//Fukaboshi
+            captain: "Boosts ATK of Powerhouse characters by 1.5x",
+            special: "Reduces crew's current HP by 50%, adds 25x character's ATK as Additional Typeless Damage for 1 turn",
+            specialNotes: "#{additionalDamage : 25x}",
+            specialName: "Sun's Hope"
+        },
+        1725: {//Fukaboshi
+            captain: "Slightly boosts chances Powerhouse characters of getting Matching orbs, boosts ATK of Powerhouse characters by 1.5x",
+            special: "Reduces crew's current HP by 50%, adds 25x character's ATK as Additional Typeless Damage for 1 turn",
+            specialNotes: "#{additionalDamage : 25x}",
+            specialName: "Sun's Hope"
+        },
+        1726: {//Sabo
+            captain: "Boosts ATK of Free Spirit characters by 2.75x following a chain of Good > Great > Perfect hits",
+            specialName: "Dragon Claw Fist: Dragon's Breath [Neo]",
+            special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 turns",
+            specialNotes: "#{random : 10,000 : 30,000} <br> Extra Damage can only be boosted by conditional Boosters"
+        },
+        1727: {//Sabo
+            captain: "Boosts ATK of Free Spirit characters by 3.5x following a chain of Good > Great > Perfect hits",
+            specialName: "Dragon Claw Fist: Dragon's Breath [Neo]",
+            special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 turns",
+            specialNotes: "#{random : 10,000 : 30,000} <br> Extra Damage can only be boosted by conditional Boosters"
+        },
         1750: {
             captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
             special: [

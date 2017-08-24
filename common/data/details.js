@@ -7981,11 +7981,11 @@ window.details = {
 		special: [
 			{
 				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
-				"cooldown": [13,null]
+				"cooldown": [13,9]
 			},
 			{
 				"description": "recupera una cantidad de HP equivalente a su RCV 100x y cambia todos los orbes, incluidos los [NEGATIVO], a [RAINBOW]",
-				"cooldown": [22,null]
+				"cooldown": [22,18]
 			}
 		],
 		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",
@@ -7997,11 +7997,11 @@ window.details = {
 		special: [
 			{
 				"description": "recupera una cantidad de HP equivalente a su RCV 9x y cambia los orbes adyacentes, incluidos los [NEGATIVO], a [RAINBOW].",
-				"cooldown": [13,null]
+				"cooldown": [13,9]
 			},
 			{
 				"description": "recupera una cantidad de HP equivalente a su RCV 100x y cambia todos los orbes, incluidos los [NEGATIVO], a [RAINBOW]",
-				"cooldown": [22,null]
+				"cooldown": [22,18]
 			}
 		],
 		specialNotes:"Orbes [RAINBOW] son aquellos que cuentan como favorables para cualquier personaje. Además, estos orbes no pueden ser manipulados por el enemigo, solo los puede manipular el jugador. No obstante, no contarán como orbe [STR] para Sakazuki, pero sí como favorables para personajes como Ace SW o Issho. <br> #{stages}",

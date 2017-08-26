@@ -9553,6 +9553,48 @@ window.details = {
             specialName: "Charmed by a Lovely Adult",
             sailor: "Reduces Blindness duration by 2 turns",
         },
+        1712: {//Akainu
+        captain: "Boosts ATK of Driven characters by 2.5x.",
+        special: "Deals 50x character's ATK as typeless damage to all enemies. Amplifies the effect of orbs for Driven characters by 2x for 1 turn.",
+        specialName: "Blazing Hound Crimson Lotus",
+        },
+        1713: {//Akainu
+            captain: "Boosts ATK of Driven characters by 2.5x. If you defeat an enemy last turn, increases ATK boost slighty. Stacks up to 3 times to a maximum of 3.25x.",
+            captainNotes: "If a character dies and revives, it counts as killing a character. If you did not defeat an enemy, lose all ATK boost stacks.",
+            special: "Deals 50x character's ATK as typeless damage to all enemies. Amplifies the effect of orbs for Driven characters by 2x for 1 turn.",
+            specialName: "Blazing Hound Crimson Lotus",
+        },
+        1714: {//Monet
+            captain: "Boosts ATK of INT characters by 2x. Recovers 2x character's RCV in HP at the end of each turn",
+            special: "Deals 10x character's ATK in [INT] damage to all enemies. Randomly changes all orbs into either [TND], [BOMB] or [RCV] orbs.",
+            specialName: "Devouring Blizzard",
+        },
+        1715: {//Vergo
+            captain: "Boosts ATK of Striker characters by 2.5x if they have a matching orb, by 2x otherwise",
+            special: "Changes own orb into [QCK], locks all orbs for 1 turn",
+            specialName: "Sealed Mouth Exterminator",
+        },
+        1716: {//Caesar
+            captain: "Reduces HP of all characters by 50%, boosts ATK of Driven characters by 1.2x, increases his own ATK multiplier by 0.1x at the end of each turn until it reaches 3x",
+            special: "Delays all enemies for 1 turn. For Driven characters, Changes [EMPTY] orbs into Matching orbs. Boosts ATK of Driven characters by 1.75x if HP is below 30% when the special is activated.",
+            specialName: "Massacre GAS",
+        },
+        1717: {//Vegapunk Dragon
+            captain: "Reduces cooldown of Shooter specials by 2 turns at the start of the fight",
+            special: "Deals 3x character's ATK in [QCK] damage to all enemies",
+            specialName: "High Maneuverable Fireball Blast",
+        },
+        1718: {//Buffalo
+            captain: "Boosts ATK of Driven characters by 2.5x until the first hit other than Perfect",
+            special: "Boosts ATK of Driven characters by 1.25x for 5 turns",
+            specialName: "Rolling Rotation",
+        },
+        1719: {//Baby 5
+            captain: "Boosts ATK of [PSY] characters by 2x if they have matching orbs, makes INT orbs \"beneficial\" to PSY characters",
+            captainNotes: "#{beneficial}",
+            special: "Changes adjacent orbs into [G] orbs",
+            specialName: "Phantasmagoric \"Weapon-Morphosis\"",
+    },
         1720: {//Secret Jinbe
             captain: "Boosts ATK of Fighter characters by 2.5x",
             special: "If your Captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
@@ -9597,6 +9639,132 @@ window.details = {
             special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 turns",
             specialNotes: "#{random : 10,000 : 30,000} <br> Extra Damage can only be boosted by conditional Boosters"
         },
+        1728: {//Tashigi
+        captain: "Boosts ATK of [STR], [DEX], and [QCK] characters by 2x",
+        special: "Randomly changes all orbs, includiong [BLOCK] orbs, into either [STR], [DEX] or [QCK] orbs, remove enemies' ATK Up Buffs, and recovers 2,000 HP",
+        sailor: "Boosts HP, RCV, and ATK of [STR], [DEX], and [QCK] characters by 30",
+        specialName: "Destructive Water Splash",
+        },
+        1729: {//Tashigi
+            captain: "Boosts ATK of [STR], [DEX], and [QCK] characters by 2.25x and their HP by 1.25x. Recovers 3x character's RCV in HP at the end of each turn",
+            special: "Randomly changes all orbs, includiong [BLOCK] orbs, into either [STR], [DEX] or [QCK] orbs, remove enemies' ATK Up Buffs, and recovers 2,000 HP",
+            sailor: "Boosts HP, RCV, and ATK of [STR], [DEX], and [QCK] characters by 30",
+            specialName: "Destructive Water Splash",
+        },
+        1730: {//Vivi
+            captain: "Boosts ATK of all characters by 2x",
+            special: "Reduces Special Cooldown of all characters by 2 turns, reduces Paralysis duration by 3 turns, reduces damage received by 60% for 2 turns",
+            sailor: "Restores her own special by 3 turns when it is rewinded",
+            sailorNotes: "#{rewind : 3}",
+            specialName: "Shining Brightly Upon the Oasis",
+        },
+        1731: {//Vivi
+            captain: "Boosts ATK of all characters by 2x, boosts amount of Beli received by 2.5x",
+            special: "Reduces Special Cooldown of all characters by 2 turns, reduces Paralysis duration by 3 turns, reduces damage received by 60% for 2 turns",
+            sailor: "Restores her own special by 3 turns when it is rewinded",
+            sailorNotes: "#{rewind : 3}",
+            specialName: "Shining Brightly Upon the Oasis",
+        },
+        1732: {//Nekomamushi
+            captain: "Boosts ATK of [STR] characters by 2x, boosts HP of Striker and Powerhouse characters by 1.1x",
+            special: "Deals 50x character's ATK in typeless damage to all enemies that will ignore damage negating abilities and barriers, and boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn. If enemies have debuff protection at the time the special was activated, changes all orbs, including [BLOCK] orbs, into Matching orbs",
+            specialNotes: "#{ignoreBarrier}",
+            specialName: "Nekomamushi Special",
+        },
+        1733: {//Nekomamushi
+            captain: "Boosts ATK of [STR] characters by 2.5x, boosts HP of Striker and Powerhouse characters by 1.25x",
+            special: "Deals 50x character's ATK in typeless damage to all enemies that will ignore damage negating abilities and barriers, and boosts ATK of Striker and Powerhouse characters by 1.75x for 1 turn. If enemies have debuff protection at the time the special was activated, changes all orbs, including [BLOCK] orbs, into Matching orbs",
+            specialNotes: "#{ignoreBarrier}",
+            specialName: "Nekomamushi Special",
+        },
+        1734: {//Sugar
+            captain: "Boosts ATK of Cerebral and Fighter characters by 1.5x and recovers 3x character's RCV in HP at the end of each turn",
+            special: "Changes bottom right orb to [STR] and bottom left orb to [INT]. Switches orbs between slots twice.",
+            specialName: "Toy's Close Combat",
+        },
+        1735: {//Sugar
+            captain: "Boosts ATK of Cerebral and Fighter characters by 1.75x and recovers 3x character's RCV in HP at the end of each turn",
+            special: "Changes bottom right orb to [STR] and bottom left orb to [INT]. Switches orbs between slots twice.",
+            specialName: "Toy's Close Combat",
+        },
+        1736: {//Trebol
+            captain: "Boosts ATK of [INT] characters by 2.25x. Reduces damage received by 10%",
+            special: "Delays all enemies for 1 turn and deals 20x character's ATK as [INT] damage to all enemies at the end of the turn for 2 turns",
+            specialName: "Sticky Sticky Burning Explosion",
+        },
+        1737: {//Trebol
+            captain: "Boosts ATK of [INT] characters by 2.25x and their HP by 1.2x. Reduces damage received by 10%",
+            special: "Delays all enemies for 1 turn and deals 20x character's ATK as [INT] damage to all enemies at the end of the turn for 2 turns",
+            specialName: "Sticky Sticky Burning Explosion",
+        },
+        1738: {//Raid Bellamy
+            captain: "Boosts ATK of Driven characters by 2x",
+            special: "Cuts the current HP of one enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
+            specialName: "Spring Hopper - Bullet [Neo]",
+        },
+        1739: {//Raid Bellamy
+            captain: "Boosts ATK of Driven characters by 2.5x",
+            special: "Cuts the current HP of one enemy by 10%, makes [PSY] and [INT] orbs \"beneficial\" for 1 turn and amplifies the effect of orbs by 1.75x for 1 turn",
+            specialName: "Spring Hopper - Bullet [Neo]",
+        },
+        1740: {//Sandersonia
+            captain: "Boosts ATK of Striker and Powerhouse characters by 2x and boosts HP of [DEX] characters by 1.1x",
+            special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by ???% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
+            sailor: "Makes [STR] orbs \"beneficial\" for this unit",
+            specialName: "Snake Hair Possession: Eight-Headed Serpent",
+        },
+        1741: {//Sandersonia
+            captain: "Boosts ATK of Striker and Powerhouse characters by 2.5x and boosts HP of [DEX] characters by 1.3x",
+            special: "Changes all orbs to [DEX] orbs, reduces the defense of all enemies by ???% for 2 turns, and boosts ATK of Striker and Powerhouse characters by 1.75x for 2 turns",
+            sailor: "Makes [STR] orbs \"beneficial\" for this unit",
+            specialName: "Snake Hair Possession: Eight-Headed Serpent",
+        },
+        1742: {//Marigold
+            captain: "Boosts ATK of Striker and Powerhouse characters by 2x and boosts HP of [STR] characters by 1.1x",
+            special: "Changes [QCK] and [DEX] orbs into Matching orbs, boosts ATK against enemies with reduced defense by 1.75x for 2 turns and reduces damage received by 60% for 1 turn",
+            sailor: "Makes [DEX] orbs \"beneficial\" for this unit",
+            specialName: "Snake Hair Possession: Salamander",
+        },
+        1743: {//Marigold
+            captain: "Boosts ATK of Striker and Powerhouse characters by 2.5x and boosts HP of [STR] characters by 1.3x",
+            special: "Changes [QCK] and [DEX] orbs into Matching orbs, boosts ATK against enemies with reduced defense by 1.75x for 2 turns and reduces damage received by 60% for 1 turn",
+            sailor: "Makes [DEX] orbs \"beneficial\" for this unit",
+            specialName: "Snake Hair Possession: Salamander",
+        },
+        1744: {//Marguerite
+            captain: "Boosts ATK of Shooter characters by 2x",
+            special: "Cuts the current HP of one enemy by 7% and amplifies the effect of orbs for Shooter characters by 1.75x for 3 turns",
+            sailor: "Boosts ATK, HP and RCV of Shooter characters by 30",
+            specialName: "Defender's Spade-Shaped Arrow",
+        },
+        1745: {//Marguerite
+            captain: "Boosts ATK of Shooter characters by 2x and recovers 2x character's RCV in HP at the end of each turn",
+            special: "Cuts the current HP of one enemy by 7% and amplifies the effect of orbs for Shooter characters by 1.75x for 3 turns",
+            sailor: "Boosts ATK, HP and RCV of Shooter characters by 30",
+            specialName: "Defender's Spade-Shaped Arrow",
+        },
+        1746: {//Bepo
+            captain: "Boosts ATK and HP of QCK characters by 1.5x",
+            special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
+            sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
+            specialName: "Bear Rush Out",
+        },
+        1747: {//Bepo
+            captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK and HP of QCK characters by 2x",
+            special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
+            sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
+            specialName: "Bear Rush Out",
+        },
+        1748: {//Boa
+            captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn",
+            special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+            specialName: "Pistol Kisses",
+        },
+        1749: {//Boa
+            captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn",
+            special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+            specialName: "Pistol Kisses",
+        },
         1750: {
             captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
             special: [
@@ -9624,7 +9792,73 @@ window.details = {
                 }
             ],
             specialName: "Injection Shot",
-    },
+        },
+        1752: {//20th Anni Zoro
+            captain: "Boosts ATK of characters with cost 30 or less by 2.5x",
+            special: "Hace un daño [INT] equivalente a su ATK x60 a un enemigo. Aumenta el ATK de los personajes con coste 30 o menos 1.75x durante 1 turn. Si Zoro es capitán o capitán amigo y realizas 4 perfects en ese turno, aumenta el ATK de los personajes Slasher x2 en el siguiente turno",
+            sailor: "Aumenta el ATK de los personajes Slasher 50 puntos",
+            specialName: "Three Sword Style: Ultra Tiger Hunting",
+        },
+        1753: {//20th Anni Zoro
+            captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect",
+            special: "Hace un daño [INT] equivalente a su ATK x60 a un enemigo. Aumenta el ATK de los personajes con coste 30 o menos 1.75x durante 1 turn. Si Zoro es capitán o capitán amigo y realizas 4 perfects en ese turno, aumenta el ATK de los personajes Slasher x2 en el siguiente turno",
+            sailor: "Aumenta el ATK de los personajes Slasher 50 puntos",
+            specialName: "Three Sword Style: Ultra Tiger Hunting",
+        },
+        1754: {//20th Anni Sanji
+            captain: "Aumenta el ATK de los personajes Fighter y Powerhouse 2.5x",
+            special: "Reduce el HP actual de un enemigo un 15%, cura el envenenamiento y amplifica el efecto de los orbes 1.75x durante 1 turno",
+            sailor: "Aumenta el ATK, HP y RCV de todos los personajes 40 puntos",
+            specialName: "Diable Jambe: Collier Strike",
+        },
+        1755: {//20th Anni Sanji
+            captain: "Aumenta el ATK de los personajes Fighter y Powerhouse 2.5x y su HP 1.2x",
+            special: "Reduce el HP actual de un enemigo un 15%, cura el envenenamiento y amplifica el efecto de los orbes 1.75x durante 1 turno",
+            sailor: "Aumenta el ATK, HP y RCV de todos los personajes 40 puntos",
+            specialName: "Diable Jambe: Collier Strike",
+        },
+        1756: {//20th Anni Nami
+            captain: "Recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
+            special: "Reduce el daño recibido un 80% durante un turno. Reduce la duración de la barrera limitadora de daño y el buff de daño del enemigo 2 turnos",
+            sailor: "Los orbes [DEX] cuentan como favorables para esta unidad",
+            specialName: "Gust Sword",
+        },
+        1757: {//20th Anni Nami
+            captain: "Recupera una cantidad de HP equivalente a su RCV 5x al final de cada turno",
+            special: "Reduce el daño recibido un 80% durante un turno. Reduce la duración de la barrera limitadora de daño y el buff de daño del enemigo 2 turnos",
+            sailor: "Los orbes [DEX] cuentan como favorables para esta unidad",
+            specialName: "Gust Sword",
+        },
+        1758: {//20th Anni Brook
+            captain: "Aumenta el ATK de los personajes Free Spirit 2x su HP 1.1x",
+            special: "Retrasa a todos los enemigos 1 turno, reduce la duracion de la parálisis, encadenamientos y despair 1 turno",
+            sailor: "Lor orbes [RCV] cuentan como favorables para esta unidad",
+            specialName: "Party Music: Quinte Tierce Fantasia",
+        },
+        1759: {//20th Anni Brook
+            captain: "Aumenta el ATK de los personajes Free Spirit 2.5x su HP 1.2x",
+            special: "Retrasa a todos los enemigos 1 turno, reduce la duracion de la parálisis, encadenamientos y despair 1 turno",
+            sailor: "Los orbes [RCV] cuentan como favorables para esta unidad",
+            specialName: "Party Music: Quinte Tierce Fantasia",
+        },
+        1760: {//20th Anni Chopper
+            captain: "Aumenta el ATK de los personajes [DEX] e [INT] 2x",
+            special: "Cambia los orbes de la columna izquierda a [INT], [RCV] y [DEX] y los orbes de la columnas derecha [INT], [PSY] e [DEX]",
+            sailor: "Reduce su propia carga de especial 2 turnos si selo retrasan y reduce el silencio de esta unidad 2 turnos",
+            sailorNotes: "#{silence}<br>#{rewind : 2}",
+            specialName: "Intelligent Monster",
+        },
+        1761: {//20th Anni Chopper
+            captain: "Aumenta el ATK de los personajes [DEX] e [INT] 2.5x",
+            special: "Cambia los orbes de la columna izquierda a [INT], [RCV] y [DEX] y los orbes de la columnas derecha [INT], [PSY] e [DEX]",
+            sailor: "Reduce su propia carga de especial 2 turnos si selo retrasan y reduce el silencio de esta unidad 2 turnos",
+            specialName: "Intelligent Monster",
+        },
+        1764: {
+            captain: "Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 5 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2.25x",
+            special: "Aumenta la duración de cualquier potenciación de Clase/Tipo y Potenciación de Orbes en 1 turno, fija el multiplicador de cadena en 2.5x durante 1 turno y hace 100000 de daño fijo que ignora barreras y bufos defensivos.",
+            specialName: "Determined Man's Ice Attack",
+        },
         
         
 

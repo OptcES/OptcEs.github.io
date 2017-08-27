@@ -3075,11 +3075,11 @@ window.specials = {
     1764: {
         chain: function(p) { return 2.5; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
-},
+},/*
     1765: {
         orb: function(p) { return (p.unit.class.has("Shooter")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
     },
-    
+    */
     
     
         

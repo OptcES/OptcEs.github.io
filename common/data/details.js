@@ -8896,7 +8896,7 @@ window.details = {
         specialName: "Heavy Thunder",       
         },
         1611: {
-        captain: "Sin traducir",
+        captain: "Aumenta el ATK de los personajes Shooter2x y su HP 1.2x",
         special: "Reduce la duracion del despair y los encadenamientos 7 turnos. Recupera una cantidad de HP equivalente al 20% de la HP máxima del equipo. Tiene una pequeña posibilidad derrotar instantáneamente a cualquier enemigo",
         sailor: "Si está unidad tiene un orbe [PSY] y ejecuta un perfect mantendrá su orbe [PSY]",
         specialName: "Paw Paw Fruit: Scatter and Fly Away",       
@@ -9191,13 +9191,13 @@ window.details = {
         },
         1657: {
             captain: "Aumenta el ATK de los personajes Striker y Free Spirit 2x",
-            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
+            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante 1 turno si tu capitán es Striker",
             specialName: "Summon Dragon",
             sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
         },
         1658: {
             captain: "Aumenta el ATK de los personajes Striker y Free Spirit 2.5x",
-            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante ? turnos si tu capitán es Striker",
+            special: "Reduce la duración de los encadenamientos y el despair 5 turnos. Fija el multiplicador de cadena en 2.75x durante 1 turno si tu capitán es Striker",
             specialName: "Summon Dragon",
             sailor: "Los orbes [DEX] serán favorables para personajes Striker si tu capitán es Striker"
             
@@ -9315,7 +9315,7 @@ window.details = {
         1676: {
             captain: "Aumenta el multiplicador de cadena 3.25x y reduce el daño recibido un 10%",
             special: "Aumenta el ATK de los personajes Slasher y Driven 1.5x durante 1 turno. Si tu capitán es un personaje Slasher o Driven cambia los orbes adyacentes a favorable y reduce la duración la Parálisis y el Despair 2 turnos",
-            sailor: "Reduces Blindness duration by 1 turn",
+            sailor: "Reduce la Ceguera 3 turnos",
             specialName: "Great Swordsman Under the Umbrella",
         },
         1677: {
@@ -9344,163 +9344,163 @@ window.details = {
         1681: {
             captain: "Aumenta el ATK de los personajes con 30 de coste o menos 2.5x",
             special: "Reduce el HP actual de los enemigos un 20%. Si Luffy es capitán o capitán amigo cambia los robes de la columna de la derecha a favorables, si no, añade .5x al multiplicador de cadena durante 1 turno",
-            specialName: "Luffy Special",
+            specialName: "Gomu Gomu no Tako Stamp",
             sailor: "Aumenta el ATK y HP de todos los personajes 56 puntos",
         },
         1682: {
             captain: "Aumenta el HP de los personajes con 30 de coste o menos 1.3x y su ATK 2.5x. Despues del tercer Perfect aumenta el ATK de los personajes con 30 o menos de coste 3.5x",
             special: "Reduce el HP actual de los enemigos un 20%. Si Luffy es capitán o capitán amigo cambia los robes de la columna de la derecha a favorables, si no, añade .5x al multiplicador de cadena durante 1 turno",
-            specialName: "Luffy Special",
+            specialName: "Gomu Gomu no Tako Stamp",
             sailor: "Aumenta el ATK y HP de todos los personajes 56 puntos",
         },
         1683: {
             captain: "Aumenta el ATK de los personajes Cerebral 2x y su RCV 1.3x",
             special: "Se encadena a si misma durante 1 turno, vacia todos los orbes [NEGATIVO] hade daño severo a un solo enemigo y aumenta el ATK sobre los enemigos con defensa reducida 1.4x",
-            specialName: "Robin Special",
+            specialName: "Mil Fleur: Gigantesco Mano",
             specialNotes: "Cuantos mas orbes vaciados, más daño hará el especial",
             sailor: "Hace que los orbes [TND] cuenten como favorables para todos personajes si tu capitán es Fighter",
         },
         1684: {
             captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su RCV 1.3x",
             special: "Binds self for 1 turn, empties all slots with [BLOCK] orbs, deals several times the character's ATK in typeless damage to one enemy and boosts ATK against enemies with reduced defense by 1.5x for 2 turns",
-            specialName: "Robin Special",
+            specialName: "Mil Fleur: Gigantesco Mano",
             specialNotes: "Cuantos mas orbes vaciados, más daño hará el especial",
             sailor: "Hace que los orbes [TND] cuenten como favorables para todos personajes si tu capitán es Fighter",
         },
         1685: {
             captain: "Aumenta el ATK de los personajes Shooter 2.75x tras hacer Good > Great > Perfect",
             special: "Cambia los orbes [VACIO] a favorables, cambia los orbes desfavorables a [RCV] y retrasa a los enemigos 1 turno",
-            specialName: "Usopp Special",
+            specialName: "Green Star: Bamboo Javelin-Grove",
             sailor: "Reduce la duración del Silencio de Especial 4 turnos para esta unidad",
         },
         1686: {
             captain: "Aumenta el ATK de los personajes Shooter 3.25x tras hacer Good > Great > Perfect",
             special: "Cambia los orbes [VACIO] a favorables, cambia los orbes desfavorables a [RCV] y retrasa a los enemigos 1 turno",
-            specialName: "Usopp Special",
+            specialName: "Green Star: Bamboo Javelin-Grove",
             sailor: "Reduce la duración del Silencio de Especial 4 turnos para esta unidad",
         },
         1687: {
             captain: "Aumenta el ATK de los personajes Fighter 2x y reduce el daño recibido un 10%",
             special: "Cambia su orbe a [DEX], hace 15 golpes de daño aleatorio sin tipo a enemigos aleatorios y reduce la defensa de todos los enemigos un 100% durante 2 turnos",
-            specialName: "Franky Special",
+            specialName: "Franky Iron BOXING",
             sailor: "Reduce la carga de su especial cuando este lo hayan retrasado",
         },
         1688: {
             captain: "Aumenta el ATK de los personajes Fighter 2.5x y reduce el daño recibido un 15%",
             special: "Cambia su orbe a [DEX], hace 15 golpes de daño aleatorio sin tipo a enemigos aleatorios y reduce la defensa de todos los enemigos un 100% durante 2 turnos",
-            specialName: "Franky Special",
+            specialName: "Franky Iron BOXING",
             sailor: "Reduce la carga de su especial cuando este lo hayan retrasado",
         },
         1689: {//Fortnight Kid
             captain: "Aumenta el ATK de todos los personajes 1.5x. Aumenta el ATK de todos los personajes 2.25x si se ataca siguiendo un orden STR > DEX > INT, golpeando con ataques mejores o iguales que Good",
             special: "Reduce el HP actual de un enemigo un 20% y aumenta su propio ATK 2x durante 1 turno",
-            specialName: "Kid Special",
+            specialName: "Iron Giant Palm Slam",
         },
         1690: {//Fortnight Kid
             captain: "Aumenta el ATK de todos los personajes 2x. Aumenta el ATK de todos los personajes 3x si se ataca siguiendo un orden STR > DEX > INT, golpeando con ataques mejores o iguales que Good",
             special: "Reduce el HP actual de un enemigo un 20% y aumenta su propio ATK 2x durante 1 turno",
-            specialName: "Kid Special",
+            specialName: "Iron Giant Palm Slam",
         },
         1691: {//Heat
             captain: "Aumenta el ATK de los personajes Shooter 1.75x",
             special: "Aumenta el ATK contra los enemigos con defensa reducida 1.3x. Si el capitán tiene un orbe [STR], [DEX], [QCK], [INT], o [PSY] se lo cambia a favorable.",
-            specialName: "Heat Special",
+            specialName: "Aim and Burn",
         },
         1692: {//Wire
             captain: "Aumenta el HP de los personajes Driven 1.5x",
             special: "Añade .3x al multiplicador de cadena y reduce la defensa de todos los enemigos un 50% durante 1 turno",
-            specialName: "Wire Special",
+            specialName: "Three Wind Tunnels",
         },
         1693: {//Inuarashi
-        captain: "Boosts ATK of [PSY] characters by 2x",
-        special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
-        specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+        captain: "Aumenta el ATK de los personajes [PSY] 2x",
+        special: "Reduce la HP actual del equipo en un 50%, hace 50.000 puntos de daño fijo a un solo enemigo, aumenta SU propio ATK 1.75x 1 turno, incrementa la efectividad de SU propio orbe 1.75x 1 turno y  cambia su propio orbe a [PSY].",
+        specialNotes: "El aumento de ATK y la efectividad de orbe solo funciona con el personaje que haya usado el especial.",
         specialName: "King's Lightning Burial",
         },
         1694: {//Inuarashi
-            captain: "Boosts ATK of [PSY] characters by 2.75x",
-            special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 turn, amplifies the effect of own orb by 1.75x for 1 turn and changes own orb to [PSY].",
-            specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
+            captain: "Aumenta el ATK de los personajes [PSY] 2.75x",
+            special: "Reduce la HP actual del equipo en un 40%, hace 50.000 puntos de daño fijo a un solo enemigo, aumenta SU propio ATK 1.75x 1 turno, incrementa la efectividad de SU propio orbe 1.75x 1 turno y  cambia su propio orbe a [PSY].",
+            specialNotes: "El aumento de ATK y la efectividad de orbe solo funciona con el personaje que haya usado el especial.",
             specialName: "King's Lightning Burial",
         },
         1695: {//Vergo
             captain: "Aumenta el ATK de los personajes Striker 2x",
             special: "Hace un x50 de su ATK como daño [DEX] a un enemigo, incrementa la efectividad de los orbes de los personajes Striker x1,75 y reduce el daño recibido un 50% durante un turno.",
-            specialName: "Vergo Special",
+            specialName: "The Darkest Demon",
         },
         1696: {//Vergo
             captain: "Aumenta el ATK de los personajes Striker 2.5x y reduce el daño recibido un 10%",
             special: "Hace un x50 de su ATK como daño [DEX] a un enemigo, incrementa la efectividad de los orbes de los personajes Striker x1,75 y reduce el daño recibido un 50% durante un turno.",
-            specialName: "Vergo Special",
+            specialName: "The Darkest Demon",
         },
         1697: {//Magellan
-            captain: "Boosts ATK of all characters by 2.25x and their HP by 1.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew. Cuts the current HP of each enemy by 15% at the end of each turn",
-            special: "Inflicts Toxic to all enemies, recovers 13x character's RCV in HP at the end of each turn for 3 turns",
-            specialNotes: "Toxic starts at 50x character's attack and increases by 2x at the end of every turn until 2,000,000 damage per turn.",
+            captain: "Aumenta el ATK de todos los personajes 2.25x y su HP 1.5x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Reduce la HP actual de los enemigos en un 15% al final de cada turno.",
+            special: "Envenena a todos los enemigos, recupera una cantidad de HP equivalente a su RCV 13x al final de cada turno durante 3 turnos",
+            specialNotes: "El tóxico empieza con su ATK 50x y se incrementa 2x al final de cada turno hasta un máximo de 2.000.000 puntos de daño por turno.",
             specialName: "Venom Cloud",
         },
         1698: {//Magellan
-            captain: "Si tienes un personaje [STR], [DEX], [QCK], [PSY] e [INT] aumenta el ATK de todos los personajes 2.25x y su HP 1.5x. Corta el HP actual de los enemigos un 15% al principio del turno.",
-            special: "Inflicts Toxic to all enemies, recovers 13x character's RCV in HP at the end of each turn for 3 turns",
-            specialNotes: "Recupera una cantidad de HP equivalente a su RCV 13x durante 3 turnos. Envenena gravemente al enemigo. Cada turno aumenta un 50x el daño del veneno. (Máximo 2 millones de daño)",
+            captain: "Aumenta el ATK de todos los personajes 2.25x y su HP 1.5x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Reduce la HP actual de los enemigos en un 15% al final de cada turno.",
+            special: "Envenena a todos los enemigos, recupera una cantidad de HP equivalente a su RCV 13x al final de cada turno durante 3 turnos",
+            specialNotes: "El tóxico empieza con su ATK 50x y se incrementa 2x al final de cada turno hasta un máximo de 2.000.000 puntos de daño por turno.",
             specialName: "Venom Cloud",
         },
         1699: {//Jinbe
-            captain: "Boosts ATK of Fighter characters by 2x, and their HP by 1.2x",
-            special: "Adds .3x to Chain multiplier for 2 turns, reduces Chain Multiplier Limit and Chain Coeffiecient Reduction duration by 3 turns",
+            captain: "Aumenta el ATK de los personajes Fighter 2x y su HP 1.2x",
+            special: "Aumenta el multiplicador de cadena .3x durante 2 turnos, reduce el Multiplicador de cadena fijado y la reducción del Coeficiente de la Cadena durante 3 turnos",
             specialName: "Gentle Ultrasound Wave",
-            specialNotes: "This is most likely the effect that prevents your chain from exceeding a certain value.",
-            sailor: "Boosts ATK of Fighter characters by 75",
+            specialNotes: "Previene que la cadena sea afectada por algun limitador.",
+            sailor: "Aumenta el ATK de los personajes Fighter 75 puntos",
         },
         1700: {//Jinbe
-            captain: "Boosts ATK of Fighter characters by 2.5x, and their HP by 1.3x",
-            special: "Adds .3x to Chain multiplier for 2 turns, reduces Chain Multiplier Limit and Chain Coeffiecient Reduction duration by 3 turns",
+            captain: "Aumenta el ATK de los personajes Fighter 2.5x y su HP 1.3x",
+            special: "Aumenta el multiplicador de cadena .3x durante 2 turnos, reduce el Multiplicador de cadena fijado y la reducción del Coeficiente de la Cadena durante 3 turnos",
             specialName: "Gentle Ultrasound Wave",
-            specialNotes: "This is most likely the effect that prevents your chain from exceeding a certain value.",
-            sailor: "Boosts ATK of Fighter characters by 75",
+            specialNotes: "Previene que la cadena sea afectada por algun limitador.",
+            sailor: "Aumenta el ATK de los personajes Fighter 75 puntos",
         },
         1701: {//Ivankov
-            captain: "Boosts ATK of Free Spirit characters by 2x",
+            captain: "Aumenta el ATK de los personajes Free Spirit 2x",
             special: [
                 {
-                    "description": "Randomizes all orbs",
+                    "description": "Aleatoriza todos los orbes",
                     "cooldown": [ 9, 4 ]
                 },
                 {
-                    "description": "Changes [BLOCK] orbs into Matching orbs",
+                    "description": "Cambia todos los orbes [Negativo] a favorables",
                     "cooldown": [ 12, 7 ]
                 },
                 {
-                    "description": "Changes [BLOCK] and Badly Matching orbs into Matching orbs",
+                    "description": "Cambia todos los orbes [Negativo] y orbes desfavorables a favorables",
                     "cooldown": [ 15, 10 ]
                 }
             ],
             specialName: "Hair Removal Fist",
             specialNotes: "#{stages}",
-            sailor: "Completely resists Paralysis on this character",
+            sailor: "Esta unidad resiste totalmente la Parálisis",
         },
         1702: {//Ivankov
-            captain: "Boosts ATK of Free Spirit characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
+            captain: "Aumenta el ATK de los personajes Free Spirit 2.5x y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
             special: [
                 {
-                    "description": "Randomizes all orbs",
+                    "description": "Aleatoriza todos los orbes",
                     "cooldown": [ 9, 4 ]
                 },
                 {
-                    "description": "Changes [BLOCK] orbs into Matching orbs",
+                    "description": "Cambia todos los orbes [Negativo] a favorables",
                     "cooldown": [ 12, 7 ]
                 },
                 {
-                    "description": "Changes [BLOCK] and Badly Matching orbs into Matching orbs",
+                    "description": "Cambia todos los orbes [Negativo] y orbes desfavorables a favorables",
                     "cooldown": [ 15, 10 ]
                 }
             ],
             specialName: "Hair Removal Fist",
             specialNotes: "#{stages}",
-            sailor: "Completely resists Paralysis on this character",
+            sailor: "Esta unidad resiste totalmente la Parálisis",
         },
         1703: {//Hannyabal
-            captain: "Boosts ATK of [INT] characters by 2x",
+            captain: "Aumenta el ATK de los personajes [INT] 2x",
             special: "Reduces damage received by 50% for 2 turns and boosts ATK against enemies inflicted with Toxic by 1.75x for 2 turns",
             specialName: "Inferno Hell Wheel",
             sailor: "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this unit if your Captain is a Striker character",

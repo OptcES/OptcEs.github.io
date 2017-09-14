@@ -1649,7 +1649,7 @@ window.units = [
          [ "Giolla, Mujer Arte", "STR", [ "Shooter", "Free Spirit" ], 3, 13, 4, 3, 50, 392109, 73, 55, 13, 700, 505, 165, 1 ],
          [ "Giolla, Tropa de Trebol", "STR", [ "Shooter", "Free Spirit" ], 4, 20, 4, 4, 99, 3000000, 653, 456, 157, 2040, 936, 298, 1 ],
          [ "Brook, Artes Psicodélicas", "DEX", [ "Slasher", "Free Spirit" ], 4, 20, 6, 4, 99, 3000000, 203, 130, 29, 1830, 1140, 265, 1 ],
-         [ "Nekomamushi", "PSY", [ "Striker", "Powerhouse" ],5, 30, 7, 5, 70, 1066998, 475, 167, 38, 1593, 666, 189, 1 ],
+         [ "Nekomamushi", "PSY", [ "Striker", "Powerhouse" ],5, 30, 7, 3, 70, 1066998, 475, 167, 38, 1593, 666, 189, 1 ],
          [ "'Rey de la Noche' Nekomamushi", "PSY", [ "Striker", "Powerhouse" ], 6, 55, 4, 5, 99, 5000000, 1509, 613, 132, 3404, 1451, 352, 1 ],
          [ "Pedro", "INT", [ "Slasher", "Cerebral" ], 4, 15, 5, 3, 50, 392109, 110, 148, 58, 957, 620, 213, 1 ],
          [ "Pedro, la Copa del Árbol ", "INT", [ "Slasher", "Cerebral" ], 5, 30, 4, 4, 99, 4000000, 878, 544, 162, 2009, 1438, 325, 1 ],

@@ -9756,13 +9756,13 @@ window.details = {
             specialName: "Bear Rush Out",
         },
         1748: {//Boa
-            captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn",
-            special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
             specialName: "Pistol Kisses",
         },
         1749: {//Boa
-            captain: "Boosts ATK of Shooter characters by a variable factor between 2.5x and 3.25x based on the timing of the attack of the previous unit in the chain and recovers 1,000 HP at end of each turn",
-            special: "Deals 6 hits of 20,000 fixed damage to random enemies, delays all enemies for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for Shooter characters for 2 turns",
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
             specialName: "Pistol Kisses",
         },
         1750: {
@@ -9854,12 +9854,186 @@ window.details = {
             sailor: "Reduce su propia carga de especial 2 turnos si selo retrasan y reduce el silencio de esta unidad 2 turnos",
             specialName: "Intelligent Monster",
         },
-        1764: {
+         1762: {//Rob Lucci
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
+        special: "Reduces the defense of all enemies by ???% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+        specialName: "Flying Finger Gun: Fire Sting",
+        },
+        1763: {//Rob Lucci
+            captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x at the start of the chain. Reduces RCV of all characters by 50%.<br>Boosts ATK of Powerhouse characters by 2.75x after the 1st Perfect in a row, by 3.025x after the 2nd Perfect in a row, by 3.3275x after the 3rd Perfect in a row, by 3.66025x after the 4th Perfect in a row, and by 4.026275x after the 5th Perfect in a row.",
+            special: "Reduces the defense of all enemies by ???% for 2 turns, deals 50x character's ATK in typeless damage to all enemies and changes all orbs on Powerhouse characters into Matching orbs, recover 20% of crew's MAX HP.",
+            specialName: "Flying Finger Gun: Fire Sting",
+        },
+        1764:  {
             captain: "Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x. Si derrotas a un enemigo, aumenta la potenciación del ATK ligeramente. Ésta aumentará un máximo de 5 veces, hasta un multiplicador 3.5x como límite. Si no se derrota a ningún enemigo, dicho aumento de ATK se perderá y volverá a ser 2.25x",
             special: "Aumenta la duración de cualquier potenciación de Clase/Tipo y Potenciación de Orbes en 1 turno, fija el multiplicador de cadena en 2.5x durante 1 turno y hace 100000 de daño fijo que ignora barreras y bufos defensivos.",
             specialName: "Determined Man's Ice Attack",
         },
-        
+        1765: {//Blue Gilly
+            captain: "Boosts ATK of Fighter characters by 1.5x",
+            special: "Deals 10 hits of 5x character's ATK in typeless damage to random enemies, reduces the defense of all enemies by 50% for 1 turn, randomizes non-matching orbs, including [BLOCK] orbs",
+            specialName: "Jao Kun Do Consecutive Thrusting Kick",
+        },
+        1766: {//Blue Gilly
+            captain: "Boosts chain multiplier by 1.5x and boosts ATK of Fighter characters by 1.5x",
+            special: "Deals 10 hits of 5x character's ATK in typeless damage to random enemies, reduces the defense of all enemies by 50% for 1 turn, randomizes non-matching orbs, including [BLOCK] orbs",
+            specialName: "Jao Kun Do Consecutive Thrusting Kick",
+        },
+        1767: {//Funk Bros
+            captain: "Boosts ATK of Fighter characters by 1.75x",
+            special: "Delays all enemies for 1 turn, following the activation of the special, if every unit scores a Great hit, boosts ATK of Fighter characters by 1.5x in the following turn",
+            specialName: "Prideless Surprise Attack",
+        },
+        1768: {//Abdullah and Jeet
+            captain: "Boosts ATK of Striker and Slasher characters by 1.5x",
+            special: "At the end of the turn, cuts the current HP of each enemy by 10% for 2 turns",
+            specialName: "Nasty Final Blow",
+        },
+        1769: {//Ben Beckman
+            captain: "Aumenta el ATK de los personajes Cerebral 2.5x",
+            special: "Retrasa a los enemigos 1 turno. Si tu capitán es Cerebral aumenta el daño causado a enemigos con delay 1.5x durante 1 turno y cambia los orbes adyacentes a favorable",
+            specialName: "Restraining Gunpoint",
+        },
+        1770: {//Ben Beckman
+            captain: "Aumenta el ATK de los personajes Cerebral 2.5x y su HP 1.2x Después de Hacer Good>Great >Perfect aumenta el ATK de los personajes Cerebral un 1.3x más",
+            special: "Retrasa a los enemigos 1 turno. Si tu capitán es Cerebral aumenta el daño causado a enemigos con delay 1.5x durante 1 turno y cambia los orbes adyacentes a favorable",
+            specialName: "Restraining Gunpoint",
+        },
+        1771: {//Kuma
+            captain: "Boosts ATK and HP of Cerebral characters by 2x",
+            specialName: "Thrust Pad Cannon [Neo]",
+            special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs, amplifies the effect of orbs by 1.75x for 1 turn",
+            specialNotes: "#{orb : 1.75x}"
+        },
+        1772: {//Kuma
+            captain: "Boosts ATK and HP of Cerebral characters by 2x, deals 5 times the damage received in the previous turn in [INT] damage to all enemies at the end of each turn",
+            specialName: "Thrust Pad Cannon [Neo]",
+            special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs, amplifies the effect of orbs by 1.75x for 1 turn",
+            specialNotes: "#{orb : 1.75x}"
+        },
+        1773: {//Kinemon
+            captain: "Boosts ATK of Free Spirit characters by 2x and their HP by 1.2x and reduces damage received by 10%",
+            special: "Deals 20x character's ATK in [INT] damage to one enemy, amplifies the effect of orbs for Free Spirit characters by 1.5x for 1 turn",
+            sailor: "Boosts base ATK of Free Spirit characters by 25"
+        },
+        1774: {//Kinemon
+            captain: "Boosts ATK of Free Spirit characters by 2.25x and their HP by 1.25x and reduces damage received by 15%",
+            special: "Deals 20x character's ATK in [INT] damage to one enemy, amplifies the effect of orbs for Free Spirit characters by 1.75x for 1 turn",
+            sailor: "Boosts base ATK of Free Spirit characters by 25"
+        },
+        1775: {//Momonosuke
+            captain: "Boosts ATK and RCV of QCK characters by 1.5x, and slightly boosts chances of getting [QCK] orbs",
+            special: "Reduces damage received by 50% for 1 turn and switches orbs between slots twice",
+        },
+        1776: {//Momonosuke
+            captain: "Boosts ATK and RCV of QCK characters by 1.75x, boosts chances of getting [QCK] orbs",
+            special: "Reduces damage received by 50% for 1 turn and switches orbs between slots twice",
+        },
+        1777:{//Kizaru
+            captain: "Not Translated",
+            special: "Deals 50x character's ATK in typeless damage to one enemy that will ignore damage negating abilities and barriers, changes [BLOCK], [STR], and [INT] orbs into Matching orbs for Free Spirit characters and adds .2x to Chain multiplier for 3 turns",
+            specialName: "Devil Destroyer's Light Arrow",
+            specialNotes: "#{ignoreBarrier}"
+        },
+        1778:{//Kizaru
+            captain: "Boosts ATK of Free Spirit characters by 2.5x, and their HP by 1.2x. Recovers 1.5x character's RCV in HP at the end of each turn",
+            special: "Deals 50x character's ATK in typeless damage to one enemy that will ignore damage negating abilities and barriers, changes [BLOCK], [STR], and [INT] orbs into Matching orbs for Free Spirit characters and adds .2x to Chain multiplier for 3 turns",
+            specialName: "Devil Destroyer's Light Arrow",
+            specialNotes: "#{ignoreBarrier}",
+            limit: "This unit has a Limit Break skill tree",
+            limitNotes: "This will be updated soon"
+        },
+        1779:{//Kizaru
+            captain:"Aumenta el ATK de los personajes Shooter 2x",
+		specialName:"KAI Yata no Kagami (Sacred Mirror)",
+		special: [
+			{
+				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno",
+				"cooldown": [19,5]
+			},
+			{
+				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno. Aumenta 0.5x el multiplicador de cadena durante 2 turnos",
+				"cooldown": [25,11]
+			}
+		],
+		specialNotes:"#{stages}"
+        },
+        1780:{//Kizaru
+           captain:"Aumenta el ATK de los personajes Shooter 2.25x y su HP 1.5x y reduce la carga de todos los especiales 2 turnos al principio de la batalla",
+		specialName:"Yata no Kagami (Sacred Mirror)",
+		special: [
+			{
+				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno",
+				"cooldown": [19,5]
+			},
+			{
+				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno. Aumenta 0.5x el multiplicador de cadena durante 2 turnos",
+				"cooldown": [25,11]
+			}
+		],
+		specialNotes:"#{stages}"
+        },
+        1793:{//Lucy Sabo
+            captain: "Aumenta el ATK de los personajes [STR], [DEX] y [QCK] en  2.75x y su HP 1.3x si el equipo se encuentra formado por personajes [STR], [DEX] y [QCK]. Las orbes [DEX] y [QCK] cuentan como favorables para todos. Disminuye la probabilidad de orbes [STR]. Si no hay personajes [PSY] o [INT] en el equipo aumenta el ataque en 1.35x.",
+            captainNotes: "#{beneficial}",
+            special: "Boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn. If during that turn you score 4 Perfect hits, boosts ATK of [STR], [DEX] and [QCK] characters by 2x in the following turn.",
+            specialName: "Dragon's Claw: Reverse Wave Motion",
+        },
+        1794:{//Lucy Sabo
+            captain: "Aumenta el ATK de los personajes [STR], [DEX] y [QCK] en  2.75x y su HP 1.3x si el equipo se encuentra formado por personajes [STR], [DEX] y [QCK]. Las orbes [DEX] y [QCK] cuentan como favorables para todos. Disminuye la probabilidad de orbes [STR]. Si no hay personajes [PSY] o [INT] en el equipo aumenta el ataque en 1.35x.",
+            captainNotes: "#{beneficial}",
+            special: "Aumenta el ataque de los personajes [STR], [DEX] y [QCK] en 1.75x. Si en ese turno 4 personajes hacen Perfect, aumenta el ATK de los personajes [STR], [DEX] y [QCK] en 2x durante el turno siguiente",
+            specialName: "Dragon's Claw: Reverse Wave Motion",
+        },
+        1795:{//Diamante
+            captain: "Aumenta el ataque de los personajes Slasher y Driven en 2x.",
+            special: "Retrasa a todos los enemigos 2 turnos. Reduce el efecto de Defensa aumentada/Daño reducido del enemigo durante 3 turnos. Cambia las orbes de la fila derecha, si son de color, a favorables.",
+            sailor: "Diamante inflige un 10% más de daño a las unidades [STR]",
+            specialName: "Snake Sword",
+        },
+        1796:{//Diamante
+            captain: "",
+            special: "Retrasa a todos los enemigos 2 turnos. Reduce el efecto de Defensa aumentada/Daño reducido del enemigo durante 3 turnos. Cambia las orbes de la fila derecha, si son de color, a favorables.",
+            sailor: "Diamante inflige un 10% más de daño a las unidades [STR]",
+            specialName: "Snake Sword",
+        },
+        1797:{//Jesus Burgess
+            captain: "Aumenta el ataque de los personajes Fighter en 2.25x",
+            special: "Reduce la HP actual de los enemigos un 20%. Aumenta el ATK de todos los personajes 1.5x durante 2 turno contra enemigos que sufren delay..",
+            sailor: "+75 de ATK y HP a personajes [STR], [DEX] y [QCK].",
+            specialName: "Shockwave Elbow",
+        },
+        1798:{//Jesus Burgess
+            captain: "",
+            special: "Reduce la HP actual de los enemigos un 20%. Aumenta el ATK de todos los personajes 1.5x durante 2 turno contra enemigos que sufren delay..",
+            sailor: "+75 de ATK y HP a personajes [STR], [DEX] y [QCK].",
+            specialName: "Shockwave Elbow",
+        },
+        1799:{//Cavendish
+            captain: "Aumenta el ataque de los personajes [STR], [DEX] y [QCK] en 2.25x",
+            special: "Cambia los orbes [NEGATIVO] a favorables. Fijas los orbes durante 1 turno. Aumenta el ATK de todos los personajes 1.75x durante 2 turno contra enemigos con defensa reducida",
+            sailor: "Los orbes [PSY] e [INT] cuentan como favorables para esta unidad",
+            specialName: "Beautiful Sword: Round Table",
+        },
+        1800:{//Cavendish
+            captain: "",
+            special: "Cambia los orbes [NEGATIVO] a favorables. Fijas los orbes durante 1 turno. Aumenta el ATK de todos los personajes 1.75x durante 2 turno contra enemigos con defensa reducida",
+            sailor: "Los orbes [PSY] e [INT] cuentan como favorables para esta unidad",
+            specialName: "Beautiful Sword: Round Table",
+        },
+        1801:{//Bartolomeo
+            captain: "Aumenta el ataque de los personajes [STR], [DEX] y [QCK] en 2x y reduce el daño recibido un 10% si no atacas con esta unidad",
+            special: "Hace su ATK 30x como daño [QCK] a todos los enemigos. Reduce la defensa de todos los enemigos durante 2 turnos y reduce el daño recibido en 90% durante 1 turno.",
+            sailor: "Elimina 3 turnos de parálisis a si mismo",
+            specialName: "Barrier Bulls",
+        },
+        1802:{//Bartolomeo
+            captain: "",
+            special: "Hace su ATK 30x como daño [QCK] a todos los enemigos. Reduce la defensa de todos los enemigos durante 2 turnos y reduce el daño recibido en 90% durante 1 turno.",
+            sailor: "Elimina 3 turnos de parálisis a si mismo",
+            specialName: "Barrier Bulls",
+        },
+      
         
 
 };

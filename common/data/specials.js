@@ -2801,10 +2801,10 @@ window.specials = {
         affinity: function(p){ return p.unit.class.has("Slasher") ? 1.5 : 1; }
     },
     1681: {
-        chainAddition: function(p){ return p.sourceSlot < 2 ? 0 : 0.5; },
+        chainAddition: function(p){ return p.slot > 2 ? 0.5 : 0; },
     },
     1682: {
-        chainAddition: function(p){ return p.sourceSlot < 2 ? 0 : 0.5; },
+        chainAddition: function(p){ return p.slot > 2 ? 0.5 : 0; },
     },
     1683: {
         atk: function(p) { return p.defenseDown ? 1.5 : 1; },
@@ -3075,11 +3075,107 @@ window.specials = {
     1764: {
         chain: function(p) { return 2.5; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
-},/*
+},
     1765: {
-        orb: function(p) { return (p.unit.class.has("Shooter")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+        def: function(p) { return .5; },
     },
-    */
+    1766: {
+        def: function(p) { return .5; },
+    },
+    1767: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.5 : 1},
+        type: "class"
+    },
+    1769: {
+        delay: function(p) { return 1; },
+        atk: function(p) { return ( p.scope.data.team[1].unit.class.has("Cerebral")) ? 1.5 : 1; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+    1770: {
+        delay: function(p) { return 1; },
+        atk: function(p) { return (p.scope.data.team[1].unit.class.has("Cerebral")) ? 1.5 : 1; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+    1771: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
+    1772: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
+    1773: {
+        orb: function(p) { return p.unit.class.has("Free Spirit") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
+    1774: {
+        orb: function(p) { return p.unit.class.has("Free Spirit") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
+    1777: {
+        chainAddition: function(p){ return 0.2;}
+    },
+    1778: {
+        chainAddition: function(p){ return 0.2;}
+    },
+    1779: {
+        chainAddition: function(p) {return 0.5;}
+    },
+    1780: {
+        chainAddition: function(p){ return 0.5;}
+    },
+    1793: {
+        atk: function(p) { return !(p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1 : window.specials[1793].multiplier; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[1793].multiplier == 1.75 ? 1 : 0);
+            window.specials[1793].multiplier = [1.75, 2][n];
+            p.scope.notify({
+                text: 'Usando ' + [1.75, 2][n] + 'x ATK multiplier.',
+                name: '1793warning'
+            });
+        }
+    },
+    1794: {
+        atk: function(p) { return !(p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1 : window.specials[1794].multiplier; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[1794].multiplier == 1.75 ? 1 : 0);
+            window.specials[1794].multiplier = [1.75, 2][n];
+            p.scope.notify({
+                text: 'Usando ' + [1.75, 2][n] + 'x ATK multiplier.',
+                name: '1794warning'
+            });
+        }
+    },
+    1795: {
+        delay: function(p) { return 1; },
+    },
+    1796: {
+        delay: function(p) { return 1; },
+    },
+    1797: {
+        atk: function(p) { return 1.5; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+    1798: {
+        atk: function(p) { return 1.5; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
+    },
+    1799: {
+        atk: function(p) { return p.defenseDown ? 1.75 : 1; },
+        type: "condition"
+    },
+    1800: {
+        atk: function(p) { return p.defenseDown ? 1.75 : 1; },
+        type: "condition"
+    },
+    1801: {
+        def: function(p) { return 0.1; }
+    },
+    1802: {
+        def: function(p) { return 0.1; }
+},
     
     
         

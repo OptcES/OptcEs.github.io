@@ -5294,31 +5294,31 @@ window.captains = {
         atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; },
     },
     1746: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 3.25, [ "Shooter" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has('Shooter')) return 1;
+            var prev = p.modifiers.slice(p.chainPosition - 1, p.chainPosition)[0];
+            return p.chainPosition === 0 ? 2.5 : (prev == 'Good' ? 2.75 : (prev == 'Great' ? 3 : (prev == 'Perfect' ? 3.25 : 2.5)));
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1747: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 3.25, [ "Shooter" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has('Shooter')) return 1;
+            var prev = p.modifiers.slice(p.chainPosition - 1, p.chainPosition)[0];
+            return p.chainPosition === 0 ? 2.5 : (prev == 'Good' ? 2.75 : (prev == 'Great' ? 3 : (prev == 'Perfect' ? 3.25 : 2.5)));
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    1748: {
         atk: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; },
         hp: function(p) { return p.unit.type == "QCK" ? 1.5 : 1; }
     },
-    1747: {
+    1749: {
         atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
         hp: function(p) { return p.unit.type == "QCK" ? 2 : 1; }
     },
-    1748: {
-        damageSorter: function(d) { return CrunchUtils.classSort(d, 3.25, [ "Shooter" ]); },
-        hitAtk: function(p) {
-            if (!p.unit.class.has('Shooter')) return 1;
-            var prev = p.modifiers.slice(p.chainPosition - 1, p.chainPosition)[0];
-            return p.chainPosition === 0 ? 2.5 : (prev == 'Good' ? 2.75 : (prev == 'Great' ? 3 : (prev == 'Perfect' ? 3.25 : 2.5)));
-        },
-        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
-    },
-    1749: {
-        damageSorter: function(d) { return CrunchUtils.classSort(d, 3.25, [ "Shooter" ]); },
-        hitAtk: function(p) {
-            if (!p.unit.class.has('Shooter')) return 1;
-            var prev = p.modifiers.slice(p.chainPosition - 1, p.chainPosition)[0];
-            return p.chainPosition === 0 ? 2.5 : (prev == 'Good' ? 2.75 : (prev == 'Great' ? 3 : (prev == 'Perfect' ? 3.25 : 2.5)));
-        },
-        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
-},
     1750: {
         atk: function(p) { return p.unit.class.has("Striker") ? 3 : 1; }
     },

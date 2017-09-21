@@ -1792,15 +1792,15 @@ window.units = [
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "Lucy, Suertudo de la última Ronda del Coliseo Corrida ", "STR", [ "Striker", "Fighter" ], 5, 30, null, null, 70, 1066998, null, null, null, null, null, null, null ],
-         [ "Lucy, Campeón del Coliseo Corrida  ", "STR", [ "Striker", "Fighter" ], 6, 55, 4, 5, 99, 5000000, 1306, 720, 194, 3000, 1500, 500, null ],
+         [ "Lucy, Campeón del Coliseo Corrida  ", "STR", [ "Striker", "Fighter" ], 6, 55, 4, 5, 99, 5000000, 1306, 720, 194, 3020, 1539, 390, null ],
          [ "Mr. Diamante, Héroe del Coliseo Corrida", "QCK", [ "Driven", "Slasher" ], 4, 15, null, null, 50, 392109, null, null, null, null, null, null, null ],
-         [ "Diamante, Evo", "QCK", [ "Driven", "Slasher" ], 5, 30, null, null, 99, 4000000, null, null, null, null, null, null, null ],
+         [ "Diamante, Evo", "QCK", [ "Driven", "Slasher" ], 5, 30, null, null, 99, 4000000, null, null, null, 2401, 1487, 230, null ],
          [ "Jesus Burgess, Coliseo Corrida", "DEX", [ "Fighter", "Driven" ], 4, 15, null, null, 50, 392109, null, null, null, null, null, null, null ],
-         [ "Jesus Burgess, Evo", "DEX", [ "Fighter", "Driven" ], 5, 30, null, null, 99, 4000000, null, null, null, null, null, null, null ],
+         [ "Jesus Burgess, Evo", "DEX", [ "Fighter", "Driven" ], 5, 30, null, null, 99, 4000000, null, null, null, 2743, 1364, 238, null ],
          [ "Cavendish, Coliseo Corrida", "DEX", [ "Driven", "Slasher" ], 4, 15, null, null, 50, 392109, null, null, null, null, null, null, null ],
-         [ "Cavendish, Evo", "DEX", [ "Driven", "Slasher" ], 5, 30, null, null, 99, 4000000, null, null, null, null, null, null, null ],
+         [ "Cavendish, Evo", "DEX", [ "Driven", "Slasher" ], 5, 30, null, null, 99, 4000000, null, null, null, 2046, 1466, 314, null ],
          [ "Bartolomeo, Coliseo Corrida", "QCK", [ "Fighter", "Driven" ], 4, 15, null, null, 50, 392109, null, null, null, null, null, null, null ],
-         [ "Bartolomeo, Evo", "QCK", [ "Striker", "Driven" ], 5, 30, null, null, 99, 4000000, null, null, null, null, null, null, null ],
+         [ "Bartolomeo, Evo", "QCK", [ "Striker", "Driven" ], 5, 30, null, null, 99, 4000000, null, null, null, 2789, 1289, 251, null ],
     ];
 
 

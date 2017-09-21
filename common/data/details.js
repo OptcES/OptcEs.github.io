@@ -9743,27 +9743,27 @@ window.details = {
             sailor: "Boosts ATK, HP and RCV of Shooter characters by 30",
             specialName: "Defender's Spade-Shaped Arrow",
         },
-        1746: {//Bepo
+        1746: {//Boa
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
+            specialName: "Pistol Kisses",
+        },
+        1747: {//Boa
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
+            specialName: "Pistol Kisses",
+        },
+        1748: {//Bepo
             captain: "Boosts ATK and HP of QCK characters by 1.5x",
             special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
             sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
             specialName: "Bear Rush Out",
         },
-        1747: {//Bepo
+        1749: {//Bepo
             captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK and HP of QCK characters by 2x",
             special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
             sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
             specialName: "Bear Rush Out",
-        },
-        1748: {//Boa
-            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
-            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
-            specialName: "Pistol Kisses",
-        },
-        1749: {//Boa
-            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
-            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
-            specialName: "Pistol Kisses",
         },
         1750: {
             captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
@@ -9794,13 +9794,13 @@ window.details = {
             specialName: "Injection Shot",
         },
         1752: {//20th Anni Zoro
-            captain: "Boosts ATK of characters with cost 30 or less by 2.5x",
+            captain: "Aumenta el ATK de los personajes con coste 30 o menor 2.5x",
             special: "Hace un daño [INT] equivalente a su ATK x60 a un enemigo. Aumenta el ATK de los personajes con coste 30 o menos 1.75x durante 1 turn. Si Zoro es capitán o capitán amigo y realizas 4 perfects en ese turno, aumenta el ATK de los personajes Slasher x2 en el siguiente turno",
             sailor: "Aumenta el ATK de los personajes Slasher 50 puntos",
             specialName: "Three Sword Style: Ultra Tiger Hunting",
         },
         1753: {//20th Anni Zoro
-            captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect",
+            captain: "Aumenta la HP de los personajes de cost 30 o inferior 1.3x. Aumenta el ATK de los personajes de coste 30 o inferior 2.5x al principio de la cadena y 3.5x tras el tercer Perfect",
             special: "Hace un daño [INT] equivalente a su ATK x60 a un enemigo. Aumenta el ATK de los personajes con coste 30 o menos 1.75x durante 1 turn. Si Zoro es capitán o capitán amigo y realizas 4 perfects en ese turno, aumenta el ATK de los personajes Slasher x2 en el siguiente turno",
             sailor: "Aumenta el ATK de los personajes Slasher 50 puntos",
             specialName: "Three Sword Style: Ultra Tiger Hunting",

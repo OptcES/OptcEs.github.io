@@ -8909,13 +8909,13 @@ window.details = {
         },
         1613: {
         captain: "Aumenta el ATK de los personajes Fighter 2.25x",
-        special: "Reduce el HP actual de los enemigos en un 10% y reduce su Defensa un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
+        special: "Reduce el HP actual de los enemigos en un 10%. Reduce la Defensa de los enemigos un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
         sailor: "Añade un daño adicional equivalente a su ATK x2 a todos los personajes cuando atacan",
         specialName: "4000 Power Level Technique: Tempest Kick",       
         },
         1614: {
         captain: "Aumenta el ATK de los personajes Fighter 2.5x y su HP 1.2x",
-        special: "Reduce el HP actual de los enemigos en un 10% y  reduce su Defensa un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
+        special: "Reduce el HP actual de los enemigos en un 10%. Reduce la Defensa de los enemigos un 50%. Incrementa la efectividad de los orbes 1.75x durante 1 turno",
         sailor: "Añade un daño adicional equivalente a su ATK x2 a todos los personajes cuando atacan",
         specialName: "4000 Power Level Technique: Tempest Kick",            
         },

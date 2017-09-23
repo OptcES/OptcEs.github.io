@@ -9575,38 +9575,37 @@ window.details = {
             specialName: "Sealed Mouth Exterminator",
         },
         1716: {//Caesar
-            captain: "Reduces HP of all characters by 50%, boosts ATK of Driven characters by 1.2x, increases his own ATK multiplier by 0.1x at the end of each turn until it reaches 3x",
-            special: "Delays all enemies for 1 turn. For Driven characters, Changes [EMPTY] orbs into Matching orbs. Boosts ATK of Driven characters by 1.75x if HP is below 30% when the special is activated.",
+            captain: "Reduce la HP del equipo en un 50%, aumenta el ATK de los personajes Driven 1.2x, incrementa SU PROPIO multiplicador 0.1x al final de cada turno hasta que alcance 3x",
+            special: "Retrasa a los enemigos 1 turno. Cambia los orbes [VACIO] de los personajes Driven a favorables. Si la HP del equipo se encuentra por debajo del 30%, aumenta el ATK de los personajes Driven 1.75x",
             specialName: "Massacre GAS",
         },
         1717: {//Vegapunk Dragon
-            captain: "Reduces cooldown of Shooter specials by 2 turns at the start of the fight",
-            special: "Deals 3x character's ATK in [QCK] damage to all enemies",
+            captain: "Reduce la carga de lo especiales de los personajes Shooter 2 turnos al principio de la batalla",
+            special: "Hace su ATK x3 como daño [QCK] a todos los enemigos",
             specialName: "High Maneuverable Fireball Blast",
         },
         1718: {//Buffalo
-            captain: "Boosts ATK of Driven characters by 2.5x until the first hit other than Perfect",
-            special: "Boosts ATK of Driven characters by 1.25x for 5 turns",
+            captain: "Aumenta el ATK de los personajes Driven 2.5x hasta que se de un golpe que no sea Perfect",
+            special: "Aumetna el ATK de los personajes Driven 1.25x durante 5 turnos",
             specialName: "Rolling Rotation",
         },
         1719: {//Baby 5
-            captain: "Boosts ATK of [PSY] characters by 2x if they have matching orbs, makes INT orbs \"beneficial\" to PSY characters",
+            captain: "Aumenta el ATK de los personajes [PSY] 2x si tienen el orbe favorable, hace que los orbes [INT] cuenten como favorables para los personajes [PSY]",
             captainNotes: "#{beneficial}",
-            special: "Changes adjacent orbs into [G] orbs",
+            special: "Cambia los orbes adyacentes a [G]",
             specialName: "Phantasmagoric \"Weapon-Morphosis\"",
     },
         1720: {//Secret Jinbe
-            captain: "Boosts ATK of Fighter characters by 2.5x",
-            special: "If your Captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+            captain: "Aumenta el ATK de los personajes Fighter 2.5x",
+            special: "Cambia los orbes adyacentes a favorables y fija el multiplicador de cadena en 2.5x durante 1 turno si tu capitán es Fighter",
             specialName: "Passive Agressive Boss"
         },
         1721: {//Secret Jinbe
-            captain: "Boosts HP of Fighter characters by 1.4x and boosts ATK by 2.75x if they have a matching orb, by 2.5x otherwise.",
-            special: "If your Captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+            captain: "Aumenta la HP de los personajes Fighter 1.4x y su ATK 2.75x si tienen orbe favorable, siendo 2.5x con cualquier otro",
+            special: "Cambia los orbes adyacentes a favorables y fija el multiplicador de cadena en 2.5x durante 1 turno si tu capitán es Fighter",
             specialName: "Passive Agressive Boss"
         },
         1722: {//Neptune
-            captain: "Boosts ATK of Striker characters by 2x.",
             special: "Boosts ATK of Striker characters by 1.5x for 1 turn and Changes own orb into [PSY] if HP is below ???% when the special is activated and deals 20,000 Fixed damage to one enemy.",
             specialName: "Sea God's Strike"
         },

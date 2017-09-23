@@ -9606,6 +9606,7 @@ window.details = {
             specialName: "Passive Agressive Boss"
         },
         1722: {//Neptune
+            captain: "Aumenta el ATK de los personajes Striker 2x",
             special: "Boosts ATK of Striker characters by 1.5x for 1 turn and Changes own orb into [PSY] if HP is below ???% when the special is activated and deals 20,000 Fixed damage to one enemy.",
             specialName: "Sea God's Strike"
         },

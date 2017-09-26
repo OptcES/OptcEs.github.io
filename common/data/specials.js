@@ -3175,7 +3175,20 @@ window.specials = {
     },
     1802: {
         def: function(p) { return 0.1; }
-},
+    },
+    1814: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? 2 : 1},
+        type: "class"
+    },
+    1815: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") ? 2 : 1},
+        type: "class"
+    },
+    1816: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1},
+        type: "class"
+    },
+    
     
     
         

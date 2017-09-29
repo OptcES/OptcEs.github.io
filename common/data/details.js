@@ -9973,6 +9973,66 @@ window.details = {
 		],
 		specialNotes:"#{stages}"
         },
+        1781: {//Fighting Fish
+        captain: "Boosts ATK of Powerhouse characters by 1.75x. Makes [TND] and [RCV] orbs \"beneficial\" to Powerhouse characters",
+        special: "Boosts ATK of ??? characters by 1.3x for 1 turn, changes own orb into STR and deals 5x character's ATK in [STR] damage to all enemies",
+        specialName: "Fish Special",
+        },
+        1782: {//Chinjao
+            captain: "Aumenta el ATK de los personajes [QCK] 2.25x. Aumenta el daño del Especial de los personajes [QCK] en 1.75x",
+            special: "Retrasa a todos los enemigos 2 turnos. Hace su daño [QCK] 25x a todos los enemigos",
+            specialName: "Chinjao Special",
+        },
+        1783: {//Hajrudin
+            captain: "Aumenta el ATK y HP de los personajes Powerhouse 1.5x",
+            special: "Fija los orbes durante 1 turno, si realizas 4 perfects aumenta la efectividad de las orbes 1.5x en el siguiente turno",
+            specialName: "Hajrudin Special",
+        },
+        1784: {//Fujitora
+            captain: " Reduce la carga de todos los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes 4* o menos 2.5x",
+            special: "Hace un daño aleatorio [INT] a todos los enemigos. Reduce la carga de todos los especiales 1 turno. Aumenta el ATK de todos los personajes en 1.5x",
+            specialName: "Fujitora Special",
+        },
+        1785: {//Spartan
+            captain: "Recupera x3 de su RCV al final de cada turno.",
+            special: "Recupera 3000 HP e incrementa la efectividad de las orbes 1.5 durante 1 turno",
+            specialName: "Spartan Special",
+        },
+        1786: {
+            special: "Makes [QCK] orbs \"beneficial\" to Shooter characters for 1 turn",
+            specialName: "Shooter Beneficial Slot: [QCK]"
+        },
+        1787: {
+            special: "Reduces crew's current HP by 50%, deals 5x the amount of HP subtracted in typeless damage to one enemy",
+            specialName: "Risky Attack"
+        },
+        1788: {
+            special: "Boosts ATK of Shooter characters by 1.2x for 1 turn",
+            specialName: "Attack Boost: Shooter"
+        },
+        1789: {
+            special: "Boosts chances of getting [RCV] orbs for 2 turns",
+            specialName: "Meat for Meat",
+        },
+        1790: {
+            special: "Recovers 3x character's RCV in HP at the end of each turn for 3 turns",
+            specialName: "Auto Light Recovery"
+        },
+         1791:{//Lucy Luffy
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x after scoring 3 Perfects in a row",
+        special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
+        specialNotes: "#{ignoreBarrier}",
+        sailor: "If you captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+        specialName: "Gomu Gomu no Hawk Rifle",
+        },
+        1792:{//Lucy Luffy
+            captain: "Boosts RCV of [STR], [DEX] and [QCK] characters by 1.2x and boosts ATK of [STR], [DEX] and [QCK] characters by 3.25x after scoring 3 Perfects in a row",
+            special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
+            specialNotes: "#{ignoreBarrier}",
+            sailor: "If you captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+            specialName: "Gomu Gomu no Hawk Rifle",
+
+        },
         1793:{//Lucy Sabo
             captain: "Aumenta el ATK de los personajes [STR], [DEX] y [QCK] en  2.75x y su HP 1.3x si el equipo se encuentra formado por personajes [STR], [DEX] y [QCK]. Las orbes [DEX] y [QCK] cuentan como favorables para todos. Disminuye la probabilidad de orbes [STR]. Si no hay personajes [PSY] o [INT] en el equipo aumenta el ataque en 1.35x.",
             captainNotes: "#{beneficial}",

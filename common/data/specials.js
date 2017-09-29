@@ -3122,6 +3122,25 @@ window.specials = {
     1780: {
         chainAddition: function(p){ return 0.5;}
     },
+    1782: {
+        delay: function(p) { return 1; },
+    },
+    1783: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5); }
+    },
+    1784: {
+        atk: function(p) { return 1.5; },
+        type: "type"
+    },
+    1785: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.25); }
+    },
+    1791: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
+    1792: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75); }
+    },
     1793: {
         atk: function(p) { return !(p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1 : window.specials[1793].multiplier; },
         type: "class",
@@ -3175,6 +3194,10 @@ window.specials = {
     },
     1802: {
         def: function(p) { return 0.1; }
+    },
+    1813: {
+        atk: function(p) { return p.slot == 1 ? 1.5 : 1; },
+        type: "class"
     },
     1814: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 2 : 1},

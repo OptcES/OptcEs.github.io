@@ -5527,5 +5527,10 @@ window.captains = {
         atk: function(p) { return !p.unit.class.has("Shooter") ? 1 : (p.orb == 2.0 ? 3.25 : 2.25); },
         hp: function(p) { return p.unit.class.has("Shooter") ? 1.5 : 1; }
     },
+    1817: {
+        atk: function(p){ 
+            return !p.unit.class.has("Slasher") ? 1 : ((window.specials[1817].turnedOn || window.specials[1817].turnedOn) ? 3 : 2.25); },
+        hp: function(p) { return 1.3 }
+    },
     
 };

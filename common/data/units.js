@@ -1815,6 +1815,7 @@ window.units = [
          [ "Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 4, 30, 4, 4, 70, null, null, null, null, null, null, null, null ],
          [ "Vinsmoke Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 5, 50, 4, 4, 99, null, 1000, 500, 100, 2267, 1468, 346, null ],
          [ "Ace, Emperador de Fuego", "DEX", [ "Shooter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1000, 700, 100, 3922, 1466, 249, null ],
+         [ "Mihawk, Hora de Aventuras", "STR", "Slasher", 5, 50, 4, 4, 99, 5000000, 1000, 700, 100, 3000, 1450, 150, null ],
          
     ];
 

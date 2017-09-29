@@ -3188,7 +3188,11 @@ window.specials = {
         atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1},
         type: "class"
     },
-    
+    1817: { 
+        chain: function(p) { return p.scope.data.team[1].unit.class.has("Slasher") ? 2.75 : 1; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; },
+        orb: function(p) { return (p.scope.data.team[1].unit.class.has("Slasher") && p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
     
     
         

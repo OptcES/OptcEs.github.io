@@ -9742,29 +9742,29 @@ window.details = {
             special: "Cuts the current HP of one enemy by 7% and amplifies the effect of orbs for Shooter characters by 1.75x for 3 turns",
             sailor: "Boosts ATK, HP and RCV of Shooter characters by 30",
             specialName: "Defender's Spade-Shaped Arrow",
-        },      
-        1746: {//Bepo
+        },    
+        1746: {//Boa
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
+            specialName: "Pistol Kisses",
+        },
+        1747: {//Boa
+            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
+            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
+            specialName: "Pistol Kisses",
+        },
+        1748: {//Bepo
             captain: "Boosts ATK and HP of QCK characters by 1.5x",
             special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
             sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
             specialName: "Bear Rush Out",
         },
-        1747: {//Bepo
+        1749: {//Bepo
             captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK and HP of QCK characters by 2x",
             special: "Cuts the current HP of one enemy by 15% and reduces enemy's Threshold Damage Reduction duration by 5 turns",
             sailor: "If Bepo has a [QCK] orb and you hit a Perfect with him, keep his [QCK] orb for the next turn",
             specialName: "Bear Rush Out",
-        },
-        1748: {//Boa
-            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
-            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
-            specialName: "Pistol Kisses",
-        },
-        1749: {//Boa
-            captain: "Aumenta el ATK de los personajes Shooter desde 2.5x a 3.25x dependiendo del timing de ataque de las unidades, reduce la aparición de orbes [RCV] y [TND]. Recupera 1000 HP al final de cada turno.",
-            special: "Inflinge 6 golpes de 20.000 de daño fijo a enemigos aleatorios, retrasa  1 turno a todos los enemigos y hace los orbes de color [STR], [DEX], [QCK], [PSY] e [INT] favorables para los personajes Shooter por 2 turnos",
-            specialName: "Pistol Kisses",
-        },
+        },       
         1750: {
             captain: "Aumenta el ATK de los personajes Striker 3x y cura una cantidad equivalente a su RCV .5x cada vez que ejecutas un Perfect",
             special: [
@@ -10047,6 +10047,11 @@ window.details = {
                 captain:"Aumenta el ATK de los personajes Shooter 2.25x y su HP 1.5x, aumentando el ATK 3.25x si tienen orbe favorable",
 		specialName:"Dai Enkai: Entei",
 		special: "Reduce la HP actual del equipo en un 40%, hace una cantidad de daño sin tipo equivalente a la HP perdida 15x a todos los enemigos y aumenta el ATK de los personajes Shooter 2x durante 1 turno"
+        },
+        1817:{//Mihawk Aventuras
+                captain:"Aumenta el ATK de los personajes Slasher 2.25x y su HP 1.3x. Si Mihawk usa su especial aumenta el ATK de los personajes Slasher un 1.35x más (3x aproximadamente en total)",
+		specialName:"Mihawk Adventure Special",
+		special: "Hace un daño equivalente a su ATK x100 sin tipo a todos los enemigos. Si tu capitán es Slasher aumenta el ATK de los personajes Slasher fija el multiplicador de cadena en 2.75 e incrementa la efectividad de los orbes 2x para personajes Slasher"
         },
         
       

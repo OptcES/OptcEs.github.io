@@ -405,5 +405,6 @@ window.ships = [
         hp: function(p) {
             return [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
         }
+	}
     
 ];

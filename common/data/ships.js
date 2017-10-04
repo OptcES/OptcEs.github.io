@@ -395,6 +395,7 @@ window.ships = [
         }
 	    
 	},
+	/*
 	{ //33
         name: "Revolutionary Black Crow",
         thumb: null,
@@ -406,5 +407,5 @@ window.ships = [
             return [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
         }
 	}
-    
+    */
 ];

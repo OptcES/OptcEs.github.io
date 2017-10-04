@@ -385,7 +385,7 @@ window.ships = [
     },
     { //32
         name: "Marshal D. Teach 4 troncos mal puestos",
-        thumb: null,
+        thumb: "ship_0034_c.png",
         description: 'Reduce el enfriamiento de todos los especiales 1 turno. Aumenta el HP de todos los personajes 1.25x. Aumenta el ATK de todos los personajes 1.55x si en el equipo hay un Striker, Shooter, Fighter y un Slasher en tu equipo.',
         atk: function(p) { 
             return (p.classCount.Striker >= 1 && p.classCount.Fighter >= 1 && p.classCount.Shooter >= 1 && p.classCount.Slasher >= 1) ? [ 1.2, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.5, 1.55 ][p.boatLevel - 1] : 1;
@@ -393,6 +393,17 @@ window.ships = [
         hp: function(p) {
             return [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.25 ][p.boatLevel - 1];
         }
-},
+	    
+	},
+	{ //33
+        name: "Revolutionary Black Crow",
+        thumb: null,
+        description: 'Reduce el enfriamiento de todos los especiales 1 turno. Aumenta el HP de todos los personajes 1.2x. Aumenta el ATK de los personajes [STR], [DEX] y [QCK] 1.55x si tu equipo está formado por un personaje [STR], [DEX] y [QCK]',
+        atk: function(p) { 
+            return (p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1) ? [ 1.2, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45, 1.5, 1.5, 1.55 ][p.boatLevel - 1] : 1;
+        },
+        hp: function(p) {
+            return [ 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2 ][p.boatLevel - 1];
+        }
     
 ];

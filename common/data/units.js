@@ -1827,7 +1827,7 @@ window.units = [
          [ "'Kai' Akainu, Hombre de Magma", "INT", [ "Driven", "Fighter" ], 5, 50, 4, 4, 99, 5000000, 1, 1, 1, 3156, 1450, 99, null ],
          [ "Sicilian Coliseo", "INT", [ "Slasher", "Free Powerhouse" ], 4, 25, null, null, 70, 1066998, null, null, null, null, null, null, null ],
          [ "Sicilian Coliseo Evo", "INT", [ "Slasher", "Powerhouse" ], 5, 40, 4, 4, 99, 4000000, 1, 1, 1, 2270, 1421, 328, null ],
-         [ "Ray Joven", "INT", [ "Cerebral", "Slasher" ], 5, 50, 5, 3, 99, 4000000, 100, 500, 100, 2510, 1315, 353, null ],
+         [ "Ray Joven", "STR", [ "Cerebral", "Slasher" ], 5, 50, 5, 3, 99, 4000000, 100, 500, 100, 2510, 1315, 353, null ],
 
     ];
 

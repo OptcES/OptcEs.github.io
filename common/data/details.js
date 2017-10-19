@@ -10274,6 +10274,6 @@ window.details = {
         1829: {//Ray Joven
             captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
             special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",
-            specialName: "'Kai' Great Eruption"
+            specialName: "Ray Special"
         },
 };

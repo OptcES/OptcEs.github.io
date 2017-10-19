@@ -5568,9 +5568,9 @@ window.captains = {
                 if(window.specials[1807].turnedOn[i]==true){specialEnabled = true;}
                 if(window.specials[1808].turnedOn[i]==true){specialEnabled = true;}
             }
-            return p.unit.class.has("Slasher") ? specialEnabled ? 1.62 : 1.2: 1; 
+            return p.unit.class.has("Slasher") ? specialEnabled ? 3.5 : 2.5: 1; 
         },
-        hp: function(p) { return 1.1 }
+        hp: function(p) { return 1.4 }
     },
     1809: {
         hitAtk: function(p) {

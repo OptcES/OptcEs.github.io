@@ -10093,6 +10093,64 @@ window.details = {
             sailor: "Elimina 3 turnos de parálisis a si mismo",
             specialName: "Barrier Bulls",
         },
+        1803: {//Zoro
+            captain: "Aumenta el ATK de los personajes Slasher 2x",
+            special: "Hace su ATK 13x como daño [DEX] a un enemigo. Elimina el daño/corte al final de turno del enemigo y aleatoriza todos los orbes, incluidos  lo [NEGATIVO]",
+            specialName: "To Become Stronger. Santoryu Ogi: Sanzen Sekai",
+        },
+        1804: {//Zoro
+            captain: "Aumenta el ATK de los personajes Slasher 2.25x y su HP 1.3x",
+            special: "Hace su ATK 13x como daño [DEX] a un enemigo. Elimina el daño/corte al final de turno del enemigo y aleatoriza todos los orbes, incluidos  lo [NEGATIVO]",
+            specialName: "To Become Stronger. Santoryu Ogi: Sanzen Sekai",
+        },
+        1805: {//Buggy
+            captain: "Aumenta el ATK 1.5x y el HP 1.2x de los personajes con coste 30 o menos",
+            special: "Reduce la defensa de los enemigos a 0 durante 1 turno, reduce el daño recibido por personajes [STR] en 80% durante 1 turno. Aumenta la efectividad de los orbes 1.5 durante 1 turno",
+            specialName: "Deceiving the World with the Most Evil Show",
+        },
+        1806: {//Buggy
+            captain: "Aumenta el ATK 1.5x y el HP 2.25x de los personajes con coste 30 o menos",
+            special: "Reduce la defensa de los enemigos a 0 durante 1 turno, reduce el daño recibido por personajes [STR] en 80% durante 1 turno. Aumenta la efectividad de los orbes 1.5 durante 1 turno",
+            specialName: "Deceiving the World with the Most Evil Show",
+        },
+        1807: {//Mihawk
+            captain: "",
+            special: "Hace su ATK 100x como daño sin tipo a todos los enemigos, si tu Capitán es Slasher fija el multiplicador de cadena en x2.75 y aumenta la efectividad de los orbes de los personajes Slasher 2 durante 1 turno",
+            specialName: "Black Blade - The Ultimate Sword",
+        },
+        1808: {//Mihawk
+            captain: "[Con Limit Break] Aumenta el ATK de los personajes Slasher 2.5x de y su HP x1.4. Aumenta el ATK de los personajes Slasher un 1.4x más si el especial 'Black Blade - The Ultimate Sword' de algún Mihawk está activo en ese turno",
+            special: "Hace su ATK 100x como daño sin tipo a todos los enemigos, si tu Capitán es Slasher fija el multiplicador de cadena en x2.75 y aumenta la efectividad de los orbes de los personajes Slasher 2 durante 1 turno",
+            specialName: "Black Blade - The Ultimate Sword",
+            
+    },
+        1809: {//Wanda
+            captain: "Aumenta el ATK de todos los personajes 2.25x despues de hacer 2 PERFECT seguidos",
+            special: "Reduce los encadenamientos y la paralisis 2 turnos. Si tu capitán es Slasher hace los PERFECTs más fáciles de acertar durante 1 turno",
+            sailor: "Reduce la parálisis de si misma 1 turno",
+            specialName: "Super Express Beast Path",
+        },
+        1810: {//Wanda
+            captain: "Aumenta la probabilidad de conseguir orbes favorables. Aumenta el ATK de todos los personajes 2.25x despues de hacer 2 PERFECT seguidos",
+            special: "Reduce los encadenamientos y la paralisis 2 turnos. Si tu capitán es Slasher hace los PERFECTs más fáciles de acertar durante 1 turno",
+            sailor: "Reduce la parálisis de si misma 1 turno",
+            specialName: "Super Express Beast Path",
+        },
+        1811: {//Carrot
+            captain: "Reduce la carga de todos los especiales 1 turno al principio de la batallay aumenta el ATK de los personajes Fighter 2x",
+            special: "Reduces Special Cooldown of your top row by 2 turns, boosts ATK of Fighter characters by 1.5x for 1 turn",
+            specialName: "Rabbit Mink's Air Step",
+        },
+        1812: {//Carrot
+            captain: "Reduce la carga de todos los especiales 1 turno al principio de la batallay aumenta el ATK de los personajes Fighter 2.25x",
+            special: "Reduces Special Cooldown of your top row by 2 turns, boosts ATK of Fighter characters by 1.5x for 1 turn",
+            specialName: "Rabbit Mink's Air Step",
+        },
+        1813: {//Koala
+            captain: "Aumenta el ATK de todos los personajes 2.25x y aumenta la cantidad de Belis recibidos 1.2x",
+            special: "Cambia el orbe de tu capitán a favorable y aumenta el ATK de tu capitán 1.5x durante 1 turno",
+            specialName: "Revolutionary Soldier's Anger",
+        },
         1814:{//Sanji
             captain: "Aumenta el ATK de los personajes Powerhouse 2.5x hasta que se de un golpe que no sea Perfect",
             special: "Hace su ATK 150x como daño sin tipo a un enemigo. Aumenta el ATK de los personaje Powerhouse x2 durante 1 turno",
@@ -10108,13 +10166,114 @@ window.details = {
 		specialName:"Dai Enkai: Entei",
 		special: "Reduce la HP actual del equipo en un 40%, hace una cantidad de daño sin tipo equivalente a la HP perdida 15x a todos los enemigos y aumenta el ATK de los personajes Shooter 2x durante 1 turno"
         },
-        1817:{//Mihawk Aventuras
-                captain:"Aumenta el ATK de los personajes Slasher 2.25x y su HP 1.3x. Si Mihawk usa su especial aumenta el ATK de los personajes Slasher un 1.35x más (3x aproximadamente en total)",
-		specialName:"Mihawk Adventure Special",
-		special: "Hace un daño equivalente a su ATK x100 sin tipo a todos los enemigos. Si tu capitán es Slasher aumenta el ATK de los personajes Slasher fija el multiplicador de cadena en 2.75 e incrementa la efectividad de los orbes 2x para personajes Slasher"
+        1817: {// Riku
+        captain: "Boosts ATK by 2x after scoring 3 Greats in a row",
+        special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
+        specialName: "Divine Sword",
+        sailor: "Restores his own special by 1 turn when it is rewinded",
+        sailorNotes: "#{rewind : 1}",
         },
-        
-      
-        
-
+        1818: {// Riku
+            captain: "Boosts ATK of all characters by 1.5x and their HP by 1.2x, boosts ATK by 2.5x after scoring 3 Greats in a row",
+            special: "Cuts the current HP of one enemy by 7%, boosts ATK of the characters in the bottom and middle row by 1.2x for 1 turn",
+            specialName: "Divine Sword",
+            sailor: "Restores his own special by 1 turn when it is rewinded",
+            sailorNotes: "#{rewind : 1}",
+        },
+        1819: {//Tank
+            captain: "Boosts ATK of Powerhouse and Stiker characters by 1.75x",
+            special: "Boosts own ATK by 1.75x for 1 turn",
+            specialName: "Shameful Hidden Activity",
+        },
+        1820: {//Scarlet
+            captain: "Boosts HP and RCV of [PSY] characters by 1.5x",
+            special: "Locks all orbs for 1 turn and recovers 5x character's RCV in HP.",
+            specialName: "Frontier Love",
+        },
+        1821: {//Sanji
+            captain: "Boosts ATK of all characters by 1.5x. Recovers 1x character's RCV in HP at the end of each turn",
+            special: [
+                {
+                    "description": "Recovers 4x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                    "cooldown": [ 8, 8 ]
+                },
+                {
+                    "description": "Recovers 10x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                    "cooldown": [ 14, 14 ]
+                },
+            ],
+            specialName: "Sanji Special",
+            sailor: "Makes [RCV] orbs \"beneficial\" for this unit",
+        },
+        1822: {//Sanji
+            captain: "Boosts ATK of all characters by 2x. Recovers 2x character's RCV in HP at the end of each turn",
+            special: [
+                {
+                    "description": "Recovers 4x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                    "cooldown": [ 8, 8 ]
+                },
+                {
+                    "description": "Recovers 10x character's RCV in HP, reduces damage received by 50% for 1 turn. Randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK] or [RCV] orbs.",
+                    "cooldown": [ 14, 14 ]
+                },
+            ],
+            specialName: "Sanji Special",
+            sailor: "Makes [RCV] orbs \"beneficial\" for this unit",
+        },
+        1823: {//World
+            captain: "",
+            special: [
+                {
+                    "description": "Hace 100.000 de daño fijo a un enemigo y elimina el debuff de reducción de daño de tu equipo",
+                    "cooldown": [ 14, 10 ]
+                },
+                {
+                    "description": "Hace 300.000 de daño fijo a un enemigo y elimina el debuff de reducción de daño de tu equipo",
+                    "cooldown": [ 18, 14 ]
+                },
+                {
+                    "description": "Hace 500.000 de daño fijo a un enemigo, elimina el debuff de reducción de daño de tu equipo y reduce la duración de las barreras 1 turno",
+                    "cooldown": [ 22, 18 ]
+                }
+            ],
+            specialNotes:"#{stages}",
+            specialName: "More More: Hundredfold Artillery Cannon",
+        },
+        1824: {//World
+            captain: "Aumenta el ATK de los personajes Shooter 2.2x al principio de la cadena, aumenta el multiplicador de ATK a 2.42x despues del 1º PERFECT, 2.662x despues del 2º PERFECT seguido, 2.9282x despues del 3º PERFECT seguido, 3.22102x despues del 4º PERFECT seguido y 3.543122x despues del 5º PERFECT",
+            special: [
+                {
+                    "description": "Hace 100.000 de daño fijo a un enemigo y elimina el debuff de reducción de daño de tu equipo",
+                    "cooldown": [ 14, 10 ]
+                },
+                {
+                    "description": "Hace 300.000 de daño fijo a un enemigo y elimina el debuff de reducción de daño de tu equipo",
+                    "cooldown": [ 18, 14 ]
+                },
+                {
+                    "description": "Hace 500.000 de daño fijo a un enemigo, elimina el debuff de reducción de daño de tu equipo y reduce la duración de las barreras 1 turno",
+                    "cooldown": [ 22, 18 ]
+                }
+            ],
+            specialNotes:"#{stages}",
+            specialName: "More More: Hundredfold Artillery Cannon",
+            limit: "This character has a limit break path",
+        },
+        1825: {//Akainu
+            captain:"Aumenta el ATK de todos los personajes 2.5x si atacas siguiendo un orden [INT] > [INT] > [INT], golpeando con ataques mejores o iguales que Good",
+            special: "Hace su ATK 50x como daño [INT] a todos los enemigos. Cambia los orbes de los personajes [INT] a [INT] y aumenta la Afinidad de Tipo de los personajes [STR] 1.75x durante 1 turno",
+            specialNotes:"#{afinidad : 3.5 : 0.375}",
+            specialName: "'Kai' Great Eruption"
+        },
+        1826: {//Akainu
+            captain:"Aumenta el ATK de todos los personajes 3x si atacas siguiendo un orden [INT] > [INT] > [INT], golpeando con ataques mejores o iguales que Good",
+            special: "Hace su ATK 50x como daño [INT] a todos los enemigos. Cambia los orbes de los personajes [INT] a [INT] y aumenta la Afinidad de Tipo de los personajes [STR] 1.75x durante 1 turno",
+            specialNotes:"#{afinidad : 3.5 : 0.375}",
+            specialName: "'Kai' Great Eruption"
+        },
+        1829: {//Ray Joven
+            captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
+            special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",
+            specialName: "'Kai' Great Eruption"
+        },
 };

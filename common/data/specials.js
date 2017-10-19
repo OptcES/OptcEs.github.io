@@ -3195,10 +3195,51 @@ window.specials = {
     1802: {
         def: function(p) { return 0.1; }
     },
+  1805: {
+        def: function(p) { return 0.0; },
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain]); }
+    },
+    1806: {
+	def: function(p) { return 0.0; },
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain]); }
+    },
+    1807: {
+        turnedOn: [ false, false ],
+        onActivation: function(p) {
+            window.specials[1807].turnedOn[p.slot] = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[1807].turnedOn[p.slot] = false;
+        },
+        chain: function(p) { return p.scope.data.team[1].unit.class.has("Slasher") ? 2.75 : 1; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; },
+        orb: function(p) { return (p.scope.data.team[1].unit.class.has("Slasher") && p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
+    1808: {
+        turnedOn: [ false, false ],
+        onActivation: function(p) {
+        window.specials[1808].turnedOn[p.slot] = true;
+        },
+        onDeactivation: function(p) {
+        window.specials[1808].turnedOn[p.slot] = false;
+        },
+        chain: function(p) { return p.scope.data.team[1].unit.class.has("Slasher") ? 2.75 : 1; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; },
+        orb: function(p) { return (p.scope.data.team[1].unit.class.has("Slasher") && p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    },
+    1811: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.5 : 1; },
+        type: "class"
+    },
+    1812: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.5 : 1; },
+        type: "class"
+    },
     1813: {
         atk: function(p) { return p.slot == 1 ? 1.5 : 1; },
         type: "class"
     },
+    
     1814: {
         atk: function(p) { return p.unit.class.has("Powerhouse") ? 2 : 1},
         type: "class"
@@ -3211,10 +3252,35 @@ window.specials = {
         atk: function(p) { return p.unit.class.has("Shooter") ? 2 : 1},
         type: "class"
     },
-    1817: { 
-        chain: function(p) { return p.scope.data.team[1].unit.class.has("Slasher") ? 2.75 : 1; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; },
-        orb: function(p) { return (p.scope.data.team[1].unit.class.has("Slasher") && p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1); }	
+    1817: {
+        atk: function(p) { return p.slot > 1 ? 1.2 : 1; },
+        type: "class"
+    },
+    1818: {
+        atk: function(p) { return p.slot > 1 ? 1.2 : 1; },
+        type: "class"
+    },
+    1819: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
+        type: "type"
+    },
+    1825: {
+        affinity: function(p){ return p.unit.type == "INT" ? 1.75 : 1; }
+    },
+    1826: {
+        affinity: function(p){ return p.unit.type == "INT" ? 1.75 : 1; }
+    },
+    1827: {
+        atk: function(p) { return p.unit.type == "INT" ? 2 : 1; },
+        type: "type"
+    },
+    1828: {
+        atk: function(p) { return p.unit.type == "INT" ? 2 : 1; },
+        type: "type"
+    },
+    1829: {
+        atk: function(p) { return 1.75; },
+        type: "class"
     },
     
     

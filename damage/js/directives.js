@@ -811,7 +811,7 @@ directives.candySlider = function($compile, $timeout) {
             };
             var updateMax = function(data) {
                 var used = Object.keys(data).reduce(function(prev,next) { return prev + (next == scope.type ? 0 : data[next]); },0);
-                input.trigger('configure',{ max: Math.min(100,200 - used) });
+                input.trigger('configure',{ max: Math.min(500,1500 - used) });
                 currentValue = data[scope.type];
                 input.val(currentValue).trigger('change');
                 scope.actualBonus = currentValue * { hp: 5, atk: 2, rcv: 1 }[scope.type];

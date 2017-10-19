@@ -1811,10 +1811,10 @@ window.units = [
          [ "Ave de los Gobernantes Wanda, Ducado de Mokomo", "PSY", [ "Slasher", "Free Spirit" ], 4, 20, 4, 3, 99, 3000000, 714, 501, 137, 2042, 1139, 230, 1 ],
          [ "Carrot, Mokomo Dukedom", "DEX", [ "Fighter", "Slasher" ], 3, 13, 6, 2, 50, 392109, 104, 130, 6, 726, 768, 73, 1 ],
          [ "Kingsbird Carrot, Mokomo Dukedom", "DEX", [ "Fighter", "Slasher" ], 4, 20, 5, 3, 99, 3000000, 689, 729, 65, 2166, 1220, 189, 1 ],
-         [ "Koala, Fuerzas Secretas de la Armada Revolucionaria", "PSY", [ "Fighter", "Free Spirit" ], 4, 15, 4, 4, 99, null, 238, 82, 18, 2422, 1012, 249, null ],
-         [ "Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 4, 30, 4, 4, 70, null, null, null, null, null, null, null, null ],
-         [ "Vinsmoke Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 5, 50, 4, 4, 99, null, 1000, 500, 100, 2267, 1468, 346, null ],
-         [ "Ace, Emperador de Fuego", "DEX", [ "Shooter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1000, 700, 100, 3922, 1466, 249, null ],
+         [ "Koala, Fuerzas Secretas de la Armada Revolucionaria", "PSY", [ "Fighter", "Free Spirit" ], 4, 15, 4, 4, 99, 2000000, 238, 82, 18, 2422, 1012, 249, 1 ],
+         [ "Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 4, 30, 4, 2, 70, 1066998, 225, 176, 37, 1194, 749, 198, 1 ],
+         [ "Vinsmoke Sanji, Príncipe de Germa 66", "STR", [ "Powerhouse", "Fighter" ], 5, 50, 4, 3, 99, 4000000, 1099, 677, 157, 2267, 1468, 346, 1 ],
+         [ "Ace, Emperador de Fuego", "DEX", [ "Shooter", "Free Spirit" ], 6, 65, 4, 5, 99, 5000000, 1000, 700, 100, 3922, 1466, 249, 1 ],
          [ "Rey Riku", "INT", [ "Cerebral", "Striker" ], 3, 13, 6, 2, 50, 392109, 150, 102, 30, 720, 396, 198, 1 ],
          [ "Riku Doldo III", "INT", [ "Cerebral", "Striker" ], 4, 20, 4, 3, 99, 3000000, 612, 354, 189, 2066, 992, 275, 1 ],
          [ "Tank Lepanto", "DEX", [ "Powerhouse", "Striker" ], 3, 15, 5, 1, 70, 1066998, 199, 112, 8, 1674, 1011, 24, 1 ],
@@ -1827,7 +1827,7 @@ window.units = [
          [ "'Kai' Akainu, Hombre de Magma", "INT", [ "Driven", "Fighter" ], 5, 50, 4, 4, 99, 5000000, 1, 1, 1, 3156, 1450, 99, null ],
          [ "Sicilian Coliseo", "INT", [ "Slasher", "Free Powerhouse" ], 4, 25, null, null, 70, 1066998, null, null, null, null, null, null, null ],
          [ "Sicilian Coliseo Evo", "INT", [ "Slasher", "Powerhouse" ], 5, 40, 4, 4, 99, 4000000, 1, 1, 1, 2270, 1421, 328, null ],
-         [ "Ray Joven", "STR", [ "Cerebral", "Slasher" ], 5, 50, 5, 3, 99, 4000000, 100, 500, 100, 2510, 1315, 353, null ],
+         [ "Ray Joven", "INT", [ "Cerebral", "Slasher" ], 5, 50, 5, 3, 99, 4000000, 100, 500, 100, 2510, 1315, 353, null ],
 
     ];
 

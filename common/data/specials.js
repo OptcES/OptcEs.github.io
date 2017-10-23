@@ -3286,11 +3286,11 @@ window.specials = {
     },
     1835: {
         chain: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "PSY"? 2.5 : 1; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
     },
     1836: {
         chain: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "PSY"? 2.5 : 1; },
-        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
     },
     1837: {
         atk: function(p) { return ( p.scope.data.team[1].unit.type == "QCK" || p.scope.data.team[1].unit.type == "PSY") ? 1.75 : 1; },

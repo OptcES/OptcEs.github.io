@@ -3278,10 +3278,51 @@ window.specials = {
         atk: function(p) { return p.unit.type == "INT" ? 2 : 1; },
         type: "type"
     },
-    1829: {
+    1831: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2); }
+    },
+    1832: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2); }
+    },
+    1835: {
+        chain: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "PSY"? 2.5 : 1; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
+    },
+    1836: {
+        chain: function(p) { return p.scope.data.team[1].unit.type == "STR" || p.scope.data.team[1].unit.type == "PSY"? 2.5 : 1; },
+        chainLimiter: function(p) { return p.chainPosition > 0 ? 2.75 : 1.0; }
+    },
+    1837: {
+        atk: function(p) { return ( p.scope.data.team[1].unit.type == "QCK" || p.scope.data.team[1].unit.type == "PSY") ? 1.75 : 1; },
+        type: "class",
+    },
+    1838: {
+        atk: function(p) { return ( p.scope.data.team[1].unit.type == "QCK" || p.scope.data.team[1].unit.type == "PSY") ? 1.75 : 1; },
+        type: "class",
+    },
+    1839: {
+        atk: function(p) { return 1.75; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
+        staticMult: function(p) { 
+            if(p.scope.data.team[1].unit.class.has("Powerhouse"))
+                return 40; 
+        },
+    },
+    1840: {
+        atk: function(p) { return 1.75; },
+        type: "condition",
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
+        staticMult: function(p) { 
+            if(p.scope.data.team[1].unit.class.has("Powerhouse"))
+                return 40; 
+        },
+    },
+    2001: {
         atk: function(p) { return 1.75; },
         type: "class"
     },
+    
     
     
         

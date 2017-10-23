@@ -10271,7 +10271,84 @@ window.details = {
             specialNotes:"#{afinidad : 3.5 : 0.375}",
             specialName: "'Kai' Great Eruption"
         },
-        1829: {//Ray Joven
+        1829: {//Caesar
+            captain:"",
+            special: "Hace su ATK x45 como daño sin tipo a todos los enemigos. Incrementa la efectividad de los orbes a los personajes Driven y Cerebral 1,75x durante 2 turnos y envenena a todos los enemigos",
+            specialName: "Caesar Special"
+        },
+        1830: {//Caesar
+            captain:"Aumenta el ATK de los personajes Cerebral y Driven 2.5x",
+            special: "Hace su ATK x45 como daño sin tipo a todos los enemigos. Incrementa la efectividad de los orbes a los personajes Driven y Cerebral 1,75x durante 2 turnos y envenena a todos los enemigos",
+            specialName: "Caesar Special"
+        },
+        1831: {//Judge
+            captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x si llevas un personaje [STR], [DEX], [QCK], [INT] y [PSY] en el equipo. Si tiene orbe favorable aumenta el ATK a 3.9x. Aumenta ligeramente la probabilidad de sacar orbes [PSY] y reduce el daño recibido un 15%",
+            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aleatoriza los orbes no favorables",
+            specialName: "Judge Special"
+        },
+        1832: {//Judge
+            captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x si llevas un personaje [STR], [DEX], [QCK], [INT] y [PSY] en el equipo. Si tiene orbe favorable aumenta el ATK a 3.9x. Aumenta ligeramente la probabilidad de sacar orbes [PSY] y reduce el daño recibido un 15%",
+            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aleatoriza los orbes no favorables",
+            specialName: "Judge Special"
+        },
+        1833: {//Reiju
+            captain:"",
+            special: "Si tu capitán es [INT] o [PSY] recupera 7000 HP, elimina el envenenamiento, reduce la parálisis, despair y silencios de especial 3 turnos. Si tu capitán es Powerhouse reduce el daño en un 70%",
+            specialName: "Reiju Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1834: {//Reiju
+            captain:"Aumenta el ATK de los personajes [INT] 1.75x. Aumenta el ATK de los Powerhouse 1.75x y aumenta el RCV 1.1x a los Powerhouse.",
+            captainNotes: "Los dos boost se acumulan",
+            special: "Si tu capitán es [INT] o [PSY] recupera 7000 HP, elimina el envenenamiento, reduce la parálisis, despair y silencios de especial 3 turnos. Si tu capitán es Powerhouse reduce el daño en un 70%",
+            specialName: "Reiju Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1835: {//Ichiji 
+            captain:"",
+            special: "Si tu capitán es [STR] o [PSY] fija el multiplicador de cadena en 2.5x durante 2 turnos. Si tu capitán es Powerhouse retrasa a los enemigos 2 turnos",
+            specialName: "Ichiji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1836: {//Ichiji
+            captain:"Aumenta el ATK de los personajes STR 1.75x. Aumenta el ATK de los Powerhouse 1.75x y aumenta el HP de los personajes Powerhouse 1.4x",
+            captainNotes: "Los dos boost se acumulan",
+            special: "Si tu capitán es [STR] o [PSY] fija el multiplicador de cadena en 2.5x durante 2 turnos. Si tu capitán es Powerhouse retrasa a los enemigos 2 turnos",
+            specialName: "Ichiji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1837: {//Niji
+            captain:"",
+            special: "Si tu capitan es [QCK] o [PSY] aumenta el ATK de TODOS los personajes 1.75x durante 2 turnos. Si tu capitán es Powerhouse fija todos los orbes 1 turno",
+            specialName: "Niji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1838: {//Niji
+            captain:"Aumenta el ATK de los personajes [QCK] 1.75x. Aumenta el ATK de los personajes Powerhouse 1.75x y aumenta el HP de los personajes Powerhouse 1.2x",
+            captainNotes: "Los dos boost se acumulan",
+            special: "Si tu capitan es [QCK] o [PSY] aumenta el ATK de TODOS los personajes 1.75x durante 2 turnos. Si tu capitán es Powerhouse fija todos los orbes 1 turno",
+            specialName: "Niji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1839: {//Yonji
+            captain:"",
+            special: "Si tu capitan es [DEX] o [PSY], aumenta el ATK contra los enemigos con delay 1.75x durante 1 turno. Si tu capitán es Powerhouse cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Yonji 40x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
+            specialName: "Yonji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1840: {//Yonji
+            captain:"Aumenta el ATK de los personajes [DEX] 1.75x. Aumenta el ATK de los personajes Powerhouse 1.75x y aumenta el HP de los personajes Powerhouse 1.2x",
+            captainNotes: "Los dos boost se acumulan",
+            special: "Si tu capitan es [DEX] o [PSY], aumenta el ATK contra los enemigos con delay 1.75x durante 1 turno. Si tu capitán es Powerhouse cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Yonji 40x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
+            specialName: "Yonji Special",
+            sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        2000: {//Ray Joven
+            captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
+            special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",
+            specialName: "Ray Special"
+        },
+        2001: {//Ray Joven
             captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
             special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",
             specialName: "Ray Special"

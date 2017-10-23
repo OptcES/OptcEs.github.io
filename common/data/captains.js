@@ -5693,8 +5693,31 @@ window.captains = {
     1828: {
         atk: function(p) { return !(p.unit.type == "INT") ? 1 : p.percHP <= 30.0 ? 3 : 2.5; }
     },
-    1829: {
+    1831: {
+        atk: function(p) { if((p.colorCount.INT>=1 && p.colorCount.PSY>=1 && p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1) && p.orb == 2.0) 
+                return 3.9;
+            else if((p.colorCount.INT>=1 && p.colorCount.PSY>=1 && p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1))
+                return 2.25;
+            else
+                return 1;
+        },
+        hp: function(p) { return 1.25; },
+    },
+    1832: {
+        atk: function(p) { if((p.colorCount.INT>=1 && p.colorCount.PSY>=1 && p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1) && p.orb == 2.0) 
+                return 3.9;
+            else if((p.colorCount.INT>=1 && p.colorCount.PSY>=1 && p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1))
+                return 2.25;
+            else
+                return 1;
+            
+       },
+       hp: function(p) { return 1.25; },
+       
+    },
+    2001: {
         atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 2.5 : 1; },
     },
+    
     
 };

@@ -5722,6 +5722,8 @@ window.captains = {
                 return 3.25;
             }else if(p.unit.cost == 54){
                 return 3;
+            }else{
+                return 1;
             }
         },
         hp: function(p) { return p.unit.cost <= 29 ? 1.2 : 1; },

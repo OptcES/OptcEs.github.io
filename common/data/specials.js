@@ -3318,6 +3318,10 @@ window.specials = {
                 return 40; 
         },
     },
+     1847: {
+        atk: function(p) { return 1.5; },
+        type: "type"
+    },
     2001: {
         atk: function(p) { return 1.75; },
         type: "class"

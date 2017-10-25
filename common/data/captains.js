@@ -5715,6 +5715,18 @@ window.captains = {
        hp: function(p) { return 1.25; },
        
     },
+    1847: {
+        atk: function(p) {  
+    
+            if(p.unit.cost <= 29){
+                return 3.25;
+            }else if(p.unit.cost == 54){
+                return 3;
+            }
+        },
+        hp: function(p) { p.unit.cost <= 29 ? 1.2 : 1; },
+
+    },
     2001: {
         atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 2.5 : 1; },
     },

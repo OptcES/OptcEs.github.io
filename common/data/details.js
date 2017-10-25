@@ -10343,6 +10343,11 @@ window.details = {
             specialName: "Yonji Special",
             sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
         },
+        1847: {//Sengoku 6+
+            captain:"Reduce la carga de los especiales 2 turnos al principio de la aventura. Aumenta el ATK de los personajes con coste 29 o menos 3.25x y su HP 1.2x. Aumenta el ATK de los personajes con coste 54 3x",
+            special: "Hace un gran daño aleatorio sin tipo a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x y cambia los orbes a favorables a los personajes con coste 29 o menos",
+            specialName: "Yonji Special",
+        },
         2000: {//Ray Joven
             captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
             special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",

@@ -2906,12 +2906,12 @@ window.specials = {
         type: "class"
     },
     1720: {
-        chain: function(p) { return p.scope.data.team[1].class.has("Fighter") ? 2.5 : 1; },
+        chain: function(p) { return p.scope.data.team[1].unit.class.has("Fighter") ? 2.5 : 1; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
    
     },
     1721: {
-        chain: function(p) { return p.scope.data.team[1].class.has("Fighter") ? 2.5 : 1; },
+        chain: function(p) { return p.scope.data.team[1].unit.class.has("Fighter") ? 2.5 : 1; },
         chainLimiter: function(p) { return p.chainPosition > 0 ? 2.5 : 1.0; }
     },
     1722: {

@@ -5724,7 +5724,7 @@ window.captains = {
                 return 3;
             }
         },
-        hp: function(p) { p.unit.cost <= 29 ? 1.2 : 1; },
+        hp: function(p) { return p.unit.cost <= 29 ? 1.2 : 1; },
 
     },
     2001: {

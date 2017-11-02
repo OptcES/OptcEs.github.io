@@ -10283,12 +10283,12 @@ window.details = {
         },
         1831: {//Judge
             captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x si llevas un personaje [STR], [DEX], [QCK], [INT] y [PSY] en el equipo. Si tiene orbe favorable aumenta el ATK a 3.9x. Aumenta ligeramente la probabilidad de sacar orbes [PSY] y reduce el daño recibido un 15%",
-            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aleatoriza los orbes no favorables",
+            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aumenta ligeramente la probablilidad de sacar orbes [PSY] y aleatoriza los orbes no favorables",
             specialName: "Judge Special"
         },
         1832: {//Judge
             captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x si llevas un personaje [STR], [DEX], [QCK], [INT] y [PSY] en el equipo. Si tiene orbe favorable aumenta el ATK a 3.9x. Aumenta ligeramente la probabilidad de sacar orbes [PSY] y reduce el daño recibido un 15%",
-            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aleatoriza los orbes no favorables",
+            special: "Incrementa la efectividad de los orbes 2x y reduce  el encadenamiento 7 turnos. Si Judge es capitán aumenta ligeramente la probablilidad de sacar orbes [PSY] y aleatoriza los orbes no favorables",
             specialName: "Judge Special"
         },
         1833: {//Reiju
@@ -10311,7 +10311,7 @@ window.details = {
             sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
         },
         1836: {//Ichiji
-            captain:"Aumenta el ATK de los personajes STR 1.75x. Aumenta el ATK de los Powerhouse 1.75x y aumenta el HP de los personajes Powerhouse 1.4x",
+            captain:"Aumenta el ATK de los personajes STR 1.75x. Aumenta el ATK de los Powerhouse 1.75x y aumenta el HP de los personajes Powerhouse 1.2x",
             captainNotes: "Los dos boost se acumulan",
             special: "Si tu capitán es [STR] o [PSY] fija el multiplicador de cadena en 2.5x durante 2 turnos. Si tu capitán es Powerhouse retrasa a los enemigos 2 turnos",
             specialName: "Ichiji Special",
@@ -10346,10 +10346,10 @@ window.details = {
         1847: {//Sengoku 6+
             captain:"Reduce la carga de los especiales 2 turnos al principio de la aventura. Aumenta el ATK de los personajes con coste 29 o menos 3.25x y su HP 1.2x. Aumenta el ATK de los personajes con coste 54 3x",
             special: "Hace un gran daño aleatorio sin tipo a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x y cambia los orbes a favorables a los personajes con coste 29 o menos",
-            specialName: "Yonji Special",
+            specialName: "Sengoku Special",
         },
         2000: {//Ray Joven
-            captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y recupera un 2x de su RCV al final de cada turno",
+            captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2x y recupera un 2x de su RCV al final de cada turno",
             special: "Aleatoriza los orbes que no son favorables y aumenta el ATK de todos los personajes 1.75x durante 1 turno",
             specialName: "Ray Special"
         },

@@ -10343,6 +10343,16 @@ window.details = {
             specialName: "Yonji Special",
             sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
         },
+        1845: {//Garp
+            captain: "Aumenta el ATK de los personajes Fighter 2.5x . Reduce el daño recibido un 5%",
+            special: "Reduce la defensa del enemigo a 0 durante 1 turno. Reduce el HP actual de un enemigo un 30%. Si el enemigo tiene menos del 25% de vida lo derrota instantaneamente.",
+            specialName: "Garp Special",
+        },
+        1846: {//Garp
+            captain: "Aumenta el ATK de los personajes Fighter 2.75x . Reduce el daño recibido un 15%",
+            special: "Reduce la defensa del enemigo a 0 durante 1 turno. Reduce el HP de un enemigo un 30%. Si el enemigo tiene menos del 25% de vida lo derrota instantaneamente.",
+            specialName: "Garp Special",
+    },
         1847: {//Sengoku 6+
             captain:"Reduce la carga de los especiales 2 turnos al principio de la aventura. Aumenta el ATK de los personajes con coste 29 o menos 3.25x y su HP 1.2x. Aumenta el ATK de los personajes con coste 54 3x",
             special: "Hace un gran daño aleatorio sin tipo a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x y cambia los orbes a favorables a los personajes con coste 29 o menos",

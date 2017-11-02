@@ -3301,23 +3301,58 @@ window.specials = {
         atk: function(p) { return ( p.scope.data.team[1].unit.type == "QCK" || p.scope.data.team[1].unit.type == "PSY") ? 1.75 : 1; },
         type: "class",
     },
+    
     1839: {
-        atk: function(p) { return 1.75; },
+        atk: function(p) { return window.specials[1839].multiplier; },
         type: "condition",
-        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
         staticMult: function(p) { 
             if(p.scope.data.team[1].unit.class.has("Powerhouse"))
                 return 40; 
+        },
+        onActivation: function(p) {
+            var n = (window.specials[1839].multiplier == 1 ? 1 : 0);
+            window.specials[1839].multiplier = [1, 1.75][n];
+            if( window.specials[1839].multiplier == 1){
+            p.scope.notify({
+                text: 'Usando solo el daño adicional. Para activar tambien el multiplicador de ATK asumiendo que el enemigo tiene delay, desactiva y vuelve a activar este especial',
+                name: '1839warning'
+            });
+        }else{
+           p.scope.notify({
+                text: 'Usando el multiplicador de ATK y el daño adicional, asumiendo que el enemigo tiene delay. Para usar solo el daño adicional, desactiva y vuelve a activar este especial',
+                name: '1839warning'
+            }); 
+        }
         },
     },
     1840: {
-        atk: function(p) { return 1.75; },
+        atk: function(p) { return window.specials[1840].multiplier; },
         type: "condition",
-        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay.",
         staticMult: function(p) { 
             if(p.scope.data.team[1].unit.class.has("Powerhouse"))
                 return 40; 
         },
+        onActivation: function(p) {
+            var n = (window.specials[1840].multiplier == 1 ? 1 : 0);
+            window.specials[1840].multiplier = [1, 1.75][n];
+            if( window.specials[1840].multiplier == 1){
+            p.scope.notify({
+                text: 'Usando solo el daño adicional. Para activar tambien el multiplicador de ATK asumiendo que el enemigo tiene delay, desactiva y vuelve a activar este especial',
+                name: '1840warning'
+            });
+        }else{
+           p.scope.notify({
+                text: 'Usando el multiplicador de ATK y el daño adicional, asumiendo que el enemigo tiene delay. Para usar solo el daño adicional, desactiva y vuelve a activar este especial',
+                name: '1840warning'
+            }); 
+        }
+        },
+    },
+    1845: {
+        def: function(p) { return 0; }
+    },
+    1846: {
+        def: function(p) { return 0; }
     },
      1847: {
         atk: function(p) { return 1.5; },

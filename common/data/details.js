@@ -9948,11 +9948,11 @@ window.details = {
 		specialName:"KAI Yata no Kagami (Sacred Mirror)",
 		special: [
 			{
-				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno",
+				"description": "Cambia su propio orbe a [DEX]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno",
 				"cooldown": [19,5]
 			},
 			{
-				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno. Aumenta 0.5x el multiplicador de cadena durante 2 turnos",
+				"description": "Cambia su propio orbe a [DEX]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno. Aumenta 0.5x el multiplicador de cadena durante 2 turnos",
 				"cooldown": [25,11]
 			}
 		],
@@ -9960,7 +9960,7 @@ window.details = {
         },
         1780:{//Kizaru
            captain:"Aumenta el ATK de los personajes Shooter 2.25x y su HP 1.5x y reduce la carga de todos los especiales 2 turnos al principio de la batalla",
-		specialName:"Yata no Kagami (Sacred Mirror)",
+		specialName:"Kai Yata no Kagami (Sacred Mirror)",
 		special: [
 			{
 				"description": "Cambia su propio orbe a [QCK]. Reduce la carga de los especiales de los personajes Fighter y Shooter en 1 turno",
@@ -10019,17 +10019,15 @@ window.details = {
             specialName: "Auto Light Recovery"
         },
          1791:{//Lucy Luffy
-        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x after scoring 3 Perfects in a row",
-        special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
-        specialNotes: "#{ignoreBarrier}",
-        sailor: "If you captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+        captain: "Aumenta el ATK de los personajes [STR], [DEX] y [QCK] 2.5x despues de hacer 3 perfects seguidos",
+        special: "Reduce el HP del enemigo un 20% atravesando cualquier buff defensivo. Cambia los orbes de la fila de arriba a [STR], cambia los orbes de la fila central a [QCK], cambia los orbes de la fila de abajo a [DEX] e incrementa el efecto de los orbes 1.75x durante 1 turno",
+        sailor: "Si tu capitán es [STR] aumenta el ATK de esta unidad contra enemigos [STR] 1.5x",
         specialName: "Gomu Gomu no Hawk Rifle",
         },
         1792:{//Lucy Luffy
-            captain: "Boosts RCV of [STR], [DEX] and [QCK] characters by 1.2x and boosts ATK of [STR], [DEX] and [QCK] characters by 3.25x after scoring 3 Perfects in a row",
-            special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
-            specialNotes: "#{ignoreBarrier}",
-            sailor: "If you captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+            captain: "Aumenta el RCV de los personajes [STR], [DEX] y [QCK] 1.2x y aumenta el ATK de los personajes [STR], [DEX] y [QCK] 2.5x despues de hacer 3 perfects seguidos",
+            special: "Reduce el HP del enemigo un 20% atravesando cualquier buff defensivo. Cambia los orbes de la fila de arriba a [STR], cambia los orbes de la fila central a [QCK], cambia los orbes de la fila de abajo a [DEX] e incrementa el efecto de los orbes 1.75x durante 1 turno",
+            sailor: "Si tu capitán es [STR] aumenta el ATK de esta unidad contra enemigos [STR] 1.5x",
             specialName: "Gomu Gomu no Hawk Rifle",
 
         },
@@ -10342,6 +10340,26 @@ window.details = {
             special: "Si tu capitan es [DEX] o [PSY], aumenta el ATK contra los enemigos con delay 1.75x durante 1 turno. Si tu capitán es Powerhouse cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Yonji 40x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
             specialName: "Yonji Special",
             sailor: "Los orbes [PSY] cuentan como favorables para esta unidad"
+        },
+        1841: {//Caribou
+        captain: "Aumenta el ATK de los personajes Driven 1.5x, hace un daño equivalente a su ATK 2x [DEX] a todos los enemigos al final de cada turno",
+        special: "Aumenta el ATK de los personajes Driven 1.5x, reduce la duración del escudo limitador de daño y el aumento de ATK del enemigo 3 turnos",
+        specialName: "Fathomless Infinite Hell",
+        },
+        1842: {//Caribou
+        captain: "Aumenta el ATK de los personajes Driven 1.5x, hace un daño equivalente a su ATK 4x [DEX] a todos los enemigos al final de cada turno",
+        special: "Aumenta el ATK de los personajes Driven 1.5x, reduce la duración del escudo limitador de daño y el aumento de ATK del enemigo 3 turnos",
+            specialName: "Fathomless Infinite Hell",
+        },
+        1843: {//Coribou
+            captain: "Aumenta el ATK de los personajes Driven y Striker 1.5x",
+            special: "Elimina la ceguera y recupera una cantidad de HP equivalente a su RCV x4",
+            specialName: "Frantic Funeral",
+        },
+        1844: {//Coribou
+            captain: "Aumenta el ATK de los personajes Driven y Striker 1.75x",
+            special: "Elimina la ceguera y recupera una cantidad de HP equivalente a su RCV x4",
+            specialName: "Frantic Funeral",
         },
         1845: {//Garp
             captain: "Aumenta el ATK de los personajes Fighter 2.5x . Reduce el daño recibido un 5%",

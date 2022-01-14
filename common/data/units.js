@@ -1845,7 +1845,7 @@ window.units = [
          [ "Coribou, 'Salpicado de Sangre', Supernova", "STR", [ "Driven", "Striker" ], 4, 20, 4, 3, 99, 3000000, 520, 430, 178, null, null, null, null ],
          [ "Garp, Héroe de la Marina", "STR", [ "Fighter", "Free Spirit" ], 4, 30, 4, 2, 70, 4000000, 1015, 494, 0, 1852, 688, 5, 1 ],
          [ "Garp 'el Puño', Héroe de la Marina", "STR", [ "Fighter", "Free Spirit" ], 5, 50, 4, 3, 99, 5000000, 1773, 611, 3, 3750, 1550, 10, 1 ],
-         [ "Sengoku el Buda", "INT", [ "Fighter", "Cerebral" ], 6, 54, 4, 5, 99, 5000000, 1998, 729, 194, 3696, 1458, 398, 1 ],
+         [ "Sengoku el Buda, Almirante de Flota de la Marina", "INT", [ "Fighter", "Cerebral" ], 6, 54, 4, 5, 99, 5000000, 1998, 729, 194, 3696, 1458, 398, 1 ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],

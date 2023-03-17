@@ -1,5 +1,5 @@
 window.units = [
-	 [ "Monkey D. Luffy", "STR", "Fighter", 2, 1, 5, 0, 5, 163, 42, 15, 8, 134, 68, 15, 1 ],
+	 [ "Monkey D. Monkey", "STR", "Fighter", 2, 1, 5, 0, 5, 163, 42, 15, 8, 134, 68, 15, 1 ],
 	 [ "Monkey D. Luffy 'Gomu Gomu no Pistol'", "STR", "Fighter", 3, 4, 6, 0, 20, 26184, 130, 76, 14, 510, 249, 49, 0.7 ],
 	 [ "Monkey D. Luffy 'Gomu Gomu no Bazooka'", "STR", "Fighter", 4, 7, 6, 2, 35, 136167, 404, 227, 39, 975, 522, 105, 1 ],
 	 [ "Monkey D. Luffy 'Gear Second'", "STR", ["Fighter", "Free Spirit"], 5, 15, 8, 3, 99, 3000000, 902, 473, 74, 1772, 1313, 227, 1 ],
@@ -1845,7 +1845,7 @@ window.units = [
          [ "Coribou, 'Salpicado de Sangre', Supernova", "STR", [ "Driven", "Striker" ], 4, 20, 4, 3, 99, 3000000, 520, 430, 178, null, null, null, null ],
          [ "Garp, Héroe de la Marina", "STR", [ "Fighter", "Free Spirit" ], 4, 30, 4, 2, 70, 4000000, 1015, 494, 0, 1852, 688, 5, 1 ],
          [ "Garp 'el Puño', Héroe de la Marina", "STR", [ "Fighter", "Free Spirit" ], 5, 50, 4, 3, 99, 5000000, 1773, 611, 3, 3750, 1550, 10, 1 ],
-         [ "Sengoku el Buda, Almirante de Flota de la Marina", "INT", [ "Fighter", "Cerebral" ], 6, 54, 4, 5, 99, 5000000, 1998, 729, 194, 3696, 1458, 398, 1 ],
+         [ "Sengoku el Buda, Almirante de Flota de la Prueba", "INT", [ "Fighter", "Cerebral" ], 6, 54, 4, 5, 99, 5000000, 1998, 729, 194, 3696, 1458, 398, 1 ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
          [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
